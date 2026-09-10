@@ -21,23 +21,28 @@ msgstr ""
 "POT-Creation-Date: 2026-07-31 11:53+0100\n"
 "PO-Revision-Date: 2019-01-04 22:19+0800\n"
 "Last-Translator: cdmikechen\n"
-"Language-Team: zh <benedictjin2016@gmail.com>\n"
 "Language: zh\n"
+"Language-Team: zh <benedictjin2016@gmail.com>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.17.0\n"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
 "\n"
-"                The cumulative option allows you to see how your data accumulates over different\n"
-"                values. When enabled, the histogram bars represent the running total of frequencies\n"
-"                up to each bin. This helps you understand how likely it is to encounter values\n"
-"                below a certain point. Keep in mind that enabling cumulative doesn't change your\n"
-"                original data, it just changes the way the histogram is displayed."
+"                The cumulative option allows you to see how your data "
+"accumulates over different\n"
+"                values. When enabled, the histogram bars represent the "
+"running total of frequencies\n"
+"                up to each bin. This helps you understand how likely it "
+"is to encounter values\n"
+"                below a certain point. Keep in mind that enabling "
+"cumulative doesn't change your\n"
+"                original data, it just changes the way the histogram is "
+"displayed."
 msgstr ""
 "\n"
 "                累积选项用于查看数据在不同值上的累积情况。启用后，直方图的柱形表示\n"
@@ -48,11 +53,16 @@ msgstr ""
 # es, fa, fr, ja, lv, mi, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
 "\n"
-"                The normalize option transforms the histogram values into proportions or\n"
-"                probabilities by dividing each bin's count by the total count of data points.\n"
-"                This normalization process ensures that the resulting values sum up to 1,\n"
-"                enabling a relative comparison of the data's distribution and providing a\n"
-"                clearer understanding of the proportion of data points within each bin."
+"                The normalize option transforms the histogram values into"
+" proportions or\n"
+"                probabilities by dividing each bin's count by the total "
+"count of data points.\n"
+"                This normalization process ensures that the resulting "
+"values sum up to 1,\n"
+"                enabling a relative comparison of the data's distribution"
+" and providing a\n"
+"                clearer understanding of the proportion of data points "
+"within each bin."
 msgstr ""
 "\n"
 "                标准化选项通过将每个分箱的计数除以数据点总数，将直方图值转换为比例或\n"
@@ -75,7 +85,8 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"            <p>Your report/alert was unable to be generated because of the following error: %(text)s</p>\n"
+"            <p>Your report/alert was unable to be generated because of "
+"the following error: %(text)s</p>\n"
 "            <p>Please check your dashboard/chart for errors.</p>\n"
 "            <p><b><a href=\"%(url)s\">%(call_to_action)s</a></b></p>\n"
 "            "
@@ -90,8 +101,8 @@ msgid " (excluded)"
 msgstr " (不包含)"
 
 msgid ""
-" Set the opacity to 0 if you do not want to override the color specified in "
-"the GeoJSON"
+" Set the opacity to 0 if you do not want to override the color specified "
+"in the GeoJSON"
 msgstr " 如果您不想覆盖GeoJSON中指定的颜色，请将不透明度设置为0"
 
 msgid " a dashboard OR "
@@ -122,17 +133,22 @@ msgstr "在 '%(highlight)s' 附近"
 msgid ""
 " standard to ensure that the lexicographical ordering\n"
 "                      coincides with the chronological ordering. If the\n"
-"                      timestamp format does not adhere to the ISO 8601 standard\n"
+"                      timestamp format does not adhere to the ISO 8601 "
+"standard\n"
 "                      you will need to define an expression and type for\n"
-"                      transforming the string into a date or timestamp. Note\n"
-"                      currently time zones are not supported. If time is stored\n"
-"                      in epoch format, put `epoch_s` or `epoch_ms`. If no pattern\n"
-"                      is specified we fall back to using the optional defaults on a per\n"
+"                      transforming the string into a date or timestamp. "
+"Note\n"
+"                      currently time zones are not supported. If time is "
+"stored\n"
+"                      in epoch format, put `epoch_s` or `epoch_ms`. If no"
+" pattern\n"
+"                      is specified we fall back to using the optional "
+"defaults on a per\n"
 "                      database/column name level via the extra parameter."
 msgstr ""
 "来确保字符的表达顺序与时间顺序一致的标准。如果时间戳格式不符合 ISO 8601 "
-"标准，则需要定义表达式和类型，以便将字符串转换为日期或时间戳。注意：当前不支持时区。如果时间以epoch格式存储，请输入 `epoch_s` or "
-"`epoch_ms` 。如果没有指定任何模式，我们可以通过额外的参数在每个数据库/列名级别上使用可选的默认值。"
+"标准，则需要定义表达式和类型，以便将字符串转换为日期或时间戳。注意：当前不支持时区。如果时间以epoch格式存储，请输入 `epoch_s` or"
+" `epoch_ms` 。如果没有指定任何模式，我们可以通过额外的参数在每个数据库/列名级别上使用可选的默认值。"
 
 #, fuzzy
 msgid " to add calculated columns"
@@ -264,7 +280,8 @@ msgstr "%(prefix)s %(title)s"
 # sr_Latn]
 #, python-format
 msgid ""
-"%(prefix)sResults truncated to %(row_count)s rows due to memory constraints."
+"%(prefix)sResults truncated to %(row_count)s rows due to memory "
+"constraints."
 msgstr "%(prefix)s由于内存限制，结果被截断为 %(row_count)s 行。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
@@ -399,8 +416,8 @@ msgstr "%s 个项目"
 # es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ru, sk, sl, sr, sr_Latn, tr, uk]
 #, python-format
 msgid ""
-"%s items could not be tagged because you don’t have edit permissions to all "
-"selected objects."
+"%s items could not be tagged because you don’t have edit permissions to "
+"all selected objects."
 msgstr "%s 个项目无法添加标签，因为您没有对所有选定对象的编辑权限。"
 
 #, fuzzy, python-format
@@ -415,11 +432,11 @@ msgstr[0] "%s 分钟前"
 
 #, python-format
 msgid ""
-"%s of the selected items is a semantic view, which cannot be archived: it "
-"will be deleted permanently and cannot be recovered."
+"%s of the selected items is a semantic view, which cannot be archived: it"
+" will be deleted permanently and cannot be recovered."
 msgid_plural ""
-"%s of the selected items are semantic views, which cannot be archived: they "
-"will be deleted permanently and cannot be recovered."
+"%s of the selected items are semantic views, which cannot be archived: "
+"they will be deleted permanently and cannot be recovered."
 msgstr[0] "所选项目中有 %s 个是语义视图，无法归档：这些项目将被永久删除且无法恢复。"
 
 #, python-format
@@ -571,11 +588,10 @@ msgid ", then paste the JSON below. See our"
 msgstr "，然后粘贴下面的 JSON。请参阅我们的"
 
 msgid ""
-"-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\n"
+"-- Note: Unless you save your query, these tabs will NOT persist if you "
+"clear your cookies or change browsers.\n"
 "\n"
-msgstr ""
-"--  注意：除非您保存查询，否则如果清除cookie或更改浏览器时，这些选项卡将不会保留。\n"
-"\n"
+msgstr "--  注意：除非您保存查询，否则如果清除cookie或更改浏览器时，这些选项卡将不会保留。\n\n"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, es, sr,
 # sr_Latn]
@@ -892,13 +908,11 @@ msgstr "大数字"
 #, python-brace-format
 msgid ""
 "A JavaScript object that adheres to the ECharts options specification, "
-"overriding other control options with higher precedence. (i.e. { title: { "
-"text: \"My Chart\" }, tooltip: { trigger: \"item\" } }). Details: "
+"overriding other control options with higher precedence. (i.e. { title: {"
+" text: \"My Chart\" }, tooltip: { trigger: \"item\" } }). Details: "
 "https://echarts.apache.org/en/option.html. "
 msgstr ""
-"遵循 ECharts 选项规范的 JavaScript 对象，优先级高于其他控制选项。（例如：{ title: { text: \"My Chart\""
-" }, tooltip: { trigger: \"item\" } "
-"}）。详情：https://echarts.apache.org/en/option.html。"
+"遵循 ECharts 选项规范的 JavaScript 对象，优先级高于其他控制选项。（例如：{ title: { text: \"My Chart\" }, tooltip: { trigger: \"item\" } }）。详情：https://echarts.apache.org/en/option.html。"
 
 msgid "A TTL is required for ephemeral state."
 msgstr "临时状态需要 TTL。"
@@ -932,15 +946,15 @@ msgstr "为您的看板写一段描述"
 # es, fa, fr, ja, lv, mi, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 #, python-brace-format
 msgid ""
-"A dictionary with column names and their data types if you need to change "
-"the defaults. Example: {\"user_id\":\"int\"}. Check Python's Pandas library "
-"for supported data types."
+"A dictionary with column names and their data types if you need to change"
+" the defaults. Example: {\"user_id\":\"int\"}. Check Python's Pandas "
+"library for supported data types."
 msgstr ""
 "如果你需要更改默认值，一个包含列名及其数据类型的字典。示例：{\"user_id\":\"int\"}。请查阅Python的Pandas库以了解支持的数据类型。"
 
 msgid ""
-"A full URL pointing to the location of the built plugin (could be hosted on "
-"a CDN for example)"
+"A full URL pointing to the location of the built plugin (could be hosted "
+"on a CDN for example)"
 msgstr "指向内置插件位置的完整URL（例如，可以托管在CDN上）"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -993,8 +1007,8 @@ msgstr "用于颜色的指标"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid ""
-"A multiplier applied to the point radius. Use this to uniformly scale all "
-"points."
+"A multiplier applied to the point radius. Use this to uniformly scale all"
+" points."
 msgstr "应用于点半径的乘数。使用此选项可统一缩放所有点。"
 
 msgid "A new chart and dashboard will be created."
@@ -1009,15 +1023,14 @@ msgstr "将创建一个新看板。"
 
 msgid ""
 "A polar coordinate chart where the circle is broken into wedges of equal "
-"angle, and the value represented by any wedge is illustrated by its area, "
-"rather than its radius or sweep angle."
+"angle, and the value represented by any wedge is illustrated by its area,"
+" rather than its radius or sweep angle."
 msgstr "一种极坐标图表，其中圆被分成等角度的楔形，任何楔形表示的值由其面积表示，而不是其半径或扫掠角度。"
 
 msgid "A readable URL for your dashboard"
 msgstr "为看板生成一个可读的 URL"
 
-msgid ""
-"A reference to the [Time] configuration, taking granularity into account"
+msgid "A reference to the [Time] configuration, taking granularity into account"
 msgstr "对 [时间] 配置的引用，会将粒度考虑在内"
 
 #, fuzzy, python-format
@@ -1039,21 +1052,19 @@ msgstr "使用 Jinja 模板语法在查询中可用的一组参数"
 #, python-format
 msgid ""
 "A soft-deleted dataset (uuid %(uuid)s) already references this table. "
-"Restore it via POST /api/v1/dataset/%(uuid)s/restore before creating a new "
-"dataset over this table, or use a different table name."
+"Restore it via POST /api/v1/dataset/%(uuid)s/restore before creating a "
+"new dataset over this table, or use a different table name."
 msgstr ""
-"一个已软删除的数据集（uuid %(uuid)s）已引用此表。请先通过 POST /api/v1/dataset/%(uuid)s/restore "
-"恢复该数据集，再在此表上创建新数据集，或使用不同的表名。"
+"一个已软删除的数据集（uuid %(uuid)s）已引用此表。请先通过 POST /api/v1/dataset/%(uuid)s/restore 恢复该数据集，再在此表上创建新数据集，或使用不同的表名。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 #, python-format
 msgid ""
 "A soft-deleted dataset (uuid %(uuid)s) already references this table. "
-"Restore it via POST /api/v1/dataset/%(uuid)s/restore before uploading, or "
-"upload to a different table name."
+"Restore it via POST /api/v1/dataset/%(uuid)s/restore before uploading, or"
+" upload to a different table name."
 msgstr ""
-"一个已软删除的数据集（uuid %(uuid)s）已引用此表。请先通过 POST /api/v1/dataset/%(uuid)s/restore "
-"恢复它，然后再上传，或上传到不同的表名。"
+"一个已软删除的数据集（uuid %(uuid)s）已引用此表。请先通过 POST /api/v1/dataset/%(uuid)s/restore 恢复它，然后再上传，或上传到不同的表名。"
 
 msgid "A timeout occurred while executing the query."
 msgstr "执行查询时发生超时。"
@@ -1077,9 +1088,12 @@ msgstr "需要有效的配色方案"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid ""
-"A waterfall chart is a form of data visualization that helps in understanding\n"
-"          the cumulative effect of sequentially introduced positive or negative values.\n"
-"          These intermediate values can either be time based or category based."
+"A waterfall chart is a form of data visualization that helps in "
+"understanding\n"
+"          the cumulative effect of sequentially introduced positive or "
+"negative values.\n"
+"          These intermediate values can either be time based or category "
+"based."
 msgstr ""
 "瀑布图是一种数据可视化形式，有助于理解\n"
 "          按顺序引入的正值或负值的累积效应。\n"
@@ -1209,7 +1223,8 @@ msgstr "新增日志"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, pt_BR, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Add Query A and Query B identifiers to tooltips to help differentiate series"
+"Add Query A and Query B identifiers to tooltips to help differentiate "
+"series"
 msgstr "在工具提示中添加查询A和查询B标识符，以帮助区分序列"
 
 msgid "Add Role"
@@ -1287,9 +1302,9 @@ msgid "Add colors to cell bars for +/- for all columns"
 msgstr "为所有列的正负单元格条添加颜色"
 
 msgid ""
-"Add columns to filter by. When typing or pasting filter values, commas will "
-"separate values into multiple entries. To include a comma within a value, "
-"wrap it in double quotes: \"San Francisco, CA\""
+"Add columns to filter by. When typing or pasting filter values, commas "
+"will separate values into multiple entries. To include a comma within a "
+"value, wrap it in double quotes: \"San Francisco, CA\""
 msgstr ""
 "添加用于筛选的列。在输入或粘贴筛选值时，逗号会将值分隔为多个条目。要在值中包含逗号，请用双引号将其括起来：\"San Francisco, CA\""
 
@@ -1323,10 +1338,14 @@ msgstr "添加筛选"
 
 msgid ""
 "Add filter clauses to control the filter's source query,\n"
-"                    though only in the context of the autocomplete i.e., these conditions\n"
-"                    do not impact how the filter is applied to the dashboard. This is useful\n"
-"                    when you want to improve the query's performance by only scanning a subset\n"
-"                    of the underlying data or limit the available values displayed in the filter."
+"                    though only in the context of the autocomplete i.e., "
+"these conditions\n"
+"                    do not impact how the filter is applied to the "
+"dashboard. This is useful\n"
+"                    when you want to improve the query's performance by "
+"only scanning a subset\n"
+"                    of the underlying data or limit the available values "
+"displayed in the filter."
 msgstr ""
 "为控制筛选器的源查询添加筛选条件，\n"
 "                    但这只限于自动完成的上下文，即这些条件\n"
@@ -1504,8 +1523,8 @@ msgstr "之后"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, pt_BR, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"After making the changes, copy the query and paste in the virtual dataset "
-"SQL snippet settings."
+"After making the changes, copy the query and paste in the virtual dataset"
+" SQL snippet settings."
 msgstr "做出更改后，复制查询并粘贴到虚拟数据集SQL代码片段的设置中。"
 
 msgid "Aggregate"
@@ -1518,16 +1537,16 @@ msgid "Aggregate Sum"
 msgstr "合计"
 
 msgid ""
-"Aggregate function applied to the list of points in each cluster to produce "
-"the cluster label."
+"Aggregate function applied to the list of points in each cluster to "
+"produce the cluster label."
 msgstr "应用于每个群集中点列表的聚合函数，用于生成群集标签。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid ""
-"Aggregates data within the boundary of grid cells and maps the aggregated "
-"values to a dynamic color scale"
+"Aggregates data within the boundary of grid cells and maps the aggregated"
+" values to a dynamic color scale"
 msgstr "在网格单元边界内聚合数据，并将聚合值映射到动态色阶"
 
 msgid "Aggregation"
@@ -1577,8 +1596,7 @@ msgid "Alert query returned more than one column."
 msgstr "告警查询返回的列数超过一列。"
 
 #, python-format
-msgid ""
-"Alert query returned more than one column. %(num_cols)s columns returned"
+msgid "Alert query returned more than one column. %(num_cols)s columns returned"
 msgstr "告警查询返回的列数超过一列。实际返回 %(num_cols)s 列"
 
 msgid "Alert query returned more than one row."
@@ -1661,8 +1679,8 @@ msgid "Allow changing catalogs"
 msgstr "允许更改目录"
 
 msgid ""
-"Allow column names to be changed to case insensitive format, if supported "
-"(e.g. Oracle, Snowflake)."
+"Allow column names to be changed to case insensitive format, if supported"
+" (e.g. Oracle, Snowflake)."
 msgstr "如果数据库支持（例如 Oracle、Snowflake 等），允许将列名更改为不区分大小写的格式。"
 
 msgid "Allow columns to be rearranged"
@@ -1681,8 +1699,8 @@ msgid "Allow data manipulation language"
 msgstr "允许数据操作语言"
 
 msgid ""
-"Allow end user to drag-and-drop column headers to rearrange them. Note their"
-" changes won't persist for the next time they open the chart."
+"Allow end user to drag-and-drop column headers to rearrange them. Note "
+"their changes won't persist for the next time they open the chart."
 msgstr "允许最终用户通过拖放列标题来重新排列它们。请注意，他们所做的更改不会在下次打开图表时保留。"
 
 #, fuzzy
@@ -1696,8 +1714,8 @@ msgstr "允许节点选择"
 # es, fr, ja, lv, mi, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
 "Allow the execution of DDL (Data Definition Language: CREATE, DROP, "
-"TRUNCATE, etc.) and DML (Data Modification Language: INSERT, UPDATE, DELETE,"
-" etc)"
+"TRUNCATE, etc.) and DML (Data Modification Language: INSERT, UPDATE, "
+"DELETE, etc)"
 msgstr ""
 "允许执行DDL（数据定义语言：CREATE、DROP、TRUNCATE等）和DML（数据修改语言：INSERT、UPDATE、DELETE等）"
 
@@ -1743,8 +1761,8 @@ msgid "An alert named \"%(name)s\" already exists"
 msgstr "名为“%(name)s”的警报已存在"
 
 msgid ""
-"An enclosed time range (both start and end) must be specified when using a "
-"Time Comparison."
+"An enclosed time range (both start and end) must be specified when using "
+"a Time Comparison."
 msgstr "使用时间比较时，必须指定封闭的时间范围（有开始和结束）。"
 
 msgid ""
@@ -1968,8 +1986,8 @@ msgid "An error occurred while formatting SQL"
 msgstr "格式化 SQL 时发生错误"
 
 msgid ""
-"An error occurred while generating the file. Please try again, or contact "
-"your administrator if the problem persists."
+"An error occurred while generating the file. Please try again, or contact"
+" your administrator if the problem persists."
 msgstr "生成文件时出错。请重试，如果问题仍然存在，请联系管理员。"
 
 #, python-format
@@ -1978,8 +1996,8 @@ msgstr "导入 %s 时出错：%s"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid ""
-"An error occurred while loading SQL Lab. This may be caused by a corrupted "
-"query state."
+"An error occurred while loading SQL Lab. This may be caused by a "
+"corrupted query state."
 msgstr "加载 SQL Lab 时出错。这可能是由损坏的查询状态导致的。"
 
 msgid "An error occurred while loading dashboard information."
@@ -2000,8 +2018,7 @@ msgstr "精简日志时出错 "
 msgid "An error occurred while refreshing the configuration schema"
 msgstr "刷新配置模式时发生错误"
 
-msgid ""
-"An error occurred while removing query. Please contact your administrator."
+msgid "An error occurred while removing query. Please contact your administrator."
 msgstr "删除查询时出错。请与管理员联系。"
 
 msgid ""
@@ -2020,8 +2037,9 @@ msgid "An error occurred while starring this chart"
 msgstr "收藏此图表时出错"
 
 msgid ""
-"An error occurred while storing your query in the backend. To avoid losing "
-"your changes, please save your query using the \"Save Query\" button."
+"An error occurred while storing your query in the backend. To avoid "
+"losing your changes, please save your query using the \"Save Query\" "
+"button."
 msgstr "在后端存储查询时出错。为避免丢失更改，请使用 \"保存查询\" 按钮保存查询。"
 
 #, python-format
@@ -2057,8 +2075,8 @@ msgid "Anchor to"
 msgstr "锚定到"
 
 msgid ""
-"Angle at which the first slice begins, in degrees. 90° starts at the top, "
-"0°/360° at the right, 270° at the bottom, and 180° at the left."
+"Angle at which the first slice begins, in degrees. 90° starts at the top,"
+" 0°/360° at the right, 270° at the bottom, and 180° at the left."
 msgstr "第一个切片开始的角度，以度为单位。90°从顶部开始，0°/360°在右侧，270°在底部，180°在左侧。"
 
 msgid "Angle at which to end progress axis"
@@ -2198,12 +2216,10 @@ msgstr "任何使用这些主题的看板将自动与它们解除关联。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
-msgid ""
-"Any dashboards using this theme will be automatically dissociated from it."
+msgid "Any dashboards using this theme will be automatically dissociated from it."
 msgstr "任何使用此主题的看板都将自动与其解除关联。"
 
-msgid ""
-"Any databases that allow connections via SQL Alchemy URIs can be added. "
+msgid "Any databases that allow connections via SQL Alchemy URIs can be added. "
 msgstr "可以添加任何允许通过SQL Alchemy URI进行连接的数据库。 "
 
 msgid ""
@@ -2228,15 +2244,15 @@ msgid "Applied filters: %s"
 msgstr "应用的过滤器 (%s)"
 
 msgid ""
-"Applied rolling window did not return any data. Please make sure the source "
-"query satisfies the minimum periods defined in the rolling window."
+"Applied rolling window did not return any data. Please make sure the "
+"source query satisfies the minimum periods defined in the rolling window."
 msgstr "应用的滚动窗口（rolling window）未返回任何数据。请确保源查询满足滚动窗口中定义的最小周期。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"Applies only when \"Cell bars\" formatting is selected: the background of "
-"the histogram columns is displayed if the \"Show cell bars\" flag is "
+"Applies only when \"Cell bars\" formatting is selected: the background of"
+" the histogram columns is displayed if the \"Show cell bars\" flag is "
 "enabled."
 msgstr "仅当选择“单元格条”格式时适用：若启用“显示单元格条”标志，则显示直方图列的背景。"
 
@@ -2263,8 +2279,8 @@ msgstr "将条件颜色格式应用于数字列"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Apply custom CSS to the dashboard. Use class names or element selectors to "
-"target specific components."
+"Apply custom CSS to the dashboard. Use class names or element selectors "
+"to target specific components."
 msgstr "将自定义CSS应用于看板。使用类名或元素选择器来定位特定组件。"
 
 #, fuzzy
@@ -2375,19 +2391,20 @@ msgstr "确定要覆盖此数据集吗？"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, pt_BR, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Are you sure you want to remove the system dark theme? The application will "
-"fall back to the configuration file dark theme."
+"Are you sure you want to remove the system dark theme? The application "
+"will fall back to the configuration file dark theme."
 msgstr "您确定要移除系统深色主题吗？应用程序将回退到配置文件中的深色主题。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, pt_BR, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Are you sure you want to remove the system default theme? The application "
-"will fall back to the configuration file default."
+"Are you sure you want to remove the system default theme? The application"
+" will fall back to the configuration file default."
 msgstr "您确定要移除系统默认主题吗？应用程序将回退到配置文件默认设置。"
 
 msgid ""
-"Are you sure you want to revoke this API key? This action cannot be undone."
+"Are you sure you want to revoke this API key? This action cannot be "
+"undone."
 msgstr "确定要撤销此API密钥吗？此操作无法撤销。"
 
 msgid "Are you sure you want to save and apply changes?"
@@ -2405,8 +2422,8 @@ msgstr "您确定要将\"%s\"设置为系统深色主题吗？这将应用于所
 # ja, lv, pt_BR, ro, ru, sk, sr, sr_Latn, tr, uk]
 #, fuzzy, python-format
 msgid ""
-"Are you sure you want to set \"%s\" as the system default theme? This will "
-"apply to all users who haven't set a personal preference."
+"Are you sure you want to set \"%s\" as the system default theme? This "
+"will apply to all users who haven't set a personal preference."
 msgstr "您确定要将\"%s\"设置为系统默认主题吗？这将应用于所有未设置个人偏好的用户。"
 
 msgid "Area"
@@ -2423,8 +2440,9 @@ msgstr "面积图不透明度"
 
 #, fuzzy
 msgid ""
-"Area charts are similar to line charts in that they represent variables with"
-" the same scale, but area charts stack the metrics on top of each other."
+"Area charts are similar to line charts in that they represent variables "
+"with the same scale, but area charts stack the metrics on top of each "
+"other."
 msgstr "时间序列面积图与折线图相似，因为它们表示具有相同比例的变量，但面积图将度量叠加在一起。超级集中的面积图可以是流式、堆栈式或展开式"
 
 msgid "Arrow"
@@ -2622,8 +2640,7 @@ msgstr "基础图层地图样式。接受与MapLibre兼容的样式URL。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
-msgid ""
-"Base layer map style. Accepts a Mapbox style URL (mapbox://styles/...)."
+msgid "Base layer map style. Accepts a Mapbox style URL (mapbox://styles/...)."
 msgstr "基础图层地图样式。接受Mapbox样式URL（mapbox://styles/...）。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
@@ -2728,42 +2745,45 @@ msgstr "边界"
 msgid ""
 "Bounds for numerical X axis. Not applicable for temporal or categorical "
 "axes. When left empty, the bounds are dynamically defined based on the "
-"min/max of the data. Note that this feature will only expand the axis range."
-" It won't narrow the data's extent."
+"min/max of the data. Note that this feature will only expand the axis "
+"range. It won't narrow the data's extent."
 msgstr "数值X轴的边界。不适用于时间轴或分类轴。当留空时，边界根据数据的最小/最大值动态定义。请注意，此功能只会扩展轴范围，不会缩小数据的范围。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Bounds for the X-axis. Selected time merges with min/max date of the data. "
-"When left empty, bounds dynamically defined based on the min/max of the "
-"data."
+"Bounds for the X-axis. Selected time merges with min/max date of the "
+"data. When left empty, bounds dynamically defined based on the min/max of"
+" the data."
 msgstr "X轴边界。所选时间与数据的最小/最大日期合并。留空时，边界将根据数据的最小/最大值动态定义。"
 
 msgid ""
-"Bounds for the Y-axis. When left empty, the bounds are dynamically defined "
-"based on the min/max of the data. Note that this feature will only expand "
-"the axis range. It won't narrow the data's extent."
+"Bounds for the Y-axis. When left empty, the bounds are dynamically "
+"defined based on the min/max of the data. Note that this feature will "
+"only expand the axis range. It won't narrow the data's extent."
 msgstr "Y轴的边界。当空时，边界是根据数据的最小/最大值动态定义的。请注意，此功能只会扩展轴范围。它不会缩小数据范围。"
 
 #, fuzzy
 msgid ""
 "Bounds for the axis. When left empty, the bounds are dynamically defined "
-"based on the min/max of the data. Note that this feature will only expand "
-"the axis range. It won't narrow the data's extent."
+"based on the min/max of the data. Note that this feature will only expand"
+" the axis range. It won't narrow the data's extent."
 msgstr "Y轴的边界。当空时，边界是根据数据的最小/最大值动态定义的。请注意，此功能只会扩展轴范围。它不会缩小数据范围。"
 
 #, fuzzy
 msgid ""
-"Bounds for the primary Y-axis. When left empty, the bounds are dynamically "
-"defined based on the min/max of the data. Note that this feature will only "
-"expand the axis range. It won't narrow the data's extent."
+"Bounds for the primary Y-axis. When left empty, the bounds are "
+"dynamically defined based on the min/max of the data. Note that this "
+"feature will only expand the axis range. It won't narrow the data's "
+"extent."
 msgstr "Y轴的边界。当空时，边界是根据数据的最小/最大值动态定义的。请注意，此功能只会扩展轴范围。它不会缩小数据范围。"
 
 msgid ""
 "Bounds for the secondary Y-axis. Only works when Independent Y-axis\n"
-"                bounds are enabled. When left empty, the bounds are dynamically defined\n"
-"                based on the min/max of the data. Note that this feature will only expand\n"
+"                bounds are enabled. When left empty, the bounds are "
+"dynamically defined\n"
+"                based on the min/max of the data. Note that this feature "
+"will only expand\n"
 "                the axis range. It won't narrow the data's extent."
 msgstr ""
 "次要Y轴的边界。仅当启用独立Y轴\n"
@@ -2784,10 +2804,9 @@ msgstr "断点指标"
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
 "Breaks down the series by the category specified in this control.\n"
-"      This can help viewers understand how each category affects the overall value."
-msgstr ""
-"按此控件中指定的类别分解系列。\n"
-"      这可以帮助观众理解每个类别如何影响整体数值。"
+"      This can help viewers understand how each category affects the "
+"overall value."
+msgstr "按此控件中指定的类别分解系列。\n      这可以帮助观众理解每个类别如何影响整体数值。"
 
 msgid "Bubble Chart"
 msgstr "气泡图"
@@ -2833,12 +2852,11 @@ msgid "Business"
 msgstr "商业"
 
 msgid ""
-"By default, each filter loads at most 1000 choices at the initial page load."
-" Check this box if you have more than 1000 filter values and want to enable "
-"dynamically searching that loads filter values as users type (may add stress"
-" to your database)."
-msgstr ""
-"默认情况下，每个过滤器在初始页面加载时最多加载1000个选项。如果您有超过1000个过滤值，并且希望启用动态搜索，以便在键入时加载筛选值（可能会给数据库增加压力），请选中此框。"
+"By default, each filter loads at most 1000 choices at the initial page "
+"load. Check this box if you have more than 1000 filter values and want to"
+" enable dynamically searching that loads filter values as users type (may"
+" add stress to your database)."
+msgstr "默认情况下，每个过滤器在初始页面加载时最多加载1000个选项。如果您有超过1000个过滤值，并且希望启用动态搜索，以便在键入时加载筛选值（可能会给数据库增加压力），请选中此框。"
 
 msgid "By key: use column names as sorting key"
 msgstr "使用列名作为排序关键字"
@@ -2887,8 +2905,8 @@ msgstr "应用于图表的CSS"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"CSS styles may be removed by server-side HTML sanitization. If styles are "
-"not applying, ask your Superset administrator to adjust the HTML "
+"CSS styles may be removed by server-side HTML sanitization. If styles are"
+" not applying, ask your Superset administrator to adjust the HTML "
 "sanitization configuration."
 msgstr "CSS样式可能被服务端HTML清理移除。若样式未生效，请联系您的Superset管理员调整HTML清理配置。"
 
@@ -2918,20 +2936,19 @@ msgid "CTAS & CVAS SCHEMA"
 msgstr "CTAS 与 CVAS 架构"
 
 msgid ""
-"CTAS (create table as select) can only be run with a query where the last "
-"statement is a SELECT. Please make sure your query has a SELECT as its last "
-"statement. Then, try running your query again."
+"CTAS (create table as select) can only be run with a query where the last"
+" statement is a SELECT. Please make sure your query has a SELECT as its "
+"last statement. Then, try running your query again."
 msgstr ""
 "CTAS（create table as "
 "select）只能与最后一条语句为SELECT的查询一起运行。请确保查询的最后一个语句是SELECT。然后再次尝试运行查询。"
 
 msgid ""
 "CVAS (create view as select) can only be run with a query with a single "
-"SELECT statement. Please make sure your query has only a SELECT statement. "
-"Then, try running your query again."
+"SELECT statement. Please make sure your query has only a SELECT "
+"statement. Then, try running your query again."
 msgstr ""
-"CVAS（create view as "
-"select）只能与带有单个SELECT语句的查询一起运行。请确保您的查询只有SELECT语句。然后再次尝试运行查询。"
+"CVAS（create view as select）只能与带有单个SELECT语句的查询一起运行。请确保您的查询只有SELECT语句。然后再次尝试运行查询。"
 
 msgid "CVAS (create view as select) query has more than one statement."
 msgstr "CVAS (create view as select) 查询包含超过一条语句。"
@@ -3030,8 +3047,7 @@ msgid ""
 "permanently once a purge capability ships, or remove the underlying rows "
 "out-of-band, before deleting the database."
 msgstr ""
-"无法删除一个仅剩软删除数据集的数据库。请先恢复这些数据集（POST "
-"/api/v1/dataset/<uuid>/restore），并在清除功能推出后永久删除它们，或在删除数据库之前，通过带外方式移除底层数据行。"
+"无法删除一个仅剩软删除数据集的数据库。请先恢复这些数据集（POST /api/v1/dataset/<uuid>/restore），并在清除功能推出后永久删除它们，或在删除数据库之前，通过带外方式移除底层数据行。"
 
 msgid "Cannot delete system themes"
 msgstr "无法删除系统主题"
@@ -3202,13 +3218,13 @@ msgid "Changing one or more of these dashboards is forbidden"
 msgstr "禁止修改这些看板中的一个或多个"
 
 msgid ""
-"Changing the dataset may break the chart if the chart relies on columns or "
-"metadata that does not exist in the target dataset"
+"Changing the dataset may break the chart if the chart relies on columns "
+"or metadata that does not exist in the target dataset"
 msgstr "如果图表依赖于目标数据集中不存在的列或元数据，则更改数据集可能会破坏图表"
 
 msgid ""
-"Changing these settings will affect all charts using this dataset, including"
-" charts owned by other people."
+"Changing these settings will affect all charts using this dataset, "
+"including charts owned by other people."
 msgstr "更改这些设置将影响使用此数据集的所有图表，包括其他人拥有的图表。"
 
 msgid "Changing this Dashboard is forbidden"
@@ -3408,8 +3424,8 @@ msgid "Check for sorting ascending"
 msgstr "按照升序进行排序"
 
 msgid ""
-"Check if the Rose Chart should use segment area instead of segment radius "
-"for proportioning"
+"Check if the Rose Chart should use segment area instead of segment radius"
+" for proportioning"
 msgstr "检查玫瑰图是否应该使用线段面积而不是线段半径来进行比例"
 
 msgid "Check out this chart in dashboard:"
@@ -3537,8 +3553,8 @@ msgstr "选择应视为 null 的值。警告：Hive 数据库仅支持单个值�
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid ""
-"Choose whether a country should be shaded by the metric, or assigned a color"
-" based on a categorical color palette"
+"Choose whether a country should be shaded by the metric, or assigned a "
+"color based on a categorical color palette"
 msgstr "选择国家应根据指标进行着色，还是根据分类调色板分配颜色"
 
 msgid "Choose..."
@@ -3618,13 +3634,13 @@ msgid "Clear the selection to revert to the system default theme"
 msgstr "清除选择以恢复系统默认主题"
 
 msgid ""
-"Click on \"Add or edit filters and controls\" option in Settings to create "
-"new dashboard filters"
+"Click on \"Add or edit filters and controls\" option in Settings to "
+"create new dashboard filters"
 msgstr "点击设置中的“添加或编辑筛选器和控件”选项来创建新的看板筛选器。"
 
 msgid ""
-"Click on \"Create chart\" button in the control panel on the left to preview"
-" a visualization or"
+"Click on \"Create chart\" button in the control panel on the left to "
+"preview a visualization or"
 msgstr "点击左侧控制面板中的“创建图表”按钮以预览可视化效果，或者"
 
 msgid "Click the lock to make changes."
@@ -3634,8 +3650,8 @@ msgid "Click the lock to prevent further changes."
 msgstr "单击锁定以防止进一步更改。"
 
 msgid ""
-"Click this link to switch to an alternate form that allows you to input the "
-"SQLAlchemy URL for this database manually."
+"Click this link to switch to an alternate form that allows you to input "
+"the SQLAlchemy URL for this database manually."
 msgstr "单击此链接可切换到备用表单，该表单允许您手动输入此数据库的SQLAlchemy URL。"
 
 msgid ""
@@ -3816,8 +3832,8 @@ msgstr "配色方案"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"Color will be shaded based the normalized (0% to 100%) value of a given cell"
-" against the other cells in the selected range: "
+"Color will be shaded based the normalized (0% to 100%) value of a given "
+"cell against the other cells in the selected range: "
 msgstr "颜色将根据所选范围内某个单元格相对于其他单元格的归一化值（0% 到 100%）进行渐变："
 
 msgid "Color: "
@@ -3881,8 +3897,8 @@ msgid "Column to group by"
 msgstr "需要进行分组的一列或多列"
 
 msgid ""
-"Column to use as the index of the dataframe. If None is given, Index label "
-"is used."
+"Column to use as the index of the dataframe. If None is given, Index "
+"label is used."
 msgstr "用作数据框索引的列。如果未指定，则使用索引标签。"
 
 #, fuzzy
@@ -3959,14 +3975,14 @@ msgid "Combine metrics"
 msgstr "整合指标"
 
 msgid ""
-"Comma-separated color picks for the intervals, e.g. 1,2,4. Integers denote "
-"colors from the chosen color scheme and are 1-indexed. Length must be "
-"matching that of interval bounds."
+"Comma-separated color picks for the intervals, e.g. 1,2,4. Integers "
+"denote colors from the chosen color scheme and are 1-indexed. Length must"
+" be matching that of interval bounds."
 msgstr "间隔的逗号分隔色选项，例如1、2、4。整数表示所选配色方案中的颜色，并以1为索引。长度必须与间隔界限匹配。"
 
 msgid ""
-"Comma-separated interval bounds, e.g. 2,4,5 for intervals 0-2, 2-4 and 4-5. "
-"Last number should match the value provided for MAX."
+"Comma-separated interval bounds, e.g. 2,4,5 for intervals 0-2, 2-4 and "
+"4-5. Last number should match the value provided for MAX."
 msgstr "逗号分隔的区间界限，例如0-2、2-4和4-5区间的2、4、5。最后一个数字应与为Max提供的值匹配。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
@@ -3990,17 +4006,17 @@ msgid "Compare the same summarized metric across multiple groups."
 msgstr "跨多个组比较相同的汇总指标"
 
 msgid ""
-"Compares how a metric changes over time between different groups. Each group"
-" is mapped to a row and change over time is visualized bar lengths and "
-"color."
+"Compares how a metric changes over time between different groups. Each "
+"group is mapped to a row and change over time is visualized bar lengths "
+"and color."
 msgstr "比较指标在不同组之间随时间的变化情况。每个组映射到一行，随时间的变化通过条的长度和颜色进行可视化。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Compares metrics between different time periods. Displays time series data "
-"across multiple periods (like weeks or months) to show period-over-period "
-"trends and patterns."
+"Compares metrics between different time periods. Displays time series "
+"data across multiple periods (like weeks or months) to show period-over-"
+"period trends and patterns."
 msgstr "比较不同时间段之间的指标。显示跨多个时间段（如周或月）的时间序列数据，以展示各周期之间的趋势和模式。"
 
 msgid "Comparison"
@@ -4317,8 +4333,8 @@ msgid "Could not load database driver for: %(engine)s"
 msgstr "无法为以下数据库加载驱动程序：%(engine)s"
 
 msgid ""
-"Could not load metadata for this configuration; showing the default form. "
-"See the server logs for details."
+"Could not load metadata for this configuration; showing the default form."
+" See the server logs for details."
 msgstr "无法加载此配置的元数据；显示默认表单。详情请参阅服务器日志。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -4367,9 +4383,7 @@ msgstr "创建数据集"
 msgid ""
 "Create a dataset to begin visualizing your data as a chart or go to\n"
 "          SQL Lab to query your data."
-msgstr ""
-"创建一个数据集以开始将您的数据可视化为图表，或者前往\n"
-"          SQL 工具箱查询您的数据。"
+msgstr "创建一个数据集以开始将您的数据可视化为图表，或者前往\n          SQL 工具箱查询您的数据。"
 
 msgid "Create a new Tag"
 msgstr "创建新标签"
@@ -4439,8 +4453,7 @@ msgstr "交叉筛选列"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
-msgid ""
-"Cross-filter will be applied to all of the charts that use this dataset."
+msgid "Cross-filter will be applied to all of the charts that use this dataset."
 msgstr "交叉筛选将应用于所有使用此数据集的图表。"
 
 #, fuzzy
@@ -4589,8 +4602,8 @@ msgstr "自定义指标"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Customize cell titles using Handlebars template syntax. Available variables:"
-" {{rowLabel}}, {{colLabel}}"
+"Customize cell titles using Handlebars template syntax. Available "
+"variables: {{rowLabel}}, {{colLabel}}"
 msgstr "使用Handlebars模板语法自定义单元格标题。可用变量：{{rowLabel}}，{{colLabel}}"
 
 msgid "Customize columns"
@@ -4604,15 +4617,15 @@ msgstr "自定义数据源、筛选器和布局。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Customize the label displayed for decreasing values in the chart tooltips "
-"and legend."
+"Customize the label displayed for decreasing values in the chart tooltips"
+" and legend."
 msgstr "自定义图表工具提示和图例中递减值显示的标签。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Customize the label displayed for increasing values in the chart tooltips "
-"and legend."
+"Customize the label displayed for increasing values in the chart tooltips"
+" and legend."
 msgstr "自定义图表工具提示和图例中递增数值显示的标签。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
@@ -4639,8 +4652,8 @@ msgid "D3 format syntax: https://github.com/d3/d3-format"
 msgstr "D3格式语法: https://github.com/d3/d3-format"
 
 msgid ""
-"D3 number format for numbers between -1.0 and 1.0, useful when you want to "
-"have different significant digits for small and large numbers"
+"D3 number format for numbers between -1.0 and 1.0, useful when you want "
+"to have different significant digits for small and large numbers"
 msgstr "D3数字格式，用于-1.0和1.0之间的数字，当您希望小数和大数有不同的有效数字时很有用"
 
 msgid "D3 time format for datetime columns"
@@ -4721,8 +4734,8 @@ msgid "Dashboard cannot be favorited."
 msgstr "看板无法收藏。"
 
 msgid ""
-"Dashboard cannot be restored because its slug is now used by another active "
-"dashboard. Rename one of the dashboards and retry."
+"Dashboard cannot be restored because its slug is now used by another "
+"active dashboard. Rename one of the dashboards and retry."
 msgstr "看板无法恢复，因为其 slug 现已被另一个活跃的看板使用。请重命名其中一个看板后重试。"
 
 msgid "Dashboard cannot be unfavorited."
@@ -4785,7 +4798,8 @@ msgstr "看板配色方案"
 # uk]
 msgid ""
 "Dashboard time range filters apply to temporal columns defined in\n"
-"          the filter section of each chart. Add temporal columns to the chart\n"
+"          the filter section of each chart. Add temporal columns to the "
+"chart\n"
 "          filters to have this dashboard filter impact those charts."
 msgstr "看板时间范围筛选器应用于每个图表筛选部分中定义的时间列。将时间列添加到图表筛选器中，以使此看板筛选器影响这些图表。"
 
@@ -4841,14 +4855,14 @@ msgid "Data connections"
 msgstr "数据连接"
 
 msgid ""
-"Data could not be deserialized from the results backend. The storage format "
-"might have changed, rendering the old data stake. You need to re-run the "
-"original query."
+"Data could not be deserialized from the results backend. The storage "
+"format might have changed, rendering the old data stake. You need to re-"
+"run the original query."
 msgstr "无法从结果后端反序列化数据。存储格式可能已经改变，呈现了旧的数据桩。您需要重新运行原始查询。"
 
 msgid ""
-"Data could not be retrieved from the results backend. You need to re-run the"
-" original query."
+"Data could not be retrieved from the results backend. You need to re-run "
+"the original query."
 msgstr "无法从结果后端检索数据。您需要重新运行原始查询。"
 
 msgid "Data error"
@@ -4982,9 +4996,9 @@ msgstr "数据集名称"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid ""
-"Dataset cannot be restored because another active dataset already references"
-" the same physical table (same database, catalog, schema, and table name). "
-"Delete the duplicate or rename the table before restoring."
+"Dataset cannot be restored because another active dataset already "
+"references the same physical table (same database, catalog, schema, and "
+"table name). Delete the duplicate or rename the table before restoring."
 msgstr "数据集无法恢复，因为另一个活跃数据集已引用同一物理表（相同的数据库、目录、模式和表名）。请先删除重复项或重命名表，然后再恢复。"
 
 msgid "Dataset column delete failed."
@@ -5091,8 +5105,8 @@ msgid "Date/Time"
 msgstr "日期/时间"
 
 msgid ""
-"Datetime column not provided as part table configuration and is required by "
-"this type of chart"
+"Datetime column not provided as part table configuration and is required "
+"by this type of chart"
 msgstr "没有提供该表配置的日期时间列，它是此类型图表所必需的"
 
 msgid "Datetime format"
@@ -5250,12 +5264,11 @@ msgid "Define color breakpoints for the data"
 msgstr "为数据定义颜色断点"
 
 msgid ""
-"Define contour layers. Isolines represent a collection of line segments that"
-" serparate the area above and below a given threshold. Isobands represent a "
-"collection of polygons that fill the are containing values in a given "
-"threshold range."
-msgstr ""
-"定义等高线图层。等值线代表一组线段的集合，这些线段将高于和低于给定阈值的区域分隔开来。等值带代表一组多边形的集合，用以填充包含在给定阈值范围内的区域。"
+"Define contour layers. Isolines represent a collection of line segments "
+"that serparate the area above and below a given threshold. Isobands "
+"represent a collection of polygons that fill the are containing values in"
+" a given threshold range."
+msgstr "定义等高线图层。等值线代表一组线段的集合，这些线段将高于和低于给定阈值的区域分隔开来。等值带代表一组多边形的集合，用以填充包含在给定阈值范围内的区域。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -5271,8 +5284,8 @@ msgid "Defined through system configuration."
 msgstr "通过系统配置定义。"
 
 msgid ""
-"Defines a rolling window function to apply, works along with the [Periods] "
-"text box"
+"Defines a rolling window function to apply, works along with the "
+"[Periods] text box"
 msgstr "定义要应用的滚动窗口函数，与 [期限] 文本框一起使用"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -5283,13 +5296,13 @@ msgstr "以像素为单位定义网格大小"
 
 #, fuzzy
 msgid ""
-"Defines the grouping of entities. Each series is represented by a specific "
-"color in the chart."
+"Defines the grouping of entities. Each series is represented by a "
+"specific color in the chart."
 msgstr "定义实体的分组。每个序列在图表上显示为特定颜色，并有一个可切换的图例"
 
 msgid ""
-"Defines the grouping of entities. Each series is shown as a specific color "
-"on the chart and has a legend toggle"
+"Defines the grouping of entities. Each series is shown as a specific "
+"color on the chart and has a legend toggle"
 msgstr "定义实体的分组。每个序列在图表上显示为特定颜色，并有一个可切换的图例"
 
 msgid ""
@@ -5301,8 +5314,8 @@ msgstr "定义滚动窗口函数的大小，相对于所选的时间粒度"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid ""
-"Defines the value that determines the boundary between different regions or "
-"levels in the data "
+"Defines the value that determines the boundary between different regions "
+"or levels in the data "
 msgstr "定义用于确定数据中不同区域或层级之间边界的值 "
 
 msgid ""
@@ -5561,9 +5574,9 @@ msgstr "认证详情"
 # sr_Latn]
 msgid ""
 "Determines how the filter matches values. \"Exact match\" uses the IN "
-"operator (default). ILIKE options enable partial text matching with a free-"
-"text input. Warning: ILIKE queries may be slow on large datasets as they "
-"cannot use indexes effectively."
+"operator (default). ILIKE options enable partial text matching with a "
+"free-text input. Warning: ILIKE queries may be slow on large datasets as "
+"they cannot use indexes effectively."
 msgstr ""
 "决定筛选器如何匹配值。\"精确匹配\"使用IN运算符（默认）。ILIKE选项支持通过自由文本输入进行部分文本匹配。警告：ILIKE查询在大型数据集上可能较慢，因为它们无法有效使用索引。"
 
@@ -5594,9 +5607,9 @@ msgstr "维度"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"Dimension column emitted as a cross-filter when a feature is clicked. Other "
-"charts on the dashboard match against this column. If unset, falls back to "
-"the geometry column (legacy behavior, often unmatchable)."
+"Dimension column emitted as a cross-filter when a feature is clicked. "
+"Other charts on the dashboard match against this column. If unset, falls "
+"back to the geometry column (legacy behavior, often unmatchable)."
 msgstr "当某个要素被点击时，作为交叉筛选器发出的维度列。看板上的其他图表会与此列进行匹配。如果未设置，则回退到几何列（旧行为，通常无法匹配）。"
 
 msgid "Dimension is required"
@@ -5625,9 +5638,9 @@ msgid "Dimensions (%s)"
 msgstr "维度 (%s)"
 
 msgid ""
-"Dimensions contain qualitative values such as names, dates, or geographical "
-"data. Use dimensions to categorize, segment, and reveal the details in your "
-"data. Dimensions affect the level of detail in the view."
+"Dimensions contain qualitative values such as names, dates, or "
+"geographical data. Use dimensions to categorize, segment, and reveal the "
+"details in your data. Dimensions affect the level of detail in the view."
 msgstr "维度包含诸如名称、日期或地理数据等定性值。使用维度对数据进行分类、细分，并展现数据中的细节。维度影响视图中的细节级别。"
 
 msgid "Directed Force Layout"
@@ -5668,8 +5681,8 @@ msgid "Display all"
 msgstr "显示全部"
 
 msgid ""
-"Display charts on a map. For using this plugin, users first have to create "
-"any other chart that can then be placed on the map."
+"Display charts on a map. For using this plugin, users first have to "
+"create any other chart that can then be placed on the map."
 msgstr "在地图上显示图表。要使用此插件，用户首先必须创建任何其他图表，然后可以将其放置在地图上。"
 
 msgid "Display column in the chart"
@@ -5732,15 +5745,16 @@ msgid "Display labels for each row on the left side of the matrix"
 msgstr "在矩阵左侧显示每行的标签"
 
 msgid ""
-"Display metrics side by side within each column, as opposed to each column "
-"being displayed side by side for each metric."
+"Display metrics side by side within each column, as opposed to each "
+"column being displayed side by side for each metric."
 msgstr "在每个列中并排显示指标，而不是每个指标并排显示每个列。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"Display percents in the label and tooltip as the percent of the total value,"
-" from the first step of the funnel, or from the previous step in the funnel."
+"Display percents in the label and tooltip as the percent of the total "
+"value, from the first step of the funnel, or from the previous step in "
+"the funnel."
 msgstr "在标签和工具提示中将百分比显示为占总值的百分比，从漏斗的第一步开始，或从漏斗中的上一步开始。"
 
 #, fuzzy
@@ -5760,11 +5774,10 @@ msgstr "显示类型图标"
 
 msgid ""
 "Displays connections between entities in a graph structure. Useful for "
-"mapping relationships and showing which nodes are important in a network. "
-"Graph charts can be configured to be force-directed or circulate. If your "
-"data has a geospatial component, try the deck.gl Arc chart."
-msgstr ""
-"显示图形结构中实体之间的连接。用于映射关系和显示网络中哪些节点是重要的。图表可以配置为强制引导或循环。如果您的数据具有地理空间组件，请尝试使用deck.gl圆弧图表。"
+"mapping relationships and showing which nodes are important in a network."
+" Graph charts can be configured to be force-directed or circulate. If "
+"your data has a geospatial component, try the deck.gl Arc chart."
+msgstr "显示图形结构中实体之间的连接。用于映射关系和显示网络中哪些节点是重要的。图表可以配置为强制引导或循环。如果您的数据具有地理空间组件，请尝试使用deck.gl圆弧图表。"
 
 msgid "Distribute across"
 msgstr "分布范围"
@@ -5834,8 +5847,8 @@ msgstr "下载到客户端"
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
 #, python-format
 msgid ""
-"Downloading %(rows)s rows based on the LIMIT configuration. If you want the "
-"entire result set, you need to adjust the LIMIT."
+"Downloading %(rows)s rows based on the LIMIT configuration. If you want "
+"the entire result set, you need to adjust the LIMIT."
 msgstr "根据 LIMIT 配置，正在下载 %(rows)s 行数据。如需获取完整结果集，请调整 LIMIT 值。"
 
 msgid "Draft"
@@ -5850,8 +5863,8 @@ msgstr "拖放组件或图表到此选项卡"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Drag columns and metrics here to customize tooltip content. Order matters - "
-"items will appear in the same order in tooltips. Click the button to "
+"Drag columns and metrics here to customize tooltip content. Order matters"
+" - items will appear in the same order in tooltips. Click the button to "
 "manually select columns and metrics."
 msgstr "将列和指标拖拽至此以自定义工具提示内容。顺序很重要——项目将按相同顺序显示在工具提示中。点击按钮可手动选择列和指标。"
 
@@ -5904,8 +5917,8 @@ msgstr "由于此图表未按维度值对数据进行分组，因此钻取详情
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"Drill to detail is disabled for this database. Change the database settings "
-"to enable it."
+"Drill to detail is disabled for this database. Change the database "
+"settings to enable it."
 msgstr "此数据库已禁用向下钻取详细信息。请更改数据库设置以启用此功能。"
 
 #, python-format
@@ -5943,8 +5956,8 @@ msgstr "重复的列名%(columns)s"
 
 #, python-format
 msgid ""
-"Duplicate column/metric labels: %(labels)s. Please make sure all columns and"
-" metrics have a unique label."
+"Duplicate column/metric labels: %(labels)s. Please make sure all columns "
+"and metrics have a unique label."
 msgstr "重复的列/指标标签：%(labels)s。请确保所有列和指标都有唯一的标签。"
 
 #, fuzzy
@@ -5970,21 +5983,21 @@ msgstr "时长"
 
 #, fuzzy
 msgid ""
-"Duration (in seconds) of the caching timeout for charts of this database. A "
-"timeout of 0 indicates that the cache never expires, and -1 bypasses the "
-"cache. Note this defaults to the global timeout if undefined."
-msgstr ""
-"该数据库图表缓存超时的持续时间（单位为秒）。超时时间设置为0表示缓存永不过期，设置为-1则表示绕过缓存。如果未定义，此项默认采用全局超时设置。"
+"Duration (in seconds) of the caching timeout for charts of this database."
+" A timeout of 0 indicates that the cache never expires, and -1 bypasses "
+"the cache. Note this defaults to the global timeout if undefined."
+msgstr "该数据库图表缓存超时的持续时间（单位为秒）。超时时间设置为0表示缓存永不过期，设置为-1则表示绕过缓存。如果未定义，此项默认采用全局超时设置。"
 
 #, fuzzy
 msgid ""
-"Duration (in seconds) of the caching timeout for this chart. Set to -1 to "
-"bypass the cache. Note this defaults to the dataset's timeout if undefined."
+"Duration (in seconds) of the caching timeout for this chart. Set to -1 to"
+" bypass the cache. Note this defaults to the dataset's timeout if "
+"undefined."
 msgstr "此图表缓存过期时间的时长（单位为秒）。设置为 -1 可以绕过缓存。如果未定义，将默认使用数据集的超时设置。"
 
 msgid ""
-"Duration (in seconds) of the metadata caching timeout for schemas of this "
-"database. If left unset, the cache never expires."
+"Duration (in seconds) of the metadata caching timeout for schemas of this"
+" database. If left unset, the cache never expires."
 msgstr "此数据库模式的元数据缓存超时时长（单位为秒）。如果不进行设置，缓存将永不过期。"
 
 msgid ""
@@ -6373,7 +6386,8 @@ msgstr "启用 GeoJSON 点的标签渲染"
 
 msgid ""
 "Encountered invalid NULL spatial entry,"
-"                                        please consider filtering those out"
+"                                        please consider filtering those "
+"out"
 msgstr "遇到无效的为 NULL 的空间条目，请考虑将其过滤掉"
 
 msgid "Encrypted extra fields"
@@ -6754,7 +6768,8 @@ msgstr "展开行以编辑"
 # uk]
 msgid ""
 "Expects a formula with depending time parameter 'x'\n"
-"        in milliseconds since epoch. mathjs is used to evaluate the formulas.\n"
+"        in milliseconds since epoch. mathjs is used to evaluate the "
+"formulas.\n"
 "        Example: '2x+5'"
 msgstr ""
 "期望一个带有时间参数'x'的公式，\n"
@@ -6875,13 +6890,13 @@ msgstr "导出为透视表形式的CSV"
 
 #, python-format
 msgid ""
-"Exporting semantic views is not supported yet — %s semantic-view row(s) were"
-" skipped."
+"Exporting semantic views is not supported yet — %s semantic-view row(s) "
+"were skipped."
 msgstr "尚不支持导出语义视图 — 已跳过 %s 个语义视图行。"
 
 msgid ""
-"Exporting semantic views is not supported yet. Deselect the semantic-view "
-"rows and try again."
+"Exporting semantic views is not supported yet. Deselect the semantic-view"
+" rows and try again."
 msgstr "尚不支持导出语义视图。请取消选择语义视图行，然后重试。"
 
 msgid "Expose database in SQL Lab"
@@ -6898,8 +6913,8 @@ msgstr "表达式不能为空"
 
 #, python-format
 msgid ""
-"Extension '%(extension_id)s' has exceeded its persistent storage quota of "
-"%(quota)d bytes."
+"Extension '%(extension_id)s' has exceeded its persistent storage quota of"
+" %(quota)d bytes."
 msgstr "扩展 '%(extension_id)s' 已超出其持久存储配额 %(quota)d 字节。"
 
 msgid "Extensions"
@@ -6926,13 +6941,11 @@ msgstr "额外参数"
 #, python-brace-format
 msgid ""
 "Extra data to specify table metadata. Currently supports metadata of the "
-"format: `{ \"certification\": { \"certified_by\": \"Data Platform Team\", "
-"\"details\": \"This table is the source of truth.\" }, \"warning_markdown\":"
-" \"This is a warning.\" }`."
-msgstr ""
-"指定表元数据的额外内容。目前支持的元数据格式为：`{ \"certification\": { \"certified_by\": \"Data "
-"Platform Team\", \"details\": \"This table is the source of truth.\" }, "
+"format: `{ \"certification\": { \"certified_by\": \"Data Platform Team\","
+" \"details\": \"This table is the source of truth.\" }, "
 "\"warning_markdown\": \"This is a warning.\" }`."
+msgstr ""
+"指定表元数据的额外内容。目前支持的元数据格式为：`{ \"certification\": { \"certified_by\": \"Data Platform Team\", \"details\": \"This table is the source of truth.\" }, \"warning_markdown\": \"This is a warning.\" }`."
 
 msgid "Extra parameters for use in jinja templated queries"
 msgstr "用于jinja模板化查询的额外参数"
@@ -7010,7 +7023,8 @@ msgid "Failed to execute %(query)s"
 msgstr "执行 %(query)s 失败"
 
 msgid ""
-"Failed to export chart data. Please try again or contact your administrator."
+"Failed to export chart data. Please try again or contact your "
+"administrator."
 msgstr "导出图表数据失败。请重试或与管理员联系。"
 
 msgid "Failed to fetch API keys"
@@ -7198,8 +7212,8 @@ msgstr "文件扩展名不允许。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"File handling is not supported in this browser. Please use a modern browser "
-"like Chrome or Edge."
+"File handling is not supported in this browser. Please use a modern "
+"browser like Chrome or Edge."
 msgstr "此浏览器不支持文件处理。请使用Chrome或Edge等现代浏览器。"
 
 msgid "File settings"
@@ -7257,8 +7271,7 @@ msgstr "过滤器名称"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
-msgid ""
-"Filter only displays values relevant to selections made in other filters."
+msgid "Filter only displays values relevant to selections made in other filters."
 msgstr "筛选器仅显示与其他筛选器中所选内容相关的值。"
 
 msgid "Filter options"
@@ -7316,16 +7329,18 @@ msgstr "过滤器超出范围(%d)"
 
 msgid ""
 "Filters with the same group key will be ORed together within the group, "
-"while different filter groups will be ANDed together. Undefined group keys "
-"are treated as unique groups, i.e. are not grouped together. For example, if"
-" a table has three filters, of which two are for departments Finance and "
-"Marketing (group key = 'department'), and one refers to the region Europe "
-"(group key = 'region'), the filter clause would apply the filter (department"
-" = 'Finance' OR department = 'Marketing') AND (region = 'Europe')."
+"while different filter groups will be ANDed together. Undefined group "
+"keys are treated as unique groups, i.e. are not grouped together. For "
+"example, if a table has three filters, of which two are for departments "
+"Finance and Marketing (group key = 'department'), and one refers to the "
+"region Europe (group key = 'region'), the filter clause would apply the "
+"filter (department = 'Finance' OR department = 'Marketing') AND (region ="
+" 'Europe')."
 msgstr ""
 "具有相同组key的过滤将在组中一起进行\"OR\"运算，而不同的过滤组将一起进行\"AND\"运算。未定义的组的key被视为唯一组，即不分组在一起。例如，如果表有三个过滤，其中两个用于财务部门和市场营销"
-" (group key = 'department')，其中一个表示欧洲地区(group key = 'region')，filter子句将应用过滤 "
-"(department = 'Finance' OR department = 'Marketing') 和 (region = 'Europe')"
+" (group key = 'department')，其中一个表示欧洲地区(group key = "
+"'region')，filter子句将应用过滤 (department = 'Finance' OR department = "
+"'Marketing') 和 (region = 'Europe')"
 
 #, fuzzy
 msgid "Find"
@@ -7354,8 +7369,8 @@ msgid "Fit data"
 msgstr "拟合数据"
 
 msgid ""
-"Fix the trend line to the full time range specified in case filtered results"
-" do not include the start or end dates"
+"Fix the trend line to the full time range specified in case filtered "
+"results do not include the start or end dates"
 msgstr "将趋势线固定为指定的完整时间范围，以防过滤的结果不包括开始日期或结束日期"
 
 msgid "Fix to selected Time Range"
@@ -7401,8 +7416,8 @@ msgid ""
 msgstr "对于 Bigquery、Presto 和 Postgres，在运行查询之前，会显示一个按钮来计算成本。"
 
 msgid ""
-"For Trino, describe full schemas of nested ROW types, expanding them with "
-"dotted paths"
+"For Trino, describe full schemas of nested ROW types, expanding them with"
+" dotted paths"
 msgstr "对于 Trino，描述嵌套 ROW 类型的完整模式，使用点号路径展开它们。"
 
 msgid "For further instructions, consult the"
@@ -7411,8 +7426,8 @@ msgstr "如需进一步说明，请参阅"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, ja, tr]
 msgid ""
 "For regular filters, these are the subjects (users, roles, groups) this "
-"filter will be applied to. For base filters, these are the subjects that the"
-" filter DOES NOT apply to, e.g. Admin if admin should see all data."
+"filter will be applied to. For base filters, these are the subjects that "
+"the filter DOES NOT apply to, e.g. Admin if admin should see all data."
 msgstr ""
 "对于常规筛选器，这些是此筛选器将应用于的主体（用户、角色、组）。对于基本筛选器，这些是筛选器不适用的主体，例如，如果管理员应查看所有数据，则Admin不适用。"
 
@@ -7436,8 +7451,8 @@ msgid "Force abort (stops task for all subscribers)"
 msgstr "强制中止（停止所有订阅者的任务）"
 
 msgid ""
-"Force all tables and views to be created in this schema when clicking CTAS "
-"or CVAS in SQL Lab."
+"Force all tables and views to be created in this schema when clicking "
+"CTAS or CVAS in SQL Lab."
 msgstr "在SQL实验室中点击CTAS或CVAS时，强制在此模式中创建所有表或视图。"
 
 #, fuzzy
@@ -7510,7 +7525,8 @@ msgstr "格式化SQL查询"
 # es, fa, fr, ja, lv, mi, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 #, python-brace-format
 msgid ""
-"Format data labels. Use variables: {name}, {value}, {percent}. \\n represents a new line. ECharts compatibility:\n"
+"Format data labels. Use variables: {name}, {value}, {percent}. \\n "
+"represents a new line. ECharts compatibility:\n"
 "{a} (series), {b} (name), {c} (value), {d} (percentage)"
 msgstr ""
 "格式化数据标签。使用变量：{name}、{value}、{percent}。\\n 表示换行。ECharts 兼容性：\n"
@@ -7520,9 +7536,9 @@ msgstr ""
 # lv, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
 "Format metrics or columns with currency symbols as prefixes or suffixes. "
-"Choose a symbol manually or use 'Auto-detect' to apply the correct symbol "
-"based on the dataset's currency code column. When multiple currencies are "
-"present, formatting falls back to neutral numbers."
+"Choose a symbol manually or use 'Auto-detect' to apply the correct symbol"
+" based on the dataset's currency code column. When multiple currencies "
+"are present, formatting falls back to neutral numbers."
 msgstr ""
 "使用货币符号作为前缀或后缀来格式化指标或列。手动选择一个符号，或使用\"自动检测\"根据数据集的货币代码列应用正确的符号。当存在多种货币时，格式化将回退为中性数字。"
 
@@ -7600,8 +7616,8 @@ msgstr "甘特图"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Gantt chart visualizes important events over a time span. Every data point "
-"displayed as a separate event along a horizontal line."
+"Gantt chart visualizes important events over a time span. Every data "
+"point displayed as a separate event along a horizontal line."
 msgstr "甘特图在时间跨度上可视化重要事件。每个数据点沿水平线显示为独立事件。"
 
 msgid "Gauge Chart"
@@ -7881,9 +7897,9 @@ msgid "How many top values to select"
 msgstr "要选择多少个顶部值"
 
 msgid ""
-"How to display time shifts: as individual lines; as the difference between "
-"the main time series and each time shift; as the percentage change; or as "
-"the ratio between series and time shifts."
+"How to display time shifts: as individual lines; as the difference "
+"between the main time series and each time shift; as the percentage "
+"change; or as the ratio between series and time shifts."
 msgstr "如何显示时间偏移：作为单独的行显示；作为主时间序列与每次时间偏移之间的绝对差显示；作为百分比变化显示；或作为序列与时间偏移之间的比率显示。"
 
 msgid "Huge"
@@ -7911,33 +7927,30 @@ msgid "Id of root node of the tree."
 msgstr "树的根节点的ID。"
 
 msgid ""
-"If Presto or Trino, all the queries in SQL Lab are going to be executed as "
-"the currently logged on user who must have permission to run them. If Hive "
-"and hive.server2.enable.doAs is enabled, will run the queries as service "
-"account, but impersonate the currently logged on user via "
-"hive.server2.proxy.user property. If Databricks, uses OAuth2 to authenticate"
-" as the currently logged on user."
+"If Presto or Trino, all the queries in SQL Lab are going to be executed "
+"as the currently logged on user who must have permission to run them. If "
+"Hive and hive.server2.enable.doAs is enabled, will run the queries as "
+"service account, but impersonate the currently logged on user via "
+"hive.server2.proxy.user property. If Databricks, uses OAuth2 to "
+"authenticate as the currently logged on user."
 msgstr ""
-"如果使用 Presto 或 Trino，SQL 工具箱中的所有查询都将以当前登录用户的身份执行，该用户必须拥有运行这些查询的权限。如果启用 Hive 和"
-" hive.server2.enable.doAs，将作为服务账户运行查询，但会通过 hive.server2.proxy.user "
-"属性模拟当前登录用户。如果使用 Databricks，则使用 OAuth2 以当前登录用户的身份进行身份验证。"
+"如果使用 Presto 或 Trino，SQL 工具箱中的所有查询都将以当前登录用户的身份执行，该用户必须拥有运行这些查询的权限。如果启用 Hive 和 hive.server2.enable.doAs，将作为服务账户运行查询，但会通过 hive.server2.proxy.user 属性模拟当前登录用户。如果使用 Databricks，则使用 OAuth2 以当前登录用户的身份进行身份验证。"
 
-msgid ""
-"If a metric is specified, sorting will be done based on the metric value"
+msgid "If a metric is specified, sorting will be done based on the metric value"
 msgstr "如果指定了度量，则将根据该度量值进行排序"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"If enabled, this control sorts the results/values descending, otherwise it "
-"sorts the results ascending."
+"If enabled, this control sorts the results/values descending, otherwise "
+"it sorts the results ascending."
 msgstr "如果启用，此控件将对结果/值进行降序排序，否则将进行升序排序。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"If it stays empty, it won't be saved and will be removed from the list. To "
-"remove folders, move metrics and columns to other folders."
+"If it stays empty, it won't be saved and will be removed from the list. "
+"To remove folders, move metrics and columns to other folders."
 msgstr "如果保持为空，则不会被保存，并将从列表中移除。要删除文件夹，请将指标和列移动到其他文件夹。"
 
 msgid "If table already exists"
@@ -8164,8 +8177,7 @@ msgstr "强度半径是指权重分布的半径"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
-msgid ""
-"Intensity is the value multiplied by the weight to obtain the final weight"
+msgid "Intensity is the value multiplied by the weight to obtain the final weight"
 msgstr "强度是值乘以权重后得到的最终权重"
 
 #, fuzzy
@@ -8220,12 +8232,14 @@ msgid ""
 "Invalid connection string, a valid string usually follows: "
 "backend+driver://user:password@database-host/database-name"
 msgstr ""
-"连接字符串无效，有效字符串通常如下：backend+driver://user:password@database-host/database-name"
+"连接字符串无效，有效字符串通常如下：backend+driver://user:password@database-host/database-"
+"name"
 
 msgid ""
 "Invalid connection string, a valid string usually "
 "follows:'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-"
-"NAME'<p>Example:'postgresql://user:password@your-postgres-db/database'</p>"
+"NAME'<p>Example:'postgresql://user:password@your-postgres-"
+"db/database'</p>"
 msgstr ""
 "连接字符串无效，有效字符串格式通常如下：'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-"
 "NAME'<p>例如:'postgresql://user:password@your-postgres-db/database'</p>"
@@ -8394,8 +8408,8 @@ msgstr "Issue 1001 - 数据库负载异常。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"It won't be removed even if empty. It won't be shown in chart editing view "
-"if empty."
+"It won't be removed even if empty. It won't be shown in chart editing "
+"view if empty."
 msgstr "即使为空也不会被移除。如果为空，则不会在图表编辑视图中显示。"
 
 #, fuzzy
@@ -8426,13 +8440,12 @@ msgid "JSON metadata is invalid!"
 msgstr "JSON 元数据无效！"
 
 msgid ""
-"JSON string containing additional connection configuration. This is used to "
-"provide connection information for systems like Hive, Presto and BigQuery "
-"which do not conform to the username:password syntax normally used by "
-"SQLAlchemy."
+"JSON string containing additional connection configuration. This is used "
+"to provide connection information for systems like Hive, Presto and "
+"BigQuery which do not conform to the username:password syntax normally "
+"used by SQLAlchemy."
 msgstr ""
-"包含附加连接配置的 JSON 字符串。它用于为 Hive、Presto 和 BigQuery 等系统提供连接信息，这些系统不符合 SQLAlchemy "
-"通常使用的用户名：密码语法。"
+"包含附加连接配置的 JSON 字符串。它用于为 Hive、Presto 和 BigQuery 等系统提供连接信息，这些系统不符合 SQLAlchemy 通常使用的用户名：密码语法。"
 
 msgid "JUL"
 msgstr "七月"
@@ -8780,10 +8793,10 @@ msgid "Limit type"
 msgstr "限制类型"
 
 msgid ""
-"Limits the number of cells that get retrieved. Not applied when non-additive"
-" metrics (e.g. ratios, COUNT_DISTINCT, AVG, percentiles) are present, since "
-"totals and subtotals are then computed via a database rollup query that must"
-" see every row to stay correct."
+"Limits the number of cells that get retrieved. Not applied when non-"
+"additive metrics (e.g. ratios, COUNT_DISTINCT, AVG, percentiles) are "
+"present, since totals and subtotals are then computed via a database "
+"rollup query that must see every row to stay correct."
 msgstr ""
 "限制检索的单元格数量。当存在非加性指标（如比率、COUNT_DISTINCT、AVG、百分位数）时，此限制不适用，因为总计和小计是通过数据库汇总查询计算的，该查询必须查看每一行才能保持正确。"
 
@@ -8793,11 +8806,10 @@ msgstr "限制显示的行数。"
 msgid ""
 "Limits the number of series that get displayed. A joined subquery (or an "
 "extra phase where subqueries are not supported) is applied to limit the "
-"number of series that get fetched and rendered. This feature is useful when "
-"grouping by high cardinality column(s) though does increase the query "
-"complexity and cost."
-msgstr ""
-"限制显示的系列数。应用联接的子查询(或不支持子查询的额外阶段)来限制获取和呈现的序列数量。此功能在按高基数列分组时很有用，但会增加查询的复杂性和成本。"
+"number of series that get fetched and rendered. This feature is useful "
+"when grouping by high cardinality column(s) though does increase the "
+"query complexity and cost."
+msgstr "限制显示的系列数。应用联接的子查询(或不支持子查询的额外阶段)来限制获取和呈现的序列数量。此功能在按高基数列分组时很有用，但会增加查询的复杂性和成本。"
 
 msgid ""
 "Limits the number of the rows that are computed in the query that is the "
@@ -8814,12 +8826,11 @@ msgid "Line Style"
 msgstr "线条样式"
 
 msgid ""
-"Line chart is used to visualize measurements taken over a given category. "
-"Line chart is a type of chart which displays information as a series of data"
-" points connected by straight line segments. It is a basic type of chart "
-"common in many fields."
-msgstr ""
-"折线图用于可视化在给定类别上进行的测量。折线图是一种图表类型，它将信息显示为一系列由直线段连接的数据点。它是许多领域中常见的一种基本图表类型。"
+"Line chart is used to visualize measurements taken over a given category."
+" Line chart is a type of chart which displays information as a series of "
+"data points connected by straight line segments. It is a basic type of "
+"chart common in many fields."
+msgstr "折线图用于可视化在给定类别上进行的测量。折线图是一种图表类型，它将信息显示为一系列由直线段连接的数据点。它是许多领域中常见的一种基本图表类型。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -9009,8 +9020,8 @@ msgid "Lower Threshold"
 msgstr "阈值下限"
 
 msgid ""
-"Lower bound of the color scale. When both start and end are set, the legend "
-"uses this fixed range instead of the automatic data range."
+"Lower bound of the color scale. When both start and end are set, the "
+"legend uses this fixed range instead of the automatic data range."
 msgstr "色标的下限。当同时设置起始值和结束值时，图例使用此固定范围，而不是自动数据范围。"
 
 msgid "Lower threshold must be lower than upper threshold"
@@ -9042,7 +9053,8 @@ msgid "Make the x-axis categorical"
 msgstr "将x轴设为分类轴"
 
 msgid ""
-"Malformed request. slice_id or table_name and db_name arguments are expected"
+"Malformed request. slice_id or table_name and db_name arguments are "
+"expected"
 msgstr "格式错误的请求。需要使用 slice_id 或 table_name 和 db_name 参数"
 
 msgid "Manage"
@@ -9238,7 +9250,8 @@ msgid ""
 msgstr "边缘宽度中间值，最厚的边缘将比最薄的边缘厚4倍"
 
 msgid ""
-"Median node size, the largest node will be 4 times larger than the smallest"
+"Median node size, the largest node will be 4 times larger than the "
+"smallest"
 msgstr "节点大小中位数，最大的节点将比最小的节点大4倍"
 
 #, fuzzy
@@ -9296,11 +9309,12 @@ msgstr "方法"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Method to compute the displayed value. \"Overall value\" calculates a single"
-" metric across the entire filtered time period, ideal for non-additive "
-"metrics like ratios, averages, or distinct counts. Other methods operate "
-"over the time series data points."
-msgstr "计算显示值的方法。\"总体值\"计算整个筛选时间段内的单一指标，适用于比率、平均值或去重计数等非累加性指标。其他方法则基于时间序列数据点进行计算。"
+"Method to compute the displayed value. \"Overall value\" calculates a "
+"single metric across the entire filtered time period, ideal for non-"
+"additive metrics like ratios, averages, or distinct counts. Other methods"
+" operate over the time series data points."
+msgstr ""
+"计算显示值的方法。\"总体值\"计算整个筛选时间段内的单一指标，适用于比率、平均值或去重计数等非累加性指标。其他方法则基于时间序列数据点进行计算。"
 
 msgid "Metric"
 msgstr "指标"
@@ -9388,8 +9402,9 @@ msgid ""
 msgstr "如果存在序列或行限制，则用于定义顶部序列的排序方式的度量。如果未定义，则返回第一个度量（如果适用）。"
 
 msgid ""
-"Metric used to define how the top series are sorted if a series or row limit"
-" is present. If undefined reverts to the first metric (where appropriate)."
+"Metric used to define how the top series are sorted if a series or row "
+"limit is present. If undefined reverts to the first metric (where "
+"appropriate)."
 msgstr "如果存在序列或行限制，则用于定义顶部序列的排序方式的度量。如果未定义，则返回第一个度量（如果适用）。"
 
 msgid "Metrics"
@@ -9627,7 +9642,8 @@ msgstr "倍数"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, it, ja,
 # ro, sr, sr_Latn]
 msgid ""
-"Must be a chart editor to overwrite this chart. Save as a new chart instead."
+"Must be a chart editor to overwrite this chart. Save as a new chart "
+"instead."
 msgstr "必须是图表所有者才能覆盖此图表。请另存为新图表。"
 
 msgid "Must be unique"
@@ -10134,7 +10150,8 @@ msgstr "数字格式"
 # uk]
 msgid ""
 "Number bounds used for color encoding from red to blue.\n"
-"               Reverse the numbers for blue to red. To get pure red or blue,\n"
+"               Reverse the numbers for blue to red. To get pure red or "
+"blue,\n"
 "               you can enter either only min or max."
 msgstr ""
 "用于颜色编码从红色到蓝色的数字范围。\n"
@@ -10244,8 +10261,9 @@ msgid "On dashboards"
 msgstr "在看板上"
 
 msgid ""
-"One or many columns to group by. High cardinality groupings should include a"
-" series limit to limit the number of fetched and rendered series."
+"One or many columns to group by. High cardinality groupings should "
+"include a series limit to limit the number of fetched and rendered "
+"series."
 msgstr "要分组的一列或多列。高基数分组应包括序列限制，以限制提取和呈现的序列数。"
 
 msgid ""
@@ -10322,8 +10340,8 @@ msgid "Only proceed if you trust the destination or its source."
 msgstr "仅当您信任目标或其来源时才继续。"
 
 msgid ""
-"Only show the total value on the stacked chart, and not show on the selected"
-" category"
+"Only show the total value on the stacked chart, and not show on the "
+"selected category"
 msgstr "仅在堆叠图上显示合计值，而不在所选类别上显示"
 
 msgid "Only single queries supported"
@@ -10388,10 +10406,9 @@ msgstr "在 SQL Lab 中打开查询"
 msgid ""
 "Operate the database in asynchronous mode, meaning that the queries are "
 "executed on remote workers as opposed to on the web server itself. This "
-"assumes that you have a Celery worker setup as well as a results backend. "
-"Refer to the installation docs for more information."
-msgstr ""
-"以异步模式操作数据库，即查询操作在远程工作节点上执行，而不是在Web服务器上执行。这意味着您需要设置有一个Celery工作节点以及一个结果后端。有关更多信息，请参考安装文档。"
+"assumes that you have a Celery worker setup as well as a results backend."
+" Refer to the installation docs for more information."
+msgstr "以异步模式操作数据库，即查询操作在远程工作节点上执行，而不是在Web服务器上执行。这意味着您需要设置有一个Celery工作节点以及一个结果后端。有关更多信息，请参考安装文档。"
 
 msgid "Operator"
 msgstr "运算符"
@@ -10401,8 +10418,8 @@ msgid "Operator undefined for aggregator: %(name)s"
 msgstr "未定义聚合器的运算符：%(name)s"
 
 msgid ""
-"Optional CA_BUNDLE contents to validate HTTPS requests. Only available on "
-"certain database engines."
+"Optional CA_BUNDLE contents to validate HTTPS requests. Only available on"
+" certain database engines."
 msgstr "用于验证HTTPS请求的可选 CA_BUNDLE 内容。仅在某些数据库引擎上可用。"
 
 msgid "Optional d3 date format string"
@@ -10438,9 +10455,10 @@ msgstr "排序"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"Orders the query result that generates the source data for this chart. If a "
-"series or row limit is reached, this determines what data are truncated. If "
-"undefined, defaults to the first metric (where appropriate)."
+"Orders the query result that generates the source data for this chart. If"
+" a series or row limit is reached, this determines what data are "
+"truncated. If undefined, defaults to the first metric (where "
+"appropriate)."
 msgstr "对生成此图表源数据的查询结果进行排序。如果达到序列或行数限制，这将决定哪些数据被截断。如果未定义，则默认使用第一个指标（在适用情况下）。"
 
 #, fuzzy
@@ -10455,8 +10473,8 @@ msgid "Orientation of filter bar"
 msgstr "筛选器栏的方向"
 
 msgid ""
-"Orientation of the chart. Horizontal places the dimension on the y-axis and "
-"the metric on the x-axis."
+"Orientation of the chart. Horizontal places the dimension on the y-axis "
+"and the metric on the x-axis."
 msgstr "图表的朝向。水平方向将维度置于 y 轴，指标置于 x 轴。"
 
 msgid "Orientation of tree"
@@ -10490,23 +10508,23 @@ msgid "Overlap"
 msgstr "重叠"
 
 msgid ""
-"Overlay one or more timeseries from a relative time period. Expects relative"
-" time deltas in natural language (example:  24 hours, 7 days, 52 weeks, 365 "
-"days). Free text is supported."
+"Overlay one or more timeseries from a relative time period. Expects "
+"relative time deltas in natural language (example:  24 hours, 7 days, 52 "
+"weeks, 365 days). Free text is supported."
 msgstr "从相对时间段覆盖一个或多个时间序列。期望自然语言中的相对时间增量（例如：24小时、7天、56周、365天）"
 
 #, fuzzy
 msgid ""
-"Overlay one or more timeseries from a relative time period. Expects relative"
-" time deltas in natural language (example: 24 hours, 7 days, 52 weeks, 365 "
-"days). Free text is supported."
+"Overlay one or more timeseries from a relative time period. Expects "
+"relative time deltas in natural language (example: 24 hours, 7 days, 52 "
+"weeks, 365 days). Free text is supported."
 msgstr "从相对时间段覆盖一个或多个时间序列。期望自然语言中的相对时间增量（例如：24小时、7天、56周、365天）"
 
 msgid ""
-"Overlay results from a relative time period. Expects relative time deltas in"
-" natural language (example:  24 hours, 7 days, 52 weeks, 365 days). Free "
-"text is supported. Use \"Inherit range from time filters\" to shift the "
-"comparison time range by the same length as your time range and use "
+"Overlay results from a relative time period. Expects relative time deltas"
+" in natural language (example:  24 hours, 7 days, 52 weeks, 365 days). "
+"Free text is supported. Use \"Inherit range from time filters\" to shift "
+"the comparison time range by the same length as your time range and use "
 "\"Custom\" to set a custom comparison range."
 msgstr ""
 "从相对时间段覆盖结果。期望自然语言中的相对时间增量（例如：24小时、7天、52周、365天）。支持自由文本。使用“从时间筛选器继承范围”来将比较时间范围偏移与您的时间范围相同的长度，并使用“自定义”来设置自定义比较范围。"
@@ -10516,8 +10534,8 @@ msgstr ""
 # uk]
 #, fuzzy
 msgid ""
-"Overlays a hexagonal grid on a map, and aggregates data within the boundary "
-"of each cell."
+"Overlays a hexagonal grid on a map, and aggregates data within the "
+"boundary of each cell."
 msgstr "在地图上叠加六边形网格，并聚合每个单元格边界内的数据。"
 
 msgid "Override time grain"
@@ -10612,8 +10630,8 @@ msgid "Partition Threshold"
 msgstr "分区阈值"
 
 msgid ""
-"Partitions whose height to parent height proportions are below this value "
-"are pruned"
+"Partitions whose height to parent height proportions are below this value"
+" are pruned"
 msgstr "高度与父高度的比例低于此值的分区将被修剪"
 
 msgid "Password"
@@ -10856,27 +10874,27 @@ msgstr "平铺"
 
 msgid ""
 "Please check your query and confirm that all template parameters are "
-"surround by double braces, for example, \"{{ ds }}\". Then, try running your"
-" query again."
+"surround by double braces, for example, \"{{ ds }}\". Then, try running "
+"your query again."
 msgstr "请检查查询并确认所有模板参数都用双大括号括起来，例如 \"{{ ds }}\"。然后，再次尝试运行查询"
 
 #, python-format
 msgid ""
-"Please check your query for syntax errors at or near \"%(syntax_error)s\". "
-"Then, try running your query again."
+"Please check your query for syntax errors at or near "
+"\"%(syntax_error)s\". Then, try running your query again."
 msgstr "请检查查询中 \"%(syntax_error)s\" 处或附近的语法错误。然后，再次尝试运行查询。"
 
 #, python-format
 msgid ""
-"Please check your query for syntax errors near \"%(server_error)s\". Then, "
-"try running your query again."
+"Please check your query for syntax errors near \"%(server_error)s\". "
+"Then, try running your query again."
 msgstr "请检查查询中\"%(server_error)s\"附近的语法错误，然后再次尝试运行查询。"
 
 #, fuzzy
 msgid ""
-"Please check your template parameters for syntax errors and make sure they "
-"match across your SQL query and Set Parameters. Then, try running your query"
-" again."
+"Please check your template parameters for syntax errors and make sure "
+"they match across your SQL query and Set Parameters. Then, try running "
+"your query again."
 msgstr "请检查您的模板参数是否有语法错误，并确保它们在您的 SQL 查询和设置参数中保持一致。然后，再次尝试运行您的查询。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
@@ -10965,8 +10983,7 @@ msgstr[0] "请联系图表编辑者寻求帮助。"
 msgid "Please save your chart first, then try creating a new email report."
 msgstr "请先保存您的图表，然后尝试创建一个新的电子邮件报告。"
 
-msgid ""
-"Please save your dashboard first, then try creating a new email report."
+msgid "Please save your dashboard first, then try creating a new email report."
 msgstr "请先保存您的看板，然后尝试创建一个新的电子邮件报告。"
 
 msgid "Please select at least one role or group"
@@ -10992,7 +11009,8 @@ msgid ""
 "truncating it to the main series. Useful for comparing a partial current "
 "period (e.g. today so far) against complete prior periods (e.g. all of "
 "yesterday)."
-msgstr "绘制每个时间平移序列的完整时间范围，而不是将其截断到主序列。适用于将部分当前期间（例如，截至目前）与完整的前期（例如，昨天全天）进行比较。"
+msgstr ""
+"绘制每个时间平移序列的完整时间范围，而不是将其截断到主序列。适用于将部分当前期间（例如，截至目前）与完整的前期（例如，昨天全天）进行比较。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -11001,9 +11019,9 @@ msgid "Plot the distance (like flight paths) between origin and destination."
 msgstr "绘制起点与终点之间的距离（如飞行路径）。"
 
 msgid ""
-"Plots the individual metrics for each row in the data vertically and links "
-"them together as a line. This chart is useful for comparing multiple metrics"
-" across all of the samples or rows in the data."
+"Plots the individual metrics for each row in the data vertically and "
+"links them together as a line. This chart is useful for comparing "
+"multiple metrics across all of the samples or rows in the data."
 msgstr "垂直地绘制数据中每一行的单个指标，并将它们链接成一行。此图表用于比较数据中所有样本或行中的多个指标。"
 
 msgid "Plugins"
@@ -11419,11 +11437,11 @@ msgid "Reduce X ticks"
 msgstr "减少 X 轴的刻度"
 
 msgid ""
-"Reduces the number of X-axis ticks to be rendered. If true, the x-axis will "
-"not overflow and labels may be missing. If false, a minimum width will be "
-"applied to columns and the width may overflow into an horizontal scroll."
-msgstr ""
-"减少要渲染的X轴标记数。如果为true，x轴将不会溢出，但是标签可能丢失。如果为false，则对列应用最小宽度，宽度可能溢出到水平滚动条中。"
+"Reduces the number of X-axis ticks to be rendered. If true, the x-axis "
+"will not overflow and labels may be missing. If false, a minimum width "
+"will be applied to columns and the width may overflow into an horizontal "
+"scroll."
+msgstr "减少要渲染的X轴标记数。如果为true，x轴将不会溢出，但是标签可能丢失。如果为false，则对列应用最小宽度，宽度可能溢出到水平滚动条中。"
 
 msgid "Refer to the"
 msgstr "参考"
@@ -11497,9 +11515,9 @@ msgstr "常规"
 
 msgid ""
 "Regular filters add where clauses to queries if a user matches a subject "
-"referenced in the filter. Base filters apply filters to all queries except "
-"the subjects defined in the filter, and can be used to define what users can"
-" see if no RLS filters within a filter group apply to them."
+"referenced in the filter. Base filters apply filters to all queries "
+"except the subjects defined in the filter, and can be used to define what"
+" users can see if no RLS filters within a filter group apply to them."
 msgstr ""
 "如果用户属于过滤器中引用的角色，常规过滤器会向查询添加WHERE子句；基础过滤器则对所有查询应用过滤条件，除了过滤器中定义的角色之外。如果在过滤器组内没有适用于用户的行级安全（RLS）过滤器，基础过滤器可以用来定义用户能够看到的内容。"
 
@@ -11587,8 +11605,8 @@ msgstr "以HTML格式渲染列"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Renders table cells as HTML when applicable. For example, HTML <a> tags will"
-" be rendered as hyperlinks."
+"Renders table cells as HTML when applicable. For example, HTML <a> tags "
+"will be rendered as hyperlinks."
 msgstr "在适用时将表格单元格渲染为HTML。例如，HTML <a> 标签将被渲染为超链接。"
 
 msgid "Replace"
@@ -11632,8 +11650,9 @@ msgid "Report Schedule execution got an unexpected error."
 msgstr "报表计划执行遇到意外错误。"
 
 msgid ""
-"Report Schedule execution requires a Celery backend to be configured. Please"
-" configure a Celery broker (Redis or RabbitMQ) and worker processes."
+"Report Schedule execution requires a Celery backend to be configured. "
+"Please configure a Celery broker (Redis or RabbitMQ) and worker "
+"processes."
 msgstr "报告计划执行需要配置 Celery 后端。请配置 Celery 代理（Redis 或 RabbitMQ）和工作进程。"
 
 #, python-format
@@ -11729,12 +11748,11 @@ msgstr "请求超时"
 
 #, python-format
 msgid ""
-"Requested page would return %(requested_size)d bytes, exceeding the maximum "
-"allowed list payload size of %(max_size)d bytes. Reduce page_size and try "
-"again."
+"Requested page would return %(requested_size)d bytes, exceeding the "
+"maximum allowed list payload size of %(max_size)d bytes. Reduce page_size"
+" and try again."
 msgstr ""
-"请求的页面将返回 %(requested_size)d 字节，超过了允许的最大列表负载大小 %(max_size)d 字节。请减小 page_size "
-"后重试。"
+"请求的页面将返回 %(requested_size)d 字节，超过了允许的最大列表负载大小 %(max_size)d 字节。请减小 page_size 后重试。"
 
 msgid "Required"
 msgstr "必填"
@@ -11942,13 +11960,14 @@ msgstr "行级权限"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Row Limit: percentages are calculated based on the subset of data retrieved,"
-" respecting the row limit. All Records: Percentages are calculated based on "
-"the total dataset, ignoring the row limit."
+"Row Limit: percentages are calculated based on the subset of data "
+"retrieved, respecting the row limit. All Records: Percentages are "
+"calculated based on the total dataset, ignoring the row limit."
 msgstr "行限制：百分比基于检索到的数据子集计算，并遵循行限制。所有记录：百分比基于整个数据集计算，忽略行限制。"
 
 msgid ""
-"Row containing the headers to use as column names (0 is first line of data)."
+"Row containing the headers to use as column names (0 is first line of "
+"data)."
 msgstr "作为列名的标题行（0 是数据的第一行）。"
 
 msgid "Row height"
@@ -12045,9 +12064,9 @@ msgstr "SQL 工作台"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"SQL Lab cannot authorise a statement that could not be fully parsed. Qualify"
-" tables explicitly and avoid dynamic SQL inside stored-procedure or vendor-"
-"specific calls."
+"SQL Lab cannot authorise a statement that could not be fully parsed. "
+"Qualify tables explicitly and avoid dynamic SQL inside stored-procedure "
+"or vendor-specific calls."
 msgstr "SQL Lab 无法授权无法完全解析的语句。请显式限定表名，并避免在存储过程或供应商特定调用中使用动态 SQL。"
 
 msgid "SQL Lab queries"
@@ -12056,15 +12075,17 @@ msgstr "SQL Lab 查询"
 #, python-format
 msgid ""
 "SQL Lab uses your browser's local storage to store queries and results.\n"
-"Currently, you are using %(currentUsage)s KB out of %(maxStorage)d KB storage space.\n"
+"Currently, you are using %(currentUsage)s KB out of %(maxStorage)d KB "
+"storage space.\n"
 "To keep SQL Lab from crashing, please delete some query tabs.\n"
-"You can re-access these queries by using the Save feature before you delete the tab.\n"
+"You can re-access these queries by using the Save feature before you "
+"delete the tab.\n"
 "Note that you will need to close other SQL Lab windows before you do this."
 msgstr ""
 "SQL Lab 将查询和结果数据存储在浏览器的本地存储中。目前，您已使用了 %(currentUsage)s KB，总共可用 "
 "%(maxStorage)d KB 存储空间。为了防止 SQL Lab "
-"崩溃，请删除一些查询选项卡。在删除选项卡之前，您可以通过使用保存功能来重新访问这些查询。请注意，在执行此操作之前，您需要关闭其他的 SQL Lab "
-"窗口。"
+"崩溃，请删除一些查询选项卡。在删除选项卡之前，您可以通过使用保存功能来重新访问这些查询。请注意，在执行此操作之前，您需要关闭其他的 SQL Lab"
+" 窗口。"
 
 msgid "SQL Query"
 msgstr "SQL查询"
@@ -12551,8 +12572,8 @@ msgid "Select a metric to display on the right axis"
 msgstr "为右轴选择一个指标"
 
 msgid ""
-"Select a metric to display. You can use an aggregation function on a column "
-"or write custom SQL to create a metric."
+"Select a metric to display. You can use an aggregation function on a "
+"column or write custom SQL to create a metric."
 msgstr "选择一个要展示的指标。您可以使用聚合函数对列进行操作，或编写自定义SQL来创建一个指标。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
@@ -12585,8 +12606,8 @@ msgstr "选择一个主题"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"Select a time grain for the visualization. The grain is the time interval "
-"represented by a single point on the chart."
+"Select a time grain for the visualization. The grain is the time interval"
+" represented by a single point on the chart."
 msgstr "为可视化选择一个时间粒度。粒度是图表中单个点所代表的时间间隔。"
 
 msgid "Select a visualization type"
@@ -12668,9 +12689,9 @@ msgid "Select database"
 msgstr "选择数据库"
 
 msgid ""
-"Select databases require additional fields to be completed in the Advanced "
-"tab to successfully connect the database. Learn what requirements your "
-"databases has "
+"Select databases require additional fields to be completed in the "
+"Advanced tab to successfully connect the database. Learn what "
+"requirements your databases has "
 msgstr "选择数据库需要在高级选项中完成额外的字段才能成功连接数据库。了解您的数据库需要什么："
 
 #, fuzzy
@@ -12721,11 +12742,11 @@ msgstr "选择分组"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Select layers in the order you want them stacked. First selected appears at "
-"the bottom.Layers let you combine multiple visualizations on one map. Each "
-"layer is a saved deck.gl chart (like scatter plots, polygons, or arcs) that "
-"displays different data or insights. Stack them to reveal patterns and "
-"relationships across your data."
+"Select layers in the order you want them stacked. First selected appears "
+"at the bottom.Layers let you combine multiple visualizations on one map. "
+"Each layer is a saved deck.gl chart (like scatter plots, polygons, or "
+"arcs) that displays different data or insights. Stack them to reveal "
+"patterns and relationships across your data."
 msgstr ""
 "按您想要的堆叠顺序选择图层。第一个选中的图层将显示在底部。图层让您可以在一个地图上组合多个可视化效果。每个图层都是一个已保存的deck.gl图表（如散点图、多边形或弧线），用于显示不同的数据或见解。将它们堆叠起来，以揭示数据中的模式和关系。"
 
@@ -12737,15 +12758,14 @@ msgstr "选择对象名称"
 
 msgid ""
 "Select one or many metrics to display, that will be displayed in the "
-"percentages of total. Percentage metrics will be calculated only from data "
-"within the row limit. You can use an aggregation function on a column or "
-"write custom SQL to create a percentage metric."
-msgstr ""
-"选择一个或多个要显示的指标，这些指标将以总数的百分比形式显示。百分比指标只会根据行限制内的数据计算得出。您可以对某个列使用聚合函数，或编写自定义SQL来创建百分比指标。"
+"percentages of total. Percentage metrics will be calculated only from "
+"data within the row limit. You can use an aggregation function on a "
+"column or write custom SQL to create a percentage metric."
+msgstr "选择一个或多个要显示的指标，这些指标将以总数的百分比形式显示。百分比指标只会根据行限制内的数据计算得出。您可以对某个列使用聚合函数，或编写自定义SQL来创建百分比指标。"
 
 msgid ""
-"Select one or many metrics to display. You can use an aggregation function "
-"on a column or write custom SQL to create a metric."
+"Select one or many metrics to display. You can use an aggregation "
+"function on a column or write custom SQL to create a metric."
 msgstr "选择一个或多个要展示的指标。您可以对某个列使用聚合函数，或编写自定义SQL来创建一个指标。"
 
 msgid "Select operator"
@@ -12802,8 +12822,7 @@ msgid ""
 "same size. \"LINEAR\" increases sizes linearly based on specified slope. "
 "\"EXP\" increases sizes exponentially based on specified exponent"
 msgstr ""
-"选择用于计算值的形状。\"FIXED\" 将所有缩放级别设置为相同大小。\"LINEAR\" 根据指定的斜率线性增加大小。\"EXP\" "
-"根据指定的指数指数级增加大小。"
+"选择用于计算值的形状。\"FIXED\" 将所有缩放级别设置为相同大小。\"LINEAR\" 根据指定的斜率线性增加大小。\"EXP\" 根据指定的指数指数级增加大小。"
 
 msgid "Select subject"
 msgstr "选择主题"
@@ -12822,44 +12841,40 @@ msgstr "选择您想使用的注释层"
 msgid ""
 "Select the charts to which you want to apply cross-filters in this "
 "dashboard. Deselecting a chart will exclude it from being filtered when "
-"applying cross-filters from any chart on the dashboard. You can select \"All"
-" charts\" to apply cross-filters to all charts that use the same dataset or "
-"contain the same column name in the dashboard."
-msgstr ""
-"选择您希望在此看板上应用交叉筛选的图表。取消选择一个图表将在从看板上的任何图表应用交叉筛选时排除它。您可以选择“所有图表”，以对使用相同数据集或在看板中包含相同列名的所有图表应用交叉筛选。"
+"applying cross-filters from any chart on the dashboard. You can select "
+"\"All charts\" to apply cross-filters to all charts that use the same "
+"dataset or contain the same column name in the dashboard."
+msgstr "选择您希望在此看板上应用交叉筛选的图表。取消选择一个图表将在从看板上的任何图表应用交叉筛选时排除它。您可以选择“所有图表”，以对使用相同数据集或在看板中包含相同列名的所有图表应用交叉筛选。"
 
 msgid ""
-"Select the charts to which you want to apply cross-filters when interacting "
-"with this chart. You can select \"All charts\" to apply filters to all "
-"charts that use the same dataset or contain the same column name in the "
-"dashboard."
+"Select the charts to which you want to apply cross-filters when "
+"interacting with this chart. You can select \"All charts\" to apply "
+"filters to all charts that use the same dataset or contain the same "
+"column name in the dashboard."
 msgstr "选择您希望在与此图表交互时应用交叉筛选的图表。您可以选择“所有图表”，以对使用相同数据集或在仪表板中包含相同列名的所有图表应用筛选器。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, ja, lv,
 # ro, ru, sk, sr, sr_Latn, tr, uk]
-msgid ""
-"Select the color used for values that indicate an increase in the chart"
+msgid "Select the color used for values that indicate an increase in the chart"
 msgstr "选择用于表示图表中数值增加的颜色"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, ja, lv,
 # ro, ru, sk, sr, sr_Latn, tr, uk]
-msgid ""
-"Select the color used for values that represent total bars in the chart"
+msgid "Select the color used for values that represent total bars in the chart"
 msgstr "选择用于表示图表中总柱线数值的颜色"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, ja, lv,
 # ro, ru, sk, sr, sr_Latn, tr, uk]
-msgid ""
-"Select the color used for values ​​that indicate a decrease in the chart."
+msgid "Select the color used for values ​​that indicate a decrease in the chart."
 msgstr "选择用于表示图表中数值下降的颜色。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, ja, lv,
 # ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Select the column containing currency codes such as USD, EUR, GBP, etc. Used"
-" when building charts when 'Auto-detect' currency formatting is enabled. If "
-"this column is not set or if a chart metric contains multiple currencies, "
-"charts will fall back to neutral numeric formatting."
+"Select the column containing currency codes such as USD, EUR, GBP, etc. "
+"Used when building charts when 'Auto-detect' currency formatting is "
+"enabled. If this column is not set or if a chart metric contains multiple"
+" currencies, charts will fall back to neutral numeric formatting."
 msgstr ""
 "选择包含货币代码（如USD、EUR、GBP等）的列。当启用\"自动检测\"货币格式时，用于构建图表。如果未设置此列或图表指标包含多种货币，图表将回退为中性数字格式。"
 
@@ -12873,16 +12888,16 @@ msgstr "选择GeoJSON列"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"Select the map tile provider. MapLibre is open-source and requires no API "
-"key. Mapbox requires MAPBOX_API_KEY to be configured in Superset."
+"Select the map tile provider. MapLibre is open-source and requires no API"
+" key. Mapbox requires MAPBOX_API_KEY to be configured in Superset."
 msgstr ""
 "选择地图瓦片提供商。MapLibre 是开源的，无需 API 密钥。Mapbox 需要在 Superset 中配置 MAPBOX_API_KEY。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"Select the metric used to determine which color breakpoint range each path "
-"falls into."
+"Select the metric used to determine which color breakpoint range each "
+"path falls into."
 msgstr "选择用于确定每条路径所属颜色断点范围的指标。"
 
 msgid "Select the type of color scheme to use."
@@ -12903,8 +12918,9 @@ msgstr "在控制面板中的突出显示字段中选择值。然后点击 %s �
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"Select which time grains are available in the filter control. This is a UI "
-"allow list only and does not add extra conditions to the underlying queries."
+"Select which time grains are available in the filter control. This is a "
+"UI allow list only and does not add extra conditions to the underlying "
+"queries."
 msgstr "选择筛选控件中可用的时间粒度。这仅是一个UI允许列表，不会为基础查询添加额外条件。"
 
 msgid "Selected"
@@ -13110,8 +13126,8 @@ msgstr "设置此看板的自动刷新频率。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, pt_BR, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Set the automatic refresh frequency for this dashboard. The dashboard will "
-"reload its data at the specified interval."
+"Set the automatic refresh frequency for this dashboard. The dashboard "
+"will reload its data at the specified interval."
 msgstr "设置此看板的自动刷新频率。看板将按指定间隔重新加载数据。"
 
 #, fuzzy
@@ -13126,9 +13142,9 @@ msgstr "设置基本详细信息，例如名称和描述。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, pt_BR, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"Sets the default temporal column for this dataset. Automatically selected as"
-" the time column when building charts that require a time dimension and used"
-" in dashboard level time filters."
+"Sets the default temporal column for this dataset. Automatically selected"
+" as the time column when building charts that require a time dimension "
+"and used in dashboard level time filters."
 msgstr "设置此数据集的默认时间列。在构建需要时间维度的图表时，自动选为时间列，并用于看板级别的时间筛选器。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -13136,10 +13152,9 @@ msgstr "设置此数据集的默认时间列。在构建需要时间维度的图
 # uk]
 msgid ""
 "Sets the hierarchy levels of the chart. Each level is\n"
-"        represented by one ring with the innermost circle as the top of the hierarchy."
-msgstr ""
-"设置图表的层级结构。每个层级\n"
-"        由一个环表示，最内层的圆为层级结构的顶层。"
+"        represented by one ring with the innermost circle as the top of "
+"the hierarchy."
+msgstr "设置图表的层级结构。每个层级\n        由一个环表示，最内层的圆为层级结构的顶层。"
 
 msgid "Settings"
 msgstr "设置"
@@ -13187,18 +13202,18 @@ msgid "Short description must be unique for this layer"
 msgstr "此层的简述必须是唯一的"
 
 msgid ""
-"Should daily seasonality be applied. An integer value will specify Fourier "
-"order of seasonality."
+"Should daily seasonality be applied. An integer value will specify "
+"Fourier order of seasonality."
 msgstr "是否应用每日季节性。一个整数值将指定季节性的傅里叶阶数。"
 
 msgid ""
-"Should weekly seasonality be applied. An integer value will specify Fourier "
-"order of seasonality."
+"Should weekly seasonality be applied. An integer value will specify "
+"Fourier order of seasonality."
 msgstr "是否应用每周季节性。一个整数值将指定季节性的傅里叶阶数。"
 
 msgid ""
-"Should yearly seasonality be applied. An integer value will specify Fourier "
-"order of seasonality."
+"Should yearly seasonality be applied. An integer value will specify "
+"Fourier order of seasonality."
 msgstr "是否应用年度季节性。一个整数值将指定季节性的傅里叶阶数。"
 
 msgid "Show"
@@ -13269,17 +13284,17 @@ msgid "Show Y-axis"
 msgstr "显示Y轴"
 
 msgid ""
-"Show Y-axis on the sparkline. Will display the manually set min/max if set "
-"or min/max values in the data otherwise."
+"Show Y-axis on the sparkline. Will display the manually set min/max if "
+"set or min/max values in the data otherwise."
 msgstr "在迷你图上显示Y轴。如果设置了手动设置的最小/最大值，则显示之，否则显示数据中的最小/最大值。"
 
 msgid "Show a draggable slider to control the visible range of the Y-axis."
 msgstr "显示一个可拖动的滑块，用于控制 Y 轴的可见范围。"
 
 msgid ""
-"Show a summary row of total aggregations: the selected metrics in aggregate "
-"mode, or the sum of numeric columns in raw records mode. Note that row limit"
-" does not apply to the result."
+"Show a summary row of total aggregations: the selected metrics in "
+"aggregate mode, or the sum of numeric columns in raw records mode. Note "
+"that row limit does not apply to the result."
 msgstr "显示总聚合的汇总行：所选指标以聚合模式显示，或在原始记录模式下显示数值列的总和。注意，行限制不适用于该结果。"
 
 msgid "Show all columns"
@@ -13325,8 +13340,8 @@ msgid "Show full range for time shift"
 msgstr "显示时间平移的完整范围"
 
 msgid ""
-"Show hierarchical relationships of data, with the value represented by area,"
-" showing proportion and contribution to the whole."
+"Show hierarchical relationships of data, with the value represented by "
+"area, showing proportion and contribution to the whole."
 msgstr "显示数据的层次关系，值由面积表示，展示其在整体中的比例和贡献。"
 
 msgid "Show info tooltip"
@@ -13397,8 +13412,8 @@ msgid "Show total"
 msgstr "显示总计"
 
 msgid ""
-"Show total aggregations of selected metrics. Note that row limit does not "
-"apply to the result."
+"Show total aggregations of selected metrics. Note that row limit does not"
+" apply to the result."
 msgstr "显示所选指标的总聚合。注意行限制并不应用于结果"
 
 #, fuzzy
@@ -13411,30 +13426,31 @@ msgid ""
 msgstr "展示一个指标，以及所选时间段内的数值、变化量和百分比变化的对比。"
 
 msgid ""
-"Showcases a single metric front-and-center. Big number is best used to call "
-"attention to a KPI or the one thing you want your audience to focus on."
+"Showcases a single metric front-and-center. Big number is best used to "
+"call attention to a KPI or the one thing you want your audience to focus "
+"on."
 msgstr "将一个指标置于最显眼的位置。大数字最适合用来吸引注意力，突出KPI或者你希望观众关注的一个重点内容。"
 
 msgid ""
 "Showcases a single number accompanied by a simple line chart, to call "
-"attention to an important metric along with its change over time or other "
-"dimension."
+"attention to an important metric along with its change over time or other"
+" dimension."
 msgstr "显示一个数字和一个简单的折线图，以提醒注意一个重要指标及其随时间或其他维度的变化"
 
 msgid ""
-"Showcases how a metric changes as the funnel progresses. This classic chart "
-"is useful for visualizing drop-off between stages in a pipeline or "
+"Showcases how a metric changes as the funnel progresses. This classic "
+"chart is useful for visualizing drop-off between stages in a pipeline or "
 "lifecycle."
 msgstr "显示指标如何随着漏斗的进展而变化。此经典图表对于可视化管道或生命周期中各阶段之间的下降非常有用。"
 
 msgid ""
-"Showcases the flow or link between categories using thickness of chords. The"
-" value and corresponding thickness can be different for each side."
+"Showcases the flow or link between categories using thickness of chords. "
+"The value and corresponding thickness can be different for each side."
 msgstr "使用弦的厚度显示类别之间的流或链接。每一侧的值和相应厚度可能不同。"
 
 msgid ""
-"Showcases the progress of a single metric against a given target. The higher"
-" the fill, the closer the metric is to the target."
+"Showcases the progress of a single metric against a given target. The "
+"higher the fill, the closer the metric is to the target."
 msgstr "显示单个指标相对于给定目标的进度。填充越高，度量越接近目标"
 
 #, python-format
@@ -13490,8 +13506,7 @@ msgstr "标记的大小。也适用于预测观察。"
 msgid "Size of the dot representing the largest value of the dot size metric."
 msgstr "表示点大小度量最大值的点的大小。"
 
-msgid ""
-"Size of the dot representing the smallest value of the dot size metric."
+msgid "Size of the dot representing the smallest value of the dot size metric."
 msgstr "表示点大小度量最小值的点的大小。"
 
 #, fuzzy
@@ -13540,8 +13555,8 @@ msgid "Smooth Line"
 msgstr "平滑线"
 
 msgid ""
-"Smooth-line is a variation of the line chart. Without angles and hard edges,"
-" Smooth-line sometimes looks smarter and more professional."
+"Smooth-line is a variation of the line chart. Without angles and hard "
+"edges, Smooth-line sometimes looks smarter and more professional."
 msgstr "平滑线是折线图的一种变体。没有角度和硬边，平滑线有时看起来更智能、更专业。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -13554,8 +13569,8 @@ msgid "Solid background"
 msgstr "纯色背景"
 
 msgid ""
-"Some filters are inherited from physical tables referenced in this virtual "
-"dataset."
+"Some filters are inherited from physical tables referenced in this "
+"virtual dataset."
 msgstr "此虚拟数据集中引用的物理表会继承一些筛选器。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
@@ -13570,8 +13585,7 @@ msgstr "某些权限无法解析，已显示为ID。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
-msgid ""
-"Some required filters on other tabs have values and will not be cleared"
+msgid "Some required filters on other tabs have values and will not be cleared"
 msgstr "其他选项卡上的一些必填筛选器已有值，不会被清除"
 
 msgid "Some tables are not shown. Refine your search."
@@ -13588,8 +13602,8 @@ msgstr "保存用户信息时出错"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fr, ja, lv, mi, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"Something went wrong with embedded authentication. Check the dev console for"
-" details."
+"Something went wrong with embedded authentication. Check the dev console "
+"for details."
 msgstr "嵌入式认证出现问题。请查看开发者控制台以获取详细信息。"
 
 msgid "Something went wrong."
@@ -13714,9 +13728,9 @@ msgstr "按查询排序"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"Sort results by series name in ascending order. When combined with \"Sort by"
-" metric\", this acts as a tiebreaker for equal metric values. Adding this "
-"sort may reduce query performance on some databases."
+"Sort results by series name in ascending order. When combined with \"Sort"
+" by metric\", this acts as a tiebreaker for equal metric values. Adding "
+"this sort may reduce query performance on some databases."
 msgstr "按系列名称升序排列结果。与\"按指标排序\"结合使用时，此选项可作为指标值相同时的决胜排序。添加此排序可能会降低某些数据库的查询性能。"
 
 msgid "Sort rows by"
@@ -13855,7 +13869,8 @@ msgid "Start y-axis at 0"
 msgstr "Y轴从0开始"
 
 msgid ""
-"Start y-axis at zero. Uncheck to start y-axis at minimum value in the data."
+"Start y-axis at zero. Uncheck to start y-axis at minimum value in the "
+"data."
 msgstr "从零开始Y轴。取消选中以从数据中的最小值开始Y轴 "
 
 msgid "Started"
@@ -13893,12 +13908,11 @@ msgstr "阶梯线"
 
 #, fuzzy
 msgid ""
-"Stepped-line graph (also called step chart) is a variation of line chart but"
-" with the line forming a series of steps between data points. A step chart "
-"can be useful when you want to show the changes that occur at irregular "
-"intervals."
-msgstr ""
-"“时间序列步进折线图（也称为步进图）是折线图的一种变体，但线条在数据点之间形成一系列步进。当您希望显示不规则间隔发生的变化时，步进图可能很有用。”"
+"Stepped-line graph (also called step chart) is a variation of line chart "
+"but with the line forming a series of steps between data points. A step "
+"chart can be useful when you want to show the changes that occur at "
+"irregular intervals."
+msgstr "“时间序列步进折线图（也称为步进图）是折线图的一种变体，但线条在数据点之间形成一系列步进。当您希望显示不规则间隔发生的变化时，步进图可能很有用。”"
 
 msgid "Stop"
 msgstr "停止"
@@ -13917,7 +13931,8 @@ msgstr "已停止不安全的数据库连接"
 
 #, python-format
 msgid ""
-"Storage key exceeds the maximum allowed length of %(max_length)d characters."
+"Storage key exceeds the maximum allowed length of %(max_length)d "
+"characters."
 msgstr "存储键超过允许的最大长度 %(max_length)d 个字符。"
 
 msgid "Stream"
@@ -14081,8 +14096,9 @@ msgstr "扫描角度"
 
 #, fuzzy
 msgid ""
-"Swiss army knife for visualizing data. Choose between step, line, scatter, "
-"and bar charts. This viz type has many customization options as well."
+"Swiss army knife for visualizing data. Choose between step, line, "
+"scatter, and bar charts. This viz type has many customization options as "
+"well."
 msgstr "用于可视化时间序列数据。在步进图、折线图、散点图和条形图之间进行选择,也有许多自定义选项"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
@@ -14211,8 +14227,8 @@ msgstr "找不到 [%(table)s] 表，请仔细检查您的数据库连接、Schem
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"Table already exists. You can change your 'if table already exists' strategy"
-" to append or replace or provide a different Table Name to use."
+"Table already exists. You can change your 'if table already exists' "
+"strategy to append or replace or provide a different Table Name to use."
 msgstr "表已存在。您可以将“如果表已存在”的策略更改为追加或替换，或提供不同的表名来使用。"
 
 msgid "Table cache timeout"
@@ -14375,18 +14391,18 @@ msgid "Template processing failed: %(ex)s"
 msgstr "模板处理失败：%(ex)s"
 
 msgid ""
-"Templated link, it's possible to include {{ metric }} or other values coming"
-" from the controls."
+"Templated link, it's possible to include {{ metric }} or other values "
+"coming from the controls."
 msgstr "模板链接，可以包含来自控件的{{ metric }}或other值。"
 
 msgid "Temporal X-Axis"
 msgstr "时间 X 轴"
 
 msgid ""
-"Terminate running queries when browser window closed or navigated to another"
-" page. Available for Presto, Hive, MySQL, Postgres and Snowflake databases."
-msgstr ""
-"当浏览器窗口关闭或导航到其他页面时，终止正在运行的查询。适用于Presto、Hive、MySQL、Postgres和Snowflake数据库"
+"Terminate running queries when browser window closed or navigated to "
+"another page. Available for Presto, Hive, MySQL, Postgres and Snowflake "
+"databases."
+msgstr "当浏览器窗口关闭或导航到其他页面时，终止正在运行的查询。适用于Presto、Hive、MySQL、Postgres和Snowflake数据库"
 
 msgid "Test connection"
 msgstr "测试连接"
@@ -14426,14 +14442,14 @@ msgid "The API response from %s does not match the IDatabaseTable interface."
 msgstr "来自 %s 的 API 响应与 IDatabaseTable 接口不匹配。"
 
 msgid ""
-"The CSS for individual dashboards can be altered here, or in the dashboard "
-"view where changes are immediately visible"
+"The CSS for individual dashboards can be altered here, or in the "
+"dashboard view where changes are immediately visible"
 msgstr "可以在这里或看板视图中修改单个看板的CSS样式，更改会立即生效"
 
 msgid ""
 "The CTAS (create table as select) doesn't have a SELECT statement at the "
-"end. Please make sure your query has a SELECT as its last statement. Then, "
-"try running your query again."
+"end. Please make sure your query has a SELECT as its last statement. "
+"Then, try running your query again."
 msgstr ""
 "CTAS（create table as select）的末尾没有SELECT语句。请确保查询的最后一条语句是SELECT，然后再次尝试运行查询。"
 
@@ -14456,36 +14472,36 @@ msgstr "GeoJsonLayer 接收 GeoJSON 格式的数据，并将其渲染为交互�
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"The Global Task Framework is not enabled. Please contact your administrator "
-"to enable the GLOBAL_TASK_FRAMEWORK feature flag."
+"The Global Task Framework is not enabled. Please contact your "
+"administrator to enable the GLOBAL_TASK_FRAMEWORK feature flag."
 msgstr "全局任务框架未启用。请联系管理员启用 GLOBAL_TASK_FRAMEWORK 功能标志。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"The Global Task Framework is not enabled. Set GLOBAL_TASK_FRAMEWORK=True in "
-"your feature flags to use @task. See "
+"The Global Task Framework is not enabled. Set GLOBAL_TASK_FRAMEWORK=True "
+"in your feature flags to use @task. See "
 "https://superset.apache.org/docs/configuration/async-queries-celery for "
 "configuration details."
 msgstr ""
-"全局任务框架未启用。请在功能标志中设置 GLOBAL_TASK_FRAMEWORK=True 以使用 @task。配置详情请参见 "
-"https://superset.apache.org/docs/configuration/async-queries-celery"
+"全局任务框架未启用。请在功能标志中设置 GLOBAL_TASK_FRAMEWORK=True 以使用 @task。配置详情请参见 https://superset.apache.org/docs/configuration/async-queries-celery"
 
-msgid ""
-"The SQL query mutator removed all executable statements from this query."
+msgid "The SQL query mutator removed all executable statements from this query."
 msgstr "SQL 查询修改器已从此查询中移除所有可执行的语句。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
-msgid ""
-"The SSH server host key could not be verified against the expected key."
+msgid "The SSH server host key could not be verified against the expected key."
 msgstr "无法根据预期密钥验证 SSH 服务器主机密钥。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"The Sankey chart visually tracks the movement and transformation of values across\n"
-"          system stages. Nodes represent stages, connected by links depicting value flow. Node\n"
-"          height corresponds to the visualized metric, providing a clear representation of\n"
+"The Sankey chart visually tracks the movement and transformation of "
+"values across\n"
+"          system stages. Nodes represent stages, connected by links "
+"depicting value flow. Node\n"
+"          height corresponds to the visualized metric, providing a clear "
+"representation of\n"
 "          value distribution and transformation."
 msgstr ""
 "桑基图直观地追踪了值在系统各阶段之间的流动与转换过程。节点代表各个阶段，通过表示值流动的链接相互连接。节点高度对应可视化指标，清晰展示了值的分布与转换情况。"
@@ -14505,9 +14521,9 @@ msgstr "X轴不在筛选器列表中"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, ja, lv,
 # ro, ru, sr, sr_Latn, tr, uk]
 msgid ""
-"The X-axis is not on the filters list which will prevent it from being used "
-"in time range filters in dashboards. Would you like to add it to the filters"
-" list?"
+"The X-axis is not on the filters list which will prevent it from being "
+"used in time range filters in dashboards. Would you like to add it to the"
+" filters list?"
 msgstr "X轴不在筛选器列表中，这将阻止其在仪表板的时间范围筛选器中使用。是否要将其添加到筛选器列表？"
 
 msgid "The annotation has been saved"
@@ -14520,13 +14536,13 @@ msgid "The background color of the charts."
 msgstr "图表的背景颜色。"
 
 msgid ""
-"The category of source nodes used to assign colors. If a node is associated "
-"with more than one category, only the first will be used."
+"The category of source nodes used to assign colors. If a node is "
+"associated with more than one category, only the first will be used."
 msgstr "用于分配颜色的源节点类别。如果一个节点与多个类别关联，则只使用第一个类别"
 
 msgid ""
-"The chart data is too large to download. Please try reducing the date range,"
-" limiting rows, or using fewer columns."
+"The chart data is too large to download. Please try reducing the date "
+"range, limiting rows, or using fewer columns."
 msgstr "图表数据过大，无法下载。请尝试缩小日期范围、限制行数或减少列数。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
@@ -14536,17 +14552,21 @@ msgstr "图表仍在加载中。请稍候片刻再试。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid ""
-"The chart this report targets was deleted. Restore the chart, or update the "
-"report to point at an active chart."
+"The chart this report targets was deleted. Restore the chart, or update "
+"the report to point at an active chart."
 msgstr "此报告所针对的图表已被删除。请恢复该图表，或将报告更新为指向有效的图表。"
 
 msgid "The chat failed to load."
 msgstr "聊天加载失败。"
 
 msgid ""
-"The classic. Great for showing how much of a company each investor gets, what demographics follow your blog, or what portion of the budget goes to the military industrial complex.\n"
+"The classic. Great for showing how much of a company each investor gets, "
+"what demographics follow your blog, or what portion of the budget goes to"
+" the military industrial complex.\n"
 "\n"
-"        Pie charts can be difficult to interpret precisely. If clarity of relative proportion is important, consider using a bar or other chart type instead."
+"        Pie charts can be difficult to interpret precisely. If clarity of"
+" relative proportion is important, consider using a bar or other chart "
+"type instead."
 msgstr ""
 "经典图表。非常适合展示每位投资者获得公司的多少份额、关注你博客的人群特征，或预算中用于军工复合体的比例。\n"
 "\n"
@@ -14575,9 +14595,7 @@ msgstr "绘制图表的配色方案"
 msgid ""
 "The color scheme is determined by the related dashboard.\n"
 "        Edit the color scheme in the dashboard properties."
-msgstr ""
-"配色方案由相关的看板决定。\n"
-"        在看板属性中编辑配色方案"
+msgstr "配色方案由相关的看板决定。\n        在看板属性中编辑配色方案"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -14585,11 +14603,10 @@ msgid "The color used when a value doesn't match any defined breakpoints."
 msgstr "当某个值不匹配任何定义的断点时使用的颜色。"
 
 msgid ""
-"The colors of this chart might be overridden by custom label colors of the related dashboard.\n"
+"The colors of this chart might be overridden by custom label colors of "
+"the related dashboard.\n"
 "    Check the JSON metadata in the Advanced settings."
-msgstr ""
-"此图表配色方案可能被相关看板的自定义标签颜色覆盖。\n"
-"    请在高级设置中检查 JSON 元数据。"
+msgstr "此图表配色方案可能被相关看板的自定义标签颜色覆盖。\n    请在高级设置中检查 JSON 元数据。"
 
 #, fuzzy
 msgid "The column header label"
@@ -14676,26 +14693,24 @@ msgstr "与此图表关联的数据集已不存在。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
-msgid ""
-"The dataset column/metric that returns the values on your chart's x-axis."
+msgid "The dataset column/metric that returns the values on your chart's x-axis."
 msgstr "返回图表x轴数值的数据集列/度量。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
-msgid ""
-"The dataset column/metric that returns the values on your chart's y-axis."
+msgid "The dataset column/metric that returns the values on your chart's y-axis."
 msgstr "返回图表y轴数值的数据集列/度量。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
 "The dataset columns will be automatically synced\n"
-"              based on the changes in your SQL query. If your changes don't\n"
-"              impact the column definitions, you might want to skip this step."
-msgstr ""
-"数据集列将根据SQL查询中的更改自动同步。\n"
-"如果您的更改不影响列定义，您可能希望跳过此步骤。"
+"              based on the changes in your SQL query. If your changes "
+"don't\n"
+"              impact the column definitions, you might want to skip this "
+"step."
+msgstr "数据集列将根据SQL查询中的更改自动同步。\n如果您的更改不影响列定义，您可能希望跳过此步骤。"
 
 msgid ""
 "The dataset configuration exposed here\n"
@@ -14725,8 +14740,8 @@ msgid "The default schema that should be used for the connection."
 msgstr "连接应使用的默认架构。"
 
 msgid ""
-"The description can be displayed as widget headers in the dashboard view. "
-"Supports markdown."
+"The description can be displayed as widget headers in the dashboard view."
+" Supports markdown."
 msgstr "该描述可作为看板视图中的小部件标题显示。支持 Markdown 格式。"
 
 msgid "The display name of your dashboard"
@@ -14737,8 +14752,8 @@ msgstr "单元格之间的距离，以像素为单位"
 
 #, fuzzy
 msgid ""
-"The duration of time in seconds before the cache is invalidated. Set to -1 "
-"to bypass the cache."
+"The duration of time in seconds before the cache is invalidated. Set to "
+"-1 to bypass the cache."
 msgstr "缓存失效前的持续时间（以秒为单位）"
 
 #, fuzzy
@@ -14762,9 +14777,9 @@ msgstr "扩展 %(id)s 无法加载。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"The extent of the map on application start. FIT DATA automatically sets the "
-"extent so that all data points are included in the viewport. CUSTOM allows "
-"users to define the extent manually."
+"The extent of the map on application start. FIT DATA automatically sets "
+"the extent so that all data points are included in the viewport. CUSTOM "
+"allows users to define the extent manually."
 msgstr "应用程序启动时的地图范围。FIT DATA 自动设置范围，使所有数据点都包含在视口中。CUSTOM 允许用户手动定义范围。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
@@ -14776,13 +14791,13 @@ msgid "The following charts could not be exported:"
 msgstr "以下图表无法导出："
 
 msgid ""
-"The following charts were omitted because an error occurred while exporting "
-"them:"
+"The following charts were omitted because an error occurred while "
+"exporting them:"
 msgstr "以下图表因导出时发生错误而被省略："
 
 msgid ""
-"The following charts were omitted because they have no saved query context. "
-"To include them, open each chart in Explore and re-save."
+"The following charts were omitted because they have no saved query "
+"context. To include them, open each chart in Explore and re-save."
 msgstr "以下图表因没有已保存的查询上下文而被省略。要包含它们，请在 Explore 中打开每个图表并重新保存。"
 
 #, python-format
@@ -14794,8 +14809,8 @@ msgstr "`series_columns`中的下列条目在 `columns` 中缺失: %(columns)s. 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"The following fields contain sensitive information that was masked during "
-"export. Please provide the values to import this database."
+"The following fields contain sensitive information that was masked during"
+" export. Please provide the values to import this database."
 msgstr "以下字段包含在导出期间被屏蔽的敏感信息。请提供这些值以导入此数据库。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
@@ -14803,7 +14818,8 @@ msgstr "以下字段包含在导出期间被屏蔽的敏感信息。请提供这
 #, python-format
 msgid ""
 "The following filters have the 'Select first filter value by default'\n"
-"                    option checked and could not be loaded, which is preventing the dashboard\n"
+"                    option checked and could not be loaded, which is "
+"preventing the dashboard\n"
 "                    from rendering: %s"
 msgstr "以下筛选器已勾选“默认选择第一个筛选值”选项，但无法加载，导致仪表板无法渲染：%s"
 
@@ -14832,8 +14848,10 @@ msgstr "当前缩放级别的高度，用于计算所有高度"
 # es, fa, fr, ja, lv, mi, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
 "The histogram chart displays the distribution of a dataset by\n"
-"          representing the frequency or count of values within different ranges or bins.\n"
-"          It helps visualize patterns, clusters, and outliers in the data and provides\n"
+"          representing the frequency or count of values within different "
+"ranges or bins.\n"
+"          It helps visualize patterns, clusters, and outliers in the data"
+" and provides\n"
 "          insights into its shape, central tendency, and spread."
 msgstr ""
 "直方图通过展示不同范围或区间内值的频率或计数，\n"
@@ -14867,15 +14885,16 @@ msgstr "活动图表的ID"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"The image URL of the icon to display for GeoJSON points. Note that the image"
-" URL must conform to the content security policy (CSP) in order to load "
-"correctly."
+"The image URL of the icon to display for GeoJSON points. Note that the "
+"image URL must conform to the content security policy (CSP) in order to "
+"load correctly."
 msgstr "用于显示GeoJSON点的图标图像URL。请注意，图像URL必须符合内容安全策略（CSP）才能正确加载。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"The initial level (depth) of the tree. If set as -1 all nodes are expanded."
+"The initial level (depth) of the tree. If set as -1 all nodes are "
+"expanded."
 msgstr "树的初始层级（深度）。若设为-1，则展开所有节点。"
 
 msgid "The layer attribution"
@@ -14888,8 +14907,8 @@ msgid "The lower limit of the threshold range of the Isoband"
 msgstr "Isoband 阈值范围的下限"
 
 msgid ""
-"The maximum number of subdivisions of each group; lower values are pruned "
-"first"
+"The maximum number of subdivisions of each group; lower values are pruned"
+" first"
 msgstr "每组的最大细分数；较低的值首先被删除"
 
 msgid "The maximum value of metrics. It is an optional configuration"
@@ -14913,21 +14932,23 @@ msgid ""
 msgstr "额外字段中的元数据参数配置不正确。键 %{key}s 无效。"
 
 msgid ""
-"The metadata_params object gets unpacked into the sqlalchemy.MetaData call."
+"The metadata_params object gets unpacked into the sqlalchemy.MetaData "
+"call."
 msgstr "metadata_params 对象会被解包到 sqlalchemy.MetaData 调用中。"
 
 msgid ""
-"The minimum number of rolling periods required to show a value. For instance"
-" if you do a cumulative sum on 7 days you may want your \"Min Period\" to be"
-" 7, so that all data points shown are the total of 7 periods. This will hide"
-" the \"ramp up\" taking place over the first 7 periods"
+"The minimum number of rolling periods required to show a value. For "
+"instance if you do a cumulative sum on 7 days you may want your \"Min "
+"Period\" to be 7, so that all data points shown are the total of 7 "
+"periods. This will hide the \"ramp up\" taking place over the first 7 "
+"periods"
 msgstr ""
 "显示值所需的滚动周期的最小值。例如，如果您想累积 7 天的总额，您可能希望您的“最小周期”为 7，以便显示的所有数据点都是 7 "
 "个区间的总和。这将隐藏掉前 7 个阶段的“加速”效果"
 
 msgid ""
-"The minimum value of metrics. It is an optional configuration. If not set, "
-"it will be the minimum value of the data"
+"The minimum value of metrics. It is an optional configuration. If not "
+"set, it will be the minimum value of the data"
 msgstr "度量的最小值。这是一个可选配置。如果未设置，则为数据的最小值"
 
 msgid "The name of the geometry column"
@@ -14951,8 +14972,8 @@ msgid "The number of bins for the histogram"
 msgstr "选择直方图的分箱数量"
 
 msgid ""
-"The number of hours, negative or positive, to shift the time column. This "
-"can be used to move UTC time to local time."
+"The number of hours, negative or positive, to shift the time column. This"
+" can be used to move UTC time to local time."
 msgstr "用于移动时间列的小时数（负数或正数）。这可用于将UTC时间移动到本地时间"
 
 #, python-format
@@ -14964,8 +14985,7 @@ msgid "The number of rows displayed is limited to %(rows)d by the dropdown."
 msgstr "下拉菜单限制了显示的行数为 %(rows)d。"
 
 #, python-format
-msgid ""
-"The number of rows displayed is limited to %(rows)d by the limit dropdown."
+msgid "The number of rows displayed is limited to %(rows)d by the limit dropdown."
 msgstr "通过【行限制】下拉菜单，显示的行数被限制为 %(rows)d 行。"
 
 #, python-format
@@ -14974,8 +14994,8 @@ msgstr "显示的行数由查询限制为 %(rows)d 行"
 
 #, python-format
 msgid ""
-"The number of rows displayed is limited to %(rows)d by the query and limit "
-"dropdown."
+"The number of rows displayed is limited to %(rows)d by the query and "
+"limit dropdown."
 msgstr "显示的行数由查询和【行限制】下拉菜单共同限制为 %(rows)d 行。"
 
 msgid "The number of seconds before expiring the cache"
@@ -14986,8 +15006,7 @@ msgstr "此数据库中不存在这个对象"
 
 #, python-format
 msgid "The parameter %(parameters)s in your query is undefined."
-msgid_plural ""
-"The following parameters in your query are undefined: %(parameters)s."
+msgid_plural "The following parameters in your query are undefined: %(parameters)s."
 msgstr[0] "查询中的以下参数未定义：%(parameters)s 。"
 
 #, python-format
@@ -15003,8 +15022,8 @@ msgstr "密码重置成功。"
 msgid ""
 "The passwords for the databases below are needed in order to import them "
 "together with the charts. Please note that the \"Secure Extra\" and "
-"\"Certificate\" sections of the database configuration are not present in "
-"export files, and should be added manually after the import if they are "
+"\"Certificate\" sections of the database configuration are not present in"
+" export files, and should be added manually after the import if they are "
 "needed."
 msgstr ""
 "需要以下数据库的密码才能将其与图表一起导入。请注意，数据库配置的 \"Secure Extra\" 和 \"Certificate\" "
@@ -15013,8 +15032,8 @@ msgstr ""
 msgid ""
 "The passwords for the databases below are needed in order to import them "
 "together with the dashboards. Please note that the \"Secure Extra\" and "
-"\"Certificate\" sections of the database configuration are not present in "
-"export files, and should be added manually after the import if they are "
+"\"Certificate\" sections of the database configuration are not present in"
+" export files, and should be added manually after the import if they are "
 "needed."
 msgstr ""
 "需要以下数据库的密码才能将它们与看板一起导入。请注意，数据库配置的 \"Secure Extra\" 和 \"Certificate\" "
@@ -15023,8 +15042,8 @@ msgstr ""
 msgid ""
 "The passwords for the databases below are needed in order to import them "
 "together with the datasets. Please note that the \"Secure Extra\" and "
-"\"Certificate\" sections of the database configuration are not present in "
-"export files, and should be added manually after the import if they are "
+"\"Certificate\" sections of the database configuration are not present in"
+" export files, and should be added manually after the import if they are "
 "needed."
 msgstr ""
 "需要以下数据库的密码才能将其与数据集一起导入。请注意，数据库配置的 \"Secure Extra\" 和 \"Certificate\" "
@@ -15032,18 +15051,16 @@ msgstr ""
 
 msgid ""
 "The passwords for the databases below are needed in order to import them "
-"together with the saved queries. Please note that the \"Secure Extra\" and "
-"\"Certificate\" sections of the database configuration are not present in "
-"export files, and should be added manually after the import if they are "
-"needed."
+"together with the saved queries. Please note that the \"Secure Extra\" "
+"and \"Certificate\" sections of the database configuration are not "
+"present in export files, and should be added manually after the import if"
+" they are needed."
 msgstr ""
-"需要以下数据库的密码才能将其与已保存的查询一起导入。请注意，数据库配置的 \"Secure Extra\" 和 \"Certificate\" "
-"部分不在导出文件中，如果需要，应在导入后手动添加。"
+"需要以下数据库的密码才能将其与已保存的查询一起导入。请注意，数据库配置的 \"Secure Extra\" 和 \"Certificate\" 部分不在导出文件中，如果需要，应在导入后手动添加。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
-msgid ""
-"The passwords for the databases below are needed in order to import them."
+msgid "The passwords for the databases below are needed in order to import them."
 msgstr "需要以下数据库的密码才能导入它们。"
 
 msgid "The pattern of timestamp format. For strings use "
@@ -15052,7 +15069,8 @@ msgstr "时间戳格式的模式。供字符串使用 "
 msgid ""
 "The periodicity over which to pivot time. Users can provide\n"
 "            \"Pandas\" offset alias.\n"
-"            Click on the info bubble for more details on accepted \"freq\" expressions."
+"            Click on the info bubble for more details on accepted "
+"\"freq\" expressions."
 msgstr ""
 "旋转时间所依据的周期性。用户可提供\n"
 "            \"Pandas\" 偏移别名。\n"
@@ -15062,9 +15080,9 @@ msgid "The pixel radius"
 msgstr "像素半径"
 
 msgid ""
-"The pointer to a physical table (or view). Keep in mind that the chart is "
-"associated to this Superset logical table, and this logical table points the"
-" physical table referenced here."
+"The pointer to a physical table (or view). Keep in mind that the chart is"
+" associated to this Superset logical table, and this logical table points"
+" the physical table referenced here."
 msgstr "指向实体表（或视图）的指针。请记住，图表将与此逻辑表相关联，并且此逻辑表指向此处引用的实体表。"
 
 msgid "The port is closed."
@@ -15084,8 +15102,8 @@ msgid "The query associated with the results was deleted."
 msgstr "与结果关联的查询已删除。"
 
 msgid ""
-"The query associated with these results could not be found. You need to re-"
-"run the original query."
+"The query associated with these results could not be found. You need to "
+"re-run the original query."
 msgstr "找不到与这些结果相关联的查询。你需要重新运行查询"
 
 msgid "The query contains one or more malformed template parameters."
@@ -15099,8 +15117,8 @@ msgstr "这个查询无法被加载"
 
 #, fuzzy, python-format
 msgid ""
-"The query estimation was killed after %(sqllab_timeout)s seconds. It might "
-"be too complex, or the database might be under heavy load."
+"The query estimation was killed after %(sqllab_timeout)s seconds. It "
+"might be too complex, or the database might be under heavy load."
 msgstr "查询在 %(sqllab_timeout)s 秒后被终止。它可能太复杂，或者数据库可能负载过重。"
 
 msgid "The query has a syntax error."
@@ -15116,15 +15134,15 @@ msgid ""
 msgstr "查询在 %(sqllab_timeout)s 秒后被终止。它可能太复杂，或者数据库可能负载过重。"
 
 msgid ""
-"The radius (in pixels) the algorithm uses to define a cluster. Choose 0 to "
-"turn off clustering, but beware that a large number of points (>1000) will "
-"cause lag."
+"The radius (in pixels) the algorithm uses to define a cluster. Choose 0 "
+"to turn off clustering, but beware that a large number of points (>1000) "
+"will cause lag."
 msgstr "算法用来定义一个聚合群的半径（以像素为单位）。选择0关闭聚合，但要注意大量的点（＞1000）会导致处理时间变长。"
 
 msgid ""
-"The radius of individual points (ones that are not in a cluster). Either a "
-"numerical column or `Auto`, which scales the point based on the largest "
-"cluster"
+"The radius of individual points (ones that are not in a cluster). Either "
+"a numerical column or `Auto`, which scales the point based on the largest"
+" cluster"
 msgstr "单个点的半径（不在聚合群中的点）。一个数值列或“AUTO”，它根据最大的聚合群来缩放点。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
@@ -15146,8 +15164,9 @@ msgstr "报告将发送到您的电子邮件"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"The result of this query must be a value capable of numeric interpretation "
-"e.g. 1, 1.0, or \"1\" (compatible with Python's float() function)."
+"The result of this query must be a value capable of numeric "
+"interpretation e.g. 1, 1.0, or \"1\" (compatible with Python's float() "
+"function)."
 msgstr "此查询的结果必须是一个能够进行数值解释的值，例如 1、1.0 或 \"1\"（与 Python 的 float() 函数兼容）。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
@@ -15159,8 +15178,8 @@ msgid "The results backend no longer has the data from the query."
 msgstr "结果后端不再拥有来自查询的数据。"
 
 msgid ""
-"The results stored in the backend were stored in a different format, and no "
-"longer can be deserialized."
+"The results stored in the backend were stored in a different format, and "
+"no longer can be deserialized."
 msgstr "后端存储的结果以不同的格式存储，而且不再可以反序列化"
 
 msgid "The rich tooltip shows a list of all series for that point in time"
@@ -15184,14 +15203,14 @@ msgstr "已达到为图表设置的行数限制。图表可能仅显示部分数
 
 #, python-format
 msgid ""
-"The schema \"%(schema)s\" does not exist. A valid schema must be used to run"
-" this query."
+"The schema \"%(schema)s\" does not exist. A valid schema must be used to "
+"run this query."
 msgstr "模式 \"%(schema)s\" 不存在。必须使用有效的模式来运行此查询。"
 
 #, python-format
 msgid ""
-"The schema \"%(schema_name)s\" does not exist. A valid schema must be used "
-"to run this query."
+"The schema \"%(schema_name)s\" does not exist. A valid schema must be "
+"used to run this query."
 msgstr "架构 \"%(schema_name)s\" 不存在。必须使用有效的架构来运行此查询。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -15245,51 +15264,50 @@ msgstr "提交的有效负载的模式不正确。"
 
 #, python-format
 msgid ""
-"The table \"%(table)s\" does not exist. A valid table must be used to run "
-"this query."
+"The table \"%(table)s\" does not exist. A valid table must be used to run"
+" this query."
 msgstr "表 \"%(table)s\" 不存在。必须使用有效的表来运行此查询。"
 
 #, python-format
 msgid ""
-"The table \"%(table_name)s\" does not exist. A valid table must be used to "
-"run this query."
+"The table \"%(table_name)s\" does not exist. A valid table must be used "
+"to run this query."
 msgstr "表 \"%(table_name)s\" 不存在。必须使用有效的表来运行此查询。"
 
 msgid "The table was deleted or renamed in the database."
 msgstr "该表已在数据库中删除或重命名。"
 
 msgid ""
-"The time column for the visualization. Note that you can define arbitrary "
-"expression that return a DATETIME column in the table. Also note that the "
-"filter below is applied against this column or expression"
+"The time column for the visualization. Note that you can define arbitrary"
+" expression that return a DATETIME column in the table. Also note that "
+"the filter below is applied against this column or expression"
 msgstr "可视化的时间列。注意，您可以定义返回表中DATETIME列的任意表达式。还请注意下面的筛选器应用于该列或表达式。"
 
 msgid ""
-"The time granularity for the visualization. Note that you can type and use "
-"simple natural language as in `10 seconds`, `1 day` or `56 weeks`"
+"The time granularity for the visualization. Note that you can type and "
+"use simple natural language as in `10 seconds`, `1 day` or `56 weeks`"
 msgstr "可视化的时间粒度。请注意，您可以输入和使用简单的日期表达方式，如 `10 seconds`, `1 day` or `56 weeks`"
 
 msgid ""
-"The time granularity for the visualization. Note that you can type and use "
-"simple natural language as in `10 seconds`,`1 day` or `56 weeks`"
+"The time granularity for the visualization. Note that you can type and "
+"use simple natural language as in `10 seconds`,`1 day` or `56 weeks`"
 msgstr "可视化的时间粒度。请注意，您可以输入和使用简单的自然语言，如 `10 seconds`、`1 day` 或 `56 weeks`"
 
 msgid ""
 "The time granularity for the visualization. This applies a date "
-"transformation to alter your time column and defines a new time granularity."
-" The options here are defined on a per database engine basis in the Superset"
-" source code."
-msgstr ""
-"可视化的时间粒度。这将应用日期转换来更改时间列，并定义新的时间粒度。这里的选项是在 Superset 源代码中的每个数据库引擎基础上定义的。"
+"transformation to alter your time column and defines a new time "
+"granularity. The options here are defined on a per database engine basis "
+"in the Superset source code."
+msgstr "可视化的时间粒度。这将应用日期转换来更改时间列，并定义新的时间粒度。这里的选项是在 Superset 源代码中的每个数据库引擎基础上定义的。"
 
 msgid ""
 "The time range for the visualization. All relative times, e.g. \"Last "
-"month\", \"Last 7 days\", \"now\", etc. are evaluated on the server using "
-"the server's local time (sans timezone). All tooltips and placeholder times "
-"are expressed in UTC (sans timezone). The timestamps are then evaluated by "
-"the database using the engine's local timezone. Note one can explicitly set "
-"the timezone per the ISO 8601 format if specifying either the start and/or "
-"end time."
+"month\", \"Last 7 days\", \"now\", etc. are evaluated on the server using"
+" the server's local time (sans timezone). All tooltips and placeholder "
+"times are expressed in UTC (sans timezone). The timestamps are then "
+"evaluated by the database using the engine's local timezone. Note one can"
+" explicitly set the timezone per the ISO 8601 format if specifying either"
+" the start and/or end time."
 msgstr ""
 "可视化的时间范围。所有相关的时间，例如\"上个月\"、\"过去7天\"、\"现在\"等，都在服务器上使用服务器的本地时间（sans时区）进行计算。所有工具提示和占位符时间均以UTC（无时区）表示。然后，数据库使用引擎的本地时区来评估时间戳。注：如果指定开始时间和、或者结束时间，可以根据ISO"
 " 8601格式显式设置时区。"
@@ -15321,8 +15339,8 @@ msgstr "标签尺寸的单位"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid ""
-"The unit for point radius. Use \"pixels\" for consistent screen-space sizing"
-" regardless of zoom level."
+"The unit for point radius. Use \"pixels\" for consistent screen-space "
+"sizing regardless of zoom level."
 msgstr "点半径的单位。使用“像素”可确保无论缩放级别如何，屏幕空间大小保持一致。"
 
 msgid "The unit of measure for the specified point radius"
@@ -15349,8 +15367,7 @@ msgstr "用户已成功更新。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
-msgid ""
-"The user/password combination is not valid (Incorrect password for user)."
+msgid "The user/password combination is not valid (Incorrect password for user)."
 msgstr "用户/密码组合无效（用户密码错误）。"
 
 #, python-format
@@ -15394,8 +15411,8 @@ msgstr "线条的宽度"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"The width of the lines as either a fixed value or variable width based on a "
-"metric."
+"The width of the lines as either a fixed value or variable width based on"
+" a metric."
 msgstr "线条的宽度，可以是固定值，也可以是基于指标的变量宽度。"
 
 #, fuzzy
@@ -15439,21 +15456,21 @@ msgid "There are unsaved changes."
 msgstr "您有一些未保存的修改。"
 
 msgid ""
-"There is a syntax error in the SQL query. Perhaps there was a misspelling or"
-" a typo."
+"There is a syntax error in the SQL query. Perhaps there was a misspelling"
+" or a typo."
 msgstr "SQL查询中存在语法错误。可能是拼写错误或是打错关键字。"
 
 msgid "There is currently no information to display."
 msgstr "当前没有可显示的信息。"
 
 msgid ""
-"There is no chart definition associated with this component, could it have "
-"been deleted?"
+"There is no chart definition associated with this component, could it "
+"have been deleted?"
 msgstr "没有与此组件关联的图表定义，是否已将其删除？"
 
 msgid ""
-"There is not enough space for this component. Try decreasing its width, or "
-"increasing the destination width."
+"There is not enough space for this component. Try decreasing its width, "
+"or increasing the destination width."
 msgstr "此组件没有足够的空间。请尝试减小其宽度，或增加目标宽度。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
@@ -15690,17 +15707,17 @@ msgstr "预览所选查询时出现问题。%s"
 
 #, python-format
 msgid ""
-"These %(type)s will be moved to Recently Archived in the Settings menu. You "
-"can recover them there within %(days)s day."
+"These %(type)s will be moved to Recently Archived in the Settings menu. "
+"You can recover them there within %(days)s day."
 msgid_plural ""
-"These %(type)s will be moved to Recently Archived in the Settings menu. You "
-"can recover them there within %(days)s days."
+"These %(type)s will be moved to Recently Archived in the Settings menu. "
+"You can recover them there within %(days)s days."
 msgstr[0] "这些 %(type)s 将被移至设置菜单中的“最近归档”。您可以在 %(days)s 天内从那里恢复它们。"
 
 #, python-format
 msgid ""
-"These %(type)s will be moved to Recently Archived in the Settings menu. You "
-"can recover them there."
+"These %(type)s will be moved to Recently Archived in the Settings menu. "
+"You can recover them there."
 msgstr "这些 %(type)s 将被移至设置菜单中的“最近归档”。您可以在那里恢复它们。"
 
 msgid "These are the datasets this filter will be applied to."
@@ -15708,23 +15725,23 @@ msgstr "这些是此筛选器将应用到的数据集。"
 
 #, python-format
 msgid ""
-"This %(type)s will be moved to Recently Archived in the Settings menu. You "
-"can recover it there within %(days)s day."
+"This %(type)s will be moved to Recently Archived in the Settings menu. "
+"You can recover it there within %(days)s day."
 msgid_plural ""
-"This %(type)s will be moved to Recently Archived in the Settings menu. You "
-"can recover it there within %(days)s days."
+"This %(type)s will be moved to Recently Archived in the Settings menu. "
+"You can recover it there within %(days)s days."
 msgstr[0] "此 %(type)s 将被移至设置菜单中的“最近归档”。您可以在 %(days)s 天内从那里恢复它。"
 
 #, python-format
 msgid ""
-"This %(type)s will be moved to Recently Archived in the Settings menu. You "
-"can recover it there."
+"This %(type)s will be moved to Recently Archived in the Settings menu. "
+"You can recover it there."
 msgstr "此 %(type)s 将被移至设置菜单中的“最近归档”。您可以在那里恢复它。"
 
 msgid ""
 "This JSON object is generated dynamically when clicking the save or "
-"overwrite button in the dashboard view. It is exposed here for reference and"
-" for power users who may want to alter specific parameters."
+"overwrite button in the dashboard view. It is exposed here for reference "
+"and for power users who may want to alter specific parameters."
 msgstr "此JSON对象在看板视图中点击保存或覆盖按钮时动态生成。此处提供该对象以供参考，并供希望修改特定参数的高级用户使用。"
 
 #, python-format
@@ -15761,8 +15778,8 @@ msgid ""
 msgstr "这可以是一个IP地址(例如127.0.0.1)或一个域名(例如mydatabase.com)。"
 
 msgid ""
-"This chart applies cross-filters to charts whose datasets contain columns "
-"with the same name."
+"This chart applies cross-filters to charts whose datasets contain columns"
+" with the same name."
 msgstr "此图表将交叉筛选应用于那些数据集包含具有相同名称列的图表。"
 
 msgid "This chart has been moved to a different filter scope."
@@ -15780,8 +15797,7 @@ msgstr "此图表由外部管理，无法在 Superset 中覆盖。"
 msgid "This chart is managed externally, and can't be edited in Superset"
 msgstr "此图表由外部管理，无法在Superset中编辑"
 
-msgid ""
-"This chart might be incompatible with the filter (datasets don't match)"
+msgid "This chart might be incompatible with the filter (datasets don't match)"
 msgstr "此图表可能与过滤器不兼容(数据集不匹配)"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -15804,23 +15820,23 @@ msgstr "此列必须包含日期时间信息。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"This control filters the whole chart based on the selected time range. All "
-"relative times, e.g. \"Last month\", \"Last 7 days\", \"now\", etc. are "
-"evaluated on the server using the server's local time (sans timezone). All "
-"tooltips and placeholder times are expressed in UTC (sans timezone). The "
-"timestamps are then evaluated by the database using the engine's local "
-"timezone. Note one can explicitly set the timezone per the ISO 8601 format "
-"if specifying either the start and/or end time."
+"This control filters the whole chart based on the selected time range. "
+"All relative times, e.g. \"Last month\", \"Last 7 days\", \"now\", etc. "
+"are evaluated on the server using the server's local time (sans "
+"timezone). All tooltips and placeholder times are expressed in UTC (sans "
+"timezone). The timestamps are then evaluated by the database using the "
+"engine's local timezone. Note one can explicitly set the timezone per the"
+" ISO 8601 format if specifying either the start and/or end time."
 msgstr ""
-"此控件根据所选时间范围过滤整个图表。所有相对时间（例如\"上个月\"、\"过去7天\"、\"现在\"等）均使用服务器本地时间（不含时区）在服务器端进行评估。所有工具提示和占位时间均以UTC（不含时区）表示。随后，时间戳由数据库根据引擎的本地时区进行评估。请注意，如果指定开始时间和/或结束时间，可以按照ISO"
-" 8601格式显式设置时区。"
+"此控件根据所选时间范围过滤整个图表。所有相对时间（例如\"上个月\"、\"过去7天\"、\"现在\"等）均使用服务器本地时间（不含时区）在服务器端进行评估。所有工具提示和占位时间均以UTC（不含时区）表示。随后，时间戳由数据库根据引擎的本地时区进行评估。请注意，如果指定开始时间和/或结束时间，可以按照ISO 8601格式显式设置时区。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid ""
 "This controls whether the \"time_range\" field from the current\n"
-"                  view should be passed down to the chart containing the annotation data."
+"                  view should be passed down to the chart containing the "
+"annotation data."
 msgstr "此设置控制是否应将当前视图中的\"time_range\"字段传递到包含注释数据的图表中。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -15828,7 +15844,8 @@ msgstr "此设置控制是否应将当前视图中的\"time_range\"字段传递�
 # uk]
 msgid ""
 "This controls whether the time grain field from the current\n"
-"                  view should be passed down to the chart containing the annotation data."
+"                  view should be passed down to the chart containing the "
+"annotation data."
 msgstr "此设置控制当前视图中的时间粒度字段是否应传递到包含注释数据的图表中。"
 
 msgid "This dashboard does not exist"
@@ -15841,9 +15858,9 @@ msgid "This dashboard is managed externally, and can't be edited in Superset"
 msgstr "此看板由外部管理，无法在 Superset 中编辑"
 
 msgid ""
-"This dashboard is not published which means it will not show up in the list "
-"of dashboards. Favorite it to see it there or access it by using the URL "
-"directly."
+"This dashboard is not published which means it will not show up in the "
+"list of dashboards. Favorite it to see it there or access it by using the"
+" URL directly."
 msgstr "此看板未发布，这意味着它不会显示在看板列表中。您可以进行收藏并在收藏栏中查看或直接使用URL访问它。"
 
 msgid ""
@@ -15861,16 +15878,16 @@ msgid "This dashboard is published. Click to make it a draft."
 msgstr "此看板已发布。单击以使其成为草稿。"
 
 msgid ""
-"This dashboard is ready to embed. In your application, pass the following id"
-" to the SDK:"
+"This dashboard is ready to embed. In your application, pass the following"
+" id to the SDK:"
 msgstr "此仪表板已准备好嵌入。在您的应用程序中，将以下 ID 传递给 SDK："
 
 msgid "This dashboard was saved successfully."
 msgstr "该看板已成功保存。"
 
 msgid ""
-"This database does not allow for DDL/DML, but the query mutates data. Please"
-" contact your administrator for more assistance."
+"This database does not allow for DDL/DML, but the query mutates data. "
+"Please contact your administrator for more assistance."
 msgstr "此数据库不允许执行 DDL/DML，但该查询会修改数据。请联系管理员获取帮助。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -15892,12 +15909,12 @@ msgstr "此数据库表不包含任何数据。请选择其他表。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"This database uses OAuth2 for authentication. Please click the link above to"
-" grant Apache Superset permission to access the data. Your personal access "
-"token will be stored encrypted and used only for queries run by you."
+"This database uses OAuth2 for authentication. Please click the link above"
+" to grant Apache Superset permission to access the data. Your personal "
+"access token will be stored encrypted and used only for queries run by "
+"you."
 msgstr ""
-"此数据库使用 OAuth2 进行身份验证。请点击上方链接，授予 Apache Superset "
-"访问数据的权限。您的个人访问令牌将被加密存储，且仅用于您执行的查询。"
+"此数据库使用 OAuth2 进行身份验证。请点击上方链接，授予 Apache Superset 访问数据的权限。您的个人访问令牌将被加密存储，且仅用于您执行的查询。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -15911,7 +15928,8 @@ msgstr "这定义了要在图表上绘制的元素"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, fr, ja,
 # lv, ro, ru, sr, sr_Latn, tr, uk]
 msgid ""
-"This email is already associated with an account. Please choose another one."
+"This email is already associated with an account. Please choose another "
+"one."
 msgstr "此邮箱已关联到一个账户。请选择其他邮箱。"
 
 #, python-format
@@ -15927,16 +15945,16 @@ msgstr "此功能为实验性功能，可能会发生变化或存在限制"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid ""
-"This field is used as a unique identifier to attach the calculated dimension"
-" to charts. It is also used as the alias in the SQL query."
+"This field is used as a unique identifier to attach the calculated "
+"dimension to charts. It is also used as the alias in the SQL query."
 msgstr "此字段用作唯一标识符，用于将计算维度附加到图表中。它也用作SQL查询中的别名。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid ""
-"This field is used as a unique identifier to attach the metric to charts. It"
-" is also used as the alias in the SQL query."
+"This field is used as a unique identifier to attach the metric to charts."
+" It is also used as the alias in the SQL query."
 msgstr "此字段用作将指标附加到图表的唯一标识符。它也用作SQL查询中的别名。"
 
 msgid "This filter already exist on the report"
@@ -15967,15 +15985,15 @@ msgstr "此文件夹仅支持指标"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"This is a default columns folder. Its name cannot be changed or removed. It "
-"can stay empty but will only accept column items."
+"This is a default columns folder. Its name cannot be changed or removed. "
+"It can stay empty but will only accept column items."
 msgstr "这是一个默认的列文件夹。其名称无法更改或删除。它可以保持为空，但只能接受列项目。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"This is a default metrics folder. Its name cannot be changed or removed. It "
-"can stay empty but will only accept metric items."
+"This is a default metrics folder. Its name cannot be changed or removed. "
+"It can stay empty but will only accept metric items."
 msgstr "这是一个默认的指标文件夹。其名称无法更改或删除。它可以保持为空，但只能接受指标项目。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
@@ -15990,11 +16008,11 @@ msgid "This is custom error message for b"
 msgstr "这是 b 的自定义错误消息"
 
 msgid ""
-"This is the condition that will be added to the WHERE clause. For example, "
-"to only return rows for a particular client, you might define a regular "
-"filter with the clause `client_id = 9`. To display no rows unless a user "
-"belongs to a RLS filter role, a base filter can be created with the clause "
-"`1 = 0` (always false)."
+"This is the condition that will be added to the WHERE clause. For "
+"example, to only return rows for a particular client, you might define a "
+"regular filter with the clause `client_id = 9`. To display no rows unless"
+" a user belongs to a RLS filter role, a base filter can be created with "
+"the clause `1 = 0` (always false)."
 msgstr ""
 "这是将会添加到WHERE子句的条件。例如，要仅返回特定客户端的行，可以使用子句 `client_id = 9` "
 "定义常规过滤。若要在用户不属于RLS过滤角色的情况下不显示行，可以使用子句 `1 = 0`（始终为false）创建基本过滤。"
@@ -16018,9 +16036,9 @@ msgid "This is the only time you will see this key. Store it securely."
 msgstr "这是您唯一一次看到此密钥。请安全存储。"
 
 msgid ""
-"This json object describes the positioning of the widgets in the dashboard. "
-"It is dynamically generated when adjusting the widgets size and positions by"
-" using drag & drop in the dashboard view"
+"This json object describes the positioning of the widgets in the "
+"dashboard. It is dynamically generated when adjusting the widgets size "
+"and positions by using drag & drop in the dashboard view"
 msgstr "这个JSON对象描述了部件在看板中的位置。它是动态生成的，可以通过拖放，在看板中调整部件的大小和位置"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [no refs]
@@ -16042,8 +16060,7 @@ msgstr "此链接将带您前往外部网站。我们无法保证外部目标的
 msgid "This markdown component has an error."
 msgstr "此 markdown 组件有错误。"
 
-msgid ""
-"This markdown component has an error. Please revert your recent changes."
+msgid "This markdown component has an error. Please revert your recent changes."
 msgstr "此 markdown 组件有错误。请还原最近的更改。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
@@ -16074,8 +16091,8 @@ msgstr "此选项已被管理员禁用。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"This page is intended to be embedded in an iframe, but it looks like that is"
-" not the case."
+"This page is intended to be embedded in an iframe, but it looks like that"
+" is not the case."
 msgstr "此页面设计为嵌入在 iframe 中，但看起来并非如此。"
 
 msgid "This password is too common; please choose a less guessable one."
@@ -16084,9 +16101,7 @@ msgstr "此密码过于常见；请选择一个不易被猜到的密码。"
 msgid ""
 "This section allows you to configure how to use the slice\n"
 "              to generate annotations."
-msgstr ""
-"此部分允许您配置如何使用切片\n"
-"              生成注释。"
+msgstr "此部分允许您配置如何使用切片\n              生成注释。"
 
 msgid ""
 "This section contains options that allow for advanced analytical post "
@@ -16100,17 +16115,17 @@ msgstr "此部分包含验证错误"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid ""
-"This session has encountered an interruption, and some controls may not work"
-" as intended. If you are the developer of this app, please check that the "
-"guest token is being generated correctly."
+"This session has encountered an interruption, and some controls may not "
+"work as intended. If you are the developer of this app, please check that"
+" the guest token is being generated correctly."
 msgstr "此会话遇到中断，某些控件可能无法按预期工作。如果您是此应用的开发者，请检查访客令牌是否生成正确。"
 
 msgid "This table already has a dataset"
 msgstr "该表已经有了数据集"
 
 msgid ""
-"This table already has a dataset associated with it. You can only associate "
-"one dataset with a table.\n"
+"This table already has a dataset associated with it. You can only "
+"associate one dataset with a table.\n"
 msgstr "此表已经关联了一个数据集。一个表只能关联一个数据集。\n"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
@@ -16156,9 +16171,9 @@ msgstr "这将中止（停止）所有 %s 个订阅者的任务。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"This will be applied to the whole table. Arrows (↑ and ↓) will be added to "
-"main columns for increase and decrease. Basic conditional formatting can be "
-"overwritten by conditional formatting below."
+"This will be applied to the whole table. Arrows (↑ and ↓) will be added "
+"to main columns for increase and decrease. Basic conditional formatting "
+"can be overwritten by conditional formatting below."
 msgstr "这将应用于整个表格。箭头（↑ 和 ↓）将添加到主列以表示增加和减少。基本的条件格式可以被下方的条件格式覆盖。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
@@ -16281,9 +16296,7 @@ msgstr "时间比较"
 msgid ""
 "Time delta in natural language\n"
 "                  (example:  24 hours, 7 days, 56 weeks, 365 days)"
-msgstr ""
-"自然语言中的时间差\n"
-"                  （示例：24小时、7天、56周、365天）"
+msgstr "自然语言中的时间差\n                  （示例：24小时、7天、56周、365天）"
 
 #, python-format
 msgid ""
@@ -16400,18 +16413,17 @@ msgstr "标题或者Slug"
 # lv, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
 "To begin using your Google Sheets, you need to create a database first. "
-"Databases are used as a way to identify your data so that it can be queried "
-"and visualized. This database will hold all of your individual Google Sheets"
-" you choose to connect here."
+"Databases are used as a way to identify your data so that it can be "
+"queried and visualized. This database will hold all of your individual "
+"Google Sheets you choose to connect here."
 msgstr ""
-"要开始使用您的Google "
-"Sheets，您需要先创建一个数据库。数据库用于标识您的数据，以便进行查询和可视化。此数据库将保存您选择在此连接的所有独立Google Sheets。"
+"要开始使用您的Google Sheets，您需要先创建一个数据库。数据库用于标识您的数据，以便进行查询和可视化。此数据库将保存您选择在此连接的所有独立Google Sheets。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"To enable multiple column sorting, hold down the ⇧ Shift key while clicking "
-"the column header."
+"To enable multiple column sorting, hold down the ⇧ Shift key while "
+"clicking the column header."
 msgstr "要启用多列排序，请在点击列标题时按住 ⇧ Shift 键。"
 
 msgid "To filter on a metric, use Custom SQL tab."
@@ -16428,8 +16440,8 @@ msgstr "令牌请求URI"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 #, python-format
 msgid ""
-"Too many sub-slices requested. The maximum allowed is %(max)s, but %(count)s"
-" were requested."
+"Too many sub-slices requested. The maximum allowed is %(max)s, but "
+"%(count)s were requested."
 msgstr "请求的子切片数量过多。最大允许数量为 %(max)s，但实际请求了 %(count)s 个子切片。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
@@ -16494,9 +16506,9 @@ msgid "Total (%(aggfunc)s)"
 msgstr "总计 (%(aggfunc)s)"
 
 msgid ""
-"Total angle covered by the chart, in degrees. 360° draws a full circle and "
-"180° draws a half donut. Partial arcs are automatically re-centered and "
-"scaled to make use of the available space."
+"Total angle covered by the chart, in degrees. 360° draws a full circle "
+"and 180° draws a half donut. Partial arcs are automatically re-centered "
+"and scaled to make use of the available space."
 msgstr "图表覆盖的总角度，以度为单位。360°绘制一个完整的圆，180°绘制半个环形图。部分弧线会自动重新居中并缩放，以充分利用可用空间。"
 
 msgid "Total color"
@@ -16578,8 +16590,8 @@ msgid "Truncate X Axis"
 msgstr "截断X轴"
 
 msgid ""
-"Truncate X Axis. Can be overridden by specifying a min or max bound. Only "
-"applicable for numerical X axis."
+"Truncate X Axis. Can be overridden by specifying a min or max bound. Only"
+" applicable for numerical X axis."
 msgstr "截断X轴。可以通过指定最小或最大界限来覆盖。仅适用于数值型X轴。"
 
 msgid "Truncate Y Axis"
@@ -16599,8 +16611,7 @@ msgid ""
 "bound."
 msgstr "截断指标轴。可通过指定最小或最大界限来覆盖。"
 
-msgid ""
-"Truncates the specified date to the accuracy specified by the date unit."
+msgid "Truncates the specified date to the accuracy specified by the date unit."
 msgstr "将指定的日期截取为指定的日期单位精度。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
@@ -16716,9 +16727,9 @@ msgstr "不能连接到数据库\"%(database)s\""
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid ""
-"Unable to connect. Verify that the following roles are set on the service "
-"account: \"BigQuery Data Viewer\", \"BigQuery Metadata Viewer\", \"BigQuery "
-"Job User\" and the following permissions are set "
+"Unable to connect. Verify that the following roles are set on the service"
+" account: \"BigQuery Data Viewer\", \"BigQuery Metadata Viewer\", "
+"\"BigQuery Job User\" and the following permissions are set "
 "\"bigquery.readsessions.create\", \"bigquery.readsessions.getData\""
 msgstr ""
 "无法连接。请确保服务账号已设置以下角色：\"BigQuery数据查看者\"、\"BigQuery元数据查看者\"、\"BigQuery作业用户\"，并已设置以下权限：\"bigquery.readsessions.create\"、\"bigquery.readsessions.getData\""
@@ -16726,12 +16737,11 @@ msgstr ""
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
-"Unable to connect. Verify that the following roles are set on the service "
-"account: \"Cloud Datastore Viewer\", \"Cloud Datastore User\", \"Cloud "
+"Unable to connect. Verify that the following roles are set on the service"
+" account: \"Cloud Datastore Viewer\", \"Cloud Datastore User\", \"Cloud "
 "Datastore Creator\""
 msgstr ""
-"无法连接。请确认服务账号已设置以下角色：\"Cloud Datastore Viewer\"、\"Cloud Datastore "
-"User\"、\"Cloud Datastore Creator\""
+"无法连接。请确认服务账号已设置以下角色：\"Cloud Datastore Viewer\"、\"Cloud Datastore User\"、\"Cloud Datastore Creator\""
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -16787,8 +16797,8 @@ msgstr "无法识别用于日期范围时间比较的时间列。请确保您的
 
 #, python-format
 msgid ""
-"Unable to interpret the time offset: %(offset)s. Use a relative time such as"
-" \"1 month ago\"."
+"Unable to interpret the time offset: %(offset)s. Use a relative time such"
+" as \"1 month ago\"."
 msgstr "无法解释时间偏移量：%(offset)s。请使用相对时间，例如“1 month ago”。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -16804,18 +16814,18 @@ msgid "Unable to load dashboard"
 msgstr "无法加载看板"
 
 msgid ""
-"Unable to migrate query editor state to backend. Superset will retry later. "
-"Please contact your administrator if this problem persists."
+"Unable to migrate query editor state to backend. Superset will retry "
+"later. Please contact your administrator if this problem persists."
 msgstr "无法将查询编辑器状态迁移到后端。系统将稍后重试。如果此问题仍然存在，请与管理员联系。"
 
 msgid ""
-"Unable to migrate query state to backend. Superset will retry later. Please "
-"contact your administrator if this problem persists."
+"Unable to migrate query state to backend. Superset will retry later. "
+"Please contact your administrator if this problem persists."
 msgstr "无法将查询状态迁移到后端。系统将稍后重试。如果此问题仍然存在，请与管理员联系。"
 
 msgid ""
-"Unable to migrate table schema state to backend. Superset will retry later. "
-"Please contact your administrator if this problem persists."
+"Unable to migrate table schema state to backend. Superset will retry "
+"later. Please contact your administrator if this problem persists."
 msgstr "无法将表结构状态迁移到后端。系统将稍后重试。如果此问题仍然存在，请与管理员联系。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
@@ -17053,8 +17063,8 @@ msgid "Upper Threshold"
 msgstr "阈值上限"
 
 msgid ""
-"Upper bound of the color scale. When both start and end are set, the legend "
-"uses this fixed range instead of the automatic data range."
+"Upper bound of the color scale. When both start and end are set, the "
+"legend uses this fixed range instead of the automatic data range."
 msgstr "色标的上限。当同时设置起始值和结束值时，图例使用此固定范围，而不是自动数据范围。"
 
 #, fuzzy
@@ -17143,17 +17153,16 @@ msgid "Use this to define a static color for all circles"
 msgstr "使用此定义所有圆圈的静态颜色"
 
 msgid ""
-"Used internally to identify the plugin. Should be set to the package name "
-"from the pluginʼs package.json"
+"Used internally to identify the plugin. Should be set to the package name"
+" from the pluginʼs package.json"
 msgstr "在内部用于标识插件。应该在插件的 package.json 内被设置为包名。"
 
 msgid ""
 "Used to summarize a set of data by grouping together multiple statistics "
-"along two axes. Examples: Sales numbers by region and month, tasks by status"
-" and assignee, active users by age and location. Not the most visually "
-"stunning visualization, but highly informative and versatile."
-msgstr ""
-"用于通过将多个统计信息沿两个轴分组在一起来汇总一组数据。示例：按地区和月份统计的销售额，按状态和负责人统计的任务，按年龄和位置统计的活跃用户。虽然不是最视觉震撼的可视化，但信息丰富且用途广泛。"
+"along two axes. Examples: Sales numbers by region and month, tasks by "
+"status and assignee, active users by age and location. Not the most "
+"visually stunning visualization, but highly informative and versatile."
+msgstr "用于通过将多个统计信息沿两个轴分组在一起来汇总一组数据。示例：按地区和月份统计的销售额，按状态和负责人统计的任务，按年龄和位置统计的活跃用户。虽然不是最视觉震撼的可视化，但信息丰富且用途广泛。"
 
 msgid "User"
 msgstr "用户"
@@ -17204,23 +17213,22 @@ msgid "Users are not allowed to set a search path for security reasons."
 msgstr "出于安全考虑，不允许用户设置搜索路径。"
 
 msgid ""
-"Uses Gaussian Kernel Density Estimation to visualize spatial distribution of"
-" data"
+"Uses Gaussian Kernel Density Estimation to visualize spatial distribution"
+" of data"
 msgstr "使用高斯核密度估计来可视化数据的空间分布。"
 
 msgid ""
-"Uses a gauge to showcase progress of a metric towards a target. The position"
-" of the dial represents the progress and the terminal value in the gauge "
-"represents the target value."
+"Uses a gauge to showcase progress of a metric towards a target. The "
+"position of the dial represents the progress and the terminal value in "
+"the gauge represents the target value."
 msgstr "使用仪表盘展示一个指标朝着目标的进度。指针的位置表示进度，而仪表盘的终点值代表目标值。"
 
 msgid ""
 "Uses circles to visualize the flow of data through different stages of a "
-"system. Hover over individual paths in the visualization to understand the "
-"stages a value took. Useful for multi-stage, multi-group visualizing funnels"
-" and pipelines."
-msgstr ""
-"使用圆圈来可视化数据在系统不同阶段的流动。将鼠标悬停在可视化图表的各个路径上，以理解值经历的各个阶段。这对于多阶段、多组的漏斗和管道可视化非常有用。"
+"system. Hover over individual paths in the visualization to understand "
+"the stages a value took. Useful for multi-stage, multi-group visualizing "
+"funnels and pipelines."
+msgstr "使用圆圈来可视化数据在系统不同阶段的流动。将鼠标悬停在可视化图表的各个路径上，以理解值经历的各个阶段。这对于多阶段、多组的漏斗和管道可视化非常有用。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
@@ -17317,16 +17325,15 @@ msgstr "值依赖于"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
-msgid ""
-"Values less than this percentage will be grouped into the Other category."
+msgid "Values less than this percentage will be grouped into the Other category."
 msgstr "低于此百分比的数值将被归入“其他”类别。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid ""
-"Values selected in other filters will affect the filter options to only show"
-" relevant values"
+"Values selected in other filters will affect the filter options to only "
+"show relevant values"
 msgstr "在其他筛选器中选择的值将影响筛选选项，仅显示相关值"
 
 msgid "Version"
@@ -17397,8 +17404,8 @@ msgstr "查看者"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # fr, it, ja, lv, mi, nl, ru, sk, sl, tr, uk]
 msgid ""
-"Viewers is a list of subjects who can view the dashboard. If no viewers are "
-"defined, the dashboard is accessible to all users with appropriate "
+"Viewers is a list of subjects who can view the dashboard. If no viewers "
+"are defined, the dashboard is accessible to all users with appropriate "
 "datasource permissions."
 msgstr "查看者是指可以查看该看板的主体列表。如果未定义查看者，则所有具有相应数据源权限的用户均可访问该看板。"
 
@@ -17431,39 +17438,40 @@ msgid "Visualization Type"
 msgstr "可视化类型"
 
 msgid ""
-"Visualize a parallel set of metrics across multiple groups. Each group is "
-"visualized using its own line of points and each metric is represented as an"
-" edge in the chart."
+"Visualize a parallel set of metrics across multiple groups. Each group is"
+" visualized using its own line of points and each metric is represented "
+"as an edge in the chart."
 msgstr "在多个组中可视化一组平行的度量。每个组都使用自己的点线进行可视化，每个度量在图表中表示为一条边。"
 
 msgid ""
 "Visualize a related metric across pairs of groups. Heatmaps excel at "
-"showcasing the correlation or strength between two groups. Color is used to "
-"emphasize the strength of the link between each pair of groups."
+"showcasing the correlation or strength between two groups. Color is used "
+"to emphasize the strength of the link between each pair of groups."
 msgstr "可视化各组之间的相关指标。热图擅长显示两组之间的相关性或强度。颜色用于强调各组之间的联系强度。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid ""
-"Visualize geospatial data like 3D buildings, landscapes, or objects in grid "
-"view."
+"Visualize geospatial data like 3D buildings, landscapes, or objects in "
+"grid view."
 msgstr "在网格视图中可视化地理空间数据，如3D建筑、景观或物体。"
 
 msgid ""
-"Visualize multiple levels of hierarchy using a familiar tree-like structure."
+"Visualize multiple levels of hierarchy using a familiar tree-like "
+"structure."
 msgstr "使用熟悉的树状结构可视化多层次结构。"
 
 msgid ""
-"Visualize two different series using the same x-axis. Note that both series "
-"can be visualized with a different chart type (e.g. 1 using bars and 1 using"
-" a line)."
+"Visualize two different series using the same x-axis. Note that both "
+"series can be visualized with a different chart type (e.g. 1 using bars "
+"and 1 using a line)."
 msgstr "使用相同的x轴可视化两个不同的序列。请注意，两个序列可以使用不同的图表类型进行可视化（例如，一个使用条形图，一个使用折线图）。"
 
 msgid ""
 "Visualizes a metric across three dimensions of data in a single chart (X "
-"axis, Y axis, and bubble size). Bubbles from the same group can be showcased"
-" using bubble color."
+"axis, Y axis, and bubble size). Bubbles from the same group can be "
+"showcased using bubble color."
 msgstr "在单个图表中跨三维数据（X轴、Y轴和气泡大小）可视化度量。同一组中的气泡可以使用气泡颜色显示。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
@@ -17476,13 +17484,13 @@ msgstr "在地图上可视化连接的点，这些点形成一条路径。"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid ""
-"Visualizes geographic areas from your data as polygons on a Mapbox rendered "
-"map. Polygons can be colored using a metric."
+"Visualizes geographic areas from your data as polygons on a Mapbox "
+"rendered map. Polygons can be colored using a metric."
 msgstr "将数据中的地理区域以多边形形式可视化在Mapbox渲染的地图上。多边形可使用指标进行着色。"
 
 msgid ""
-"Visualizes how a metric has changed over a time using a color scale and a "
-"calendar view. Gray values are used to indicate missing values and the "
+"Visualizes how a metric has changed over a time using a color scale and a"
+" calendar view. Gray values are used to indicate missing values and the "
 "linear color scheme is used to encode the magnitude of each day's value."
 msgstr "使用色标和日历视图可视化指标在一段时间内的变化情况。灰色值用于指示缺少的值，线性配色方案用于编码每天值的大小。"
 
@@ -17494,8 +17502,9 @@ msgid ""
 msgstr "在等值区域地图上显示一个国家的主要分区（州、省等）之间单个指标的变化情况。当您悬停在相应的地理边界上时，每个分区的值都会升高"
 
 msgid ""
-"Visualizes many different time-series objects in a single chart. This chart "
-"is being deprecated and we recommend using the Time-series Chart instead."
+"Visualizes many different time-series objects in a single chart. This "
+"chart is being deprecated and we recommend using the Time-series Chart "
+"instead."
 msgstr "在一个图表中显示许多不同的时间序列对象。此图表已被弃用，建议改用时间序列图表"
 
 msgid ""
@@ -17548,8 +17557,8 @@ msgid "Warning!"
 msgstr "警告！"
 
 msgid ""
-"Warning! Changing the dataset may break the chart if the metadata does not "
-"exist."
+"Warning! Changing the dataset may break the chart if the metadata does "
+"not exist."
 msgstr "警告！如果元数据不存在，更改数据集可能会破坏图表。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
@@ -17609,8 +17618,8 @@ msgstr "切换到此新数据集时，我们无法保留任何控件。"
 
 #, python-format
 msgid ""
-"We were unable to connect to your database named \"%(database)s\". Please "
-"verify your database name and try again."
+"We were unable to connect to your database named \"%(database)s\". Please"
+" verify your database name and try again."
 msgstr "我们无法连接到名为 \"%(database)s\" 的数据库。请确认您的数据库名字并重试"
 
 msgid "Web"
@@ -17658,20 +17667,20 @@ msgstr "权重"
 
 #, fuzzy, python-format
 msgid ""
-"We’re having trouble loading these results. Queries are set to timeout after"
-" %s second."
+"We’re having trouble loading these results. Queries are set to timeout "
+"after %s second."
 msgid_plural ""
-"We’re having trouble loading these results. Queries are set to timeout after"
-" %s seconds."
+"We’re having trouble loading these results. Queries are set to timeout "
+"after %s seconds."
 msgstr[0] "加载结果时遇到问题。查询设置为 %s 秒后超时。"
 
 #, fuzzy, python-format
 msgid ""
-"We’re having trouble loading this visualization. Queries are set to timeout "
-"after %s second."
+"We’re having trouble loading this visualization. Queries are set to "
+"timeout after %s second."
 msgid_plural ""
-"We’re having trouble loading this visualization. Queries are set to timeout "
-"after %s seconds."
+"We’re having trouble loading this visualization. Queries are set to "
+"timeout after %s seconds."
 msgstr[0] "加载此可视化效果时遇到问题。查询设置为 %s 秒后超时。"
 
 #, fuzzy
@@ -17690,8 +17699,8 @@ msgid "What should happen if the table already exists"
 msgstr "表已存在时将会发生"
 
 msgid ""
-"When `Calculation type` is set to \"Percentage change\", the Y Axis Format "
-"is forced to `.1%`"
+"When `Calculation type` is set to \"Percentage change\", the Y Axis "
+"Format is forced to `.1%`"
 msgstr "当`Calculation type`设置为“百分比变化”时，Y轴格式将被强制设置为`.1%`。"
 
 msgid "When a secondary metric is provided, a linear color scale is used."
@@ -17708,21 +17717,20 @@ msgstr "启用后，坐标轴将显示数据最小值和最大值的标签"
 msgid "When enabled, users are able to visualize SQL Lab results in Explore."
 msgstr "启用后，用户可以在Explore中可视化SQL实验室结果。"
 
-msgid ""
-"When only a primary metric is provided, a categorical color scale is used."
+msgid "When only a primary metric is provided, a categorical color scale is used."
 msgstr "如果只提供了一个主计量指标，则使用分类色阶。"
 
 msgid ""
-"When specifying SQL, the datasource acts as a view. Superset will use this "
-"statement as a subquery while grouping and filtering on the generated parent"
-" queries.If changes are made to your SQL query, columns in your dataset will"
-" be synced when saving the dataset."
+"When specifying SQL, the datasource acts as a view. Superset will use "
+"this statement as a subquery while grouping and filtering on the "
+"generated parent queries.If changes are made to your SQL query, columns "
+"in your dataset will be synced when saving the dataset."
 msgstr ""
 "指定SQL时，数据源会充当视图。在对生成的父查询进行分组和筛选时，Superset将使用此语句作为子查询。如果对SQL查询进行了更改，保存数据集时，数据集中的列将同步更新。"
 
 msgid ""
-"When the secondary temporal columns are filtered, apply the same filter to "
-"the main datetime column."
+"When the secondary temporal columns are filtered, apply the same filter "
+"to the main datetime column."
 msgstr "当对次要时间列进行筛选时，将相同的筛选条件应用到主日期时间列。"
 
 msgid ""
@@ -17734,16 +17742,16 @@ msgstr "输入或粘贴筛选值时，逗号会将值分隔为多个条目。若
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, es,
 # fa, fr, ja, lv, mi, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid ""
-"When unchecked, colors from the selected color scheme will be used for time "
-"shifted series"
+"When unchecked, colors from the selected color scheme will be used for "
+"time shifted series"
 msgstr "取消选中时，将使用所选配色方案中的颜色来表示时间偏移序列。"
 
 msgid ""
-"When using \"Autocomplete filters\", this can be used to improve performance"
-" of the query fetching the values. Use this option to apply a predicate "
-"(WHERE clause) to the query selecting the distinct values from the table. "
-"Typically the intent would be to limit the scan by applying a relative time "
-"filter on a partitioned or indexed time-related field."
+"When using \"Autocomplete filters\", this can be used to improve "
+"performance of the query fetching the values. Use this option to apply a "
+"predicate (WHERE clause) to the query selecting the distinct values from "
+"the table. Typically the intent would be to limit the scan by applying a "
+"relative time filter on a partitioned or indexed time-related field."
 msgstr ""
 "当使用“自动补全筛选器”时，这可用于提高获取值的查询性能。使用此选项可将谓词（WHERE子句）应用于从表中选择不同值的查询。通常，这样做的目的是通过对分区或索引的时间相关字段应用相对时间筛选来限制扫描范围。"
 
@@ -17760,17 +17768,16 @@ msgstr "使用非自适应格式时，标签可能会重叠"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, ro, sr,
 # sr_Latn]
 msgid ""
-"When using this option, default value can't be set. Using this option may "
-"impact the load times for your dashboard."
+"When using this option, default value can't be set. Using this option may"
+" impact the load times for your dashboard."
 msgstr "使用此选项时，无法设置默认值。使用此选项可能会影响看板的加载时间。"
 
-msgid ""
-"Whether the progress bar overlaps when there are multiple groups of data"
+msgid "Whether the progress bar overlaps when there are multiple groups of data"
 msgstr "当有多组数据时进度条是否重叠"
 
 msgid ""
-"Whether to align background charts with both positive and negative values at"
-" 0"
+"Whether to align background charts with both positive and negative values"
+" at 0"
 msgstr "是否将背景图表的正负数值在 0 处对齐"
 
 msgid "Whether to align positive and negative values in cell bar chart at 0"
@@ -17782,8 +17789,7 @@ msgstr "是否始终显示注释标签"
 msgid "Whether to animate the progress and the value or just display them"
 msgstr "是以动画形式显示进度和值，还是仅显示它们"
 
-msgid ""
-"Whether to apply a normal distribution based on rank on the color scale"
+msgid "Whether to apply a normal distribution based on rank on the color scale"
 msgstr "是否应用基于色标等级的正态分布"
 
 msgid "Whether to colorize numeric values by if they are positive or negative"
@@ -17791,7 +17797,8 @@ msgstr "根据数值是正数还是负数来为其上色"
 
 #, fuzzy
 msgid ""
-"Whether to colorize numeric values by whether they are positive or negative"
+"Whether to colorize numeric values by whether they are positive or "
+"negative"
 msgstr "根据数值是正数还是负数来为其上色"
 
 msgid "Whether to display a bar chart background in table columns"
@@ -17907,8 +17914,8 @@ msgstr "是否显示为南丁格尔图。"
 
 #, fuzzy
 msgid ""
-"Whether to show extra controls or not. Extra controls include things like "
-"making multiBar charts stacked or side by side."
+"Whether to show extra controls or not. Extra controls include things like"
+" making multiBar charts stacked or side by side."
 msgstr "是否显示额外的控件。额外的控制包括使多栏图表堆叠或并排。"
 
 msgid "Whether to show minor ticks on the axis"
@@ -18152,8 +18159,9 @@ msgid "You are editing a query from the virtual dataset "
 msgstr "您正在编辑来自虚拟数据集的查询 "
 
 msgid ""
-"You are importing one or more charts that already exist. Overwriting might "
-"cause you to lose some of your work. Are you sure you want to overwrite?"
+"You are importing one or more charts that already exist. Overwriting "
+"might cause you to lose some of your work. Are you sure you want to "
+"overwrite?"
 msgstr "您正在导入一个或多个已存在的图表。覆盖可能会导致您丢失一些工作。您确定要覆盖吗？"
 
 msgid ""
@@ -18169,38 +18177,39 @@ msgid ""
 msgstr "您正在导入一个或多个已存在的数据库。覆盖可能会导致您丢失一些工作。您确定要覆盖吗？"
 
 msgid ""
-"You are importing one or more datasets that already exist. Overwriting might"
-" cause you to lose some of your work. Are you sure you want to overwrite?"
+"You are importing one or more datasets that already exist. Overwriting "
+"might cause you to lose some of your work. Are you sure you want to "
+"overwrite?"
 msgstr "您正在导入一个或多个已存在的数据集。覆盖可能会导致您丢失一些工作。确定要覆盖吗？"
 
 msgid ""
-"You are importing one or more saved queries that already exist. Overwriting "
-"might cause you to lose some of your work. Are you sure you want to "
-"overwrite?"
+"You are importing one or more saved queries that already exist. "
+"Overwriting might cause you to lose some of your work. Are you sure you "
+"want to overwrite?"
 msgstr "您正在导入一个或多个已存在的查询。覆盖可能会导致您丢失一些工作。您确定要覆盖吗？"
 
 msgid ""
-"You are importing one or more themes that already exist. Overwriting might "
-"cause you to lose some of your work. Are you sure you want to overwrite?"
+"You are importing one or more themes that already exist. Overwriting "
+"might cause you to lose some of your work. Are you sure you want to "
+"overwrite?"
 msgstr "您正在导入一个或多个已存在的主题。覆盖可能会导致您丢失一些工作。确定要覆盖吗？"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"You are viewing this chart in a dashboard context with labels shared across multiple charts.\n"
+"You are viewing this chart in a dashboard context with labels shared "
+"across multiple charts.\n"
 "        The color scheme selection is disabled."
-msgstr ""
-"您正在看板上下文中查看此图表，标签与多个图表共享。\n"
-"        颜色方案选择已禁用。"
+msgstr "您正在看板上下文中查看此图表，标签与多个图表共享。\n        颜色方案选择已禁用。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
-"You are viewing this chart in the context of a dashboard that is directly affecting its colors.\n"
-"        To edit the color scheme, open this chart outside of the dashboard."
-msgstr ""
-"您正在查看的图表位于一个直接影响其颜色的仪表板上下文中。\n"
-"        要编辑配色方案，请在仪表板外打开此图表。"
+"You are viewing this chart in the context of a dashboard that is directly"
+" affecting its colors.\n"
+"        To edit the color scheme, open this chart outside of the "
+"dashboard."
+msgstr "您正在查看的图表位于一个直接影响其颜色的仪表板上下文中。\n        要编辑配色方案，请在仪表板外打开此图表。"
 
 #, fuzzy
 msgid "You can"
@@ -18226,14 +18235,17 @@ msgid "You can also just click on the chart to apply cross-filter."
 msgstr "您也可以直接点击图表应用交叉筛选。"
 
 msgid ""
-"You can choose to display all charts that you have access to or only the ones you own.\n"
-"              Your filter selection will be saved and remain active until you choose to change it."
+"You can choose to display all charts that you have access to or only the "
+"ones you own.\n"
+"              Your filter selection will be saved and remain active until"
+" you choose to change it."
 msgstr ""
 "您可以选择显示所有您有权限访问的图表，或者仅显示您拥有的图表。\n"
 "              您的筛选器选择将被保存，并保持激活状态，直到您选择更改它。"
 
 msgid ""
-"You can create a new chart or use existing ones from the panel on the right"
+"You can create a new chart or use existing ones from the panel on the "
+"right"
 msgstr "您可以创建一个新图表，或使用右侧面板中的现有图表。"
 
 msgid "You can preview the list of dashboards in the chart settings dropdown."
@@ -18353,9 +18365,9 @@ msgstr "您有一些未保存的修改。"
 # uk]
 #, python-format
 msgid ""
-"You have used all %(historyLength)s undo slots and will not be able to fully"
-" undo subsequent actions. You may save your current state to reset the "
-"history."
+"You have used all %(historyLength)s undo slots and will not be able to "
+"fully undo subsequent actions. You may save your current state to reset "
+"the history."
 msgstr "您已用完所有 %(historyLength)s 个撤销槽位，将无法完全撤销后续操作。您可以保存当前状态以重置历史记录。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
@@ -18363,13 +18375,13 @@ msgstr "您已用完所有 %(historyLength)s 个撤销槽位，将无法完全�
 # th, uk]
 #, python-format
 msgid ""
-"You must be a %s editor in order to edit. Please reach out to a %s editor to"
-" request modifications or edit access."
+"You must be a %s editor in order to edit. Please reach out to a %s editor"
+" to request modifications or edit access."
 msgstr "您必须是 %s 编辑者才能编辑。请联系 %s 编辑者请求修改或编辑权限。"
 
 msgid ""
-"You must be a chart editor in order to delete. Please reach out to a chart "
-"editor to request modifications or edit access."
+"You must be a chart editor in order to delete. Please reach out to a "
+"chart editor to request modifications or edit access."
 msgstr "您必须是图表编辑者才能删除。请联系图表编辑者请求修改或编辑权限。"
 
 msgid ""
@@ -18396,8 +18408,8 @@ msgstr "您必须是数据集编辑者才能删除。请联系数据集编辑者
 # es, fa, fi, fr, it, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn,
 # th, tr, uk]
 msgid ""
-"You must be a dataset editor in order to edit. Please reach out to a dataset"
-" editor to request modifications or edit access."
+"You must be a dataset editor in order to edit. Please reach out to a "
+"dataset editor to request modifications or edit access."
 msgstr "您必须是数据集编辑者才能编辑。请联系数据集编辑者请求修改或编辑权限。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja, tr]
@@ -18413,8 +18425,8 @@ msgstr "必须先成功运行查询"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 #, python-format
 msgid ""
-"You need access to the following tables: %(tables)s, 'all_database_access' "
-"or 'all_datasource_access' permission"
+"You need access to the following tables: %(tables)s, "
+"'all_database_access' or 'all_datasource_access' permission"
 msgstr ""
 "您需要访问以下表的权限：%(tables)s、'all_database_access' 或 'all_datasource_access'"
 
@@ -18425,8 +18437,9 @@ msgid "You need to"
 msgstr "您需要"
 
 msgid ""
-"You updated the values in the control panel, but the chart was not updated "
-"automatically. Run the query by clicking on the \"Update chart\" button or"
+"You updated the values in the control panel, but the chart was not "
+"updated automatically. Run the query by clicking on the \"Update chart\" "
+"button or"
 msgstr "您已更新了控制面板中的值，但图表未自动更新。请点击“更新图表”按钮运行查询或"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
@@ -18476,16 +18489,14 @@ msgstr "您的看板接近大小限制。"
 
 #, python-format
 msgid ""
-"Your dashboard is too large to save: the serialized layout length is %s but "
-"the limit is %s. Reduce the dashboard size (for example, split it into "
-"multiple dashboards) or raise the SUPERSET_DASHBOARD_POSITION_DATA_LIMIT "
-"config setting."
+"Your dashboard is too large to save: the serialized layout length is %s "
+"but the limit is %s. Reduce the dashboard size (for example, split it "
+"into multiple dashboards) or raise the "
+"SUPERSET_DASHBOARD_POSITION_DATA_LIMIT config setting."
 msgstr ""
-"您的看板过大，无法保存：序列化布局长度为 %s，但限制为 %s。请减小看板大小（例如，将其拆分为多个看板）或提高 "
-"SUPERSET_DASHBOARD_POSITION_DATA_LIMIT 配置设置。"
+"您的看板过大，无法保存：序列化布局长度为 %s，但限制为 %s。请减小看板大小（例如，将其拆分为多个看板）或提高 SUPERSET_DASHBOARD_POSITION_DATA_LIMIT 配置设置。"
 
-msgid ""
-"Your export is being prepared. You'll receive an email when it's ready."
+msgid "Your export is being prepared. You'll receive an email when it's ready."
 msgstr "您的导出正在准备中。准备就绪后，您将收到一封电子邮件。"
 
 #, python-format
@@ -18578,8 +18589,8 @@ msgstr "[降序]"
 
 msgid ""
 "[optional] this secondary metric is used to define the color as a ratio "
-"against the primary metric. When omitted, the color is categorical and based"
-" on labels"
+"against the primary metric. When omitted, the color is categorical and "
+"based on labels"
 msgstr "[可选] 此次要指标用于定义颜色与主要指标的比率。如果省略，则颜色为分类色，基于标签"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
@@ -18599,8 +18610,8 @@ msgstr "`confidence_interval` 必须介于0和1之间（开区间）"
 
 msgid ""
 "`count` is COUNT(*) if a group by is used. Numerical columns will be "
-"aggregated with the aggregator. Non-numerical columns will be used to label "
-"points. Leave empty to get a count of points in each cluster."
+"aggregated with the aggregator. Non-numerical columns will be used to "
+"label points. Leave empty to get a count of points in each cluster."
 msgstr "如果使用了分组，`count` 为 COUNT(*)。数值列将使用聚合器进行聚合。非数值列将用于标记点。留空以获取每个聚类中的点数。"
 
 msgid "`operation` property of post processing object undefined"
@@ -19166,17 +19177,16 @@ msgstr "禁用"
 
 #, python-format
 msgid ""
-"is linked to %s charts that appear on %s dashboards and users have %s SQL "
-"Lab tabs using this database open. Are you sure you want to continue? "
+"is linked to %s charts that appear on %s dashboards and users have %s SQL"
+" Lab tabs using this database open. Are you sure you want to continue? "
 "Deleting the database will break those objects."
 msgstr ""
-"它关联了 %s 个图表，这些图表出现在 %s 个仪表板中，并且用户有 %s 个 SQL Lab "
-"标签页正在使用该数据库。确定要继续吗？删除数据库将会破坏这些对象。"
+"它关联了 %s 个图表，这些图表出现在 %s 个仪表板中，并且用户有 %s 个 SQL Lab 标签页正在使用该数据库。确定要继续吗？删除数据库将会破坏这些对象。"
 
 #, python-format
 msgid ""
-"is linked to %s charts that appear on %s dashboards. Are you sure you want "
-"to continue? Deleting the dataset will break those objects."
+"is linked to %s charts that appear on %s dashboards. Are you sure you "
+"want to continue? Deleting the dataset will break those objects."
 msgstr "该数据集关联了 %s 个图表，这些图表分布在 %s 个仪表板中。确定要继续吗？删除数据集将会破坏这些对象。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
@@ -19315,8 +19325,8 @@ msgstr "nativeFilters[%(idx)s].filterValues 必须是一个列表"
 # sr_Latn]
 #, python-format
 msgid ""
-"nativeFilters[%(idx)s].nativeFilterId '%(filter_id)s' does not exist on the "
-"dashboard"
+"nativeFilters[%(idx)s].nativeFilterId '%(filter_id)s' does not exist on "
+"the dashboard"
 msgstr "看板上不存在 nativeFilters[%(idx)s].nativeFilterId '%(filter_id)s'"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
@@ -19403,8 +19413,8 @@ msgid "pending"
 msgstr "正在处理"
 
 msgid ""
-"percentiles must be a list or tuple with two numeric values, of which the "
-"first is lower than the second value"
+"percentiles must be a list or tuple with two numeric values, of which the"
+" first is lower than the second value"
 msgstr "百分位数必须是具有两个数值的列表或元组，其中第一个数值要小于第二个数值"
 
 #, fuzzy
@@ -19504,8 +19514,9 @@ msgid "series"
 msgstr "序列"
 
 msgid ""
-"series: Treat each series independently; overall: All series use the same "
-"scale; change: Show changes compared to the first data point in each series"
+"series: Treat each series independently; overall: All series use the same"
+" scale; change: Show changes compared to the first data point in each "
+"series"
 msgstr "series：独立处理每个序列；overall：所有序列使用相同的比例；change：显示与每个序列中第一个数据点相比的更改"
 
 #. do-not-translate
@@ -19615,8 +19626,8 @@ msgid "updated"
 msgstr "上次更新 %s"
 
 msgid ""
-"upper percentile must be greater than 0 and less than 100. Must be higher "
-"than lower percentile."
+"upper percentile must be greater than 0 and less than 100. Must be higher"
+" than lower percentile."
 msgstr "上百分位数必须大于0且小于100。而且必须高于下百分位。"
 
 msgid "use latest_partition template"
