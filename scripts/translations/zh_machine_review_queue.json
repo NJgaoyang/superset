@@ -1,0 +1,1894 @@
+[
+  {
+    "msgid": "\n                The cumulative option allows you to see how your data accumulates over different\n                values. When enabled, the histogram bars represent the running total of frequencies\n                up to each bin. This helps you understand how likely it is to encounter values\n                below a certain point. Keep in mind that enabling cumulative doesn't change your\n                original data, it just changes the way the histogram is displayed.",
+    "msgstr": "\n                累积选项用于查看数据在不同值上的累积情况。启用后，直方图的柱形表示\n                截至每个分箱的频数累计值，可帮助您了解数值低于某个点的可能性。请注意，\n                启用累积功能不会改变原始数据，只会改变直方图的显示方式。"
+  },
+  {
+    "msgid": "\n                The normalize option transforms the histogram values into proportions or\n                probabilities by dividing each bin's count by the total count of data points.\n                This normalization process ensures that the resulting values sum up to 1,\n                enabling a relative comparison of the data's distribution and providing a\n                clearer understanding of the proportion of data points within each bin.",
+    "msgstr": "\n                标准化选项通过将每个分箱的计数除以数据点总数，将直方图值转换为比例或\n                概率。此标准化过程确保结果值之和为 1，从而能够对数据分布进行相对比较，\n                并更清晰地理解每个分箱中数据点所占的比例。"
+  },
+  {
+    "msgid": "\n            <p>Your report/alert was unable to be generated because of the following error: %(text)s</p>\n            <p>Please check your dashboard/chart for errors.</p>\n            <p><b><a href=\"%(url)s\">%(call_to_action)s</a></b></p>\n            ",
+    "msgstr": "\n            <p>由于以下错误，无法生成您的报表/告警：%(text)s</p>\n            <p>请检查您的仪表盘/图表是否存在错误。</p>\n            <p><b><a href=\"%(url)s\">%(call_to_action)s</a></b></p>\n            "
+  },
+  {
+    "msgid": " at line %(line)d",
+    "msgstr": "在第 %(line)d 行"
+  },
+  {
+    "msgid": " near '%(highlight)s'",
+    "msgstr": "在 '%(highlight)s' 附近"
+  },
+  {
+    "msgid": " to check for details.",
+    "msgstr": "查看详情。"
+  },
+  {
+    "msgid": " to mark a column as a time column",
+    "msgstr": " 将列标记为时间列"
+  },
+  {
+    "msgid": " to visualize your data.",
+    "msgstr": "可视化您的数据。"
+  },
+  {
+    "msgid": "\"%s\" is now the system dark theme",
+    "msgstr": "\"%s\"现在是系统的深色主题"
+  },
+  {
+    "msgid": "%(prefix)sResults truncated to %(row_count)s rows due to memory constraints.",
+    "msgstr": "%(prefix)s由于内存限制，结果被截断为 %(row_count)s 行。"
+  },
+  {
+    "msgid": "%s items could not be tagged because you don’t have edit permissions to all selected objects.",
+    "msgstr": "%s 个项目无法添加标签，因为您没有对所有选定对象的编辑权限。"
+  },
+  {
+    "msgid": "%s semantic view(s) failed to add",
+    "msgstr": "%s 个语义视图添加失败"
+  },
+  {
+    "msgid": "%s semantic view(s) failed to add: %s",
+    "msgstr": "%s 个语义视图添加失败：%s"
+  },
+  {
+    "msgid": "... and %d more",
+    "msgstr": "...以及另外 %d 个"
+  },
+  {
+    "msgid": "... and %s others",
+    "msgstr": "... 以及另外 %s 人"
+  },
+  {
+    "msgid": "1H",
+    "msgstr": "1小时"
+  },
+  {
+    "msgid": "4 weeks (freq=4W-MON)",
+    "msgstr": "4周 (频率=4W-MON)"
+  },
+  {
+    "msgid": "A JavaScript object that adheres to the ECharts options specification, overriding other control options with higher precedence. (i.e. { title: { text: \"My Chart\" }, tooltip: { trigger: \"item\" } }). Details: https://echarts.apache.org/en/option.html. ",
+    "msgstr": "遵循 ECharts 选项规范的 JavaScript 对象，优先级高于其他控制选项。（例如：{ title: { text: \"My Chart\" }, tooltip: { trigger: \"item\" } }）。详情：https://echarts.apache.org/en/option.html。"
+  },
+  {
+    "msgid": "A database port is required when connecting via SSH Tunnel.",
+    "msgstr": "通过SSH隧道连接时需要数据库端口。"
+  },
+  {
+    "msgid": "A description for your dashboard",
+    "msgstr": "仪表盘描述"
+  },
+  {
+    "msgid": "A dictionary with column names and their data types if you need to change the defaults. Example: {\"user_id\":\"int\"}. Check Python's Pandas library for supported data types.",
+    "msgstr": "如果你需要更改默认值，一个包含列名及其数据类型的字典。示例：{\"user_id\":\"int\"}。请查阅Python的Pandas库以了解支持的数据类型。"
+  },
+  {
+    "msgid": "A handlebars template that is applied to the data",
+    "msgstr": "应用于数据的Handlebars模板"
+  },
+  {
+    "msgid": "A list of domain names that can embed this dashboard. Leaving this field empty will allow embedding from any domain.",
+    "msgstr": "可以嵌入此仪表盘的域名列表。留空此字段将允许从任何域名嵌入。"
+  },
+  {
+    "msgid": "A list of subjects who can alter the chart. Searchable by name.",
+    "msgstr": "有权处理该图表的用户列表。可按名称或用户名搜索。"
+  },
+  {
+    "msgid": "A list of subjects who can view the chart. Searchable by name.",
+    "msgstr": "可以查看该图表的用户列表。可按名称搜索。"
+  },
+  {
+    "msgid": "A map that takes rendering circles with a variable radius at latitude/longitude coordinates",
+    "msgstr": "一个在地理坐标上绘制可变半径圆的地图"
+  },
+  {
+    "msgid": "A multiplier applied to the point radius. Use this to uniformly scale all points.",
+    "msgstr": "应用于点半径的乘数。使用此选项可统一缩放所有点。"
+  },
+  {
+    "msgid": "A reusable dataset will be saved with your chart.",
+    "msgstr": "一个可重复使用的数据集将与您的图表一起保存。"
+  },
+  {
+    "msgid": "A soft-deleted dataset (uuid %(uuid)s) already references this table. Restore it via POST /api/v1/dataset/%(uuid)s/restore before creating a new dataset over this table, or use a different table name.",
+    "msgstr": "一个已软删除的数据集（uuid %(uuid)s）已引用此表。请先通过 POST /api/v1/dataset/%(uuid)s/restore 恢复该数据集，再在此表上创建新数据集，或使用不同的表名。"
+  },
+  {
+    "msgid": "A soft-deleted dataset (uuid %(uuid)s) already references this table. Restore it via POST /api/v1/dataset/%(uuid)s/restore before uploading, or upload to a different table name.",
+    "msgstr": "一个已软删除的数据集（uuid %(uuid)s）已引用此表。请先通过 POST /api/v1/dataset/%(uuid)s/restore 恢复它，然后再上传，或上传到不同的表名。"
+  },
+  {
+    "msgid": "A waterfall chart is a form of data visualization that helps in understanding\n          the cumulative effect of sequentially introduced positive or negative values.\n          These intermediate values can either be time based or category based.",
+    "msgstr": "瀑布图是一种数据可视化形式，有助于理解\n          按顺序引入的正值或负值的累积效应。\n          这些中间值可以基于时间或基于类别。"
+  },
+  {
+    "msgid": "API keys allow scoped programmatic access to Superset.",
+    "msgstr": "API密钥允许对Superset进行作用域化的编程访问。"
+  },
+  {
+    "msgid": "Access",
+    "msgstr": "访问权限"
+  },
+  {
+    "msgid": "Add Query A and Query B identifiers to tooltips to help differentiate series",
+    "msgstr": "在工具提示中添加查询A和查询B标识符，以帮助区分序列"
+  },
+  {
+    "msgid": "Add calculated temporal columns to dataset in \"Edit datasource\" modal",
+    "msgstr": "在“编辑数据集”中添加时间计算字段"
+  },
+  {
+    "msgid": "Add color for positive/negative change",
+    "msgstr": "为正向/负向变化添加颜色"
+  },
+  {
+    "msgid": "Add colors to cell bars for +/- for all columns",
+    "msgstr": "为所有列的正负单元格条添加颜色"
+  },
+  {
+    "msgid": "Add metrics to dataset in \"Edit datasource\" modal",
+    "msgstr": "在“编辑数据集”中添加指标"
+  },
+  {
+    "msgid": "Added 1 new column to the virtual dataset",
+    "msgstr": "已向虚拟数据集新增 %s 个字段"
+  },
+  {
+    "msgid": "After making the changes, copy the query and paste in the virtual dataset SQL snippet settings.",
+    "msgstr": "做出更改后，复制查询并粘贴到虚拟数据集SQL代码片段的设置中。"
+  },
+  {
+    "msgid": "Aggregates data within the boundary of grid cells and maps the aggregated values to a dynamic color scale",
+    "msgstr": "在网格单元边界内聚合数据，并将聚合值映射到动态色阶"
+  },
+  {
+    "msgid": "Allow DDL and DML",
+    "msgstr": "允许DDL和DML"
+  },
+  {
+    "msgid": "Allow changing catalogs",
+    "msgstr": "允许切换 Catalog"
+  },
+  {
+    "msgid": "Allow the execution of DDL (Data Definition Language: CREATE, DROP, TRUNCATE, etc.) and DML (Data Modification Language: INSERT, UPDATE, DELETE, etc)",
+    "msgstr": "允许执行DDL（数据定义语言：CREATE、DROP、TRUNCATE等）和DML（数据修改语言：INSERT、UPDATE、DELETE等）"
+  },
+  {
+    "msgid": "An error occurred while fetching chart editor values: %s",
+    "msgstr": "获取图表编辑器值时出错：%s"
+  },
+  {
+    "msgid": "An error occurred while fetching chart viewer values: %s",
+    "msgstr": "获取图表查看器值时出错：%s"
+  },
+  {
+    "msgid": "An error occurred while fetching dashboard editor values: %s",
+    "msgstr": "获取仪表盘编辑者信息时出错：%s"
+  },
+  {
+    "msgid": "An error occurred while fetching dashboard viewer values: %s",
+    "msgstr": "获取仪表盘查看者信息时出错：%s"
+  },
+  {
+    "msgid": "An error occurred while fetching dataset editor values: %s",
+    "msgstr": "获取数据集编辑器值时出错： %s"
+  },
+  {
+    "msgid": "An error occurred while fetching editor values: %s",
+    "msgstr": "获取编辑器值时出错：%s"
+  },
+  {
+    "msgid": "An error occurred while loading SQL Lab. This may be caused by a corrupted query state.",
+    "msgstr": "加载 SQL 工作台时出错，可能是查询状态已损坏。"
+  },
+  {
+    "msgid": "Any dashboards using these themes will be automatically dissociated from them.",
+    "msgstr": "任何使用这些主题的仪表盘将自动与它们解除关联。"
+  },
+  {
+    "msgid": "Any dashboards using this theme will be automatically dissociated from it.",
+    "msgstr": "任何使用此主题的仪表盘都将自动与其解除关联。"
+  },
+  {
+    "msgid": "Applies only when \"Cell bars\" formatting is selected: the background of the histogram columns is displayed if the \"Show cell bars\" flag is enabled.",
+    "msgstr": "仅当选择“单元格条”格式时适用：若启用“显示单元格条”标志，则显示直方图列的背景。"
+  },
+  {
+    "msgid": "Apply custom CSS to the dashboard. Use class names or element selectors to target specific components.",
+    "msgstr": "将自定义CSS应用于仪表盘。使用类名或元素选择器来定位特定组件。"
+  },
+  {
+    "msgid": "Are you sure you want to remove the system dark theme? The application will fall back to the configuration file dark theme.",
+    "msgstr": "您确定要移除系统深色主题吗？应用程序将回退到配置文件中的深色主题。"
+  },
+  {
+    "msgid": "Are you sure you want to remove the system default theme? The application will fall back to the configuration file default.",
+    "msgstr": "您确定要移除系统默认主题吗？应用程序将回退到配置文件默认设置。"
+  },
+  {
+    "msgid": "Authorization Request URI",
+    "msgstr": "授权请求 URI"
+  },
+  {
+    "msgid": "Auto refresh paused (set to %s seconds)",
+    "msgstr": "自动刷新已暂停（设置为 %s 秒）"
+  },
+  {
+    "msgid": "Auto refresh paused - tab inactive (set to %s seconds)",
+    "msgstr": "自动刷新已暂停 - 标签页未激活（设置为 %s 秒）"
+  },
+  {
+    "msgid": "Base layer map style. Accepts a MapLibre-compatible style URL.",
+    "msgstr": "基础图层地图样式。接受与MapLibre兼容的样式URL。"
+  },
+  {
+    "msgid": "Base layer map style. Accepts a Mapbox style URL (mapbox://styles/...).",
+    "msgstr": "基础图层地图样式。接受Mapbox样式URL（mapbox://styles/...）。"
+  },
+  {
+    "msgid": "Base layer map style. See MapLibre documentation: %s",
+    "msgstr": "基础图层地图样式。参见MapLibre文档：%s"
+  },
+  {
+    "msgid": "Base slope",
+    "msgstr": "基础斜率"
+  },
+  {
+    "msgid": "Based on what should series be ordered on the chart and legend",
+    "msgstr": "图表和图例中的系列应基于什么进行排序"
+  },
+  {
+    "msgid": "Big Number with Time Period Comparison",
+    "msgstr": "带时间周期比较的大数字"
+  },
+  {
+    "msgid": "Block %(block_num)s out of %(block_count)s",
+    "msgstr": "块 %(block_num)s，共 %(block_count)s 块"
+  },
+  {
+    "msgid": "Bounds for the X-axis. Selected time merges with min/max date of the data. When left empty, bounds dynamically defined based on the min/max of the data.",
+    "msgstr": "X轴边界。所选时间与数据的最小/最大日期合并。留空时，边界将根据数据的最小/最大值动态定义。"
+  },
+  {
+    "msgid": "Breaks down the series by the category specified in this control.\n      This can help viewers understand how each category affects the overall value.",
+    "msgstr": "按此控件中指定的类别分解系列。\n      这可以帮助观众理解每个类别如何影响整体数值。"
+  },
+  {
+    "msgid": "Bulk tag",
+    "msgstr": "批量设置标签"
+  },
+  {
+    "msgid": "CSS applied to the chart",
+    "msgstr": "应用于图表的CSS"
+  },
+  {
+    "msgid": "CSS styles may be removed by server-side HTML sanitization. If styles are not applying, ask your Superset administrator to adjust the HTML sanitization configuration.",
+    "msgstr": "CSS样式可能被服务端HTML清理移除。若样式未生效，请联系您的Superset管理员调整HTML清理配置。"
+  },
+  {
+    "msgid": "Cache data separately for each user based on their data access roles and permissions. When disabled, a single cache will be used for all users.",
+    "msgstr": "根据用户的数据访问角色和权限，为每个用户单独缓存数据。禁用后，所有用户将使用同一个缓存。"
+  },
+  {
+    "msgid": "Calculate from first step",
+    "msgstr": "从第一步开始计算"
+  },
+  {
+    "msgid": "Cannot delete a database whose only remaining datasets are soft-deleted. Restore them (POST /api/v1/dataset/<uuid>/restore) and delete them permanently once a purge capability ships, or remove the underlying rows out-of-band, before deleting the database.",
+    "msgstr": "无法删除一个仅剩软删除数据集的数据库。请先恢复这些数据集（POST /api/v1/dataset/<uuid>/restore），并在清除功能推出后永久删除它们，或在删除数据库之前，通过带外方式移除底层数据行。"
+  },
+  {
+    "msgid": "Cannot delete theme that is set as system default or dark theme",
+    "msgstr": "无法删除设置为系统默认或深色主题的主题"
+  },
+  {
+    "msgid": "Cannot delete theme that is set as system default or dark theme.",
+    "msgstr": "无法删除设置为系统默认或深色主题的主题。"
+  },
+  {
+    "msgid": "Cannot have multiple credentials for the SSH Tunnel",
+    "msgstr": "不能为SSH隧道设置多个凭据"
+  },
+  {
+    "msgid": "Category, Value and Percentage",
+    "msgstr": "类别、数值和百分比"
+  },
+  {
+    "msgid": "Cell layout & styling",
+    "msgstr": "单元格布局与样式"
+  },
+  {
+    "msgid": "Chart %(chart_id)s is not on dashboard %(dashboard_id)s",
+    "msgstr": "图表 %(chart_id)s 不在仪表盘 %(dashboard_id)s 中"
+  },
+  {
+    "msgid": "Chart could not be restored.",
+    "msgstr": "图表无法恢复。"
+  },
+  {
+    "msgid": "Chart customization to control deck.gl layer visibility",
+    "msgstr": "图表自定义以控制deck.gl图层可见性"
+  },
+  {
+    "msgid": "Choose from existing dashboard filters and select a value to refine your report results.",
+    "msgstr": "从现有仪表盘筛选器中选择，并选取一个值来细化您的报表结果。"
+  },
+  {
+    "msgid": "Choose how many X-Axis labels to show",
+    "msgstr": "选择显示多少个X轴标签"
+  },
+  {
+    "msgid": "Choose layers to hide from all deck.gl Multiple Layer charts in this dashboard.",
+    "msgstr": "选择要在此仪表盘中的所有 deck.gl 多层图表中隐藏的图层。"
+  },
+  {
+    "msgid": "Choose whether a country should be shaded by the metric, or assigned a color based on a categorical color palette",
+    "msgstr": "选择国家应根据指标进行着色，还是根据分类调色板分配颜色"
+  },
+  {
+    "msgid": "Clear the selection to revert to the system default theme",
+    "msgstr": "清除选择以恢复系统默认主题"
+  },
+  {
+    "msgid": "Color bars by x-axis",
+    "msgstr": "按x轴显示颜色条"
+  },
+  {
+    "msgid": "Color bars by y-axis",
+    "msgstr": "按y轴为条形着色"
+  },
+  {
+    "msgid": "Color field must be a hex color (#rrggbb) or 'rgb(r, g, b)'",
+    "msgstr": "颜色字段必须是十六进制颜色(#rrggbb)或'rgb(r, g, b)'"
+  },
+  {
+    "msgid": "Color will be shaded based the normalized (0% to 100%) value of a given cell against the other cells in the selected range: ",
+    "msgstr": "颜色将根据所选范围内某个单元格相对于其他单元格的归一化值（0% 到 100%）进行渐变："
+  },
+  {
+    "msgid": "Columns folder can only contain column items",
+    "msgstr": "字段文件夹只能包含字段项"
+  },
+  {
+    "msgid": "Columns should be inside folders",
+    "msgstr": "列应位于文件夹内"
+  },
+  {
+    "msgid": "Common (unit per pixel at zoom 0)",
+    "msgstr": "通用（缩放级别 0 时每像素单位）"
+  },
+  {
+    "msgid": "Compare results with other time periods.",
+    "msgstr": "将结果与其他时间段进行比较。"
+  },
+  {
+    "msgid": "Compares metrics between different time periods. Displays time series data across multiple periods (like weeks or months) to show period-over-period trends and patterns.",
+    "msgstr": "比较不同时间段之间的指标。显示跨多个时间段（如周或月）的时间序列数据，以展示各周期之间的趋势和模式。"
+  },
+  {
+    "msgid": "Compose multiple layers together to form complex visuals.",
+    "msgstr": "将多个图层组合在一起，形成复杂的视觉效果。"
+  },
+  {
+    "msgid": "Configure automatic dashboard refresh",
+    "msgstr": "配置仪表盘自动刷新"
+  },
+  {
+    "msgid": "Configure dashboard appearance, colors, and custom CSS",
+    "msgstr": "配置仪表盘外观、配色和自定义 CSS"
+  },
+  {
+    "msgid": "Contains text (ILIKE %x%)",
+    "msgstr": "包含文本 (ILIKE %x%)"
+  },
+  {
+    "msgid": "Copy URL",
+    "msgstr": "复制网址"
+  },
+  {
+    "msgid": "Copy the name of the HTTP Path of your cluster.",
+    "msgstr": "复制集群的HTTP路径名称。"
+  },
+  {
+    "msgid": "Could not load SQL Lab",
+    "msgstr": "无法加载 SQL 工作台"
+  },
+  {
+    "msgid": "Could not validate the user in the current session.",
+    "msgstr": "无法在当前会话中验证该用户。"
+  },
+  {
+    "msgid": "Cross-filter will be applied to all of the charts that use this dataset.",
+    "msgstr": "交叉筛选将应用于所有使用此数据集的图表。"
+  },
+  {
+    "msgid": "Custom SQL fields cannot be parsed as a single SQL statement.",
+    "msgstr": "自定义 SQL 字段无法作为单个 SQL 语句进行解析。"
+  },
+  {
+    "msgid": "Custom SQL fields cannot contain set operations.",
+    "msgstr": "自定义SQL字段不能包含集合操作。"
+  },
+  {
+    "msgid": "Custom SQL fields cannot contain sub-queries.",
+    "msgstr": "自定义SQL字段不能包含子查询。"
+  },
+  {
+    "msgid": "Custom column name (leave blank for default)",
+    "msgstr": "自定义字段名称（留空则使用默认值）"
+  },
+  {
+    "msgid": "Custom fields not available in aggregated heatmap cells",
+    "msgstr": "聚合热力图单元格中不可用自定义字段"
+  },
+  {
+    "msgid": "Custom width of the screenshot in pixels",
+    "msgstr": "截图的像素自定义宽度"
+  },
+  {
+    "msgid": "Customize cell titles using Handlebars template syntax. Available variables: {{rowLabel}}, {{colLabel}}",
+    "msgstr": "使用Handlebars模板语法自定义单元格标题。可用变量：{{rowLabel}}，{{colLabel}}"
+  },
+  {
+    "msgid": "Customize data source, filters, and layout.",
+    "msgstr": "自定义数据源、筛选器和布局。"
+  },
+  {
+    "msgid": "Customize the label displayed for decreasing values in the chart tooltips and legend.",
+    "msgstr": "自定义图表工具提示和图例中递减值显示的标签。"
+  },
+  {
+    "msgid": "Customize the label displayed for increasing values in the chart tooltips and legend.",
+    "msgstr": "自定义图表工具提示和图例中递增数值显示的标签。"
+  },
+  {
+    "msgid": "Customize the label displayed for total values in the chart tooltips, legend, and chart axis.",
+    "msgstr": "自定义图表工具提示、图例和图表轴中显示的总值标签。"
+  },
+  {
+    "msgid": "DB column %(col_name)s has unknown type: %(value_type)s",
+    "msgstr": "数据库列 %(col_name)s 存在未知类型：%(value_type)s"
+  },
+  {
+    "msgid": "DD/MM format dates, international and European format",
+    "msgstr": "DD/MM 格式日期，国际与欧洲格式"
+  },
+  {
+    "msgid": "Dashboard cannot be copied due to invalid parameters.",
+    "msgstr": "参数无效，无法复制仪表盘。"
+  },
+  {
+    "msgid": "Dashboard could not be restored.",
+    "msgstr": "无法恢复仪表盘。"
+  },
+  {
+    "msgid": "Dashboard name and URL configuration",
+    "msgstr": "仪表盘名称与 URL 配置"
+  },
+  {
+    "msgid": "Dashboard time range filters apply to temporal columns defined in\n          the filter section of each chart. Add temporal columns to the chart\n          filters to have this dashboard filter impact those charts.",
+    "msgstr": "仪表盘时间范围筛选器应用于每个图表筛选部分中定义的时间列。将时间列添加到图表筛选器中，以使此仪表盘筛选器影响这些图表。"
+  },
+  {
+    "msgid": "Data URI is not allowed.",
+    "msgstr": "不允许使用 Data URI。"
+  },
+  {
+    "msgid": "Database driver for importing maybe not installed. Visit the Superset documentation page for installation instructions: ",
+    "msgstr": "用于导入的数据库驱动可能未安装。请访问Superset文档页面查看安装说明： "
+  },
+  {
+    "msgid": "Database upload file exceeds the maximum allowed size.",
+    "msgstr": "数据库上传文件超过了允许的最大大小。"
+  },
+  {
+    "msgid": "Database upload file failed, while saving metadata",
+    "msgstr": "数据库上传文件失败，保存元数据时出错"
+  },
+  {
+    "msgid": "Dataset cannot be restored because another active dataset already references the same physical table (same database, catalog, schema, and table name). Delete the duplicate or rename the table before restoring.",
+    "msgstr": "数据集无法恢复，因为另一个活跃数据集已引用同一物理表（相同的数据库、目录、模式和表名）。请先删除重复项或重命名表，然后再恢复。"
+  },
+  {
+    "msgid": "Dataset could not be restored.",
+    "msgstr": "无法恢复数据集。"
+  },
+  {
+    "msgid": "Dataset schema is invalid, caused by: %(error)s",
+    "msgstr": "数据集模式无效，原因：%(error)s"
+  },
+  {
+    "msgid": "Datasource type is invalid",
+    "msgstr": "数据源类型无效"
+  },
+  {
+    "msgid": "Day (freq=D)",
+    "msgstr": "天 (freq=D)"
+  },
+  {
+    "msgid": "Default URL to redirect to when accessing from the dataset list page. Accepts relative URLs such as",
+    "msgstr": "从数据集列表页面访问时默认重定向的URL。支持相对URL，例如"
+  },
+  {
+    "msgid": "Define delivery schedule, timezone, and frequency settings.",
+    "msgstr": "定义配送计划、时区和频率设置。"
+  },
+  {
+    "msgid": "Define the database, SQL query, and triggering conditions for alert.",
+    "msgstr": "定义数据库、SQL查询和告警触发条件。"
+  },
+  {
+    "msgid": "Defines the grid size in pixels",
+    "msgstr": "以像素为单位定义网格大小"
+  },
+  {
+    "msgid": "Defines the value that determines the boundary between different regions or levels in the data ",
+    "msgstr": "定义用于确定数据中不同区域或层级之间边界的值 "
+  },
+  {
+    "msgid": "Determines how the filter matches values. \"Exact match\" uses the IN operator (default). ILIKE options enable partial text matching with a free-text input. Warning: ILIKE queries may be slow on large datasets as they cannot use indexes effectively.",
+    "msgstr": "决定筛选器如何匹配值。\"精确匹配\"使用IN运算符（默认）。ILIKE选项支持通过自由文本输入进行部分文本匹配。警告：ILIKE查询在大型数据集上可能较慢，因为它们无法有效使用索引。"
+  },
+  {
+    "msgid": "Dimension column emitted as a cross-filter when a feature is clicked. Other charts on the dashboard match against this column. If unset, falls back to the geometry column (legacy behavior, often unmatchable).",
+    "msgstr": "当某个要素被点击时，作为交叉筛选器发出的维度列。仪表盘上的其他图表会与此列进行匹配。如果未设置，则回退到几何列（旧行为，通常无法匹配）。"
+  },
+  {
+    "msgid": "Display percents in the label and tooltip as the percent of the total value, from the first step of the funnel, or from the previous step in the funnel.",
+    "msgstr": "在标签和工具提示中将百分比显示为占总值的百分比，从漏斗的第一步开始，或从漏斗中的上一步开始。"
+  },
+  {
+    "msgid": "Display the last queried timestamp on charts in the dashboard view",
+    "msgstr": "在仪表盘视图的图表上显示最后查询的时间戳"
+  },
+  {
+    "msgid": "Divides each category into subcategories based on the values in the dimension. It can be used to exclude intersections.",
+    "msgstr": "根据维度中的值将每个类别划分为子类别。可用于排除交集。"
+  },
+  {
+    "msgid": "Downloading %(rows)s rows based on the LIMIT configuration. If you want the entire result set, you need to adjust the LIMIT.",
+    "msgstr": "根据 LIMIT 配置，正在下载 %(rows)s 行数据。如需获取完整结果集，请调整 LIMIT 值。"
+  },
+  {
+    "msgid": "Drag columns and metrics here to customize tooltip content. Order matters - items will appear in the same order in tooltips. Click the button to manually select columns and metrics.",
+    "msgstr": "将列和指标拖拽至此以自定义工具提示内容。顺序很重要——项目将按相同顺序显示在工具提示中。点击按钮可手动选择列和指标。"
+  },
+  {
+    "msgid": "Drill to detail is disabled for this database. Change the database settings to enable it.",
+    "msgstr": "此数据库已禁用向下钻取详细信息。请更改数据库设置以启用此功能。"
+  },
+  {
+    "msgid": "Dynamically select grouping columns from a dataset",
+    "msgstr": "从数据集中动态选择分组字段"
+  },
+  {
+    "msgid": "Editor",
+    "msgstr": "编辑"
+  },
+  {
+    "msgid": "Editors",
+    "msgstr": "编辑"
+  },
+  {
+    "msgid": "Editors is a list of subjects who can alter the dashboard.",
+    "msgstr": "编辑者是一个主体列表，这些主体可以修改仪表盘。"
+  },
+  {
+    "msgid": "Editors is a list of subjects who can alter the dashboard. Searchable by name.",
+    "msgstr": "编辑者是一个主体列表，这些主体可以修改仪表盘。可按名称搜索。"
+  },
+  {
+    "msgid": "Email subject name (optional)",
+    "msgstr": "邮件主题名称（可选）"
+  },
+  {
+    "msgid": "Enable matrixify",
+    "msgstr": "启用矩阵化"
+  },
+  {
+    "msgid": "Enables rendering of icons for GeoJSON points",
+    "msgstr": "启用GeoJSON点的图标渲染"
+  },
+  {
+    "msgid": "Enter minimum and maximum values for the range filter",
+    "msgstr": "输入范围筛选器的最小值和最大值"
+  },
+  {
+    "msgid": "Enter the unique project id for your database.",
+    "msgstr": "输入您数据库的唯一项目ID。"
+  },
+  {
+    "msgid": "Exact match (IN)",
+    "msgstr": "精确匹配（IN）"
+  },
+  {
+    "msgid": "Excluded subjects",
+    "msgstr": "排除的主题"
+  },
+  {
+    "msgid": "Expects a formula with depending time parameter 'x'\n        in milliseconds since epoch. mathjs is used to evaluate the formulas.\n        Example: '2x+5'",
+    "msgstr": "期望一个带有时间参数'x'的公式，\n        x的单位为自纪元以来的毫秒数。使用mathjs来评估这些公式。\n        示例：'2x+5'"
+  },
+  {
+    "msgid": "Export screenshot (jpeg)",
+    "msgstr": "导出截图 (jpeg)"
+  },
+  {
+    "msgid": "Failed to apply theme: Invalid JSON",
+    "msgstr": "应用主题失败：无效的 JSON"
+  },
+  {
+    "msgid": "Failed to generate chart edit URL",
+    "msgstr": "生成图表编辑URL失败"
+  },
+  {
+    "msgid": "Failed to open file. Please try again.",
+    "msgstr": "无法打开文件。请重试。"
+  },
+  {
+    "msgid": "Failed to set local theme: Invalid JSON configuration",
+    "msgstr": "设置本地主题失败：无效的JSON配置"
+  },
+  {
+    "msgid": "Failed to validate expression. Please try again.",
+    "msgstr": "表达式验证失败。请重试。"
+  },
+  {
+    "msgid": "Falling back to CSV; Excel export library not available.",
+    "msgstr": "回退到CSV；Excel导出库不可用。"
+  },
+  {
+    "msgid": "File extension is not allowed.",
+    "msgstr": "文件扩展名不允许。"
+  },
+  {
+    "msgid": "File handling is not supported in this browser. Please use a modern browser like Chrome or Edge.",
+    "msgstr": "此浏览器不支持文件处理。请使用Chrome或Edge等现代浏览器。"
+  },
+  {
+    "msgid": "Fill out the registration form",
+    "msgstr": "填写注册表单"
+  },
+  {
+    "msgid": "Filter only displays values relevant to selections made in other filters.",
+    "msgstr": "筛选器仅显示与其他筛选器中所选内容相关的值。"
+  },
+  {
+    "msgid": "Filters for values equal to this exact value.",
+    "msgstr": "筛选等于指定值的数据。"
+  },
+  {
+    "msgid": "Filters for values less than or equal.",
+    "msgstr": "筛选小于或等于的值。"
+  },
+  {
+    "msgid": "Fit data",
+    "msgstr": "拟合数据"
+  },
+  {
+    "msgid": "For regular filters, these are the subjects (users, roles, groups) this filter will be applied to. For base filters, these are the subjects that the filter DOES NOT apply to, e.g. Admin if admin should see all data.",
+    "msgstr": "对于常规筛选器，这些是此筛选器将应用于的主体（用户、角色、组）。对于基本筛选器，这些是筛选器不适用的主体，例如，如果管理员应查看所有数据，则Admin不适用。"
+  },
+  {
+    "msgid": "Forbidden",
+    "msgstr": "禁止访问"
+  },
+  {
+    "msgid": "Force Time Grain as Max Interval",
+    "msgstr": "强制时间粒度作为最大间隔"
+  },
+  {
+    "msgid": "Forces selected Time Grain as the maximum interval for X Axis Labels",
+    "msgstr": "强制将所选时间粒度作为X轴标签的最大间隔"
+  },
+  {
+    "msgid": "Form data not found in cache, reverting to chart metadata.",
+    "msgstr": "缓存中未找到表单数据，正在回退到图表元数据。"
+  },
+  {
+    "msgid": "Form data not found in cache, reverting to dataset metadata.",
+    "msgstr": "缓存中未找到表单数据，正在回退到数据集元数据。"
+  },
+  {
+    "msgid": "Format data labels. Use variables: {name}, {value}, {percent}. \\n represents a new line. ECharts compatibility:\n{a} (series), {b} (name), {c} (value), {d} (percentage)",
+    "msgstr": "格式化数据标签。使用变量：{name}、{value}、{percent}。\\n 表示换行。ECharts 兼容性：\n{a}（系列）、{b}（名称）、{c}（数值）、{d}（百分比）"
+  },
+  {
+    "msgid": "Format metrics or columns with currency symbols as prefixes or suffixes. Choose a symbol manually or use 'Auto-detect' to apply the correct symbol based on the dataset's currency code column. When multiple currencies are present, formatting falls back to neutral numbers.",
+    "msgstr": "使用货币符号作为前缀或后缀来格式化指标或列。手动选择一个符号，或使用\"自动检测\"根据数据集的货币代码列应用正确的符号。当存在多种货币时，格式化将回退为中性数字。"
+  },
+  {
+    "msgid": "Gantt chart visualizes important events over a time span. Every data point displayed as a separate event along a horizontal line.",
+    "msgstr": "甘特图在时间跨度上可视化重要事件。每个数据点沿水平线显示为独立事件。"
+  },
+  {
+    "msgid": "Give access to multiple catalogs in a single database connection.",
+    "msgstr": "允许通过一个数据库连接访问多个 Catalog。"
+  },
+  {
+    "msgid": "Go to the edit mode to configure the dashboard and add charts",
+    "msgstr": "进入编辑模式以配置仪表盘并添加图表"
+  },
+  {
+    "msgid": "Gold",
+    "msgstr": "黄金"
+  },
+  {
+    "msgid": "Green for increase, red for decrease",
+    "msgstr": "绿色表示上涨，红色表示下跌"
+  },
+  {
+    "msgid": "Group remaining as \"Others\"",
+    "msgstr": "将剩余分组保留为“其他”"
+  },
+  {
+    "msgid": "Groups remaining series into an \"Others\" category when series limit is reached. This prevents incomplete time series data from being displayed.",
+    "msgstr": "当达到系列数量限制时，将剩余系列归入\"其他\"类别。这可以防止显示不完整的时间序列数据。"
+  },
+  {
+    "msgid": "Guest user cannot modify chart payload",
+    "msgstr": "访客用户无法修改图表负载"
+  },
+  {
+    "msgid": "Hard value bounds applied for color coding.",
+    "msgstr": "已对颜色编码应用硬值边界。"
+  },
+  {
+    "msgid": "How many buckets should the data be grouped in.",
+    "msgstr": "数据应分组成多少个桶。"
+  },
+  {
+    "msgid": "If enabled, this control sorts the results/values descending, otherwise it sorts the results ascending.",
+    "msgstr": "如果启用，此控件将对结果/值进行降序排序，否则将进行升序排序。"
+  },
+  {
+    "msgid": "If it stays empty, it won't be saved and will be removed from the list. To remove folders, move metrics and columns to other folders.",
+    "msgstr": "如果保持为空，则不会被保存，并将从列表中移除。要删除文件夹，请将指标和列移动到其他文件夹。"
+  },
+  {
+    "msgid": "If you don't save, changes will be lost.",
+    "msgstr": "如果不保存，更改将会丢失。"
+  },
+  {
+    "msgid": "In",
+    "msgstr": "在"
+  },
+  {
+    "msgid": "In order to connect to non-public sheets you need to either provide a service account or configure an OAuth2 client.",
+    "msgstr": "为了连接到非公开表格，您需要提供服务账号或配置OAuth2客户端。"
+  },
+  {
+    "msgid": "In this view you can preview the first 25 rows. ",
+    "msgstr": "在此视图中，您可以预览前25行。 "
+  },
+  {
+    "msgid": "Inherit range from time filter",
+    "msgstr": "从时间筛选器继承范围"
+  },
+  {
+    "msgid": "Inside top",
+    "msgstr": "顶部内部"
+  },
+  {
+    "msgid": "Intensity is the value multiplied by the weight to obtain the final weight",
+    "msgstr": "强度是值乘以权重后得到的最终权重"
+  },
+  {
+    "msgid": "Invalid currency code in saved metrics",
+    "msgstr": "保存的指标中存在无效的货币代码"
+  },
+  {
+    "msgid": "Invalid permalink key",
+    "msgstr": "无效的固定链接键"
+  },
+  {
+    "msgid": "Invalid reference to column: \"%(column)s\"",
+    "msgstr": "字段引用无效：“%(column)s”"
+  },
+  {
+    "msgid": "It won't be removed even if empty. It won't be shown in chart editing view if empty.",
+    "msgstr": "即使为空也不会被移除。如果为空，则不会在图表编辑视图中显示。"
+  },
+  {
+    "msgid": "JSON metadata and advanced configuration",
+    "msgstr": "JSON元数据和高级配置"
+  },
+  {
+    "msgid": "Keep control settings?",
+    "msgstr": "保留控制设置？"
+  },
+  {
+    "msgid": "Keys are shown only once at creation. Store them securely.",
+    "msgstr": "密钥仅在创建时显示一次。请妥善保管。"
+  },
+  {
+    "msgid": "Label for the index column. Don't use an existing column name.",
+    "msgstr": "索引列的标签。不要使用现有的列名。"
+  },
+  {
+    "msgid": "Layer URL",
+    "msgstr": "图层URL"
+  },
+  {
+    "msgid": "Liberty (OpenFreeMap)",
+    "msgstr": "Liberty（OpenFreeMap）"
+  },
+  {
+    "msgid": "Like",
+    "msgstr": "喜欢"
+  },
+  {
+    "msgid": "List Roles",
+    "msgstr": "角色管理"
+  },
+  {
+    "msgid": "List of n+1 values for bucketing metric into n buckets.",
+    "msgstr": "用于将指标分桶为 n 个桶的 n+1 个值的列表。"
+  },
+  {
+    "msgid": "Make the x-axis categorical",
+    "msgstr": "将x轴设为分类轴"
+  },
+  {
+    "msgid": "Manage dashboard editors and access permissions",
+    "msgstr": "管理仪表盘所有者及访问权限"
+  },
+  {
+    "msgid": "Manage filters and customizations to set scoping, descriptions, and limitations. Create new elements for better dashboard insights.",
+    "msgstr": "管理筛选器和自定义设置，以确定范围、描述和限制。创建新元素以获得更好的仪表盘洞察。"
+  },
+  {
+    "msgid": "MapLibre is open-source and requires no API key. Mapbox requires MAPBOX_API_KEY to be configured on the server.",
+    "msgstr": "MapLibre 是开源的，无需 API 密钥。Mapbox 需要在服务器上配置 MAPBOX_API_KEY。"
+  },
+  {
+    "msgid": "Mapbox requires a MAPBOX_API_KEY to be configured on the server.",
+    "msgstr": "Mapbox 需要在服务器上配置 MAPBOX_API_KEY。"
+  },
+  {
+    "msgid": "Mark a column as temporal in \"Edit datasource\" modal",
+    "msgstr": "在“编辑数据集”中将字段标记为时间字段"
+  },
+  {
+    "msgid": "Match time shift color with original series",
+    "msgstr": "匹配时间偏移颜色与原始系列"
+  },
+  {
+    "msgid": "Matrixify",
+    "msgstr": "Matrixify"
+  },
+  {
+    "msgid": "Max. features",
+    "msgstr": "最大特征数"
+  },
+  {
+    "msgid": "Memory in bytes - binary (1024B => 1KiB)",
+    "msgstr": "内存大小（字节）- 二进制（1024B => 1KiB）"
+  },
+  {
+    "msgid": "Memory in bytes - decimal (1024B => 1.024kB)",
+    "msgstr": "内存大小（字节）- 十进制（1024B => 1.024kB）"
+  },
+  {
+    "msgid": "Memory transfer rate in bytes - binary (1024B => 1KiB/s)",
+    "msgstr": "内存传输速率（字节）- 二进制（1024B => 1KiB/s）"
+  },
+  {
+    "msgid": "Memory transfer rate in bytes - decimal (1024B => 1.024kB/s)",
+    "msgstr": "内存传输速率（字节）- 十进制（1024B => 1.024kB/s）"
+  },
+  {
+    "msgid": "Menu actions trigger",
+    "msgstr": "菜单操作触发"
+  },
+  {
+    "msgid": "Method to compute the displayed value. \"Overall value\" calculates a single metric across the entire filtered time period, ideal for non-additive metrics like ratios, averages, or distinct counts. Other methods operate over the time series data points.",
+    "msgstr": "计算显示值的方法。\"总体值\"计算整个筛选时间段内的单一指标，适用于比率、平均值或去重计数等非累加性指标。其他方法则基于时间序列数据点进行计算。"
+  },
+  {
+    "msgid": "Metric used as a weight for the grid's coloring",
+    "msgstr": "用作网格着色权重的度量"
+  },
+  {
+    "msgid": "Metric used to control height",
+    "msgstr": "用于控制高度的度量"
+  },
+  {
+    "msgid": "Metrics folder can only contain metric items",
+    "msgstr": "指标文件夹只能包含指标项"
+  },
+  {
+    "msgid": "Metrics should be inside folders",
+    "msgstr": "指标应位于文件夹内"
+  },
+  {
+    "msgid": "Minimum radius size of the circle, in pixels. As the zoom level changes, this insures that the circle respects this minimum radius.",
+    "msgstr": "圆形的最小半径大小（以像素为单位）。随着缩放级别的变化，这确保圆形遵循此最小半径。"
+  },
+  {
+    "msgid": "Must be a chart editor to overwrite this chart. Save as a new chart instead.",
+    "msgstr": "必须是图表所有者才能覆盖此图表。请另存为新图表。"
+  },
+  {
+    "msgid": "Must provide credentials for the SSH Tunnel",
+    "msgstr": "必须提供SSH隧道的凭据"
+  },
+  {
+    "msgid": "My beautiful colors",
+    "msgstr": "我美丽的色彩"
+  },
+  {
+    "msgid": "Name your folder and to edit it later, click on the folder name",
+    "msgstr": "命名您的文件夹，如需稍后编辑，请点击文件夹名称"
+  },
+  {
+    "msgid": "No filters or customizations created yet",
+    "msgstr": "尚未创建任何筛选器或自定义设置"
+  },
+  {
+    "msgid": "No form settings were maintained",
+    "msgstr": "未维护任何表单设置"
+  },
+  {
+    "msgid": "No validator found (configured for the engine)",
+    "msgstr": "未找到验证器（已为引擎配置）"
+  },
+  {
+    "msgid": "Not all required fields are complete. Please provide the following:",
+    "msgstr": "并非所有必填字段都已填写。请提供以下内容："
+  },
+  {
+    "msgid": "Number bounds used for color encoding from red to blue.\n               Reverse the numbers for blue to red. To get pure red or blue,\n               you can enter either only min or max.",
+    "msgstr": "用于颜色编码从红色到蓝色的数字范围。\n               反转数字可实现从蓝色到红色。要获得纯红色或纯蓝色，\n               您可以仅输入最小值或最大值。"
+  },
+  {
+    "msgid": "Number of charts per row when not fitting dynamically",
+    "msgstr": "每行图表数量（非动态适应时）"
+  },
+  {
+    "msgid": "Number of periods to compare against. You can use negative numbers to compare from the beginning of the time range.",
+    "msgstr": "用于比较的周期数。您可以使用负数从时间范围的起始点开始比较。"
+  },
+  {
+    "msgid": "Only applies when \"Label Type\" is not set to a percentage.",
+    "msgstr": "仅当“标签类型”未设置为百分比时适用。"
+  },
+  {
+    "msgid": "Only applies when \"Label Type\" is set to show values.",
+    "msgstr": "仅当“标签类型”设置为显示值时适用。"
+  },
+  {
+    "msgid": "Only exact match is available for non-string columns.",
+    "msgstr": "非字符串列仅支持精确匹配。"
+  },
+  {
+    "msgid": "Only proceed if you trust the destination or its source.",
+    "msgstr": "仅当您信任目标或其来源时才继续。"
+  },
+  {
+    "msgid": "Opacity, expects values between 0 and 100",
+    "msgstr": "不透明度，期望值在0到100之间"
+  },
+  {
+    "msgid": "Open chart in new tab",
+    "msgstr": "在新选项卡中打开图表"
+  },
+  {
+    "msgid": "Open dashboard in new tab",
+    "msgstr": "在新选项卡中打开仪表盘"
+  },
+  {
+    "msgid": "Orders the query result that generates the source data for this chart. If a series or row limit is reached, this determines what data are truncated. If undefined, defaults to the first metric (where appropriate).",
+    "msgstr": "对生成此图表源数据的查询结果进行排序。如果达到序列或行数限制，这将决定哪些数据被截断。如果未定义，则默认使用第一个指标（在适用情况下）。"
+  },
+  {
+    "msgid": "Pause auto refresh if tab is inactive",
+    "msgstr": "标签页不活跃时暂停自动刷新"
+  },
+  {
+    "msgid": "Permissions successfully synced for %s",
+    "msgstr": "权限已成功同步到 %s"
+  },
+  {
+    "msgid": "Pick a dimension from which categorical colors are defined",
+    "msgstr": "从定义分类颜色的维度中选择一个"
+  },
+  {
+    "msgid": "Please choose a valid value",
+    "msgstr": "请选择一个有效的值"
+  },
+  {
+    "msgid": "Please enter valid text. Spaces alone are not permitted.",
+    "msgstr": "请输入有效文本。仅包含空格是不允许的。"
+  },
+  {
+    "msgid": "Please re-export your file and try importing again",
+    "msgstr": "请重新导出您的文件并再次尝试导入"
+  },
+  {
+    "msgid": "Plot the distance (like flight paths) between origin and destination.",
+    "msgstr": "绘制起点与终点之间的距离（如飞行路径）。"
+  },
+  {
+    "msgid": "Processing export for %s",
+    "msgstr": "正在为 %s 处理导出"
+  },
+  {
+    "msgid": "Public and privately shared sheets",
+    "msgstr": "公开和私下共享的表格"
+  },
+  {
+    "msgid": "Radius in kilometers",
+    "msgstr": "半径（公里）"
+  },
+  {
+    "msgid": "Red for increase, green for decrease",
+    "msgstr": "红色表示上涨，绿色表示下跌"
+  },
+  {
+    "msgid": "Redo the action",
+    "msgstr": "重做该操作"
+  },
+  {
+    "msgid": "Reload SQL Lab",
+    "msgstr": "重新加载 SQL 工作台"
+  },
+  {
+    "msgid": "Render columns in HTML format",
+    "msgstr": "以HTML格式渲染列"
+  },
+  {
+    "msgid": "Renders table cells as HTML when applicable. For example, HTML <a> tags will be rendered as hyperlinks.",
+    "msgstr": "在适用时将表格单元格渲染为HTML。例如，HTML <a> 标签将被渲染为超链接。"
+  },
+  {
+    "msgid": "Request Access",
+    "msgstr": "请求访问权限"
+  },
+  {
+    "msgid": "Resample method '%(method)s' is not supported.",
+    "msgstr": "不支持重采样方法 '%(method)s'。"
+  },
+  {
+    "msgid": "Reset all folders to default",
+    "msgstr": "将所有文件夹重置为默认设置"
+  },
+  {
+    "msgid": "Resource already has an attached report.",
+    "msgstr": "资源已附加报表。"
+  },
+  {
+    "msgid": "Resource was removed before editorship could be verified",
+    "msgstr": "在验证编辑权之前，资源已被移除"
+  },
+  {
+    "msgid": "Revoke this API key",
+    "msgstr": "撤销此API密钥"
+  },
+  {
+    "msgid": "Right-click on a dimension value to drill to detail by that value.",
+    "msgstr": "右键单击维度值以按该值向下钻取到详细信息。"
+  },
+  {
+    "msgid": "Row Limit: percentages are calculated based on the subset of data retrieved, respecting the row limit. All Records: Percentages are calculated based on the total dataset, ignoring the row limit.",
+    "msgstr": "行限制：百分比基于检索到的数据子集计算，并遵循行限制。所有记录：百分比基于整个数据集计算，忽略行限制。"
+  },
+  {
+    "msgid": "SQL Lab cannot authorise a statement that could not be fully parsed. Qualify tables explicitly and avoid dynamic SQL inside stored-procedure or vendor-specific calls.",
+    "msgstr": "SQL 工作台 无法授权无法完全解析的语句。请显式限定表名，并避免在存储过程或供应商特定调用中使用动态 SQL。"
+  },
+  {
+    "msgid": "Save this API key securely",
+    "msgstr": "安全保存此API密钥"
+  },
+  {
+    "msgid": "Scale factor applied to metric-driven line widths",
+    "msgstr": "应用于指标驱动线宽的缩放因子"
+  },
+  {
+    "msgid": "Search charts by name, editor, or dashboard",
+    "msgstr": "按名称、编辑者或仪表盘搜索图表"
+  },
+  {
+    "msgid": "Search editors",
+    "msgstr": "搜索编辑器"
+  },
+  {
+    "msgid": "Select a predefined CSS template to apply to your dashboard",
+    "msgstr": "选择一个预定义的CSS模板应用到你的仪表盘"
+  },
+  {
+    "msgid": "Select a time grain for the visualization. The grain is the time interval represented by a single point on the chart.",
+    "msgstr": "为可视化选择一个时间粒度。粒度是图表中单个点所代表的时间间隔。"
+  },
+  {
+    "msgid": "Select editors",
+    "msgstr": "选择编辑器"
+  },
+  {
+    "msgid": "Select layers in the order you want them stacked. First selected appears at the bottom.Layers let you combine multiple visualizations on one map. Each layer is a saved deck.gl chart (like scatter plots, polygons, or arcs) that displays different data or insights. Stack them to reveal patterns and relationships across your data.",
+    "msgstr": "按您想要的堆叠顺序选择图层。第一个选中的图层将显示在底部。图层让您可以在一个地图上组合多个可视化效果。每个图层都是一个已保存的deck.gl图表（如散点图、多边形或弧线），用于显示不同的数据或见解。将它们堆叠起来，以揭示数据中的模式和关系。"
+  },
+  {
+    "msgid": "Select shape for computing values. \"FIXED\" sets all zoom levels to the same size. \"LINEAR\" increases sizes linearly based on specified slope. \"EXP\" increases sizes exponentially based on specified exponent",
+    "msgstr": "选择用于计算值的形状。\"FIXED\" 将所有缩放级别设置为相同大小。\"LINEAR\" 根据指定的斜率线性增加大小。\"EXP\" 根据指定的指数指数级增加大小。"
+  },
+  {
+    "msgid": "Select the color used for values that indicate an increase in the chart",
+    "msgstr": "选择用于表示图表中数值增加的颜色"
+  },
+  {
+    "msgid": "Select the color used for values that represent total bars in the chart",
+    "msgstr": "选择用于表示图表中总柱线数值的颜色"
+  },
+  {
+    "msgid": "Select the color used for values ​​that indicate a decrease in the chart.",
+    "msgstr": "选择用于表示图表中数值下降的颜色。"
+  },
+  {
+    "msgid": "Select the column containing currency codes such as USD, EUR, GBP, etc. Used when building charts when 'Auto-detect' currency formatting is enabled. If this column is not set or if a chart metric contains multiple currencies, charts will fall back to neutral numeric formatting.",
+    "msgstr": "选择包含货币代码（如USD、EUR、GBP等）的列。当启用\"自动检测\"货币格式时，用于构建图表。如果未设置此列或图表指标包含多种货币，图表将回退为中性数字格式。"
+  },
+  {
+    "msgid": "Select the map tile provider. MapLibre is open-source and requires no API key. Mapbox requires MAPBOX_API_KEY to be configured in Superset.",
+    "msgstr": "选择地图瓦片提供商。MapLibre 是开源的，无需 API 密钥。Mapbox 需要在 Superset 中配置 MAPBOX_API_KEY。"
+  },
+  {
+    "msgid": "Select the metric used to determine which color breakpoint range each path falls into.",
+    "msgstr": "选择用于确定每条路径所属颜色断点范围的指标。"
+  },
+  {
+    "msgid": "Select which time grains are available in the filter control. This is a UI allow list only and does not add extra conditions to the underlying queries.",
+    "msgstr": "选择筛选控件中可用的时间粒度。这仅是一个UI允许列表，不会为基础查询添加额外条件。"
+  },
+  {
+    "msgid": "Series decrease setting",
+    "msgstr": "系列减少设置"
+  },
+  {
+    "msgid": "Series increase setting",
+    "msgstr": "系列增加设置"
+  },
+  {
+    "msgid": "Server pagination needs to be enabled for values over %s",
+    "msgstr": "服务器分页需要为超过 %s 的值启用"
+  },
+  {
+    "msgid": "Set local theme for testing (preview only)",
+    "msgstr": "设置本地主题以进行测试（仅预览）"
+  },
+  {
+    "msgid": "Set the automatic refresh frequency for this dashboard.",
+    "msgstr": "设置此仪表盘的自动刷新频率。"
+  },
+  {
+    "msgid": "Set the automatic refresh frequency for this dashboard. The dashboard will reload its data at the specified interval.",
+    "msgstr": "设置此仪表盘的自动刷新频率。仪表盘将按指定间隔重新加载数据。"
+  },
+  {
+    "msgid": "Set up basic details, such as name and description.",
+    "msgstr": "设置基本详细信息，例如名称和描述。"
+  },
+  {
+    "msgid": "Sets the default temporal column for this dataset. Automatically selected as the time column when building charts that require a time dimension and used in dashboard level time filters.",
+    "msgstr": "设置此数据集的默认时间列。在构建需要时间维度的图表时，自动选为时间列，并用于仪表盘级别的时间筛选器。"
+  },
+  {
+    "msgid": "Sets the hierarchy levels of the chart. Each level is\n        represented by one ring with the innermost circle as the top of the hierarchy.",
+    "msgstr": "设置图表的层级结构。每个层级\n        由一个环表示，最内层的圆为层级结构的顶层。"
+  },
+  {
+    "msgid": "Shift + Click to sort by multiple columns",
+    "msgstr": "Shift + 点击可按多列排序"
+  },
+  {
+    "msgid": "Skipped %d system themes that cannot be deleted",
+    "msgstr": "跳过了 %d 个无法删除的系统主题"
+  },
+  {
+    "msgid": "Solid",
+    "msgstr": "纯色"
+  },
+  {
+    "msgid": "Some groups could not be resolved and are shown as IDs.",
+    "msgstr": "某些组无法解析，已显示为ID。"
+  },
+  {
+    "msgid": "Some permissions could not be resolved and are shown as IDs.",
+    "msgstr": "某些权限无法解析，已显示为ID。"
+  },
+  {
+    "msgid": "Some required filters on other tabs have values and will not be cleared",
+    "msgstr": "其他选项卡上的一些必填筛选器已有值，不会被清除"
+  },
+  {
+    "msgid": "Something went wrong with embedded authentication. Check the dev console for details.",
+    "msgstr": "嵌入式认证出现问题。请查看开发者控制台以获取详细信息。"
+  },
+  {
+    "msgid": "Sort results by series name in ascending order. When combined with \"Sort by metric\", this acts as a tiebreaker for equal metric values. Adding this sort may reduce query performance on some databases.",
+    "msgstr": "按系列名称升序排列结果。与\"按指标排序\"结合使用时，此选项可作为指标值相同时的决胜排序。添加此排序可能会降低某些数据库的查询性能。"
+  },
+  {
+    "msgid": "Sort series in ascending order",
+    "msgstr": "按升序排序系列"
+  },
+  {
+    "msgid": "Specify name to CREATE TABLE AS schema in: public",
+    "msgstr": "指定在 public 模式中执行 CREATE TABLE AS 时的名称"
+  },
+  {
+    "msgid": "Specify name to CREATE VIEW AS schema in: public",
+    "msgstr": "在 public 中指定要创建视图的架构名称"
+  },
+  {
+    "msgid": "Split stack by",
+    "msgstr": "按以下拆分堆栈"
+  },
+  {
+    "msgid": "Streets (OSM)",
+    "msgstr": "街道（OSM）"
+  },
+  {
+    "msgid": "Structure is managed by the upstream semantic layer and is read-only.",
+    "msgstr": "结构由上游语义层管理，且为只读。"
+  },
+  {
+    "msgid": "Subject type",
+    "msgstr": "主题类型"
+  },
+  {
+    "msgid": "Subjects are invalid",
+    "msgstr": "主题无效"
+  },
+  {
+    "msgid": "Sync Permissions",
+    "msgstr": "同步权限"
+  },
+  {
+    "msgid": "System default theme removed",
+    "msgstr": "系统默认主题已移除"
+  },
+  {
+    "msgid": "Tab schema is invalid, caused by: %(error)s",
+    "msgstr": "Tab 模式无效，原因：%(error)s"
+  },
+  {
+    "msgid": "Table already exists. You can change your 'if table already exists' strategy to append or replace or provide a different Table Name to use.",
+    "msgstr": "表已存在。您可以将“如果表已存在”的策略更改为追加或替换，或提供不同的表名来使用。"
+  },
+  {
+    "msgid": "Task is not abortable. The task is in progress but has not registered an abort handler.",
+    "msgstr": "任务不可中止。该任务正在执行中，但尚未注册中止处理程序。"
+  },
+  {
+    "msgid": "Tasks will appear here as background operations are executed.",
+    "msgstr": "后台操作执行时，任务将在此处显示。"
+  },
+  {
+    "msgid": "Template for cell titles. Use Handlebars templating syntax (a popular templating library that uses double curly brackets for variable substitution): {{row}}, {{column}}, {{rowLabel}}, {{columnLabel}}",
+    "msgstr": "单元格标题的模板。使用Handlebars模板语法（一种流行的模板库，使用双花括号进行变量替换）：{{row}}、{{column}}、{{rowLabel}}、{{columnLabel}}"
+  },
+  {
+    "msgid": "The GeoJsonLayer takes in GeoJSON formatted data and renders it as interactive polygons, lines and points (circles, icons and/or texts).",
+    "msgstr": "GeoJsonLayer 接收 GeoJSON 格式的数据，并将其渲染为交互式多边形、线条和点（圆形、图标和/或文本）。"
+  },
+  {
+    "msgid": "The Global Task Framework is not enabled. Please contact your administrator to enable the GLOBAL_TASK_FRAMEWORK feature flag.",
+    "msgstr": "全局任务框架未启用。请联系管理员启用 GLOBAL_TASK_FRAMEWORK 功能标志。"
+  },
+  {
+    "msgid": "The Global Task Framework is not enabled. Set GLOBAL_TASK_FRAMEWORK=True in your feature flags to use @task. See https://superset.apache.org/docs/configuration/async-queries-celery for configuration details.",
+    "msgstr": "全局任务框架未启用。请在功能标志中设置 GLOBAL_TASK_FRAMEWORK=True 以使用 @task。配置详情请参见 https://superset.apache.org/docs/configuration/async-queries-celery"
+  },
+  {
+    "msgid": "The SSH server host key could not be verified against the expected key.",
+    "msgstr": "无法根据预期密钥验证 SSH 服务器主机密钥。"
+  },
+  {
+    "msgid": "The Sankey chart visually tracks the movement and transformation of values across\n          system stages. Nodes represent stages, connected by links depicting value flow. Node\n          height corresponds to the visualized metric, providing a clear representation of\n          value distribution and transformation.",
+    "msgstr": "桑基图直观地追踪了值在系统各阶段之间的流动与转换过程。节点代表各个阶段，通过表示值流动的链接相互连接。节点高度对应可视化指标，清晰展示了值的分布与转换情况。"
+  },
+  {
+    "msgid": "The URL is missing the dataset_id or slice_id parameters.",
+    "msgstr": "URL缺少dataset_id或slice_id参数。"
+  },
+  {
+    "msgid": "The X-axis is not on the filters list",
+    "msgstr": "X轴不在筛选器列表中"
+  },
+  {
+    "msgid": "The X-axis is not on the filters list which will prevent it from being used in time range filters in dashboards. Would you like to add it to the filters list?",
+    "msgstr": "X轴不在筛选器列表中，这将阻止其在仪表盘的时间范围筛选器中使用。是否要将其添加到筛选器列表？"
+  },
+  {
+    "msgid": "The chart is still loading. Please wait a moment and try again.",
+    "msgstr": "图表仍在加载中。请稍候片刻再试。"
+  },
+  {
+    "msgid": "The chart this report targets was deleted. Restore the chart, or update the report to point at an active chart.",
+    "msgstr": "此报表所针对的图表已被删除。请恢复该图表，或将报表更新为指向有效的图表。"
+  },
+  {
+    "msgid": "The color used when a value doesn't match any defined breakpoints.",
+    "msgstr": "当某个值不匹配任何定义的断点时使用的颜色。"
+  },
+  {
+    "msgid": "The column to be used as the source of the edge.",
+    "msgstr": "用作边来源的列。"
+  },
+  {
+    "msgid": "The column to be used as the target of the edge.",
+    "msgstr": "用作边目标的列。"
+  },
+  {
+    "msgid": "The dashboard this report targets was deleted. Restore the dashboard, or update the report to point at an active dashboard.",
+    "msgstr": "此报表所针对的仪表盘已被删除。请恢复该仪表盘，或将报表更新为指向一个有效的仪表盘。"
+  },
+  {
+    "msgid": "The dataset column/metric that returns the values on your chart's x-axis.",
+    "msgstr": "返回图表x轴数值的数据集列/度量。"
+  },
+  {
+    "msgid": "The dataset column/metric that returns the values on your chart's y-axis.",
+    "msgstr": "返回图表y轴数值的数据集列/度量。"
+  },
+  {
+    "msgid": "The dataset columns will be automatically synced\n              based on the changes in your SQL query. If your changes don't\n              impact the column definitions, you might want to skip this step.",
+    "msgstr": "数据集列将根据SQL查询中的更改自动同步。\n如果您的更改不影响列定义，您可能希望跳过此步骤。"
+  },
+  {
+    "msgid": "The default catalog that should be used for the connection.",
+    "msgstr": "应用于连接的默认目录。"
+  },
+  {
+    "msgid": "The default schema that should be used for the connection.",
+    "msgstr": "连接应使用的默认架构。"
+  },
+  {
+    "msgid": "The exponent to compute all sizes from. \"EXP\" only",
+    "msgstr": "用于计算所有尺寸的指数。仅限\"EXP\""
+  },
+  {
+    "msgid": "The extent of the map on application start. FIT DATA automatically sets the extent so that all data points are included in the viewport. CUSTOM allows users to define the extent manually.",
+    "msgstr": "应用程序启动时的地图范围。FIT DATA 自动设置范围，使所有数据点都包含在视口中。CUSTOM 允许用户手动定义范围。"
+  },
+  {
+    "msgid": "The feature property to use for point labels",
+    "msgstr": "用于点标签的特征属性"
+  },
+  {
+    "msgid": "The following fields contain sensitive information that was masked during export. Please provide the values to import this database.",
+    "msgstr": "以下字段包含在导出期间被屏蔽的敏感信息。请提供这些值以导入此数据库。"
+  },
+  {
+    "msgid": "The following filters have the 'Select first filter value by default'\n                    option checked and could not be loaded, which is preventing the dashboard\n                    from rendering: %s",
+    "msgstr": "以下筛选器已勾选“默认选择第一个筛选值”选项，但无法加载，导致仪表盘无法渲染：%s"
+  },
+  {
+    "msgid": "The height of the current zoom level to compute all heights from",
+    "msgstr": "当前缩放级别的高度，用于计算所有高度"
+  },
+  {
+    "msgid": "The histogram chart displays the distribution of a dataset by\n          representing the frequency or count of values within different ranges or bins.\n          It helps visualize patterns, clusters, and outliers in the data and provides\n          insights into its shape, central tendency, and spread.",
+    "msgstr": "直方图通过展示不同范围或区间内值的频率或计数，\n          来呈现数据集的分布情况。\n          它有助于可视化数据中的模式、聚类和异常值，并提供\n          关于数据形态、集中趋势和离散程度的洞察。"
+  },
+  {
+    "msgid": "The image URL of the icon to display for GeoJSON points. Note that the image URL must conform to the content security policy (CSP) in order to load correctly.",
+    "msgstr": "用于显示GeoJSON点的图标图像URL。请注意，图像URL必须符合内容安全策略（CSP）才能正确加载。"
+  },
+  {
+    "msgid": "The initial level (depth) of the tree. If set as -1 all nodes are expanded.",
+    "msgstr": "树的初始层级（深度）。若设为-1，则展开所有节点。"
+  },
+  {
+    "msgid": "The lower limit of the threshold range of the Isoband",
+    "msgstr": "Isoband 阈值范围的下限"
+  },
+  {
+    "msgid": "The passwords for the databases below are needed in order to import them.",
+    "msgstr": "需要以下数据库的密码才能导入它们。"
+  },
+  {
+    "msgid": "The radius of point features, in the units specified below. The final rendered size is this value multiplied by Point Radius Scale.",
+    "msgstr": "点要素的半径，单位如下所示。最终渲染大小为此值乘以点半径比例。"
+  },
+  {
+    "msgid": "The result of this query must be a value capable of numeric interpretation e.g. 1, 1.0, or \"1\" (compatible with Python's float() function).",
+    "msgstr": "此查询的结果必须是一个能够进行数值解释的值，例如 1、1.0 或 \"1\"（与 Python 的 float() 函数兼容）。"
+  },
+  {
+    "msgid": "The result size exceeds the allowed limit.",
+    "msgstr": "结果大小超过了允许的限制。"
+  },
+  {
+    "msgid": "The row limit set for the chart was reached. The chart may show partial data.",
+    "msgstr": "已达到为图表设置的行数限制。图表可能仅显示部分数据。"
+  },
+  {
+    "msgid": "The schema of the submitted payload is invalid.",
+    "msgstr": "提交的有效载荷模式无效。"
+  },
+  {
+    "msgid": "The screenshot could not be downloaded. Please, try again later.",
+    "msgstr": "截图无法下载。请稍后再试。"
+  },
+  {
+    "msgid": "The screenshot is being generated. Please, do not leave the page.",
+    "msgstr": "正在生成截图，请不要离开此页面。"
+  },
+  {
+    "msgid": "The slope to compute all sizes from. \"LINEAR\" only",
+    "msgstr": "计算所有尺寸的斜率。仅限\"LINEAR\""
+  },
+  {
+    "msgid": "The unit for label size",
+    "msgstr": "标签尺寸的单位"
+  },
+  {
+    "msgid": "The unit for point radius. Use \"pixels\" for consistent screen-space sizing regardless of zoom level.",
+    "msgstr": "点半径的单位。使用“像素”可确保无论缩放级别如何，屏幕空间大小保持一致。"
+  },
+  {
+    "msgid": "The upper limit of the threshold range of the Isoband",
+    "msgstr": "Isoband 阈值范围的上限"
+  },
+  {
+    "msgid": "The user/password combination is not valid (Incorrect password for user).",
+    "msgstr": "用户/密码组合无效（用户密码错误）。"
+  },
+  {
+    "msgid": "The width of the current zoom level to compute all widths from",
+    "msgstr": "计算所有宽度的当前缩放级别的宽度"
+  },
+  {
+    "msgid": "The width of the lines as either a fixed value or variable width based on a metric.",
+    "msgstr": "线条的宽度，可以是固定值，也可以是基于指标的变量宽度。"
+  },
+  {
+    "msgid": "There are no components added to this tab",
+    "msgstr": "此选项卡未添加任何组件"
+  },
+  {
+    "msgid": "There was a problem refreshing your dashboard. We'll try again in %s, as scheduled.",
+    "msgstr": "刷新仪表盘时出现问题。我们将按计划在 %s 后重试。"
+  },
+  {
+    "msgid": "This chart is managed externally, and can't be edited in Superset",
+    "msgstr": "此图表由外部管理，无法在Superset中编辑"
+  },
+  {
+    "msgid": "This chart type is not supported when using an unsaved query as a chart source. ",
+    "msgstr": "当使用未保存的查询作为图表源时，不支持此图表类型。 "
+  },
+  {
+    "msgid": "This control filters the whole chart based on the selected time range. All relative times, e.g. \"Last month\", \"Last 7 days\", \"now\", etc. are evaluated on the server using the server's local time (sans timezone). All tooltips and placeholder times are expressed in UTC (sans timezone). The timestamps are then evaluated by the database using the engine's local timezone. Note one can explicitly set the timezone per the ISO 8601 format if specifying either the start and/or end time.",
+    "msgstr": "此控件根据所选时间范围筛选整个图表。所有相对时间（例如\"上个月\"、\"过去7天\"、\"现在\"等）均使用服务器本地时间（不含时区）在服务器端进行评估。所有工具提示和占位时间均以UTC（不含时区）表示。随后，时间戳由数据库根据引擎的本地时区进行评估。请注意，如果指定开始时间和/或结束时间，可以按照ISO 8601格式显式设置时区。"
+  },
+  {
+    "msgid": "This controls whether the \"time_range\" field from the current\n                  view should be passed down to the chart containing the annotation data.",
+    "msgstr": "此设置控制是否应将当前视图中的\"time_range\"字段传递到包含注释数据的图表中。"
+  },
+  {
+    "msgid": "This controls whether the time grain field from the current\n                  view should be passed down to the chart containing the annotation data.",
+    "msgstr": "此设置控制当前视图中的时间粒度字段是否应传递到包含注释数据的图表中。"
+  },
+  {
+    "msgid": "This dashboard is managed externally, and can't be edited in Superset",
+    "msgstr": "此仪表盘由外部管理，无法在 Superset 中编辑"
+  },
+  {
+    "msgid": "This database uses OAuth2 for authentication. Please click the link above to grant Apache Superset permission to access the data. Your personal access token will be stored encrypted and used only for queries run by you.",
+    "msgstr": "此数据库使用 OAuth2 进行身份验证。请点击上方链接，授予 Apache Superset 访问数据的权限。您的个人访问令牌将被加密存储，且仅用于您执行的查询。"
+  },
+  {
+    "msgid": "This dataset is managed externally, and can't be edited in Superset",
+    "msgstr": "此数据集由外部管理，无法在Superset中编辑"
+  },
+  {
+    "msgid": "This email is already associated with an account. Please choose another one.",
+    "msgstr": "此邮箱已关联到一个账户。请选择其他邮箱。"
+  },
+  {
+    "msgid": "This feature is experimental and may change or have limitations",
+    "msgstr": "此功能为实验性功能，可能会发生变化或存在限制"
+  },
+  {
+    "msgid": "This field is used as a unique identifier to attach the calculated dimension to charts. It is also used as the alias in the SQL query.",
+    "msgstr": "此字段用作唯一标识符，用于将计算维度附加到图表中。它也用作SQL查询中的别名。"
+  },
+  {
+    "msgid": "This field is used as a unique identifier to attach the metric to charts. It is also used as the alias in the SQL query.",
+    "msgstr": "此字段用作将指标附加到图表的唯一标识符。它也用作SQL查询中的别名。"
+  },
+  {
+    "msgid": "This is a default columns folder. Its name cannot be changed or removed. It can stay empty but will only accept column items.",
+    "msgstr": "这是一个默认的列文件夹。其名称无法更改或删除。它可以保持为空，但只能接受列项目。"
+  },
+  {
+    "msgid": "This is a default metrics folder. Its name cannot be changed or removed. It can stay empty but will only accept metric items.",
+    "msgstr": "这是一个默认的指标文件夹。其名称无法更改或删除。它可以保持为空，但只能接受指标项目。"
+  },
+  {
+    "msgid": "This is custom error message for a",
+    "msgstr": "这是针对 a 的自定义错误消息"
+  },
+  {
+    "msgid": "This link will take you to an external website. We cannot guarantee the safety of external destinations.",
+    "msgstr": "此链接将带您前往外部网站。我们无法保证外部目标的安全性。"
+  },
+  {
+    "msgid": "This may be due to the extension not being activated or the content not being available.",
+    "msgstr": "这可能是因为扩展未激活或内容不可用。"
+  },
+  {
+    "msgid": "This name is already taken. Please choose another one.",
+    "msgstr": "此名称已被占用。请选择另一个名称。"
+  },
+  {
+    "msgid": "This page is intended to be embedded in an iframe, but it looks like that is not the case.",
+    "msgstr": "此页面设计为嵌入在 iframe 中，但看起来并非如此。"
+  },
+  {
+    "msgid": "This session has encountered an interruption, and some controls may not work as intended. If you are the developer of this app, please check that the guest token is being generated correctly.",
+    "msgstr": "此会话遇到中断，某些控件可能无法按预期工作。如果您是此应用的开发者，请检查访客令牌是否生成正确。"
+  },
+  {
+    "msgid": "This theme is set locally",
+    "msgstr": "此主题为本地设置"
+  },
+  {
+    "msgid": "This username is already taken. Please choose another one.",
+    "msgstr": "该用户名已被占用。请选择另一个用户名。"
+  },
+  {
+    "msgid": "This will be applied to the whole table. Arrows (↑ and ↓) will be added to main columns for increase and decrease. Basic conditional formatting can be overwritten by conditional formatting below.",
+    "msgstr": "这将应用于整个表格。箭头（↑ 和 ↓）将添加到主列以表示增加和减少。基本的条件格式可以被下方的条件格式覆盖。"
+  },
+  {
+    "msgid": "This will reorganize all metrics and columns into default folders. Any custom folders will be removed.",
+    "msgstr": "这将把所有指标和列重新组织到默认文件夹中。任何自定义文件夹都将被移除。"
+  },
+  {
+    "msgid": "Time delta in natural language\n                  (example:  24 hours, 7 days, 56 weeks, 365 days)",
+    "msgstr": "自然语言中的时间差\n                  （示例：24小时、7天、56周、365天）"
+  },
+  {
+    "msgid": "To begin using your Google Sheets, you need to create a database first. Databases are used as a way to identify your data so that it can be queried and visualized. This database will hold all of your individual Google Sheets you choose to connect here.",
+    "msgstr": "要开始使用您的Google Sheets，您需要先创建一个数据库。数据库用于标识您的数据，以便进行查询和可视化。此数据库将保存您选择在此连接的所有独立Google Sheets。"
+  },
+  {
+    "msgid": "To enable multiple column sorting, hold down the ⇧ Shift key while clicking the column header.",
+    "msgstr": "要启用多列排序，请在点击列标题时按住 ⇧ Shift 键。"
+  },
+  {
+    "msgid": "Token Request URI",
+    "msgstr": "令牌请求URI"
+  },
+  {
+    "msgid": "Too many sub-slices requested. The maximum allowed is %(max)s, but %(count)s were requested.",
+    "msgstr": "请求的子切片数量过多。最大允许数量为 %(max)s，但实际请求了 %(count)s 个子切片。"
+  },
+  {
+    "msgid": "Treat values as categorical.",
+    "msgstr": "将值视为分类。"
+  },
+  {
+    "msgid": "Truncate long cells to the \"min width\" set above",
+    "msgstr": "将长单元格截断为上方设置的\"最小宽度\""
+  },
+  {
+    "msgid": "Trust this URL and don't ask again",
+    "msgstr": "信任此URL且不再询问"
+  },
+  {
+    "msgid": "Try different criteria to display results.",
+    "msgstr": "尝试不同的条件来显示结果。"
+  },
+  {
+    "msgid": "Tukey",
+    "msgstr": "图基"
+  },
+  {
+    "msgid": "Type of Google Sheets allowed",
+    "msgstr": "允许的 Google Sheets 类型"
+  },
+  {
+    "msgid": "Unable to calculate such a date delta",
+    "msgstr": "无法计算这样的日期差值"
+  },
+  {
+    "msgid": "Unable to connect. Verify that the following roles are set on the service account: \"BigQuery Data Viewer\", \"BigQuery Metadata Viewer\", \"BigQuery Job User\" and the following permissions are set \"bigquery.readsessions.create\", \"bigquery.readsessions.getData\"",
+    "msgstr": "无法连接。请确保服务账号已设置以下角色：\"BigQuery数据查看者\"、\"BigQuery元数据查看者\"、\"BigQuery作业用户\"，并已设置以下权限：\"bigquery.readsessions.create\"、\"bigquery.readsessions.getData\""
+  },
+  {
+    "msgid": "Unable to connect. Verify that the following roles are set on the service account: \"Cloud Datastore Viewer\", \"Cloud Datastore User\", \"Cloud Datastore Creator\"",
+    "msgstr": "无法连接。请确认服务账号已设置以下角色：\"Cloud Datastore Viewer\"、\"Cloud Datastore User\"、\"Cloud Datastore Creator\""
+  },
+  {
+    "msgid": "Unable to create chart without a query id.",
+    "msgstr": "无法在没有查询ID的情况下创建图表。"
+  },
+  {
+    "msgid": "Unable to create report: User email address is required but not found. Please ensure your user profile has a valid email address.",
+    "msgstr": "无法创建报表：需要用户邮箱地址但未找到。请确保您的用户资料中包含有效的邮箱地址。"
+  },
+  {
+    "msgid": "Unable to parse SQL",
+    "msgstr": "无法解析SQL"
+  },
+  {
+    "msgid": "Unable to retrieve dashboard colors",
+    "msgstr": "无法获取仪表盘颜色"
+  },
+  {
+    "msgid": "Unable to sync permissions for this database connection.",
+    "msgstr": "无法同步此数据库连接的权限。"
+  },
+  {
+    "msgid": "Unknown tokens will be highlighted as warnings.",
+    "msgstr": "未知令牌将高亮显示为警告。"
+  },
+  {
+    "msgid": "Unsafe link blocked",
+    "msgstr": "已阻止不安全链接"
+  },
+  {
+    "msgid": "Unsupported file type. Please use CSV, Excel, or Columnar files.",
+    "msgstr": "不支持的文件类型。请使用CSV、Excel或列式文件。"
+  },
+  {
+    "msgid": "Upload a file with a valid extension. Valid: [%s]",
+    "msgstr": "上传一个扩展名有效的文件。有效扩展名：[%s]"
+  },
+  {
+    "msgid": "Use Handlebars syntax to create custom tooltips. Available variables are based on your tooltip contents selection above.",
+    "msgstr": "使用Handlebars语法创建自定义工具提示。可用变量基于您上方选择的工具提示内容。"
+  },
+  {
+    "msgid": "Use this section if you want a query that aggregates",
+    "msgstr": "如果你想要一个聚合查询，请使用此部分"
+  },
+  {
+    "msgid": "Use this section if you want to query atomic rows",
+    "msgstr": "如果您想查询原子行，请使用此部分"
+  },
+  {
+    "msgid": "Uses the first 25 values if the dimension has more.",
+    "msgstr": "如果维度包含超过25个值，则仅使用前25个。"
+  },
+  {
+    "msgid": "Validating connectivity for %s",
+    "msgstr": "正在验证 %s 的连接性"
+  },
+  {
+    "msgid": "Value difference between the time periods",
+    "msgstr": "时间段之间的值差异"
+  },
+  {
+    "msgid": "Values less than this percentage will be grouped into the Other category.",
+    "msgstr": "低于此百分比的数值将被归入“其他”类别。"
+  },
+  {
+    "msgid": "Values selected in other filters will affect the filter options to only show relevant values",
+    "msgstr": "在其他筛选器中选择的值将影响筛选选项，仅显示相关值"
+  },
+  {
+    "msgid": "Viewers is a list of subjects who can view the dashboard. If no viewers are defined, the dashboard is accessible to all users with appropriate datasource permissions.",
+    "msgstr": "查看者是指可以查看该仪表盘的主体列表。如果未定义查看者，则所有具有相应数据源权限的用户均可访问该仪表盘。"
+  },
+  {
+    "msgid": "Visualize geospatial data like 3D buildings, landscapes, or objects in grid view.",
+    "msgstr": "在网格视图中可视化地理空间数据，如3D建筑、景观或物体。"
+  },
+  {
+    "msgid": "Visualizes connected points, which form a path, on a map.",
+    "msgstr": "在地图上可视化连接的点，这些点形成一条路径。"
+  },
+  {
+    "msgid": "Visualizes geographic areas from your data as polygons on a Mapbox rendered map. Polygons can be colored using a metric.",
+    "msgstr": "将数据中的地理区域以多边形形式可视化在Mapbox渲染的地图上。多边形可使用指标进行着色。"
+  },
+  {
+    "msgid": "Warehouse",
+    "msgstr": "仓库"
+  },
+  {
+    "msgid": "We have the following keys: %s",
+    "msgstr": "我们有以下密钥：%s"
+  },
+  {
+    "msgid": "We were unable to carry over any controls when switching to this new dataset.",
+    "msgstr": "切换到此新数据集时，我们无法保留任何控件。"
+  },
+  {
+    "msgid": "Weekly Report for %s",
+    "msgstr": "%s 的周报"
+  },
+  {
+    "msgid": "When unchecked, colors from the selected color scheme will be used for time shifted series",
+    "msgstr": "取消选中时，将使用所选配色方案中的颜色来表示时间偏移序列。"
+  },
+  {
+    "msgid": "When using this option, default value can't be set. Using this option may impact the load times for your dashboard.",
+    "msgstr": "使用此选项时，无法设置默认值。使用此选项可能会影响仪表盘的加载时间。"
+  },
+  {
+    "msgid": "Write a handlebars template to render the data",
+    "msgstr": "编写一个Handlebars模板来渲染数据"
+  },
+  {
+    "msgid": "You are editing a query from the virtual dataset ",
+    "msgstr": "您正在编辑来自虚拟数据集的查询 "
+  },
+  {
+    "msgid": "You are viewing this chart in a dashboard context with labels shared across multiple charts.\n        The color scheme selection is disabled.",
+    "msgstr": "您正在仪表盘上下文中查看此图表，标签与多个图表共享。\n        颜色方案选择已禁用。"
+  },
+  {
+    "msgid": "You are viewing this chart in the context of a dashboard that is directly affecting its colors.\n        To edit the color scheme, open this chart outside of the dashboard.",
+    "msgstr": "您正在查看的图表位于一个直接影响其颜色的仪表盘上下文中。\n        要编辑配色方案，请在仪表盘外打开此图表。"
+  },
+  {
+    "msgid": "You can also just click on the chart to apply cross-filter.",
+    "msgstr": "您也可以直接点击图表应用交叉筛选。"
+  },
+  {
+    "msgid": "You cannot delete the last temporal filter as it's used for time range filters in dashboards.",
+    "msgstr": "您无法删除最后一个时间筛选器，因为它用于仪表盘中的时间范围筛选器。"
+  },
+  {
+    "msgid": "You don't have access to one or more of the referenced datasources.",
+    "msgstr": "您没有访问其中一个或多个所引用数据源的权限。"
+  },
+  {
+    "msgid": "You have used all %(historyLength)s undo slots and will not be able to fully undo subsequent actions. You may save your current state to reset the history.",
+    "msgstr": "您已用完所有 %(historyLength)s 个撤销槽位，将无法完全撤销后续操作。您可以保存当前状态以重置历史记录。"
+  },
+  {
+    "msgid": "You must be a %s editor in order to edit. Please reach out to a %s editor to request modifications or edit access.",
+    "msgstr": "您必须是 %s 编辑者才能编辑。请联系 %s 编辑者请求修改或编辑权限。"
+  },
+  {
+    "msgid": "You must be a dataset editor in order to edit. Please reach out to a dataset editor to request modifications or edit access.",
+    "msgstr": "您必须是数据集编辑者才能编辑。请联系数据集编辑者请求修改或编辑权限。"
+  },
+  {
+    "msgid": "You must change your password before continuing.",
+    "msgstr": "继续之前，您必须更改密码。"
+  },
+  {
+    "msgid": "You need access to the following tables: %(tables)s, 'all_database_access' or 'all_datasource_access' permission",
+    "msgstr": "您需要访问以下表的权限：%(tables)s、'all_database_access' 或 'all_datasource_access'"
+  },
+  {
+    "msgid": "You'll be removed from this task. It will continue running for %s other subscriber(s).",
+    "msgstr": "你将被移出此任务。该任务将继续为其他 %s 名订阅者运行。"
+  },
+  {
+    "msgid": "You've changed datasets. Any controls with data (columns, metrics) that match this new dataset have been retained.",
+    "msgstr": "您已更改数据集。任何与新数据集匹配的数据控件（列、指标）均已被保留。"
+  },
+  {
+    "msgid": "Your account is activated. You can log in with your credentials.",
+    "msgstr": "您的账户已激活。您可以使用您的凭据登录。"
+  },
+  {
+    "msgid": "Your changes will be lost if you leave without saving.",
+    "msgstr": "若不保存即离开，您的更改将丢失。"
+  },
+  {
+    "msgid": "Your dashboard is near the size limit.",
+    "msgstr": "您的仪表盘接近大小限制。"
+  },
+  {
+    "msgid": "Your session has ended. Please sign in again.",
+    "msgstr": "您的会话已结束，请重新登录。"
+  },
+  {
+    "msgid": "`periods` must be between 1 and %(max)s",
+    "msgstr": "`periods` 必须介于 1 和 %(max)s 之间"
+  },
+  {
+    "msgid": "`window` must be between 1 and 10000",
+    "msgstr": "`window` 必须介于 1 和 10000 之间。"
+  },
+  {
+    "msgid": "between {down} and {up} {name}",
+    "msgstr": "在 {down} 和 {up} 之间 {name}"
+  },
+  {
+    "msgid": "code ISO 3166-1 alpha-2 (cca2)",
+    "msgstr": "代码 ISO 3166-1 alpha-2 (cca2)"
+  },
+  {
+    "msgid": "code ISO 3166-1 alpha-3 (cca3)",
+    "msgstr": "代码 ISO 3166-1 alpha-3 (cca3)"
+  },
+  {
+    "msgid": "code International Olympic Committee (cioc)",
+    "msgstr": "代码 国际奥林匹克委员会 (cioc)"
+  },
+  {
+    "msgid": "dialect+driver://username:password@host:port/database",
+    "msgstr": "dialect+driver://username:password@host:port/database"
+  },
+  {
+    "msgid": "e.g. hive_metastore",
+    "msgstr": "例如：hive_metastore"
+  },
+  {
+    "msgid": "e.g., CI/CD Pipeline, Analytics Script",
+    "msgstr": "例如：CI/CD 流水线、分析脚本"
+  },
+  {
+    "msgid": "editors",
+    "msgstr": "编辑"
+  },
+  {
+    "msgid": "geohash (square)",
+    "msgstr": "geohash（方形）"
+  },
+  {
+    "msgid": "in order to run this operation.",
+    "msgstr": "为了运行此操作。"
+  },
+  {
+    "msgid": "is expected to be a Mapbox/OSM URL (eg. mapbox://styles/...) or a tile server URL (eg. tile://http...)",
+    "msgstr": "预期为 Mapbox/OSM URL（例如 mapbox://styles/...）或瓦片服务器 URL（例如 tile://http...）"
+  },
+  {
+    "msgid": "less than {min} {name}",
+    "msgstr": "少于 {min} {name}"
+  },
+  {
+    "msgid": "more than {max} {name}",
+    "msgstr": "超过 {max} 个 {name}"
+  },
+  {
+    "msgid": "nativeFilters[%(idx)s] missing required keys: %(keys)s",
+    "msgstr": "nativeFilters[%(idx)s]缺少必要键：%(keys)s"
+  },
+  {
+    "msgid": "nativeFilters[%(idx)s].nativeFilterId '%(filter_id)s' does not exist on the dashboard",
+    "msgstr": "仪表盘上不存在 nativeFilters[%(idx)s].nativeFilterId '%(filter_id)s'"
+  },
+  {
+    "msgid": "numeric type icon",
+    "msgstr": "数字类型图标"
+  },
+  {
+    "msgid": "of",
+    "msgstr": "的"
+  },
+  {
+    "msgid": "x: values are normalized within each column",
+    "msgstr": "x: 每列内的值已归一化"
+  },
+  {
+    "msgid": "y: values are normalized within each row",
+    "msgstr": "y: 每行内的值已归一化"
+  }
+]
