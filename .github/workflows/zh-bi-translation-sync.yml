@@ -23,6 +23,7 @@ on:
       - dev-zh-cn
     paths:
       - scripts/translations/zh_bi_overrides.json
+      - scripts/translations/zh_bi_data_overrides.json
       - scripts/translations/apply_zh_bi_overrides.py
       - .github/workflows/zh-bi-translation-sync.yml
   workflow_dispatch:
@@ -53,7 +54,11 @@ jobs:
         run: python -m pip install --disable-pip-version-check Babel
 
       - name: Apply BI terminology
-        run: python scripts/translations/apply_zh_bi_overrides.py --allow-missing
+        run: |
+          python scripts/translations/apply_zh_bi_overrides.py --allow-missing
+          python scripts/translations/apply_zh_bi_overrides.py \
+            --overrides scripts/translations/zh_bi_data_overrides.json \
+            --allow-missing
 
       # Superset master currently contains a few pre-existing zh placeholder
       # incompatibilities. Its Dockerfile intentionally compiles with `|| true`.
