@@ -16,6 +16,8 @@ on:
       - scripts/translations/zh_release_review_corrections.json
       - scripts/translations/zh_release_review_overrides.json
       - scripts/translations/finalize_zh_release_review.py
+      - scripts/translations/report_zh_machine_review.py
+      - scripts/translations/zh_machine_review_overrides.json
       - scripts/translations/apply_zh_bi_overrides.py
       - scripts/translations/normalize_zh_bi_terms.py
       - scripts/translations/audit_zh_bi_terms.py
@@ -65,6 +67,11 @@ jobs:
               --overrides scripts/translations/zh_release_review_overrides.json \
               --allow-missing
           fi
+          if [ -f scripts/translations/zh_machine_review_overrides.json ]; then
+            python scripts/translations/apply_zh_bi_overrides.py \
+              --overrides scripts/translations/zh_machine_review_overrides.json \
+              --allow-missing
+          fi
           python scripts/translations/normalize_zh_bi_terms.py
 
       - name: Audit BI terminology
@@ -75,6 +82,9 @@ jobs:
 
       - name: Freeze completed release review
         run: python scripts/translations/finalize_zh_release_review.py
+
+      - name: Report non-fuzzy machine translations
+        run: python scripts/translations/report_zh_machine_review.py
 
       - name: Audit release quality
         run: python scripts/translations/audit_zh_release_quality.py
@@ -89,7 +99,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add superset/translations/zh/LC_MESSAGES/messages.po scripts/translations/zh_fuzzy_review_queue.json
+          git add superset/translations/zh/LC_MESSAGES/messages.po \
+            scripts/translations/zh_fuzzy_review_queue.json \
+            scripts/translations/zh_machine_review_queue.json
           if [ -f scripts/translations/zh_release_review_overrides.json ]; then
             git add scripts/translations/zh_release_review_overrides.json
           fi
