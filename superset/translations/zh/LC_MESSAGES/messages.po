@@ -1720,10 +1720,10 @@ msgstr ""
 "允许执行DDL（数据定义语言：CREATE、DROP、TRUNCATE等）和DML（数据修改语言：INSERT、UPDATE、DELETE等）"
 
 msgid "Allow this database to be explored"
-msgstr "允许在图表编辑中使用此数据源"
+msgstr "允许在图表编辑中使用此数据库"
 
 msgid "Allow this database to be queried in SQL Lab"
-msgstr "允许在 SQL 工作台中查询此数据源"
+msgstr "允许在 SQL 工作台中查询此数据库"
 
 #, fuzzy
 msgid "Allow users to select multiple values"
@@ -6586,7 +6586,7 @@ msgid "Error in jinja expression in metric expression: %(msg)s"
 msgstr "指标表达式中的jinja表达式出错：%(msg)s"
 
 msgid "Error loading chart datasources. Filters may not work correctly."
-msgstr "加载图表数据源失败，筛选器可能无法正常工作。"
+msgstr "加载图表数据集失败，筛选器可能无法正常工作。"
 
 msgid "Error message"
 msgstr "错误信息"
