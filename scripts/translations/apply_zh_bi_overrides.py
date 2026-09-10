@@ -17,20 +17,17 @@
 
 """Apply BI-oriented Simplified Chinese terminology overrides.
 
-This keeps the upstream ``messages.po`` catalog as the source of truth while
-allowing this fork to maintain a small, reviewable terminology layer.  The
-script updates exact msgids only, removes ``fuzzy`` from changed entries, and
-fails when an override no longer exists upstream so upgrades cannot silently
-lose important terminology.
+The upstream ``messages.po`` catalog remains the source of truth. This script
+changes only the matching ``msgstr`` lines (and removes ``fuzzy`` for those
+entries) so Git diffs remain small and future upstream merges stay reviewable.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
-
-import polib
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_PO = ROOT / "superset/translations/zh/LC_MESSAGES/messages.po"
@@ -49,26 +46,75 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def po_escape(value: str) -> str:
+    return (
+        value.replace("\\", "\\\\")
+        .replace('"', '\\"')
+        .replace("\t", "\\t")
+        .replace("\r", "\\r")
+        .replace("\n", "\\n")
+    )
+
+
+def remove_fuzzy_flag(block: str) -> str:
+    lines = block.splitlines(keepends=True)
+    result: list[str] = []
+    for line in lines:
+        if not line.startswith("#,"):
+            result.append(line)
+            continue
+
+        newline = "\n" if line.endswith("\n") else ""
+        flags = [flag.strip() for flag in line[2:].strip().split(",") if flag.strip()]
+        flags = [flag for flag in flags if flag != "fuzzy"]
+        if flags:
+            result.append(f"#, {', '.join(flags)}{newline}")
+    return "".join(result)
+
+
+def replace_translation(block: str, translated: str) -> tuple[str, bool]:
+    pattern = re.compile(
+        r'(?m)^msgstr "(?:\\.|[^"\\])*"(?:\n"(?:\\.|[^"\\])*")*'
+    )
+    match = pattern.search(block)
+    if match is None:
+        return block, False
+
+    replacement = f'msgstr "{po_escape(translated)}"'
+    updated = block[: match.start()] + replacement + block[match.end() :]
+    updated = remove_fuzzy_flag(updated)
+    return updated, updated != block
+
+
 def main() -> int:
     args = parse_args()
     overrides: dict[str, str] = json.loads(args.overrides.read_text(encoding="utf-8"))
-    catalog = polib.pofile(args.po)
+    text = args.po.read_text(encoding="utf-8")
 
+    # Keep blank-line separators as independent elements so untouched PO entries
+    # remain byte-for-byte identical.
+    parts = re.split(r"(\n{2,})", text)
     changed = 0
     missing: list[str] = []
 
     for msgid, translated in overrides.items():
-        entry = catalog.find(msgid)
-        if entry is None:
-            missing.append(msgid)
-            continue
+        target = f'msgid "{po_escape(msgid)}"'
+        matched = False
 
-        entry_changed = entry.msgstr != translated or "fuzzy" in entry.flags
-        if entry_changed:
-            entry.msgstr = translated
-            if "fuzzy" in entry.flags:
-                entry.flags.remove("fuzzy")
-            changed += 1
+        for index in range(0, len(parts), 2):
+            block = parts[index]
+            if not re.search(rf"(?m)^{re.escape(target)}$", block):
+                continue
+
+            matched = True
+            updated, entry_changed = replace_translation(block, translated)
+            if entry_changed:
+                parts[index] = updated
+                changed += 1
+            break
+
+        if not matched:
+            missing.append(msgid)
 
     if missing:
         print("Missing override msgids:")
@@ -78,7 +124,7 @@ def main() -> int:
             return 1
 
     if changed:
-        catalog.save(args.po)
+        args.po.write_text("".join(parts), encoding="utf-8")
 
     print(f"Applied {changed} Chinese BI translation override(s).")
     return 0
