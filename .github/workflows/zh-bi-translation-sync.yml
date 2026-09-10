@@ -13,7 +13,9 @@ on:
       - scripts/translations/zh_bi_overrides.json
       - scripts/translations/zh_bi_data_overrides.json
       - scripts/translations/zh_bi_cleanup_overrides.json
+      - scripts/translations/zh_release_review_corrections.json
       - scripts/translations/zh_release_review_overrides.json
+      - scripts/translations/finalize_zh_release_review.py
       - scripts/translations/apply_zh_bi_overrides.py
       - scripts/translations/normalize_zh_bi_terms.py
       - scripts/translations/audit_zh_bi_terms.py
@@ -70,19 +72,25 @@ jobs:
       - name: Report remaining translation quality
         run: python scripts/translations/report_zh_remaining.py
 
+      - name: Freeze completed release review
+        run: python scripts/translations/finalize_zh_release_review.py
+
       # Three static percent labels in upstream zh are misdetected by Babel as
       # Python %c/%o placeholders. Keep upstream-compatible compilation while
       # the audit above enforces the actual BI terminology contract.
       - name: Compile zh catalog (upstream-compatible)
         run: pybabel compile --use-fuzzy -d superset/translations -l zh || true
 
-      - name: Commit materialized catalog and review queue
+      - name: Commit materialized catalog and review state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add superset/translations/zh/LC_MESSAGES/messages.po scripts/translations/zh_fuzzy_review_queue.json
+          if [ -f scripts/translations/zh_release_review_overrides.json ]; then
+            git add scripts/translations/zh_release_review_overrides.json
+          fi
           if git diff --cached --quiet; then
-            echo "Chinese catalog and review queue already match release review rules."
+            echo "Chinese catalog and review state already match release review rules."
             exit 0
           fi
           git commit -m "fix(i18n): materialize zh-CN release review"
