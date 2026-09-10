@@ -174,7 +174,7 @@ msgid " to mark a column as a time column"
 msgstr " 将列标记为时间列"
 
 msgid " to open SQL Lab. From there you can save the query as a dataset."
-msgstr " 然后打开SQL 工作台。在那里你可以将查询保存为一个数据集。"
+msgstr " 然后打开 SQL 工作台，在那里可以将查询保存为数据集。"
 
 msgid " to see details."
 msgstr " 查看查询详情"
@@ -394,10 +394,10 @@ msgid "%s day ago"
 msgid_plural "%s days ago"
 msgstr[0] "%s 天前"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s hr ago"
 msgid_plural "%s hr ago"
-msgstr[0] "%s 行"
+msgstr[0] "%s 小时前"
 
 #, python-format
 msgid "%s imported"
@@ -470,10 +470,10 @@ msgstr "已选择 %s 个，共 %s 个"
 msgid "%s recipients"
 msgstr "%s 收件人"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s record..."
 msgid_plural "%s records..."
-msgstr[0] "%s 异常"
+msgstr[0] "%s 条记录..."
 
 #, fuzzy, python-format
 msgid "%s row"
@@ -1228,7 +1228,7 @@ msgid ""
 msgstr "在工具提示中添加查询A和查询B标识符，以帮助区分序列"
 
 msgid "Add Role"
-msgstr "添加角色"
+msgstr "新增角色"
 
 #, fuzzy
 msgid "Add Rule"
@@ -1241,7 +1241,7 @@ msgid "Add Tag"
 msgstr "新增标签"
 
 msgid "Add User"
-msgstr "添加用户"
+msgstr "新增用户"
 
 msgid "Add a Plugin"
 msgstr "新增插件"
@@ -1382,7 +1382,6 @@ msgstr "添加或编辑显示控件"
 msgid "Add or edit filters and controls"
 msgstr "添加或编辑筛选器和控件"
 
-#, fuzzy
 msgid "Add report"
 msgstr "新增报表"
 
@@ -1427,10 +1426,10 @@ msgid "Added 1 new column to the virtual dataset"
 msgid_plural "Added %s new columns to the virtual dataset"
 msgstr[0] "已将 %s 个新列添加到虚拟数据集"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Added to 1 dashboard"
 msgid_plural "Added to %s dashboards"
-msgstr[0] "已添加至 %s 个仪表盘"
+msgstr[0] "已添加到 %s 个仪表盘"
 
 msgid "Additional Parameters"
 msgstr "附加参数"
@@ -1472,7 +1471,7 @@ msgid "Adhoc metric aggregate is invalid"
 msgstr "临时指标聚合无效"
 
 msgid "Adjust how this database will interact with SQL Lab."
-msgstr "调整此数据库与 SQL 工作台 的交互方式。"
+msgstr "配置此数据库与 SQL 工作台的交互方式。"
 
 msgid "Adjust performance settings of this database."
 msgstr "调整此数据库的性能设置"
@@ -1555,7 +1554,6 @@ msgstr "聚合方式"
 msgid "Aggregation Method"
 msgstr "聚合方法"
 
-#, fuzzy
 msgid "Alert"
 msgstr "告警"
 
@@ -1581,7 +1579,7 @@ msgid "Alert found an error while executing a query."
 msgstr "告警在执行查询时发现错误。"
 
 msgid "Alert is active"
-msgstr "告警已激活"
+msgstr "告警已启用"
 
 msgid "Alert name"
 msgstr "告警名称"
@@ -1622,7 +1620,7 @@ msgid "Alerts & Reports"
 msgstr "告警与报表"
 
 msgid "Alerts & reports"
-msgstr "告警和报表"
+msgstr "告警与报表"
 
 msgid "Align +/-"
 msgstr "对齐 +/-"
@@ -1998,7 +1996,7 @@ msgstr "导入 %s 时出错：%s"
 msgid ""
 "An error occurred while loading SQL Lab. This may be caused by a "
 "corrupted query state."
-msgstr "加载 SQL 工作台 时出错。这可能是由损坏的查询状态导致的。"
+msgstr "加载 SQL 工作台时出错，可能是查询状态已损坏。"
 
 msgid "An error occurred while loading dashboard information."
 msgstr "加载仪表盘信息失败。"
@@ -3244,7 +3242,7 @@ msgid "Changing this datasource is forbidden"
 msgstr "没有权限更新此数据集"
 
 msgid "Changing this report is forbidden"
-msgstr "禁止更改此报表"
+msgstr "无权修改此报表"
 
 msgid "Changing this semantic layer is forbidden"
 msgstr "禁止更改此语义层"
@@ -4317,7 +4315,6 @@ msgid "Could not find viz object"
 msgstr "找不到可视化对象"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
-#, fuzzy
 msgid "Could not load SQL Lab"
 msgstr "无法加载 SQL 工作台"
 
@@ -6117,7 +6114,6 @@ msgstr "编辑标签"
 msgid "Edit User"
 msgstr "编辑用户"
 
-#, fuzzy
 msgid "Edit alert"
 msgstr "编辑告警"
 
@@ -6886,10 +6882,10 @@ msgid ""
 msgstr "尚不支持导出语义视图。请取消选择语义视图行，然后重试。"
 
 msgid "Expose database in SQL Lab"
-msgstr "在SQL 工作台中展示数据库"
+msgstr "在 SQL 工作台中显示数据库"
 
 msgid "Expose in SQL Lab"
-msgstr "在 SQL 工作台 中展示"
+msgstr "在 SQL 工作台中显示"
 
 msgid "Expression"
 msgstr "表达式"
@@ -7230,11 +7226,9 @@ msgstr "填充"
 msgid "Filter"
 msgstr "筛选器"
 
-#, fuzzy
 msgid "Filter Configuration"
-msgstr "筛选配置"
+msgstr "筛选器配置"
 
-#, fuzzy
 msgid "Filter Settings"
 msgstr "筛选器设置"
 
@@ -7247,7 +7241,6 @@ msgstr "筛选图表"
 msgid "Filter has default value"
 msgstr "筛选器具有默认值"
 
-#, fuzzy
 msgid "Filter menu"
 msgstr "筛选器菜单"
 
@@ -7276,10 +7269,10 @@ msgid "Filter value is required"
 msgstr "筛选值不能为空"
 
 msgid "Filter value list cannot be empty"
-msgstr "筛选器值列表不能为空"
+msgstr "筛选值列表不能为空"
 
 msgid "Filter your charts"
-msgstr "筛选您的图表"
+msgstr "筛选图表"
 
 msgid "Filters"
 msgstr "筛选器"
@@ -7294,12 +7287,12 @@ msgid "Filters by metrics"
 msgstr "按指标筛选"
 
 msgid "Filters for comparison must have a value"
-msgstr "用于比较的筛选器必须有值"
+msgstr "用于比较的筛选器必须设置值"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Filters for values equal to this exact value."
-msgstr "筛选等于此确切值的筛选器。"
+msgstr "筛选等于指定值的数据。"
 
 msgid "Filters for values greater than or equal."
 msgstr "筛选大于或等于指定值的数据。"
@@ -7311,7 +7304,7 @@ msgstr "筛选小于或等于的值。"
 
 #, python-format
 msgid "Filters out of scope (%d)"
-msgstr "筛选器超出范围(%d)"
+msgstr "范围外筛选器（%d）"
 
 msgid ""
 "Filters with the same group key will be ORed together within the group, "
@@ -8862,12 +8855,11 @@ msgstr "分组列表"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, pt_BR, ro, ru, sk, sr, sr_Latn, tr, uk]
-#, fuzzy
 msgid "List Roles"
-msgstr "角色列表"
+msgstr "角色管理"
 
 msgid "List Users"
-msgstr "用户列表"
+msgstr "用户管理"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -9581,7 +9573,6 @@ msgstr "查看更多"
 msgid "More Options"
 msgstr "更多选项"
 
-#, fuzzy
 msgid "More filters"
 msgstr "更多筛选器"
 
@@ -9818,9 +9809,8 @@ msgstr "还没有注释层"
 msgid "No annotation yet"
 msgstr "没有注释"
 
-#, fuzzy
 msgid "No applied filters"
-msgstr "没有应用筛选器"
+msgstr "暂无已应用的筛选器"
 
 msgid "No archived items"
 msgstr "没有已归档的项目"
@@ -9903,7 +9893,7 @@ msgid "No form settings were maintained"
 msgstr "未维护任何表单设置"
 
 msgid "No global filters are currently added"
-msgstr "当前没有已添加的全局筛选器"
+msgstr "当前未添加全局筛选器"
 
 msgid "No groups"
 msgstr "暂无组"
@@ -10369,7 +10359,7 @@ msgid "Open Datasource tab"
 msgstr "打开数据集页签"
 
 msgid "Open SQL Lab in a new tab"
-msgstr "在新选项卡中打开 SQL 工作台"
+msgstr "在新页签中打开 SQL 工作台"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid "Open chart in new tab"
@@ -11343,10 +11333,10 @@ msgid "Range Type"
 msgstr "范围类型"
 
 msgid "Range filter"
-msgstr "范围筛选"
+msgstr "范围筛选器"
 
 msgid "Range filter plugin using AntD"
-msgstr "使用AntD的范围筛选器插件"
+msgstr "基于 AntD 的范围筛选器插件"
 
 msgid "Range labels"
 msgstr "范围标签"
@@ -11696,9 +11686,8 @@ msgid "Report sending"
 msgstr "报表发送"
 
 msgid "Report sent"
-msgstr "已发送报表"
+msgstr "报表已发送"
 
-#, fuzzy
 msgid "Report updated"
 msgstr "报表已更新"
 
@@ -12010,7 +11999,7 @@ msgid "Run current query"
 msgstr "运行查询"
 
 msgid "Run in SQL Lab"
-msgstr "在 SQL 工作台 中运行"
+msgstr "在 SQL 工作台中运行"
 
 msgid "Run query"
 msgstr "运行查询"
@@ -12072,7 +12061,7 @@ msgstr ""
 " 窗口。"
 
 msgid "SQL Query"
-msgstr "SQL查询"
+msgstr "SQL 查询"
 
 msgid "SQL expression"
 msgstr "SQL表达式"
@@ -14106,7 +14095,6 @@ msgstr "符号的大小"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
-#, fuzzy
 msgid "Sync Permissions"
 msgstr "同步权限"
 
@@ -16548,7 +16536,7 @@ msgid "Triangle"
 msgstr "三角形"
 
 msgid "Trigger Alert If..."
-msgstr "达到以下条件触发告警："
+msgstr "满足以下条件时触发告警..."
 
 msgid "Trigger now"
 msgstr "立即触发"
@@ -17162,13 +17150,13 @@ msgid "User info"
 msgstr "用户信息"
 
 msgid "User must select a value before applying the chart customization"
-msgstr "用户必须在应用图表自定义之前select一个值"
+msgstr "应用图表自定义配置前，请先选择一个值"
 
 msgid "User must select a value before applying the customization"
-msgstr "用户必须在应用自定义之前select一个值"
+msgstr "应用自定义配置前，请先选择一个值"
 
 msgid "User must select a value before applying the filter"
-msgstr "用户必须给筛选器选择一个值"
+msgstr "应用筛选器前，请先选择一个值"
 
 msgid "User query"
 msgstr "用户查询"
