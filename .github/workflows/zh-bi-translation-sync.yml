@@ -63,12 +63,12 @@ jobs:
 
       - name: Commit materialized catalog
         run: |
-          if git diff --quiet -- superset/translations/zh/LC_MESSAGES/messages.po; then
-            echo "Chinese catalog already matches BI terminology overrides."
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add superset/translations/zh/LC_MESSAGES/messages.po
+          if git diff --cached --quiet -- superset/translations/zh/LC_MESSAGES/messages.po; then
+            echo "Chinese catalog already matches BI terminology overrides."
+            exit 0
+          fi
           git commit -m "fix(i18n): apply zh-CN BI terminology"
           git push origin HEAD:dev-zh-cn
