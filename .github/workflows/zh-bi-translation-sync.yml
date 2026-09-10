@@ -1,19 +1,7 @@
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
 # distributed with this work for additional information
-# regarding copyright ownership.  The ASF licenses this file
-# to you under the Apache License, Version 2.0 (the
-# "License"); you may not use this file except in compliance
-# with the License.  You may obtain a copy of the License at
-#
-#   http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing,
-# software distributed under the License is distributed on an
-# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-# KIND, either express or implied.  See the License for the
-# specific language governing permissions and limitations
-# under the License.
+# regarding copyright ownership.  The ASF licenses this file to you under the Apache License, Version 2.0.
 
 name: Sync zh-CN BI terminology
 
@@ -25,6 +13,7 @@ on:
       - scripts/translations/zh_bi_overrides.json
       - scripts/translations/zh_bi_data_overrides.json
       - scripts/translations/zh_bi_cleanup_overrides.json
+      - scripts/translations/zh_release_review_overrides.json
       - scripts/translations/apply_zh_bi_overrides.py
       - scripts/translations/normalize_zh_bi_terms.py
       - scripts/translations/audit_zh_bi_terms.py
@@ -57,7 +46,7 @@ jobs:
       - name: Install translation tooling
         run: python -m pip install --disable-pip-version-check Babel
 
-      - name: Apply BI terminology
+      - name: Apply BI terminology and release review
         run: |
           python scripts/translations/apply_zh_bi_overrides.py --allow-missing
           python scripts/translations/apply_zh_bi_overrides.py \
@@ -66,6 +55,11 @@ jobs:
           if [ -f scripts/translations/zh_bi_cleanup_overrides.json ]; then
             python scripts/translations/apply_zh_bi_overrides.py \
               --overrides scripts/translations/zh_bi_cleanup_overrides.json \
+              --allow-missing
+          fi
+          if [ -f scripts/translations/zh_release_review_overrides.json ]; then
+            python scripts/translations/apply_zh_bi_overrides.py \
+              --overrides scripts/translations/zh_release_review_overrides.json \
               --allow-missing
           fi
           python scripts/translations/normalize_zh_bi_terms.py
@@ -82,14 +76,14 @@ jobs:
       - name: Compile zh catalog (upstream-compatible)
         run: pybabel compile --use-fuzzy -d superset/translations -l zh || true
 
-      - name: Commit materialized catalog
+      - name: Commit materialized catalog and review queue
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add superset/translations/zh/LC_MESSAGES/messages.po
-          if git diff --cached --quiet -- superset/translations/zh/LC_MESSAGES/messages.po; then
-            echo "Chinese catalog already matches BI terminology overrides."
+          git add superset/translations/zh/LC_MESSAGES/messages.po scripts/translations/zh_fuzzy_review_queue.json
+          if git diff --cached --quiet; then
+            echo "Chinese catalog and review queue already match release review rules."
             exit 0
           fi
-          git commit -m "fix(i18n): apply zh-CN BI terminology"
+          git commit -m "fix(i18n): materialize zh-CN release review"
           git push origin HEAD:dev-zh-cn
