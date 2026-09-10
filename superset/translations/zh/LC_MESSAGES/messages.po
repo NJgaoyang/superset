@@ -153,9 +153,8 @@ msgstr ""
 msgid " to add calculated columns"
 msgstr " 添加计算字段"
 
-#, fuzzy
 msgid " to add metrics"
-msgstr "添加指标"
+msgstr " 添加指标"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, pt_BR, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -455,10 +454,10 @@ msgid "%s out of %s column"
 msgid_plural "%s out of %s columns"
 msgstr[0] "已选择 %s / %s 个字段"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s out of %s metric"
 msgid_plural "%s out of %s metrics"
-msgstr[0] "%s 个指标中的 %s 个"
+msgstr[0] "已选择 %s / %s 个指标"
 
 #, python-format
 msgid "%s out of %s selected"
@@ -510,9 +509,9 @@ msgstr "%s 个语义视图添加失败"
 msgid "%s semantic view(s) failed to add: %s"
 msgstr "%s 个语义视图添加失败：%s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s tab selected"
-msgstr "%s 已选定"
+msgstr "已选择 %s 个页签"
 
 #, fuzzy, python-format
 msgid "%s updated"
@@ -1017,9 +1016,9 @@ msgstr "仪表盘的易读 URL"
 msgid "A reference to the [Time] configuration, taking granularity into account"
 msgstr "对 [时间] 配置的引用，会将粒度考虑在内"
 
-#, fuzzy, python-format
+#, python-format
 msgid "A report named \"%(name)s\" already exists"
-msgstr "报表 %(name)s 已存在"
+msgstr "名为“%(name)s”的报表已存在"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -1132,9 +1131,8 @@ msgstr "关于"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # fr, it, ja, lv, mi, nl, ru, sk, sl, tr, uk]
-#, fuzzy
 msgid "Access"
-msgstr "访问"
+msgstr "访问权限"
 
 msgid "Access token"
 msgstr "访问令牌"
@@ -1427,9 +1425,8 @@ msgstr "图例额外的内边距。"
 msgid "Additional parameters"
 msgstr "额外参数"
 
-#, fuzzy
 msgid "Additional settings."
-msgstr "额外的设置"
+msgstr "其他设置。"
 
 msgid "Additional text to add before or after the value, e.g. unit"
 msgstr "在数值前后添加附加文本，例如：单位"
@@ -4603,9 +4600,8 @@ msgstr "日期时间列的D3时间格式"
 msgid "D3 time format syntax: https://github.com/d3/d3-time-format"
 msgstr "D3 时间格式语法：https://github.com/d3/d3-time-format"
 
-#, fuzzy
 msgid "DATETIME"
-msgstr "日期/时间"
+msgstr "DATETIME"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -5612,9 +5608,8 @@ msgstr "在地图上显示图表。要使用此插件，用户首先必须创建
 msgid "Display column in the chart"
 msgstr "在图表中显示列"
 
-#, fuzzy
 msgid "Display column level subtotal"
-msgstr "显示列级别小计"
+msgstr "显示列级小计"
 
 msgid "Display column level total"
 msgstr "显示列级别合计"
@@ -5679,7 +5674,6 @@ msgid ""
 "the funnel."
 msgstr "在标签和工具提示中将百分比显示为占总值的百分比，从漏斗的第一步开始，或从漏斗中的上一步开始。"
 
-#, fuzzy
 msgid "Display row level subtotal"
 msgstr "显示行级小计"
 
@@ -5802,9 +5796,8 @@ msgstr "在曲线下绘制区域。仅适用于线型。"
 msgid "Draw line from Pie to label when labels outside?"
 msgstr "当标签在外侧时，是否在饼图到标签之间连线？"
 
-#, fuzzy
 msgid "Draw split lines for minor axis ticks"
-msgstr "绘制次要Y轴刻度的分割线"
+msgstr "绘制次刻度分割线"
 
 msgid "Draw split lines for minor y-axis ticks"
 msgstr "绘制次要Y轴刻度的分割线"
@@ -6312,16 +6305,14 @@ msgstr "加密的额外字段"
 msgid "End"
 msgstr "结束"
 
-#, fuzzy
 msgid "End (Longitude, Latitude): "
-msgstr "终点（经度/纬度）"
+msgstr "终点（经度，纬度）："
 
 msgid "End (exclusive)"
 msgstr "结束（不含）"
 
-#, fuzzy
 msgid "End Longitude & Latitude"
-msgstr "终点的经度/纬度"
+msgstr "终点经纬度"
 
 #, fuzzy
 msgid "End Time"
@@ -6330,9 +6321,8 @@ msgstr "结束时间"
 msgid "End angle"
 msgstr "结束角度"
 
-#, fuzzy
 msgid "End date"
-msgstr "结束时间"
+msgstr "结束日期"
 
 msgid "End date excluded from time range"
 msgstr "从时间范围中排除的结束日期"
@@ -6371,9 +6361,8 @@ msgstr "输入此工作表的名称"
 msgid "Enter a part of the object name"
 msgstr "输入对象名称的一部分"
 
-#, fuzzy
 msgid "Enter alert name"
-msgstr "告警名称"
+msgstr "输入告警名称"
 
 msgid "Enter duration in seconds"
 msgstr "输入间隔时间(秒)"
@@ -6455,9 +6444,8 @@ msgstr "等于"
 msgid "Error"
 msgstr "错误"
 
-#, fuzzy
 msgid "Error Fetching Tagged Objects"
-msgstr "获取标签对象错误"
+msgstr "获取带标签对象时出错"
 
 #, python-format
 msgid "Error deleting %s"
@@ -6762,40 +6750,32 @@ msgstr "导出截图 (png)"
 msgid "Export successful: %s"
 msgstr "导出成功：%s"
 
-#, fuzzy
 msgid "Export to .CSV"
-msgstr "导出为CSV"
+msgstr "导出为 CSV"
 
-#, fuzzy
 msgid "Export to .JSON"
-msgstr "导出为JSON"
+msgstr "导出为 JSON"
 
-#, fuzzy
 msgid "Export to CSV"
-msgstr "导出为CSV"
+msgstr "导出为 CSV"
 
-#, fuzzy
 msgid "Export to Excel"
-msgstr "导出为Excel"
+msgstr "导出为 Excel"
 
-#, fuzzy
 msgid "Export to PDF"
-msgstr "导出为PDF"
+msgstr "导出为 PDF"
 
-#, fuzzy
 msgid "Export to Pivoted .CSV"
-msgstr "导出为透视表形式的CSV"
+msgstr "导出为透视 CSV"
 
 msgid "Export to Pivoted Excel"
 msgstr "导出为透视表形式的Excel"
 
-#, fuzzy
 msgid "Export to full .CSV"
-msgstr "导出全量CSV"
+msgstr "导出完整 CSV"
 
-#, fuzzy
 msgid "Export to full Excel"
-msgstr "导出全量Excel"
+msgstr "导出完整 Excel"
 
 msgid "Export to original .CSV"
 msgstr "导出原始CSV"
@@ -7000,9 +6980,8 @@ msgstr "恢复 %(name)s 失败"
 msgid "Failed to restore %(name)s: %(errMsg)s"
 msgstr "恢复 %(name)s 失败：%(errMsg)s"
 
-#, fuzzy
 msgid "Failed to retrieve advanced type"
-msgstr "检索高级类型失败"
+msgstr "获取高级类型失败"
 
 msgid "Failed to revoke API key"
 msgstr "撤销API密钥失败"
@@ -7010,9 +6989,8 @@ msgstr "撤销API密钥失败"
 msgid "Failed to save chart customization"
 msgstr "保存图表自定义失败"
 
-#, fuzzy
 msgid "Failed to save cross-filter scoping"
-msgstr "保存交叉筛选作用域失败"
+msgstr "保存交叉筛选作用范围失败"
 
 msgid "Failed to save cross-filters setting"
 msgstr "保存交叉筛选设置失败"
@@ -7035,9 +7013,8 @@ msgstr "设置系统默认主题失败：%s"
 msgid "Failed to start remote query on a worker."
 msgstr "无法在 worker 上启动远程查询。"
 
-#, fuzzy
 msgid "Failed to stop query."
-msgstr "停止查询失败。 %s"
+msgstr "停止查询失败。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -7045,9 +7022,8 @@ msgstr "停止查询失败。 %s"
 msgid "Failed to store query results. Please try again."
 msgstr "存储查询结果失败。请重试。"
 
-#, fuzzy
 msgid "Failed to tag items"
-msgstr "给对象打标签失败"
+msgstr "为对象添加标签失败"
 
 #, python-format
 msgid "Failed to trigger %(alertType)s \"%(alertName)s\": %(error)s"
@@ -7098,9 +7074,8 @@ msgstr "获取数据预览"
 msgid "Fetched %s"
 msgstr "刷新于 %s"
 
-#, fuzzy
 msgid "Fetching"
-msgstr "抓取中"
+msgstr "获取中"
 
 msgid "Fetching data..."
 msgstr "正在获取数据..."
@@ -7371,9 +7346,8 @@ msgstr "在SQL 工作台中点击CTAS或CVAS时，强制在此模式中创建所
 msgid "Force categorical"
 msgstr "强制分类"
 
-#, fuzzy
 msgid "Force date format"
-msgstr "强制日期格式化"
+msgstr "强制日期格式"
 
 msgid "Force refresh"
 msgstr "强制刷新"
@@ -7426,9 +7400,8 @@ msgstr "格式"
 msgid "Format JSON configuration"
 msgstr "格式化JSON配置"
 
-#, fuzzy
 msgid "Format SQL"
-msgstr "格式化SQL"
+msgstr "格式化 SQL"
 
 msgid "Format SQL query"
 msgstr "格式化SQL查询"
@@ -7518,9 +7491,8 @@ msgid "Further customize how to display each metric"
 msgstr "进一步定制如何显示每个指标"
 
 #. do-not-translate
-#, fuzzy
 msgid "GROUP BY"
-msgstr "分组"
+msgstr "GROUP BY"
 
 msgid "Gantt Chart"
 msgstr "甘特图"
@@ -7554,13 +7526,11 @@ msgstr "通用图表"
 msgid "Geo"
 msgstr "地理位置"
 
-#, fuzzy
 msgid "GeoJson Column"
-msgstr "GeoJSON列"
+msgstr "GeoJSON 字段"
 
-#, fuzzy
 msgid "GeoJson Settings"
-msgstr "GeoJSON设置"
+msgstr "GeoJSON 设置"
 
 msgid "Geohash"
 msgstr "Geohash"
@@ -7613,13 +7583,11 @@ msgstr "重力"
 msgid "Greater Than"
 msgstr "大于（>）"
 
-#, fuzzy
 msgid "Greater Than or Equal"
-msgstr "大于等于(>=)"
+msgstr "大于等于（>=）"
 
-#, fuzzy
 msgid "Greater or equal (>=)"
-msgstr "大于等于(>=)"
+msgstr "大于等于（>=）"
 
 #, fuzzy
 msgid "Greater than (>)"
@@ -7651,9 +7619,8 @@ msgstr "分组维度"
 msgid "Group By, Metrics or Percentage Metrics must have a value"
 msgstr "分组、指标或百分比指标必须具有值"
 
-#, fuzzy
 msgid "Group Key"
-msgstr "分组"
+msgstr "分组键"
 
 msgid "Group by"
 msgstr "分组维度"
