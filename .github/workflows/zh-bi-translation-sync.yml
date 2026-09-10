@@ -24,7 +24,9 @@ on:
     paths:
       - scripts/translations/zh_bi_overrides.json
       - scripts/translations/zh_bi_data_overrides.json
+      - scripts/translations/zh_bi_cleanup_overrides.json
       - scripts/translations/apply_zh_bi_overrides.py
+      - scripts/translations/normalize_zh_bi_terms.py
       - .github/workflows/zh-bi-translation-sync.yml
   workflow_dispatch:
 
@@ -59,6 +61,12 @@ jobs:
           python scripts/translations/apply_zh_bi_overrides.py \
             --overrides scripts/translations/zh_bi_data_overrides.json \
             --allow-missing
+          if [ -f scripts/translations/zh_bi_cleanup_overrides.json ]; then
+            python scripts/translations/apply_zh_bi_overrides.py \
+              --overrides scripts/translations/zh_bi_cleanup_overrides.json \
+              --allow-missing
+          fi
+          python scripts/translations/normalize_zh_bi_terms.py
 
       # Superset master currently contains a few pre-existing zh placeholder
       # incompatibilities. Its Dockerfile intentionally compiles with `|| true`.
