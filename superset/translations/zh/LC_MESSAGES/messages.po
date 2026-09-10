@@ -3457,7 +3457,7 @@ msgid "Choose a chart or dashboard not both"
 msgstr "请选择图表或仪表盘，不能同时选择"
 
 msgid "Choose a database..."
-msgstr "选择数据源..."
+msgstr "选择数据库..."
 
 msgid "Choose a delimiter"
 msgstr "选择分隔符"
@@ -4144,7 +4144,7 @@ msgid "Connect Google Sheets as tables to this database"
 msgstr "将Google Sheet作为表格连接到此数据库"
 
 msgid "Connect a database"
-msgstr "连接数据源"
+msgstr "连接数据库"
 
 msgid "Connect database"
 msgstr "连接数据库"
@@ -4887,31 +4887,31 @@ msgid "DataFrame must include temporal column"
 msgstr "数据帧（DataFrame）必须包含时间列"
 
 msgid "Database"
-msgstr "数据源"
+msgstr "数据库"
 
 msgid "Database Connections"
-msgstr "数据源连接"
+msgstr "数据库连接"
 
 msgid "Database Creation Error"
-msgstr "数据源创建失败"
+msgstr "数据库创建失败"
 
 msgid "Database connected"
-msgstr "数据源连接成功"
+msgstr "数据库连接成功"
 
 msgid "Database could not be created."
-msgstr "无法创建数据源。"
+msgstr "无法创建数据库连接。"
 
 msgid "Database could not be deleted."
-msgstr "无法删除数据源。"
+msgstr "无法删除数据库连接。"
 
 msgid "Database could not be updated."
-msgstr "无法更新数据源。"
+msgstr "无法更新数据库连接。"
 
 msgid "Database does not allow data manipulation."
 msgstr "数据库不允许此数据操作。"
 
 msgid "Database does not exist"
-msgstr "数据源不存在"
+msgstr "数据库不存在"
 
 msgid "Database does not support subqueries"
 msgstr "数据库不支持子查询"
@@ -4927,19 +4927,19 @@ msgid "Database error"
 msgstr "数据库错误"
 
 msgid "Database is offline."
-msgstr "数据源已离线。"
+msgstr "数据库已离线。"
 
 msgid "Database is required for alerts"
 msgstr "警报需要数据库"
 
 msgid "Database name"
-msgstr "数据源名称"
+msgstr "数据库名称"
 
 msgid "Database not found."
-msgstr "未找到数据源。"
+msgstr "未找到数据库。"
 
 msgid "Database parameters are invalid."
-msgstr "数据源参数无效。"
+msgstr "数据库参数无效。"
 
 #, fuzzy
 msgid "Database passwords"
@@ -4955,7 +4955,7 @@ msgid "Database schema is not allowed for csv uploads."
 msgstr "CSV上传不允许使用数据库模式。"
 
 msgid "Database settings updated"
-msgstr "数据源设置已更新"
+msgstr "数据库设置已更新"
 
 msgid "Database type does not support file uploads."
 msgstr "数据库类型不支持文件上传。"
@@ -4973,7 +4973,7 @@ msgid "Database upload file failed, while saving metadata"
 msgstr "数据库上传文件失败，保存元数据时出错"
 
 msgid "Databases"
-msgstr "数据源"
+msgstr "数据库"
 
 msgid "Dataset"
 msgstr "数据集"
@@ -5052,7 +5052,7 @@ msgid "Datasets do not contain a temporal column"
 msgstr "数据集不包含时间字段"
 
 msgid "Datasource"
-msgstr "数据集"
+msgstr "数据源"
 
 msgid "Datasource & Chart Type"
 msgstr "数据集与图表类型"
@@ -5070,13 +5070,13 @@ msgstr "校验需要数据集"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid "Datasource type is invalid"
-msgstr "数据集类型无效"
+msgstr "数据源类型无效"
 
 msgid "Datasource type is required when datasource_id is given"
 msgstr "给定数据源id时，需要提供数据源类型"
 
 msgid "Datasources"
-msgstr "数据集"
+msgstr "数据源"
 
 msgid "Date Time Format"
 msgstr "时间格式"
@@ -7651,7 +7651,7 @@ msgstr "获取指定节假日的日期"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid "Give access to multiple catalogs in a single database connection."
-msgstr "允许通过一个数据源连接访问多个 Catalog。"
+msgstr "允许通过一个数据库连接访问多个 Catalog。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -12422,7 +12422,7 @@ msgid "Search..."
 msgstr "搜索..."
 
 msgid "Searches all text fields: Name, Description, Database & Schema"
-msgstr "搜索名称、描述、数据源和 Schema"
+msgstr "搜索名称、描述、数据库和 Schema"
 
 msgid "Second"
 msgstr "秒"
@@ -12491,7 +12491,7 @@ msgid "Select All"
 msgstr "全选"
 
 msgid "Select Database and Schema"
-msgstr "选择数据源和 Schema"
+msgstr "选择数据库和 Schema"
 
 msgid "Select Delivery Method"
 msgstr "选择投递方式"
@@ -16827,7 +16827,7 @@ msgstr "无法获取看板颜色"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Unable to sync permissions for this database connection."
-msgstr "无法同步此数据源连接的权限。"
+msgstr "无法同步此数据库连接的权限。"
 
 msgid "Undefined"
 msgstr "未定义"
