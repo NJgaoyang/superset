@@ -20,7 +20,8 @@
 The upstream ``messages.po`` catalog remains the source of truth. This script
 changes only matching translation fields (and removes ``fuzzy`` for changed
 entries) so Git diffs remain small and future upstream merges stay reviewable.
-It supports both single-line and wrapped/multiline gettext ``msgid`` entries.
+It supports both single-line and wrapped/multiline gettext ``msgid`` entries,
+and Chinese plural entries via ``msgstr[0]`` (zh uses a single plural form).
 """
 
 from __future__ import annotations
@@ -101,12 +102,10 @@ def patch_entry(block: str, expected_msgid: str, translated: str) -> tuple[str, 
     if msgid_field is None or msgid_field[0] != expected_msgid:
         return block, False, False
 
-    # Avoid plural entries: this override layer intentionally handles ordinary
-    # UI strings only so plural rules remain owned by the upstream catalog.
-    if field_value(lines, "msgid_plural") is not None:
-        return block, True, False
-
-    msgstr_field = field_value(lines, "msgstr")
+    # Simplified Chinese uses a single plural form. For plural gettext entries,
+    # patch msgstr[0]; for ordinary entries patch msgstr.
+    target_field = "msgstr[0]" if field_value(lines, "msgid_plural") is not None else "msgstr"
+    msgstr_field = field_value(lines, target_field)
     if msgstr_field is None:
         return block, True, False
 
@@ -119,7 +118,7 @@ def patch_entry(block: str, expected_msgid: str, translated: str) -> tuple[str, 
         return block, True, False
 
     newline = "\n" if lines[start].endswith("\n") else ""
-    lines[start:end] = [f'msgstr "{po_escape(translated)}"{newline}']
+    lines[start:end] = [f'{target_field} "{po_escape(translated)}"{newline}']
     lines = remove_fuzzy_flag(lines)
     return "".join(lines), True, True
 
