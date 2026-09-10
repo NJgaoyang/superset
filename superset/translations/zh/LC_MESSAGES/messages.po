@@ -5705,13 +5705,13 @@ msgstr "显示控件类型"
 msgid "Display controls"
 msgstr "显示配置"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Display controls (%d)"
-msgstr "显示配置"
+msgstr "显示配置（%d）"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Display controls (%s)"
-msgstr "显示配置"
+msgstr "显示配置（%s）"
 
 msgid "Display cumulative total at end"
 msgstr "在末尾显示累计总计"
@@ -9387,9 +9387,9 @@ msgstr "如果存在序列或行限制，则用于定义顶部序列的排序方
 msgid "Metrics"
 msgstr "指标"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Metrics (%s)"
-msgstr "指标"
+msgstr "指标（%s）"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
