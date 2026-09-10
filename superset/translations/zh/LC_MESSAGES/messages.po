@@ -76,7 +76,7 @@ msgid ""
 "              "
 msgstr ""
 "\n"
-"                此筛选器继承自看板的上下文。\n"
+"                此筛选器继承自仪表盘的上下文。\n"
 "                保存图表时不会保存它。\n"
 "              "
 
@@ -92,8 +92,8 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            <p>由于以下错误，无法生成您的报告/警报：%(text)s</p>\n"
-"            <p>请检查您的看板/图表是否存在错误。</p>\n"
+"            <p>由于以下错误，无法生成您的报表/告警：%(text)s</p>\n"
+"            <p>请检查您的仪表盘/图表是否存在错误。</p>\n"
 "            <p><b><a href=\"%(url)s\">%(call_to_action)s</a></b></p>\n"
 "            "
 
@@ -106,7 +106,7 @@ msgid ""
 msgstr " 如果您不想覆盖GeoJSON中指定的颜色，请将不透明度设置为0"
 
 msgid " a dashboard OR "
-msgstr " 一个已存在的看板或者 "
+msgstr " 一个已存在的仪表盘或者 "
 
 #, fuzzy
 msgid " a new one"
@@ -174,7 +174,7 @@ msgid " to mark a column as a time column"
 msgstr " 将列标记为时间列"
 
 msgid " to open SQL Lab. From there you can save the query as a dataset."
-msgstr " 然后打开SQL工具箱。在那里你可以将查询保存为一个数据集。"
+msgstr " 然后打开SQL 工作台。在那里你可以将查询保存为一个数据集。"
 
 msgid " to see details."
 msgstr " 查看查询详情"
@@ -972,7 +972,7 @@ msgstr "人性化的名称"
 msgid ""
 "A list of domain names that can embed this dashboard. Leaving this field "
 "empty will allow embedding from any domain."
-msgstr "可以嵌入此看板的域名列表。留空此字段将允许从任何域名嵌入。"
+msgstr "可以嵌入此仪表盘的域名列表。留空此字段将允许从任何域名嵌入。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # fr, it, ja, lv, mi, nl, ru, sk, sl, tr, uk]
@@ -1035,7 +1035,7 @@ msgstr "对 [时间] 配置的引用，会将粒度考虑在内"
 
 #, fuzzy, python-format
 msgid "A report named \"%(name)s\" already exists"
-msgstr "报告 %(name)s 已存在"
+msgstr "报表 %(name)s 已存在"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -1349,7 +1349,7 @@ msgid ""
 msgstr ""
 "为控制筛选器的源查询添加筛选条件，\n"
 "                    但这只限于自动完成的上下文，即这些条件\n"
-"                    不会影响筛选器在仪表板上的应用方式。当你希望通过只扫描底层数据的一个子集\n"
+"                    不会影响筛选器在仪表盘上的应用方式。当你希望通过只扫描底层数据的一个子集\n"
 "                    来提高查询性能，或者限制筛选器中显示的可用值范围时，\n"
 "                    这一点特别有用。"
 
@@ -1384,7 +1384,7 @@ msgstr "添加或编辑筛选器和控件"
 
 #, fuzzy
 msgid "Add report"
-msgstr "新增报告"
+msgstr "新增报表"
 
 msgid "Add required control values to preview chart"
 msgstr "添加必需的控制值以预览图表"
@@ -1430,7 +1430,7 @@ msgstr[0] "已将 %s 个新列添加到虚拟数据集"
 #, fuzzy, python-format
 msgid "Added to 1 dashboard"
 msgid_plural "Added to %s dashboards"
-msgstr[0] "已添加至 %s 个仪表板"
+msgstr[0] "已添加至 %s 个仪表盘"
 
 msgid "Additional Parameters"
 msgstr "附加参数"
@@ -1472,7 +1472,7 @@ msgid "Adhoc metric aggregate is invalid"
 msgstr "临时指标聚合无效"
 
 msgid "Adjust how this database will interact with SQL Lab."
-msgstr "调整此数据库与 SQL Lab 的交互方式。"
+msgstr "调整此数据库与 SQL 工作台 的交互方式。"
 
 msgid "Adjust performance settings of this database."
 msgstr "调整此数据库的性能设置"
@@ -1515,7 +1515,7 @@ msgid "Affected Charts"
 msgstr "受影响的图表"
 
 msgid "Affected Dashboards"
-msgstr "受影响的看板"
+msgstr "受影响的仪表盘"
 
 msgid "After"
 msgstr "之后"
@@ -1557,7 +1557,7 @@ msgstr "聚合方法"
 
 #, fuzzy
 msgid "Alert"
-msgstr "警报"
+msgstr "告警"
 
 msgid "Alert Triggered, In Grace Period"
 msgstr "告警已触发，在宽限期内"
@@ -1566,7 +1566,7 @@ msgid "Alert condition"
 msgstr "告警条件"
 
 msgid "Alert contents"
-msgstr "警报内容"
+msgstr "告警内容"
 
 msgid "Alert ended grace period."
 msgstr "告警已结束宽限期。"
@@ -1581,7 +1581,7 @@ msgid "Alert found an error while executing a query."
 msgstr "告警在执行查询时发现错误。"
 
 msgid "Alert is active"
-msgstr "警报已激活"
+msgstr "告警已激活"
 
 msgid "Alert name"
 msgstr "告警名称"
@@ -1622,7 +1622,7 @@ msgid "Alerts & Reports"
 msgstr "告警与报表"
 
 msgid "Alerts & reports"
-msgstr "告警和报告"
+msgstr "告警和报表"
 
 msgid "Align +/-"
 msgstr "对齐 +/-"
@@ -1758,7 +1758,7 @@ msgstr "发生了一个错误"
 
 #, python-format
 msgid "An alert named \"%(name)s\" already exists"
-msgstr "名为“%(name)s”的警报已存在"
+msgstr "名为“%(name)s”的告警已存在"
 
 msgid ""
 "An enclosed time range (both start and end) must be specified when using "
@@ -1998,7 +1998,7 @@ msgstr "导入 %s 时出错：%s"
 msgid ""
 "An error occurred while loading SQL Lab. This may be caused by a "
 "corrupted query state."
-msgstr "加载 SQL Lab 时出错。这可能是由损坏的查询状态导致的。"
+msgstr "加载 SQL 工作台 时出错。这可能是由损坏的查询状态导致的。"
 
 msgid "An error occurred while loading dashboard information."
 msgstr "加载仪表盘信息失败。"
@@ -2047,7 +2047,7 @@ msgid "An error occurred while syncing permissions for %s: %s"
 msgstr "同步 %s 的权限时出错：%s"
 
 msgid "An error occurred while triggering the report"
-msgstr "触发报告时出错"
+msgstr "触发报表时出错"
 
 msgid "An error occurred while updating the extension."
 msgstr "更新扩展时出错。"
@@ -2205,19 +2205,19 @@ msgstr "要在认证工具提示中显示的任何其他详细信息。"
 msgid ""
 "Any color palette selected here will override the colors applied to this "
 "dashboard's individual charts"
-msgstr "此处选择的任何调色板都将覆盖应用于此看板的各个图表的颜色"
+msgstr "此处选择的任何调色板都将覆盖应用于此仪表盘的各个图表的颜色"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
 "Any dashboards using these themes will be automatically dissociated from "
 "them."
-msgstr "任何使用这些主题的看板将自动与它们解除关联。"
+msgstr "任何使用这些主题的仪表盘将自动与它们解除关联。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Any dashboards using this theme will be automatically dissociated from it."
-msgstr "任何使用此主题的看板都将自动与其解除关联。"
+msgstr "任何使用此主题的仪表盘都将自动与其解除关联。"
 
 msgid "Any databases that allow connections via SQL Alchemy URIs can be added. "
 msgstr "可以添加任何允许通过SQL Alchemy URI进行连接的数据库。 "
@@ -2280,7 +2280,7 @@ msgstr "将条件颜色格式应用于数字列"
 msgid ""
 "Apply custom CSS to the dashboard. Use class names or element selectors "
 "to target specific components."
-msgstr "将自定义CSS应用于看板。使用类名或元素选择器来定位特定组件。"
+msgstr "将自定义CSS应用于仪表盘。使用类名或元素选择器来定位特定组件。"
 
 msgid "Apply filters"
 msgstr "应用筛选器"
@@ -2678,7 +2678,7 @@ msgstr "图表的基本信息"
 
 #, python-format
 msgid "Batch editing %d filters:"
-msgstr "批量编辑 %d 个过滤条件："
+msgstr "批量编辑 %d 个筛选条件："
 
 msgid "Be careful."
 msgstr "小心。"
@@ -2853,7 +2853,7 @@ msgid ""
 "load. Check this box if you have more than 1000 filter values and want to"
 " enable dynamically searching that loads filter values as users type (may"
 " add stress to your database)."
-msgstr "默认情况下，每个过滤器在初始页面加载时最多加载1000个选项。如果您有超过1000个过滤值，并且希望启用动态搜索，以便在键入时加载筛选值（可能会给数据库增加压力），请选中此框。"
+msgstr "默认情况下，每个筛选器在初始页面加载时最多加载1000个选项。如果您有超过1000个筛选值，并且希望启用动态搜索，以便在键入时加载筛选值（可能会给数据库增加压力），请选中此框。"
 
 msgid "By key: use column names as sorting key"
 msgstr "使用列名作为排序关键字"
@@ -3244,7 +3244,7 @@ msgid "Changing this datasource is forbidden"
 msgstr "没有权限更新此数据集"
 
 msgid "Changing this report is forbidden"
-msgstr "禁止更改此报告"
+msgstr "禁止更改此报表"
 
 msgid "Changing this semantic layer is forbidden"
 msgstr "禁止更改此语义层"
@@ -3312,7 +3312,7 @@ msgstr "图表 [%s] 已经保存"
 
 #, python-format
 msgid "Chart [%s] was added to dashboard [%s]"
-msgstr "图表 [%s] 已添加到看板 [%s]"
+msgstr "图表 [%s] 已添加到仪表盘 [%s]"
 
 msgid "Chart cache timeout"
 msgstr "图表缓存超时"
@@ -3492,7 +3492,7 @@ msgstr "要读取的列"
 msgid ""
 "Choose from existing dashboard filters and select a value to refine your "
 "report results."
-msgstr "从现有看板筛选器中选择，并选取一个值来细化您的报告结果。"
+msgstr "从现有仪表盘筛选器中选择，并选取一个值来细化您的报表结果。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -3508,7 +3508,7 @@ msgstr "索引字段"
 msgid ""
 "Choose layers to hide from all deck.gl Multiple Layer charts in this "
 "dashboard."
-msgstr "选择要在此仪表板中的所有 deck.gl 多层图表中隐藏的图层。"
+msgstr "选择要在此仪表盘中的所有 deck.gl 多层图表中隐藏的图层。"
 
 msgid "Choose notification method and recipients."
 msgstr "选择通知方法和收件人。"
@@ -3632,7 +3632,7 @@ msgstr "清除选择以恢复系统默认主题"
 msgid ""
 "Click on \"Add or edit filters and controls\" option in Settings to "
 "create new dashboard filters"
-msgstr "点击设置中的“添加或编辑筛选器和控件”选项来创建新的看板筛选器。"
+msgstr "点击设置中的“添加或编辑筛选器和控件”选项来创建新的仪表盘筛选器。"
 
 msgid ""
 "Click on \"Create chart\" button in the control panel on the left to "
@@ -4092,7 +4092,7 @@ msgid "Configure dashboard appearance, colors, and custom CSS"
 msgstr "配置仪表盘外观、配色和自定义 CSS"
 
 msgid "Configure filter scopes"
-msgstr "配置过滤范围"
+msgstr "配置筛选范围"
 
 msgid "Configure the basics of your Annotation Layer."
 msgstr "注释层基本配置"
@@ -4319,7 +4319,7 @@ msgstr "找不到可视化对象"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 #, fuzzy
 msgid "Could not load SQL Lab"
-msgstr "无法加载 SQL Lab"
+msgstr "无法加载 SQL 工作台"
 
 msgid "Could not load database driver"
 msgstr "无法加载数据库驱动程序"
@@ -4379,7 +4379,7 @@ msgstr "创建数据集"
 msgid ""
 "Create a dataset to begin visualizing your data as a chart or go to\n"
 "          SQL Lab to query your data."
-msgstr "创建一个数据集以开始将您的数据可视化为图表，或者前往\n          SQL 工具箱查询您的数据。"
+msgstr "创建一个数据集以开始将您的数据可视化为图表，或者前往\n          SQL 工作台查询您的数据。"
 
 msgid "Create a new Tag"
 msgstr "创建新标签"
@@ -4390,7 +4390,7 @@ msgstr "创建新图表"
 msgid ""
 "Create a new tag and assign it to existing entities like charts or "
 "dashboards"
-msgstr "创建新标签并将其分配给现有实体，如图表或看板"
+msgstr "创建新标签并将其分配给现有实体，如图表或仪表盘"
 
 msgid "Create and explore dataset"
 msgstr "创建并探索数据集"
@@ -4731,7 +4731,7 @@ msgstr "无法收藏仪表盘。"
 msgid ""
 "Dashboard cannot be restored because its slug is now used by another "
 "active dashboard. Rename one of the dashboards and retry."
-msgstr "看板无法恢复，因为其 slug 现已被另一个活跃的看板使用。请重命名其中一个看板后重试。"
+msgstr "仪表盘无法恢复，因为其 slug 现已被另一个活跃的仪表盘使用。请重命名其中一个仪表盘后重试。"
 
 msgid "Dashboard cannot be unfavorited."
 msgstr "无法取消收藏仪表盘。"
@@ -4795,7 +4795,7 @@ msgid ""
 "          the filter section of each chart. Add temporal columns to the "
 "chart\n"
 "          filters to have this dashboard filter impact those charts."
-msgstr "看板时间范围筛选器应用于每个图表筛选部分中定义的时间列。将时间列添加到图表筛选器中，以使此看板筛选器影响这些图表。"
+msgstr "仪表盘时间范围筛选器应用于每个图表筛选部分中定义的时间列。将时间列添加到图表筛选器中，以使此仪表盘筛选器影响这些图表。"
 
 msgid "Dashboard title"
 msgstr "仪表盘标题"
@@ -4811,10 +4811,10 @@ msgid "Dashboards"
 msgstr "仪表盘"
 
 msgid "Dashboards could not be created."
-msgstr "无法创建看板。"
+msgstr "无法创建仪表盘。"
 
 msgid "Dashboards do not exist"
-msgstr "看板不存在"
+msgstr "仪表盘不存在"
 
 #, fuzzy
 msgid "Dashed"
@@ -4930,7 +4930,7 @@ msgid "Database is offline."
 msgstr "数据库已离线。"
 
 msgid "Database is required for alerts"
-msgstr "警报需要数据库"
+msgstr "告警需要数据库"
 
 msgid "Database name"
 msgstr "数据库名称"
@@ -5242,7 +5242,7 @@ msgstr "当\"必填项\"被选中时默认值必须被设置"
 msgid ""
 "Default value set automatically when \"Select first filter value by "
 "default\" is checked"
-msgstr "当勾选“默认选择第一个过滤值”时，将自动设置默认值。"
+msgstr "当勾选“默认选择第一个筛选值”时，将自动设置默认值。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, pt_BR, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -5371,10 +5371,10 @@ msgid "Delete annotation"
 msgstr "删除注释"
 
 msgid "Delete dashboard tab?"
-msgstr "是否删除看板选项卡？"
+msgstr "是否删除仪表盘选项卡？"
 
 msgid "Delete email report"
-msgstr "删除邮件报告"
+msgstr "删除邮件报表"
 
 msgid "Delete group"
 msgstr "删除组"
@@ -5439,7 +5439,7 @@ msgstr[0] "删除了 %(num)d 个css模板"
 #, python-format
 msgid "Deleted %(num)d dashboard"
 msgid_plural "Deleted %(num)d dashboards"
-msgstr[0] "删除了 %(num)d 个看板"
+msgstr[0] "删除了 %(num)d 个仪表盘"
 
 #, python-format
 msgid "Deleted %(num)d dataset"
@@ -5449,7 +5449,7 @@ msgstr[0] "删除 %(num)d 个数据集"
 #, python-format
 msgid "Deleted %(num)d report schedule"
 msgid_plural "Deleted %(num)d report schedules"
-msgstr[0] "删除了 %(num)d 个报告计划"
+msgstr[0] "删除了 %(num)d 个报表计划"
 
 #, fuzzy, python-format
 msgid "Deleted %(num)d rules"
@@ -5573,7 +5573,7 @@ msgstr "确定如何计算箱须和离群值。"
 msgid ""
 "Determines whether or not this dashboard is visible in the list of all "
 "dashboards"
-msgstr "确定此看板在所有看板列表中是否可见"
+msgstr "确定此仪表盘在所有仪表盘列表中是否可见"
 
 msgid "Diamond"
 msgstr "钻石"
@@ -5597,7 +5597,7 @@ msgid ""
 "Dimension column emitted as a cross-filter when a feature is clicked. "
 "Other charts on the dashboard match against this column. If unset, falls "
 "back to the geometry column (legacy behavior, often unmatchable)."
-msgstr "当某个要素被点击时，作为交叉筛选器发出的维度列。看板上的其他图表会与此列进行匹配。如果未设置，则回退到几何列（旧行为，通常无法匹配）。"
+msgstr "当某个要素被点击时，作为交叉筛选器发出的维度列。仪表盘上的其他图表会与此列进行匹配。如果未设置，则回退到几何列（旧行为，通常无法匹配）。"
 
 msgid "Dimension is required"
 msgstr "需要维度"
@@ -5637,13 +5637,13 @@ msgid "Directional"
 msgstr "方向"
 
 msgid "Disable SQL Lab data preview queries"
-msgstr "禁用 SQL 工具箱数据预览查询"
+msgstr "禁用 SQL 工作台数据预览查询"
 
 msgid ""
 "Disable data preview when fetching table metadata in SQL Lab.  Useful to "
 "avoid browser performance issues when using  databases with very wide "
 "tables."
-msgstr "在 SQL 工具箱中获取表的元数据时禁用数据预览。当使用具有非常宽表的数据库时，这样做有助于避免浏览器性能问题。"
+msgstr "在 SQL 工作台中获取表的元数据时禁用数据预览。当使用具有非常宽表的数据库时，这样做有助于避免浏览器性能问题。"
 
 #, fuzzy
 msgid "Disable drill to detail"
@@ -5754,7 +5754,7 @@ msgstr "显示行级合计"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Display the last queried timestamp on charts in the dashboard view"
-msgstr "在看板视图的图表上显示最后查询的时间戳"
+msgstr "在仪表盘视图的图表上显示最后查询的时间戳"
 
 msgid "Display type icon"
 msgstr "显示类型图标"
@@ -5842,7 +5842,7 @@ msgid "Draft"
 msgstr "草稿"
 
 msgid "Drag and drop components and charts to the dashboard"
-msgstr "拖放组件和图表到看板"
+msgstr "拖放组件和图表到仪表盘"
 
 msgid "Drag and drop components to this tab"
 msgstr "拖放组件或图表到此选项卡"
@@ -6052,7 +6052,7 @@ msgstr "ECharts 选项（JS 对象字面量）"
 #. do-not-translate
 #, fuzzy
 msgid "EMAIL_REPORTS_CTA"
-msgstr "激活邮件报告"
+msgstr "激活邮件报表"
 
 #, fuzzy
 msgid "ERROR"
@@ -6089,7 +6089,7 @@ msgid "Edit CSS template properties"
 msgstr "编辑CSS模板属性"
 
 msgid "Edit Dashboard"
-msgstr "编辑看板"
+msgstr "编辑仪表盘"
 
 msgid "Edit Dataset "
 msgstr "编辑数据集 "
@@ -6119,7 +6119,7 @@ msgstr "编辑用户"
 
 #, fuzzy
 msgid "Edit alert"
-msgstr "编辑警报"
+msgstr "编辑告警"
 
 msgid "Edit annotation"
 msgstr "编辑注释"
@@ -6138,13 +6138,13 @@ msgid "Edit chart properties"
 msgstr "编辑图表属性"
 
 msgid "Edit dashboard"
-msgstr "编辑看板"
+msgstr "编辑仪表盘"
 
 msgid "Edit database"
 msgstr "编辑数据库"
 
 msgid "Edit email report"
-msgstr "编辑邮件报告"
+msgstr "编辑邮件报表"
 
 msgid "Edit formatter"
 msgstr "编辑格式化"
@@ -6160,7 +6160,7 @@ msgstr "编辑查询"
 
 #, fuzzy
 msgid "Edit report"
-msgstr "编辑报告"
+msgstr "编辑报表"
 
 msgid "Edit role"
 msgstr "编辑角色"
@@ -6177,7 +6177,7 @@ msgstr "编辑模板参数"
 
 #, fuzzy
 msgid "Edit the dashboard"
-msgstr "编辑看板"
+msgstr "编辑仪表盘"
 
 msgid "Edit theme properties"
 msgstr "编辑主题属性"
@@ -6198,7 +6198,7 @@ msgid "Edited"
 msgstr "已编辑"
 
 msgid "Editing 1 filter:"
-msgstr "编辑1个过滤条件："
+msgstr "编辑1个筛选条件："
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fi, fr, it, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn,
@@ -6216,7 +6216,7 @@ msgstr "编辑"
 # es, fa, fi, fr, it, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn,
 # th, tr, uk]
 msgid "Editors is a list of subjects who can alter the dashboard."
-msgstr "编辑者是一个主体列表，这些主体可以修改看板。"
+msgstr "编辑者是一个主体列表，这些主体可以修改仪表盘。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fi, fr, it, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn,
@@ -6224,7 +6224,7 @@ msgstr "编辑者是一个主体列表，这些主体可以修改看板。"
 msgid ""
 "Editors is a list of subjects who can alter the dashboard. Searchable by "
 "name."
-msgstr "编辑者是一个主体列表，这些主体可以修改看板。可按名称搜索。"
+msgstr "编辑者是一个主体列表，这些主体可以修改仪表盘。可按名称搜索。"
 
 msgid "Either the database is spelled incorrectly or does not exist."
 msgstr "数据库拼写不正确或不存在。"
@@ -6261,7 +6261,7 @@ msgid "Email recipients"
 msgstr "电子邮件收件人"
 
 msgid "Email reports active"
-msgstr "邮件报告已激活"
+msgstr "邮件报表已激活"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -6277,10 +6277,10 @@ msgstr "嵌入代码"
 
 #, fuzzy
 msgid "Embed dashboard"
-msgstr "嵌入看板"
+msgstr "嵌入仪表盘"
 
 msgid "Embedded dashboard could not be deleted."
-msgstr "嵌入式看板无法被删除。"
+msgstr "嵌入式仪表盘无法被删除。"
 
 msgid "Embedding deactivated."
 msgstr "嵌入已停用。"
@@ -6375,7 +6375,7 @@ msgid ""
 "Encountered invalid NULL spatial entry,"
 "                                        please consider filtering those "
 "out"
-msgstr "遇到无效的为 NULL 的空间条目，请考虑将其过滤掉"
+msgstr "遇到无效的为 NULL 的空间条目，请考虑将其筛选掉"
 
 msgid "Encrypted extra fields"
 msgstr "加密的额外字段"
@@ -6458,7 +6458,7 @@ msgid "Enter minimum and maximum values for the range filter"
 msgstr "输入范围筛选器的最小值和最大值"
 
 msgid "Enter report name"
-msgstr "输入报告名称"
+msgstr "输入报表名称"
 
 msgid "Enter the group's description"
 msgstr "输入群组描述"
@@ -6806,7 +6806,7 @@ msgid "Export cancelled"
 msgstr "导出已取消"
 
 msgid "Export dashboards?"
-msgstr "导出看板?"
+msgstr "导出仪表盘?"
 
 msgid "Export failed"
 msgstr "导出失败"
@@ -6886,10 +6886,10 @@ msgid ""
 msgstr "尚不支持导出语义视图。请取消选择语义视图行，然后重试。"
 
 msgid "Expose database in SQL Lab"
-msgstr "在SQL Lab中展示数据库"
+msgstr "在SQL 工作台中展示数据库"
 
 msgid "Expose in SQL Lab"
-msgstr "在 SQL Lab 中展示"
+msgstr "在 SQL 工作台 中展示"
 
 msgid "Expression"
 msgstr "表达式"
@@ -6987,7 +6987,7 @@ msgid "Failed to create API key"
 msgstr "创建 API 密钥失败"
 
 msgid "Failed to create report"
-msgstr "创建报告失败"
+msgstr "创建报表失败"
 
 #, python-format
 msgid "Failed to delete %(name)s"
@@ -7125,7 +7125,7 @@ msgid "Failed to trigger %(alertType)s \"%(alertName)s\": %(error)s"
 msgstr "触发 %(alertType)s \"%(alertName)s\" 失败：%(error)s"
 
 msgid "Failed to update report"
-msgstr "更新报告失败"
+msgstr "更新报表失败"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -7232,11 +7232,11 @@ msgstr "筛选器"
 
 #, fuzzy
 msgid "Filter Configuration"
-msgstr "过滤配置"
+msgstr "筛选配置"
 
 #, fuzzy
 msgid "Filter Settings"
-msgstr "过滤器设置"
+msgstr "筛选器设置"
 
 msgid "Filter Type"
 msgstr "筛选器类型"
@@ -7249,10 +7249,10 @@ msgstr "筛选器具有默认值"
 
 #, fuzzy
 msgid "Filter menu"
-msgstr "过滤器菜单"
+msgstr "筛选器菜单"
 
 msgid "Filter name"
-msgstr "过滤器名称"
+msgstr "筛选器名称"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -7267,7 +7267,7 @@ msgid "Filter results"
 msgstr "筛选结果"
 
 msgid "Filter type"
-msgstr "过滤类型"
+msgstr "筛选类型"
 
 msgid "Filter value (case sensitive)"
 msgstr "筛选值（区分大小写）"
@@ -7276,10 +7276,10 @@ msgid "Filter value is required"
 msgstr "筛选值不能为空"
 
 msgid "Filter value list cannot be empty"
-msgstr "过滤器值列表不能为空"
+msgstr "筛选器值列表不能为空"
 
 msgid "Filter your charts"
-msgstr "过滤您的图表"
+msgstr "筛选您的图表"
 
 msgid "Filters"
 msgstr "筛选器"
@@ -7294,12 +7294,12 @@ msgid "Filters by metrics"
 msgstr "按指标筛选"
 
 msgid "Filters for comparison must have a value"
-msgstr "用于比较的过滤器必须有值"
+msgstr "用于比较的筛选器必须有值"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Filters for values equal to this exact value."
-msgstr "筛选等于此确切值的过滤器。"
+msgstr "筛选等于此确切值的筛选器。"
 
 msgid "Filters for values greater than or equal."
 msgstr "筛选大于或等于指定值的数据。"
@@ -7311,7 +7311,7 @@ msgstr "筛选小于或等于的值。"
 
 #, python-format
 msgid "Filters out of scope (%d)"
-msgstr "过滤器超出范围(%d)"
+msgstr "筛选器超出范围(%d)"
 
 msgid ""
 "Filters with the same group key will be ORed together within the group, "
@@ -7323,9 +7323,9 @@ msgid ""
 "filter (department = 'Finance' OR department = 'Marketing') AND (region ="
 " 'Europe')."
 msgstr ""
-"具有相同组key的过滤将在组中一起进行\"OR\"运算，而不同的过滤组将一起进行\"AND\"运算。未定义的组的key被视为唯一组，即不分组在一起。例如，如果表有三个过滤，其中两个用于财务部门和市场营销"
+"具有相同组key的筛选将在组中一起进行\"OR\"运算，而不同的筛选组将一起进行\"AND\"运算。未定义的组的key被视为唯一组，即不分组在一起。例如，如果表有三个筛选，其中两个用于财务部门和市场营销"
 " (group key = 'department')，其中一个表示欧洲地区(group key = "
-"'region')，filter子句将应用过滤 (department = 'Finance' OR department = "
+"'region')，filter子句将应用筛选 (department = 'Finance' OR department = "
 "'Marketing') 和 (region = 'Europe')"
 
 #, fuzzy
@@ -7357,7 +7357,7 @@ msgstr "拟合数据"
 msgid ""
 "Fix the trend line to the full time range specified in case filtered "
 "results do not include the start or end dates"
-msgstr "将趋势线固定为指定的完整时间范围，以防过滤的结果不包括开始日期或结束日期"
+msgstr "将趋势线固定为指定的完整时间范围，以防筛选的结果不包括开始日期或结束日期"
 
 msgid "Fix to selected Time Range"
 msgstr "固定到选定的时间范围"
@@ -7439,7 +7439,7 @@ msgstr "强制中止（停止所有订阅者的任务）"
 msgid ""
 "Force all tables and views to be created in this schema when clicking "
 "CTAS or CVAS in SQL Lab."
-msgstr "在SQL实验室中点击CTAS或CVAS时，强制在此模式中创建所有表或视图。"
+msgstr "在SQL 工作台中点击CTAS或CVAS时，强制在此模式中创建所有表或视图。"
 
 #, fuzzy
 msgid "Force categorical"
@@ -7657,7 +7657,7 @@ msgstr "允许通过一个数据库连接访问多个 Catalog。"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid "Go to the edit mode to configure the dashboard and add charts"
-msgstr "进入编辑模式以配置看板并添加图表"
+msgstr "进入编辑模式以配置仪表盘并添加图表"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -7919,7 +7919,7 @@ msgid ""
 "hive.server2.proxy.user property. If Databricks, uses OAuth2 to "
 "authenticate as the currently logged on user."
 msgstr ""
-"如果使用 Presto 或 Trino，SQL 工具箱中的所有查询都将以当前登录用户的身份执行，该用户必须拥有运行这些查询的权限。如果启用 Hive 和 hive.server2.enable.doAs，将作为服务账户运行查询，但会通过 hive.server2.proxy.user 属性模拟当前登录用户。如果使用 Databricks，则使用 OAuth2 以当前登录用户的身份进行身份验证。"
+"如果使用 Presto 或 Trino，SQL 工作台中的所有查询都将以当前登录用户的身份执行，该用户必须拥有运行这些查询的权限。如果启用 Hive 和 hive.server2.enable.doAs，将作为服务账户运行查询，但会通过 hive.server2.proxy.user 属性模拟当前登录用户。如果使用 Databricks，则使用 OAuth2 以当前登录用户的身份进行身份验证。"
 
 msgid "If a metric is specified, sorting will be done based on the metric value"
 msgstr "如果指定了度量，则将根据该度量值进行排序"
@@ -7954,7 +7954,7 @@ msgstr "如果不保存，更改将会丢失。"
 
 #, fuzzy
 msgid "Ignore cache when generating report"
-msgstr "生成报告时忽略缓存"
+msgstr "生成报表时忽略缓存"
 
 msgid "Ignore null locations"
 msgstr "忽略空位置"
@@ -7990,10 +7990,10 @@ msgid "Import charts"
 msgstr "导入图表"
 
 msgid "Import dashboard failed for an unknown reason"
-msgstr "导入看板失败，原因未知"
+msgstr "导入仪表盘失败，原因未知"
 
 msgid "Import dashboards"
-msgstr "导入看板"
+msgstr "导入仪表盘"
 
 msgid "Import database failed for an unknown reason"
 msgstr "导入数据库失败，原因未知"
@@ -8047,7 +8047,7 @@ msgid "Include Template Parameters"
 msgstr "包含模板参数"
 
 msgid "Include a description that will be sent with your report"
-msgstr "包含将随报告发送的描述"
+msgstr "包含将随报表发送的描述"
 
 #, python-format
 msgid "Include description to be sent with %s"
@@ -8357,7 +8357,7 @@ msgid "Is favorite"
 msgstr "收藏"
 
 msgid "Is filterable"
-msgstr "可被过滤"
+msgstr "可被筛选"
 
 #, fuzzy
 msgid "Is not null"
@@ -9049,18 +9049,18 @@ msgstr "管理"
 # es, fa, fi, fr, it, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn,
 # th, tr, uk]
 msgid "Manage dashboard editors and access permissions"
-msgstr "管理看板所有者及访问权限"
+msgstr "管理仪表盘所有者及访问权限"
 
 #, fuzzy
 msgid "Manage email report"
-msgstr "管理邮件报告"
+msgstr "管理邮件报表"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid ""
 "Manage filters and customizations to set scoping, descriptions, and "
 "limitations. Create new elements for better dashboard insights."
-msgstr "管理筛选器和自定义设置，以确定范围、描述和限制。创建新元素以获得更好的看板洞察。"
+msgstr "管理筛选器和自定义设置，以确定范围、描述和限制。创建新元素以获得更好的仪表盘洞察。"
 
 msgid "Manage your databases"
 msgstr "管理你的数据库"
@@ -9583,7 +9583,7 @@ msgstr "更多选项"
 
 #, fuzzy
 msgid "More filters"
-msgstr "更多过滤器"
+msgstr "更多筛选器"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -9635,7 +9635,7 @@ msgid "Must be unique"
 msgstr "需要唯一"
 
 msgid "Must choose either a chart or a dashboard"
-msgstr "必须选择图表或看板"
+msgstr "必须选择图表或仪表盘"
 
 msgid "Must have a [Group By] column to have 'count' as the [Label]"
 msgstr "必须要有 [Group By] 列才能将 'count' 作为 [标签]"
@@ -9820,7 +9820,7 @@ msgstr "没有注释"
 
 #, fuzzy
 msgid "No applied filters"
-msgstr "没有应用过滤器"
+msgstr "没有应用筛选器"
 
 msgid "No archived items"
 msgstr "没有已归档的项目"
@@ -9850,7 +9850,7 @@ msgid "No data"
 msgstr "没有数据"
 
 msgid "No data after filtering or data is NULL for the latest time record"
-msgstr "过滤后没有数据，或者最新时间记录的数据为NULL"
+msgstr "筛选后没有数据，或者最新时间记录的数据为NULL"
 
 msgid "No data found"
 msgstr "没有数据"
@@ -9878,7 +9878,7 @@ msgid "No filter"
 msgstr "无筛选"
 
 msgid "No filter is selected."
-msgstr "未选择过滤条件。"
+msgstr "未选择筛选条件。"
 
 #, fuzzy
 msgid "No filters"
@@ -9889,7 +9889,7 @@ msgstr "未应用筛选"
 
 #, fuzzy
 msgid "No filters are currently added to this dashboard."
-msgstr "此看板中没有过滤条件。"
+msgstr "此仪表盘中没有筛选条件。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
@@ -9903,7 +9903,7 @@ msgid "No form settings were maintained"
 msgstr "未维护任何表单设置"
 
 msgid "No global filters are currently added"
-msgstr "当前没有已添加的全局过滤器"
+msgstr "当前没有已添加的全局筛选器"
 
 msgid "No groups"
 msgstr "暂无组"
@@ -9922,7 +9922,7 @@ msgid "No matching results found"
 msgstr "未找到匹配结果"
 
 msgid "No multilayer deck.gl charts are currently added to this dashboard."
-msgstr "当前仪表板未添加任何多层 deck.gl 图表。"
+msgstr "当前仪表盘未添加任何多层 deck.gl 图表。"
 
 msgid "No records found"
 msgstr "没有找到任何记录"
@@ -9948,7 +9948,7 @@ msgid ""
 "No results were returned for this query. If you expected results to be "
 "returned, ensure any filters are configured properly and the datasource "
 "contains data for the selected time range."
-msgstr "此查询没有返回任何结果。如果希望返回结果，请确保所有过滤选择的配置正确，并且数据源包含所选时间范围的数据。"
+msgstr "此查询没有返回任何结果。如果希望返回结果，请确保所有筛选选择的配置正确，并且数据源包含所选时间范围的数据。"
 
 msgid "No roles"
 msgstr "暂无角色"
@@ -10060,7 +10060,7 @@ msgstr "不是有效的 ZIP 文件"
 
 #, fuzzy
 msgid "Not added to any dashboard"
-msgstr "没有添加到任何看板"
+msgstr "没有添加到任何仪表盘"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -10243,7 +10243,7 @@ msgid "On Grace"
 msgstr "在宽限期内"
 
 msgid "On dashboards"
-msgstr "在看板上"
+msgstr "在仪表盘上"
 
 msgid ""
 "One or many columns to group by. High cardinality groupings should "
@@ -10369,7 +10369,7 @@ msgid "Open Datasource tab"
 msgstr "打开数据集页签"
 
 msgid "Open SQL Lab in a new tab"
-msgstr "在新选项卡中打开 SQL Lab"
+msgstr "在新选项卡中打开 SQL 工作台"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid "Open chart in new tab"
@@ -10377,16 +10377,16 @@ msgstr "在新选项卡中打开图表"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid "Open dashboard in new tab"
-msgstr "在新选项卡中打开看板"
+msgstr "在新选项卡中打开仪表盘"
 
 msgid "Open in SQL Lab"
-msgstr "在 SQL Lab 中打开"
+msgstr "在 SQL 工作台 中打开"
 
 msgid "Open in SQL lab"
-msgstr "在 SQL Lab 中打开"
+msgstr "在 SQL 工作台 中打开"
 
 msgid "Open query in SQL Lab"
-msgstr "在 SQL Lab 中打开查询"
+msgstr "在 SQL 工作台 中打开查询"
 
 msgid ""
 "Operate the database in asynchronous mode, meaning that the queries are "
@@ -10741,7 +10741,7 @@ msgid "Person or group that has certified this chart."
 msgstr "认证此图表的个人或组。"
 
 msgid "Person or group that has certified this dashboard."
-msgstr "认证此看板的个人或组。"
+msgstr "认证此仪表盘的个人或组。"
 
 msgid "Person or group that has certified this metric"
 msgstr "认证此指标的个人或组"
@@ -10966,10 +10966,10 @@ msgid_plural "Please reach out to the Chart Editors for assistance."
 msgstr[0] "请联系图表编辑者寻求帮助。"
 
 msgid "Please save your chart first, then try creating a new email report."
-msgstr "请先保存您的图表，然后尝试创建一个新的电子邮件报告。"
+msgstr "请先保存您的图表，然后尝试创建一个新的电子邮件报表。"
 
 msgid "Please save your dashboard first, then try creating a new email report."
-msgstr "请先保存您的看板，然后尝试创建一个新的电子邮件报告。"
+msgstr "请先保存您的仪表盘，然后尝试创建一个新的电子邮件报表。"
 
 msgid "Please select at least one role or group"
 msgstr "请至少选择一个角色或组"
@@ -11099,7 +11099,7 @@ msgid "Powered by Apache Superset"
 msgstr "由Apache Superset提供支持"
 
 msgid "Pre-filter"
-msgstr "预过滤"
+msgstr "预筛选"
 
 msgid "Pre-filter available values"
 msgstr "预筛选可用值"
@@ -11343,10 +11343,10 @@ msgid "Range Type"
 msgstr "范围类型"
 
 msgid "Range filter"
-msgstr "范围过滤"
+msgstr "范围筛选"
 
 msgid "Range filter plugin using AntD"
-msgstr "使用AntD的范围过滤器插件"
+msgstr "使用AntD的范围筛选器插件"
 
 msgid "Range labels"
 msgstr "范围标签"
@@ -11440,7 +11440,7 @@ msgid "Refetch results"
 msgstr "重新获取结果"
 
 msgid "Refresh dashboard"
-msgstr "刷新看板"
+msgstr "刷新仪表盘"
 
 msgid "Refresh delayed"
 msgstr "刷新延迟"
@@ -11503,7 +11503,7 @@ msgid ""
 "except the subjects defined in the filter, and can be used to define what"
 " users can see if no RLS filters within a filter group apply to them."
 msgstr ""
-"如果用户属于过滤器中引用的角色，常规过滤器会向查询添加WHERE子句；基础过滤器则对所有查询应用过滤条件，除了过滤器中定义的角色之外。如果在过滤器组内没有适用于用户的行级安全（RLS）过滤器，基础过滤器可以用来定义用户能够看到的内容。"
+"如果用户属于筛选器中引用的角色，常规筛选器会向查询添加WHERE子句；基础筛选器则对所有查询应用筛选条件，除了筛选器中定义的角色之外。如果在筛选器组内没有适用于用户的行级安全（RLS）筛选器，基础筛选器可以用来定义用户能够看到的内容。"
 
 msgid "Relational"
 msgstr "关系"
@@ -11526,7 +11526,7 @@ msgstr "重新加载"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid "Reload SQL Lab"
-msgstr "重新加载 SQL 工具箱"
+msgstr "重新加载 SQL 工作台"
 
 msgid "Remove"
 msgstr "删除"
@@ -11601,7 +11601,7 @@ msgstr "报表"
 
 #, fuzzy
 msgid "Report Name"
-msgstr "报告名称"
+msgstr "报表名称"
 
 msgid "Report Schedule could not be created."
 msgstr "无法创建报表计划。"
@@ -11616,19 +11616,19 @@ msgid "Report Schedule execute now failed."
 msgstr "报表计划立即执行失败。"
 
 msgid "Report Schedule execution failed when generating a csv."
-msgstr "在生成 CSV 文件时，报告计划执行失败。"
+msgstr "在生成 CSV 文件时，报表计划执行失败。"
 
 msgid "Report Schedule execution failed when generating a dataframe."
-msgstr "在生成数据框时，报告计划执行失败。"
+msgstr "在生成数据框时，报表计划执行失败。"
 
 msgid "Report Schedule execution failed when generating a pdf."
-msgstr "生成 PDF 文件时，报告计划执行失败。"
+msgstr "生成 PDF 文件时，报表计划执行失败。"
 
 msgid "Report Schedule execution failed when generating a screenshot."
-msgstr "在生成屏幕截图时，报告计划执行失败。"
+msgstr "在生成屏幕截图时，报表计划执行失败。"
 
 msgid "Report Schedule execution failed when generating an Excel file."
-msgstr "生成 Excel 文件时，报告计划执行失败。"
+msgstr "生成 Excel 文件时，报表计划执行失败。"
 
 msgid "Report Schedule execution got an unexpected error."
 msgstr "报表计划执行遇到意外错误。"
@@ -11637,7 +11637,7 @@ msgid ""
 "Report Schedule execution requires a Celery backend to be configured. "
 "Please configure a Celery broker (Redis or RabbitMQ) and worker "
 "processes."
-msgstr "报告计划执行需要配置 Celery 后端。请配置 Celery 代理（Redis 或 RabbitMQ）和工作进程。"
+msgstr "报表计划执行需要配置 Celery 后端。请配置 Celery 代理（Redis 或 RabbitMQ）和工作进程。"
 
 #, python-format
 msgid "Report Schedule executor user %(username)s was not found."
@@ -11662,48 +11662,48 @@ msgid "Report Schedule state not found"
 msgstr "未找到报表计划状态"
 
 msgid "Report a bug"
-msgstr "报告 Bug"
+msgstr "报表 Bug"
 
 msgid "Report contents"
-msgstr "报告内容"
+msgstr "报表内容"
 
 msgid "Report failed"
-msgstr "报告失败"
+msgstr "报表失败"
 
 msgid "Report is active"
-msgstr "报告已激活"
+msgstr "报表已激活"
 
 msgid "Report name"
-msgstr "报告名称"
+msgstr "报表名称"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 #, fuzzy
 msgid "Report not yet run"
-msgstr "报告尚未运行"
+msgstr "报表尚未运行"
 
 #, fuzzy
 msgid "Report schedule client error"
-msgstr "报告计划任务客户端错误"
+msgstr "报表计划任务客户端错误"
 
 #, fuzzy
 msgid "Report schedule system error"
-msgstr "报告计划任务系统错误"
+msgstr "报表计划任务系统错误"
 
 msgid "Report schedule unexpected error"
-msgstr "报告计划任务意外错误。"
+msgstr "报表计划任务意外错误。"
 
 msgid "Report sending"
-msgstr "报告发送"
+msgstr "报表发送"
 
 msgid "Report sent"
-msgstr "已发送报告"
+msgstr "已发送报表"
 
 #, fuzzy
 msgid "Report updated"
-msgstr "报告已更新"
+msgstr "报表已更新"
 
 msgid "Reports"
-msgstr "报告"
+msgstr "报表"
 
 msgid "Repulsion"
 msgstr "排斥力"
@@ -11793,7 +11793,7 @@ msgstr "调整大小"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid "Resource already has an attached report."
-msgstr "资源已附加报告。"
+msgstr "资源已附加报表。"
 
 msgid "Resource was not found."
 msgstr "未找到资源。"
@@ -11804,7 +11804,7 @@ msgid "Resource was removed before editorship could be verified"
 msgstr "在验证编辑权之前，资源已被移除"
 
 msgid "Restore filter"
-msgstr "还原过滤条件"
+msgstr "还原筛选条件"
 
 msgid "Results"
 msgstr "结果"
@@ -12010,7 +12010,7 @@ msgid "Run current query"
 msgstr "运行查询"
 
 msgid "Run in SQL Lab"
-msgstr "在 SQL Lab 中运行"
+msgstr "在 SQL 工作台 中运行"
 
 msgid "Run query"
 msgstr "运行查询"
@@ -12051,7 +12051,7 @@ msgid ""
 "SQL Lab cannot authorise a statement that could not be fully parsed. "
 "Qualify tables explicitly and avoid dynamic SQL inside stored-procedure "
 "or vendor-specific calls."
-msgstr "SQL Lab 无法授权无法完全解析的语句。请显式限定表名，并避免在存储过程或供应商特定调用中使用动态 SQL。"
+msgstr "SQL 工作台 无法授权无法完全解析的语句。请显式限定表名，并避免在存储过程或供应商特定调用中使用动态 SQL。"
 
 msgid "SQL Lab queries"
 msgstr "SQL 工作台查询"
@@ -12066,9 +12066,9 @@ msgid ""
 "delete the tab.\n"
 "Note that you will need to close other SQL Lab windows before you do this."
 msgstr ""
-"SQL Lab 将查询和结果数据存储在浏览器的本地存储中。目前，您已使用了 %(currentUsage)s KB，总共可用 "
-"%(maxStorage)d KB 存储空间。为了防止 SQL Lab "
-"崩溃，请删除一些查询选项卡。在删除选项卡之前，您可以通过使用保存功能来重新访问这些查询。请注意，在执行此操作之前，您需要关闭其他的 SQL Lab"
+"SQL 工作台 将查询和结果数据存储在浏览器的本地存储中。目前，您已使用了 %(currentUsage)s KB，总共可用 "
+"%(maxStorage)d KB 存储空间。为了防止 SQL 工作台 "
+"崩溃，请删除一些查询选项卡。在删除选项卡之前，您可以通过使用保存功能来重新访问这些查询。请注意，在执行此操作之前，您需要关闭其他的 SQL 工作台"
 " 窗口。"
 
 msgid "SQL Query"
@@ -12205,7 +12205,7 @@ msgid "Save changes to your chart?"
 msgstr "保存对图表的更改？"
 
 msgid "Save changes to your dashboard?"
-msgstr "保存对看板的更改？"
+msgstr "保存对仪表盘的更改？"
 
 msgid "Save chart"
 msgstr "保存图表"
@@ -12217,7 +12217,7 @@ msgid "Save color breakpoint values"
 msgstr "保存颜色断点值"
 
 msgid "Save dashboard"
-msgstr "保存看板"
+msgstr "保存仪表盘"
 
 #, fuzzy
 msgid "Save dataset"
@@ -12294,7 +12294,7 @@ msgid "Schedule"
 msgstr "调度"
 
 msgid "Schedule a new email report"
-msgstr "安排新的电子邮件报告"
+msgstr "安排新的电子邮件报表"
 
 msgid "Schedule query"
 msgstr "计划查询"
@@ -12382,7 +12382,7 @@ msgstr "按名称搜索计算列"
 # es, fa, fi, fr, it, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn,
 # th, tr, uk]
 msgid "Search charts by name, editor, or dashboard"
-msgstr "按名称、编辑者或看板搜索图表"
+msgstr "按名称、编辑者或仪表盘搜索图表"
 
 msgid "Search columns"
 msgstr "搜索列"
@@ -12465,7 +12465,7 @@ msgid "See all %(tableName)s"
 msgstr "查看全部 - %(tableName)s"
 
 msgid "See all dashboards"
-msgstr "查看所有看板"
+msgstr "查看所有仪表盘"
 
 msgid "See less"
 msgstr "查看更少"
@@ -12498,7 +12498,7 @@ msgstr "选择投递方式"
 
 #, fuzzy
 msgid "Select Filter"
-msgstr "选择过滤器"
+msgstr "选择筛选器"
 
 #, fuzzy
 msgid "Select Tags"
@@ -12518,7 +12518,7 @@ msgid "Select a column"
 msgstr "选择列"
 
 msgid "Select a dashboard"
-msgstr "选择看板"
+msgstr "选择仪表盘"
 
 msgid "Select a database"
 msgstr "选择数据库"
@@ -12563,7 +12563,7 @@ msgstr "选择一个要展示的指标。您可以使用聚合函数对列进行
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Select a predefined CSS template to apply to your dashboard"
-msgstr "选择一个预定义的CSS模板应用到你的看板"
+msgstr "选择一个预定义的CSS模板应用到你的仪表盘"
 
 msgid "Select a schema"
 msgstr "选择一个模式"
@@ -12660,14 +12660,14 @@ msgstr "选择当前页"
 
 #, fuzzy
 msgid "Select dashboard"
-msgstr "选择看板"
+msgstr "选择仪表盘"
 
 msgid "Select dashboard to use"
-msgstr "选择要使用的看板"
+msgstr "选择要使用的仪表盘"
 
 #, fuzzy
 msgid "Select dashboards"
-msgstr "选择看板"
+msgstr "选择仪表盘"
 
 msgid "Select database"
 msgstr "选择数据库"
@@ -12709,13 +12709,13 @@ msgid "Select file"
 msgstr "选择文件"
 
 msgid "Select filter"
-msgstr "选择过滤器"
+msgstr "选择筛选器"
 
 msgid "Select filter plugin using AntD"
-msgstr "使用AntD的选择过滤器插件"
+msgstr "使用AntD的选择筛选器插件"
 
 msgid "Select first filter value by default"
-msgstr "默认选择首个过滤器值"
+msgstr "默认选择首个筛选器值"
 
 msgid "Select format"
 msgstr "选择格式"
@@ -12828,14 +12828,14 @@ msgid ""
 "applying cross-filters from any chart on the dashboard. You can select "
 "\"All charts\" to apply cross-filters to all charts that use the same "
 "dataset or contain the same column name in the dashboard."
-msgstr "选择您希望在此看板上应用交叉筛选的图表。取消选择一个图表将在从看板上的任何图表应用交叉筛选时排除它。您可以选择“所有图表”，以对使用相同数据集或在看板中包含相同列名的所有图表应用交叉筛选。"
+msgstr "选择您希望在此仪表盘上应用交叉筛选的图表。取消选择一个图表将在从仪表盘上的任何图表应用交叉筛选时排除它。您可以选择“所有图表”，以对使用相同数据集或在仪表盘中包含相同列名的所有图表应用交叉筛选。"
 
 msgid ""
 "Select the charts to which you want to apply cross-filters when "
 "interacting with this chart. You can select \"All charts\" to apply "
 "filters to all charts that use the same dataset or contain the same "
 "column name in the dashboard."
-msgstr "选择您希望在与此图表交互时应用交叉筛选的图表。您可以选择“所有图表”，以对使用相同数据集或在仪表板中包含相同列名的所有图表应用筛选器。"
+msgstr "选择您希望在与此图表交互时应用交叉筛选的图表。您可以选择“所有图表”，以对使用相同数据集或在仪表盘中包含相同列名的所有图表应用筛选器。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, ja, lv,
 # ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -13086,7 +13086,7 @@ msgid "Set auto-refresh"
 msgstr "设置自动刷新"
 
 msgid "Set filter mapping"
-msgstr "设置过滤映射"
+msgstr "设置筛选映射"
 
 msgid "Set local theme for testing"
 msgstr "设置用于测试的本地主题"
@@ -13105,18 +13105,18 @@ msgstr "仅为当前会话设置刷新频率。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, pt_BR, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Set the automatic refresh frequency for this dashboard."
-msgstr "设置此看板的自动刷新频率。"
+msgstr "设置此仪表盘的自动刷新频率。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, pt_BR, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid ""
 "Set the automatic refresh frequency for this dashboard. The dashboard "
 "will reload its data at the specified interval."
-msgstr "设置此看板的自动刷新频率。看板将按指定间隔重新加载数据。"
+msgstr "设置此仪表盘的自动刷新频率。仪表盘将按指定间隔重新加载数据。"
 
 #, fuzzy
 msgid "Set up an email report"
-msgstr "设置邮件报告"
+msgstr "设置邮件报表"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -13129,7 +13129,7 @@ msgid ""
 "Sets the default temporal column for this dataset. Automatically selected"
 " as the time column when building charts that require a time dimension "
 "and used in dashboard level time filters."
-msgstr "设置此数据集的默认时间列。在构建需要时间维度的图表时，自动选为时间列，并用于看板级别的时间筛选器。"
+msgstr "设置此数据集的默认时间列。在构建需要时间维度的图表时，自动选为时间列，并用于仪表盘级别的时间筛选器。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -13214,7 +13214,7 @@ msgid "Show CREATE VIEW statement"
 msgstr "显示 CREATE VIEW 语句"
 
 msgid "Show Dashboard"
-msgstr "显示看板"
+msgstr "显示仪表盘"
 
 msgid "Show Labels"
 msgstr "显示标签"
@@ -13236,7 +13236,7 @@ msgid "Show Null Values"
 msgstr "显示空值"
 
 msgid "Show Range Filter"
-msgstr "显示范围过滤器"
+msgstr "显示范围筛选器"
 
 msgid "Show SQL"
 msgstr "显示 SQL"
@@ -13577,7 +13577,7 @@ msgstr "部分表未显示。请优化您的搜索。"
 msgid ""
 "Something went wrong loading the dashboard. Check the dev console for "
 "details."
-msgstr "加载看板时出现问题。请查看开发者控制台以获取详细信息。"
+msgstr "加载仪表盘时出现问题。请查看开发者控制台以获取详细信息。"
 
 msgid "Something went wrong while saving the user info"
 msgstr "保存用户信息时出错"
@@ -13628,7 +13628,7 @@ msgstr "抱歉，保存  %s 时发生错误：%s"
 
 #, python-format
 msgid "Sorry, there was an error saving this dashboard: %s"
-msgstr "抱歉，这个看板在保存时发生错误：%s"
+msgstr "抱歉，这个仪表盘在保存时发生错误：%s"
 
 msgid "Sorry, your browser does not support copying."
 msgstr "抱歉，您的浏览器不支持复制操作。"
@@ -13696,7 +13696,7 @@ msgid "Sort display control values"
 msgstr "排序显示控件值"
 
 msgid "Sort filter values"
-msgstr "排序过滤器值"
+msgstr "排序筛选器值"
 
 msgid "Sort legend"
 msgstr "排序图例"
@@ -14426,7 +14426,7 @@ msgstr "来自 %s 的 API 响应与 IDatabaseTable 接口不匹配。"
 msgid ""
 "The CSS for individual dashboards can be altered here, or in the "
 "dashboard view where changes are immediately visible"
-msgstr "可以在这里或看板视图中修改单个看板的CSS样式，更改会立即生效"
+msgstr "可以在这里或仪表盘视图中修改单个仪表盘的CSS样式，更改会立即生效"
 
 msgid ""
 "The CTAS (create table as select) doesn't have a SELECT statement at the "
@@ -14506,7 +14506,7 @@ msgid ""
 "The X-axis is not on the filters list which will prevent it from being "
 "used in time range filters in dashboards. Would you like to add it to the"
 " filters list?"
-msgstr "X轴不在筛选器列表中，这将阻止其在仪表板的时间范围筛选器中使用。是否要将其添加到筛选器列表？"
+msgstr "X轴不在筛选器列表中，这将阻止其在仪表盘的时间范围筛选器中使用。是否要将其添加到筛选器列表？"
 
 msgid "The annotation has been saved"
 msgstr "注释已保存。"
@@ -14536,7 +14536,7 @@ msgstr "图表仍在加载中。请稍候片刻再试。"
 msgid ""
 "The chart this report targets was deleted. Restore the chart, or update "
 "the report to point at an active chart."
-msgstr "此报告所针对的图表已被删除。请恢复该图表，或将报告更新为指向有效的图表。"
+msgstr "此报表所针对的图表已被删除。请恢复该图表，或将报表更新为指向有效的图表。"
 
 msgid "The chat failed to load."
 msgstr "聊天加载失败。"
@@ -14577,7 +14577,7 @@ msgstr "绘制图表的配色方案"
 msgid ""
 "The color scheme is determined by the related dashboard.\n"
 "        Edit the color scheme in the dashboard properties."
-msgstr "配色方案由相关的看板决定。\n        在看板属性中编辑配色方案"
+msgstr "配色方案由相关的仪表盘决定。\n        在仪表盘属性中编辑配色方案"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -14588,7 +14588,7 @@ msgid ""
 "The colors of this chart might be overridden by custom label colors of "
 "the related dashboard.\n"
 "    Check the JSON metadata in the Advanced settings."
-msgstr "此图表配色方案可能被相关看板的自定义标签颜色覆盖。\n    请在高级设置中检查 JSON 元数据。"
+msgstr "此图表配色方案可能被相关仪表盘的自定义标签颜色覆盖。\n    请在高级设置中检查 JSON 元数据。"
 
 #, fuzzy
 msgid "The column header label"
@@ -14625,16 +14625,16 @@ msgid ""
 msgstr "Superset 希望能够在 [国家] 栏中找到的 国家 / 地区 的标准代码"
 
 msgid "The dashboard has been saved"
-msgstr "该看板已成功保存。"
+msgstr "该仪表盘已成功保存。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid ""
 "The dashboard this report targets was deleted. Restore the dashboard, or "
 "update the report to point at an active dashboard."
-msgstr "此报告所针对的看板已被删除。请恢复该看板，或将报告更新为指向一个有效的看板。"
+msgstr "此报表所针对的仪表盘已被删除。请恢复该仪表盘，或将报表更新为指向一个有效的仪表盘。"
 
 msgid "The dashboard you are looking for may have been deleted or moved."
-msgstr "您正在查找的看板可能已被删除或移动。"
+msgstr "您正在查找的仪表盘可能已被删除或移动。"
 
 msgid "The data source seems to have been deleted"
 msgstr "数据源已经被删除"
@@ -14724,10 +14724,10 @@ msgstr "连接应使用的默认架构。"
 msgid ""
 "The description can be displayed as widget headers in the dashboard view."
 " Supports markdown."
-msgstr "该描述可作为看板视图中的小部件标题显示。支持 Markdown 格式。"
+msgstr "该描述可作为仪表盘视图中的小部件标题显示。支持 Markdown 格式。"
 
 msgid "The display name of your dashboard"
-msgstr "看板的显示名称"
+msgstr "仪表盘的显示名称"
 
 msgid "The distance between cells, in pixels"
 msgstr "单元格之间的距离，以像素为单位"
@@ -14803,7 +14803,7 @@ msgid ""
 "                    option checked and could not be loaded, which is "
 "preventing the dashboard\n"
 "                    from rendering: %s"
-msgstr "以下筛选器已勾选“默认选择第一个筛选值”选项，但无法加载，导致仪表板无法渲染：%s"
+msgstr "以下筛选器已勾选“默认选择第一个筛选值”选项，但无法加载，导致仪表盘无法渲染：%s"
 
 msgid "The font size of the point labels"
 msgstr "点标签的字体大小"
@@ -15018,7 +15018,7 @@ msgid ""
 " export files, and should be added manually after the import if they are "
 "needed."
 msgstr ""
-"需要以下数据库的密码才能将它们与看板一起导入。请注意，数据库配置的 \"Secure Extra\" 和 \"Certificate\" "
+"需要以下数据库的密码才能将它们与仪表盘一起导入。请注意，数据库配置的 \"Secure Extra\" 和 \"Certificate\" "
 "部分不在导出文件中，如果需要，应在导入后手动添加。"
 
 msgid ""
@@ -15138,10 +15138,10 @@ msgid "The remaining %s will be moved to Recently Archived."
 msgstr "其余 %s 将被移至“最近归档”。"
 
 msgid "The report has been created"
-msgstr "报告已创建"
+msgstr "报表已创建"
 
 msgid "The report will be sent to your email at"
-msgstr "报告将发送到您的电子邮件"
+msgstr "报表将发送到您的电子邮件"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -15415,15 +15415,15 @@ msgid "Themes could not be deleted."
 msgstr "无法删除主题。"
 
 msgid "There are associated alerts or reports"
-msgstr "存在关联的警报或报告"
+msgstr "存在关联的告警或报表"
 
 #, fuzzy, python-format
 msgid "There are associated alerts or reports: %(report_names)s"
-msgstr "存在关联的警报或报告：%(report_names)s"
+msgstr "存在关联的告警或报表：%(report_names)s"
 
 #, fuzzy
 msgid "There are no charts added to this dashboard"
-msgstr "此看板中没有添加图表。"
+msgstr "此仪表盘中没有添加图表。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -15432,7 +15432,7 @@ msgid "There are no components added to this tab"
 msgstr "此选项卡未添加任何组件"
 
 msgid "There are no filters in this dashboard."
-msgstr "此看板中没有过滤条件。"
+msgstr "此仪表盘中没有筛选条件。"
 
 msgid "There are unsaved changes."
 msgstr "您有一些未保存的修改。"
@@ -15461,7 +15461,7 @@ msgstr "此组件没有足够的空间。请尝试减小其宽度，或增加目
 msgid ""
 "There was a problem refreshing your dashboard. We'll try again in %s, as "
 "scheduled."
-msgstr "刷新仪表板时出现问题。我们将按计划在 %s 后重试。"
+msgstr "刷新仪表盘时出现问题。我们将按计划在 %s 后重试。"
 
 msgid "There was an error creating the group. Please, try again."
 msgstr "创建组时出错，请重试。"
@@ -15489,7 +15489,7 @@ msgstr "获取收藏状态时出错：%s"
 
 #, fuzzy
 msgid "There was an error fetching the filtered charts and dashboards:"
-msgstr "获取此看板的收藏夹状态时出现问题：%s。"
+msgstr "获取此仪表盘的收藏夹状态时出现问题：%s。"
 
 msgid "There was an error generating the permalink."
 msgstr "生成永久链接时出错"
@@ -15516,7 +15516,7 @@ msgid "There was an error loading users."
 msgstr "加载用户时出错"
 
 msgid "There was an error retrieving dashboard tabs."
-msgstr "获取看板标签页时出错。"
+msgstr "获取仪表盘标签页时出错。"
 
 #, python-format
 msgid "There was an error saving the favorite status: %s"
@@ -15558,7 +15558,7 @@ msgstr "归档所选的图表时出现问题：%s"
 
 #, python-format
 msgid "There was an issue archiving the selected dashboards: %s"
-msgstr "归档所选的看板时出现问题：%s"
+msgstr "归档所选的仪表盘时出现问题：%s"
 
 #, python-format
 msgid "There was an issue archiving: %s"
@@ -15602,7 +15602,7 @@ msgstr "删除所选图表时出现问题：%s"
 
 #, python-format
 msgid "There was an issue deleting the selected dashboards: %s"
-msgstr "删除所选的看板时出现问题：%s"
+msgstr "删除所选的仪表盘时出现问题：%s"
 
 #, python-format
 msgid "There was an issue deleting the selected layers: %s"
@@ -15645,7 +15645,7 @@ msgid "There was an issue exporting the selected charts"
 msgstr "删除所选图表时出现问题：%s"
 
 msgid "There was an issue exporting the selected dashboards"
-msgstr "导出所选看板时出现问题"
+msgstr "导出所选仪表盘时出现问题"
 
 msgid "There was an issue exporting the selected queries"
 msgstr "导出所选查询时出现问题"
@@ -15654,14 +15654,14 @@ msgid "There was an issue exporting the selected themes"
 msgstr "导出所选主题时出现问题"
 
 msgid "There was an issue favoriting this dashboard."
-msgstr "收藏此看板时出现问题。"
+msgstr "收藏此仪表盘时出现问题。"
 
 #, fuzzy
 msgid "There was an issue fetching reports."
 msgstr "获取您的图表时出现问题：%s"
 
 msgid "There was an issue fetching the favorite status of this dashboard."
-msgstr "获取此看板的收藏夹状态时出现问题。"
+msgstr "获取此仪表盘的收藏夹状态时出现问题。"
 
 #, fuzzy, python-format
 msgid "There was an issue fetching your chart: %s"
@@ -15669,7 +15669,7 @@ msgstr "获取您的图表时出现问题：%s"
 
 #, fuzzy, python-format
 msgid "There was an issue fetching your dashboards: %s"
-msgstr "获取您的看板时出现问题：%s"
+msgstr "获取您的仪表盘时出现问题：%s"
 
 #, python-format
 msgid "There was an issue fetching your recent activity: %s"
@@ -15724,7 +15724,7 @@ msgid ""
 "This JSON object is generated dynamically when clicking the save or "
 "overwrite button in the dashboard view. It is exposed here for reference "
 "and for power users who may want to alter specific parameters."
-msgstr "此JSON对象在看板视图中点击保存或覆盖按钮时动态生成。此处提供该对象以供参考，并供希望修改特定参数的高级用户使用。"
+msgstr "此JSON对象在仪表盘视图中点击保存或覆盖按钮时动态生成。此处提供该对象以供参考，并供希望修改特定参数的高级用户使用。"
 
 #, python-format
 msgid "This action will permanently delete %s."
@@ -15765,7 +15765,7 @@ msgid ""
 msgstr "此图表将交叉筛选应用于那些数据集包含具有相同名称列的图表。"
 
 msgid "This chart has been moved to a different filter scope."
-msgstr "此图表已移至其他过滤器范围内。"
+msgstr "此图表已移至其他筛选器范围内。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
@@ -15780,7 +15780,7 @@ msgid "This chart is managed externally, and can't be edited in Superset"
 msgstr "此图表由外部管理，无法在Superset中编辑"
 
 msgid "This chart might be incompatible with the filter (datasets don't match)"
-msgstr "此图表可能与过滤器不兼容(数据集不匹配)"
+msgstr "此图表可能与筛选器不兼容(数据集不匹配)"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -15810,7 +15810,7 @@ msgid ""
 "engine's local timezone. Note one can explicitly set the timezone per the"
 " ISO 8601 format if specifying either the start and/or end time."
 msgstr ""
-"此控件根据所选时间范围过滤整个图表。所有相对时间（例如\"上个月\"、\"过去7天\"、\"现在\"等）均使用服务器本地时间（不含时区）在服务器端进行评估。所有工具提示和占位时间均以UTC（不含时区）表示。随后，时间戳由数据库根据引擎的本地时区进行评估。请注意，如果指定开始时间和/或结束时间，可以按照ISO 8601格式显式设置时区。"
+"此控件根据所选时间范围筛选整个图表。所有相对时间（例如\"上个月\"、\"过去7天\"、\"现在\"等）均使用服务器本地时间（不含时区）在服务器端进行评估。所有工具提示和占位时间均以UTC（不含时区）表示。随后，时间戳由数据库根据引擎的本地时区进行评估。请注意，如果指定开始时间和/或结束时间，可以按照ISO 8601格式显式设置时区。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -15831,41 +15831,41 @@ msgid ""
 msgstr "此设置控制当前视图中的时间粒度字段是否应传递到包含注释数据的图表中。"
 
 msgid "This dashboard does not exist"
-msgstr "看板不存在"
+msgstr "仪表盘不存在"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid "This dashboard is managed externally, and can't be edited in Superset"
-msgstr "此看板由外部管理，无法在 Superset 中编辑"
+msgstr "此仪表盘由外部管理，无法在 Superset 中编辑"
 
 msgid ""
 "This dashboard is not published which means it will not show up in the "
 "list of dashboards. Favorite it to see it there or access it by using the"
 " URL directly."
-msgstr "此看板未发布，这意味着它不会显示在看板列表中。您可以进行收藏并在收藏栏中查看或直接使用URL访问它。"
+msgstr "此仪表盘未发布，这意味着它不会显示在仪表盘列表中。您可以进行收藏并在收藏栏中查看或直接使用URL访问它。"
 
 msgid ""
 "This dashboard is not published, it will not show up in the list of "
 "dashboards. Click here to publish this dashboard."
-msgstr "此看板未发布，它将不会显示在看板列表中。单击此处以发布此看板。"
+msgstr "此仪表盘未发布，它将不会显示在仪表盘列表中。单击此处以发布此仪表盘。"
 
 msgid "This dashboard is now hidden"
-msgstr "此看板已隐藏"
+msgstr "此仪表盘已隐藏"
 
 msgid "This dashboard is now published"
-msgstr "此看板已发布"
+msgstr "此仪表盘已发布"
 
 msgid "This dashboard is published. Click to make it a draft."
-msgstr "此看板已发布。单击以使其成为草稿。"
+msgstr "此仪表盘已发布。单击以使其成为草稿。"
 
 msgid ""
 "This dashboard is ready to embed. In your application, pass the following"
 " id to the SDK:"
-msgstr "此仪表板已准备好嵌入。在您的应用程序中，将以下 ID 传递给 SDK："
+msgstr "此仪表盘已准备好嵌入。在您的应用程序中，将以下 ID 传递给 SDK："
 
 msgid "This dashboard was saved successfully."
-msgstr "该看板已成功保存。"
+msgstr "该仪表盘已成功保存。"
 
 msgid ""
 "This database does not allow for DDL/DML, but the query mutates data. "
@@ -15997,7 +15997,7 @@ msgid ""
 "the clause `1 = 0` (always false)."
 msgstr ""
 "这是将会添加到WHERE子句的条件。例如，要仅返回特定客户端的行，可以使用子句 `client_id = 9` "
-"定义常规过滤。若要在用户不属于RLS过滤角色的情况下不显示行，可以使用子句 `1 = 0`（始终为false）创建基本过滤。"
+"定义常规筛选。若要在用户不属于RLS筛选角色的情况下不显示行，可以使用子句 `1 = 0`（始终为false）创建基本筛选。"
 
 msgid "This is the default dark theme"
 msgstr "这是默认的深色主题"
@@ -16021,7 +16021,7 @@ msgid ""
 "This json object describes the positioning of the widgets in the "
 "dashboard. It is dynamically generated when adjusting the widgets size "
 "and positions by using drag & drop in the dashboard view"
-msgstr "这个JSON对象描述了部件在看板中的位置。它是动态生成的，可以通过拖放，在看板中调整部件的大小和位置"
+msgstr "这个JSON对象描述了部件在仪表盘中的位置。它是动态生成的，可以通过拖放，在仪表盘中调整部件的大小和位置"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [no refs]
 #, fuzzy
@@ -16287,7 +16287,7 @@ msgid ""
 msgstr "时间差值含糊不清，请明确指定是 [%(human_readable)s 前] 还是 [%(human_readable)s 后]。"
 
 msgid "Time filter"
-msgstr "时间过滤器"
+msgstr "时间筛选器"
 
 msgid "Time format"
 msgstr "时间格式"
@@ -16412,7 +16412,7 @@ msgid "To filter on a metric, use Custom SQL tab."
 msgstr "若要在指标上筛选，请使用自定义SQL选项卡。"
 
 msgid "To get a readable URL for your dashboard"
-msgstr "为看板生成一个可读的 URL"
+msgstr "为仪表盘生成一个可读的 URL"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ru, sk, sr, sr_Latn, tr, uk]
@@ -16548,7 +16548,7 @@ msgid "Triangle"
 msgstr "三角形"
 
 msgid "Trigger Alert If..."
-msgstr "达到以下条件触发警报："
+msgstr "达到以下条件触发告警："
 
 msgid "Trigger now"
 msgstr "立即触发"
@@ -16736,7 +16736,7 @@ msgstr "无法在没有查询ID的情况下创建图表。"
 msgid ""
 "Unable to create report: User email address is required but not found. "
 "Please ensure your user profile has a valid email address."
-msgstr "无法创建报告：需要用户邮箱地址但未找到。请确保您的用户资料中包含有效的邮箱地址。"
+msgstr "无法创建报表：需要用户邮箱地址但未找到。请确保您的用户资料中包含有效的邮箱地址。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -16793,7 +16793,7 @@ msgid ""
 msgstr "无法加载所选表的列。请选择其他表。"
 
 msgid "Unable to load dashboard"
-msgstr "无法加载看板"
+msgstr "无法加载仪表盘"
 
 msgid ""
 "Unable to migrate query editor state to backend. Superset will retry "
@@ -16822,7 +16822,7 @@ msgstr "无法读取文件，请刷新后重试。"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid "Unable to retrieve dashboard colors"
-msgstr "无法获取看板颜色"
+msgstr "无法获取仪表盘颜色"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -17168,7 +17168,7 @@ msgid "User must select a value before applying the customization"
 msgstr "用户必须在应用自定义之前select一个值"
 
 msgid "User must select a value before applying the filter"
-msgstr "用户必须给过滤器选择一个值"
+msgstr "用户必须给筛选器选择一个值"
 
 msgid "User query"
 msgstr "用户查询"
@@ -17387,7 +17387,7 @@ msgid ""
 "Viewers is a list of subjects who can view the dashboard. If no viewers "
 "are defined, the dashboard is accessible to all users with appropriate "
 "datasource permissions."
-msgstr "查看者是指可以查看该看板的主体列表。如果未定义查看者，则所有具有相应数据源权限的用户均可访问该看板。"
+msgstr "查看者是指可以查看该仪表盘的主体列表。如果未定义查看者，则所有具有相应数据源权限的用户均可访问该仪表盘。"
 
 msgid "Viewport"
 msgstr "视口"
@@ -17586,7 +17586,7 @@ msgid "We have the following keys: %s"
 msgstr "我们有以下密钥：%s"
 
 msgid "We were unable to activate or deactivate this report."
-msgstr "我们无法激活或禁用该报告。"
+msgstr "我们无法激活或禁用该报表。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -17750,7 +17750,7 @@ msgstr "使用非自适应格式时，标签可能会重叠"
 msgid ""
 "When using this option, default value can't be set. Using this option may"
 " impact the load times for your dashboard."
-msgstr "使用此选项时，无法设置默认值。使用此选项可能会影响看板的加载时间。"
+msgstr "使用此选项时，无法设置默认值。使用此选项可能会影响仪表盘的加载时间。"
 
 msgid "Whether the progress bar overlaps when there are multiple groups of data"
 msgstr "当有多组数据时进度条是否重叠"
@@ -18148,7 +18148,7 @@ msgid ""
 "You are importing one or more dashboards that already exist. Overwriting "
 "might cause you to lose some of your work. Are you sure you want to "
 "overwrite?"
-msgstr "您正在导入一个或多个已存在的看板。覆盖可能会导致您丢失一些工作。确定要覆盖吗？"
+msgstr "您正在导入一个或多个已存在的仪表盘。覆盖可能会导致您丢失一些工作。确定要覆盖吗？"
 
 msgid ""
 "You are importing one or more databases that already exist. Overwriting "
@@ -18180,7 +18180,7 @@ msgid ""
 "You are viewing this chart in a dashboard context with labels shared "
 "across multiple charts.\n"
 "        The color scheme selection is disabled."
-msgstr "您正在看板上下文中查看此图表，标签与多个图表共享。\n        颜色方案选择已禁用。"
+msgstr "您正在仪表盘上下文中查看此图表，标签与多个图表共享。\n        颜色方案选择已禁用。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -18189,7 +18189,7 @@ msgid ""
 " affecting its colors.\n"
 "        To edit the color scheme, open this chart outside of the "
 "dashboard."
-msgstr "您正在查看的图表位于一个直接影响其颜色的仪表板上下文中。\n        要编辑配色方案，请在仪表板外打开此图表。"
+msgstr "您正在查看的图表位于一个直接影响其颜色的仪表盘上下文中。\n        要编辑配色方案，请在仪表盘外打开此图表。"
 
 #, fuzzy
 msgid "You can"
@@ -18229,7 +18229,7 @@ msgid ""
 msgstr "您可以创建一个新图表，或使用右侧面板中的现有图表。"
 
 msgid "You can preview the list of dashboards in the chart settings dropdown."
-msgstr "您可以在图表设置的下拉菜单中预览看板列表。"
+msgstr "您可以在图表设置的下拉菜单中预览仪表盘列表。"
 
 msgid "You can't apply cross-filter on this data point."
 msgstr "您无法在这个数据点上应用交叉筛选。"
@@ -18240,10 +18240,10 @@ msgstr "您无法在这个数据点上应用交叉筛选。"
 msgid ""
 "You cannot delete the last temporal filter as it's used for time range "
 "filters in dashboards."
-msgstr "您无法删除最后一个时间筛选器，因为它用于仪表板中的时间范围筛选器。"
+msgstr "您无法删除最后一个时间筛选器，因为它用于仪表盘中的时间范围筛选器。"
 
 msgid "You cannot use 45° tick layout along with the time range filter"
-msgstr "不能将45°刻度线布局与时间范围过滤器一起使用"
+msgstr "不能将45°刻度线布局与时间范围筛选器一起使用"
 
 #, fuzzy, python-format
 msgid "You do not have permission to edit this %s"
@@ -18253,7 +18253,7 @@ msgid "You do not have permission to edit this chart"
 msgstr "您没有编辑此图表的权限"
 
 msgid "You do not have permission to edit this dashboard"
-msgstr "您没有编辑此看板的权限"
+msgstr "您没有编辑此仪表盘的权限"
 
 msgid "You do not have permission to perform this operation"
 msgstr "您没有执行此操作的权限"
@@ -18262,7 +18262,7 @@ msgid "You do not have permission to read tags"
 msgstr "您没有读取标签的权限"
 
 msgid "You do not have permissions to edit this dashboard."
-msgstr "您没有编辑此看板的权限。"
+msgstr "您没有编辑此仪表盘的权限。"
 
 #, fuzzy
 msgid "You do not have sufficient permissions to edit the chart"
@@ -18277,7 +18277,7 @@ msgid "You don't have access to this chart."
 msgstr "您没有访问此图表的权限。"
 
 msgid "You don't have access to this dashboard."
-msgstr "您没有访问此看板的权限。"
+msgstr "您没有访问此仪表盘的权限。"
 
 #, fuzzy
 msgid "You don't have access to this dataset."
@@ -18285,7 +18285,7 @@ msgstr "您没有访问此数据集的权限。"
 
 #, fuzzy
 msgid "You don't have access to this embedded dashboard config."
-msgstr "您没有访问此嵌入看板的权限。"
+msgstr "您没有访问此嵌入仪表盘的权限。"
 
 msgid "You don't have access to this semantic view."
 msgstr "您没有访问此语义视图的权限。"
@@ -18311,7 +18311,7 @@ msgid "You don't have the rights to alter this chart"
 msgstr "您没有权利修改这个图表。"
 
 msgid "You don't have the rights to alter this dashboard"
-msgstr "您没有权限修改此看板。"
+msgstr "您没有权限修改此仪表盘。"
 
 msgid "You don't have the rights to alter this title."
 msgstr "您没有权利修改这个标题。"
@@ -18321,7 +18321,7 @@ msgid "You don't have the rights to create a chart"
 msgstr "您没有权利创建图表"
 
 msgid "You don't have the rights to create a dashboard"
-msgstr "您没有权限创建看板"
+msgstr "您没有权限创建仪表盘"
 
 msgid "You don't have the rights to export data"
 msgstr "您没有导出数据的权限"
@@ -18331,7 +18331,7 @@ msgid "You have been removed from task: %s"
 msgstr "你已被移出任务：%s"
 
 msgid "You have removed this filter."
-msgstr "您已删除此过滤条件。"
+msgstr "您已删除此筛选条件。"
 
 #, fuzzy
 msgid "You have unsaved changes"
@@ -18372,12 +18372,12 @@ msgstr "您必须是图表编辑者才能编辑。请联系图表编辑者请求
 msgid ""
 "You must be a dashboard editor in order to delete. Please reach out to a "
 "dashboard editor to request modifications or edit access."
-msgstr "您必须是看板编辑者才能删除。请联系看板编辑者请求修改或编辑权限。"
+msgstr "您必须是仪表盘编辑者才能删除。请联系仪表盘编辑者请求修改或编辑权限。"
 
 msgid ""
 "You must be a dashboard editor in order to edit. Please reach out to a "
 "dashboard editor to request modifications or edit access."
-msgstr "您必须是看板编辑者才能编辑。请联系看板编辑者请求修改或编辑权限。"
+msgstr "您必须是仪表盘编辑者才能编辑。请联系仪表盘编辑者请求修改或编辑权限。"
 
 msgid ""
 "You must be a dataset editor in order to delete. Please reach out to a "
@@ -18397,7 +18397,7 @@ msgid "You must change your password before continuing."
 msgstr "继续之前，您必须更改密码。"
 
 msgid "You must pick a name for the new dashboard"
-msgstr "您必须为新的看板选择一个名称"
+msgstr "您必须为新的仪表盘选择一个名称"
 
 msgid "You must run the query successfully first"
 msgstr "必须先成功运行查询"
@@ -18456,16 +18456,16 @@ msgstr "图表已就绪！"
 
 #, python-format
 msgid "Your dashboard export could not be completed: %(title)s"
-msgstr "您的看板导出无法完成：%(title)s"
+msgstr "您的仪表盘导出无法完成：%(title)s"
 
 #, python-format
 msgid "Your dashboard export is ready: %(title)s"
-msgstr "您的看板导出已就绪：%(title)s"
+msgstr "您的仪表盘导出已就绪：%(title)s"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Your dashboard is near the size limit."
-msgstr "您的看板接近大小限制。"
+msgstr "您的仪表盘接近大小限制。"
 
 #, python-format
 msgid ""
@@ -18474,7 +18474,7 @@ msgid ""
 "into multiple dashboards) or raise the "
 "SUPERSET_DASHBOARD_POSITION_DATA_LIMIT config setting."
 msgstr ""
-"您的看板过大，无法保存：序列化布局长度为 %s，但限制为 %s。请减小看板大小（例如，将其拆分为多个看板）或提高 SUPERSET_DASHBOARD_POSITION_DATA_LIMIT 配置设置。"
+"您的仪表盘过大，无法保存：序列化布局长度为 %s，但限制为 %s。请减小仪表盘大小（例如，将其拆分为多个仪表盘）或提高 SUPERSET_DASHBOARD_POSITION_DATA_LIMIT 配置设置。"
 
 msgid "Your export is being prepared. You'll receive an email when it's ready."
 msgstr "您的导出正在准备中。准备就绪后，您将收到一封电子邮件。"
@@ -18511,7 +18511,7 @@ msgid "Your query was updated"
 msgstr "您的查询已更新"
 
 msgid "Your report could not be deleted"
-msgstr "这个报告无法被删除"
+msgstr "这个报表无法被删除"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid "Your session has ended. Please sign in again."
@@ -18543,7 +18543,7 @@ msgid "Zoom level of the map"
 msgstr "地图缩放等级"
 
 msgid "[ untitled dashboard ]"
-msgstr "[ 未命名看板 ]"
+msgstr "[ 未命名仪表盘 ]"
 
 msgid "[Longitude] and [Latitude] columns must be present in [Group By]"
 msgstr "[经度] 和 [纬度] 列必须出现在 [Group By] 中"
@@ -18562,7 +18562,7 @@ msgid "[asc]"
 msgstr "[升序]"
 
 msgid "[dashboard name]"
-msgstr "[看板名称]"
+msgstr "[仪表盘名称]"
 
 msgid "[desc]"
 msgstr "[降序]"
@@ -18630,14 +18630,14 @@ msgid "aggregate"
 msgstr "合计"
 
 msgid "alert"
-msgstr "警报"
+msgstr "告警"
 
 #, fuzzy
 msgid "alert condition"
 msgstr "告警条件"
 
 msgid "alerts"
-msgstr "警报"
+msgstr "告警"
 
 #, fuzzy
 msgid "all"
@@ -18834,11 +18834,11 @@ msgid "cumsum"
 msgstr "累积求和"
 
 msgid "dashboard"
-msgstr "看板"
+msgstr "仪表盘"
 
 #, fuzzy
 msgid "dashboards"
-msgstr "看板"
+msgstr "仪表盘"
 
 msgid "data connection"
 msgstr "数据连接"
@@ -19161,13 +19161,13 @@ msgid ""
 " Lab tabs using this database open. Are you sure you want to continue? "
 "Deleting the database will break those objects."
 msgstr ""
-"它关联了 %s 个图表，这些图表出现在 %s 个仪表板中，并且用户有 %s 个 SQL Lab 标签页正在使用该数据库。确定要继续吗？删除数据库将会破坏这些对象。"
+"它关联了 %s 个图表，这些图表出现在 %s 个仪表盘中，并且用户有 %s 个 SQL 工作台 标签页正在使用该数据库。确定要继续吗？删除数据库将会破坏这些对象。"
 
 #, python-format
 msgid ""
 "is linked to %s charts that appear on %s dashboards. Are you sure you "
 "want to continue? Deleting the dataset will break those objects."
-msgstr "该数据集关联了 %s 个图表，这些图表分布在 %s 个仪表板中。确定要继续吗？删除数据集将会破坏这些对象。"
+msgstr "该数据集关联了 %s 个图表，这些图表分布在 %s 个仪表盘中。确定要继续吗？删除数据集将会破坏这些对象。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -19307,7 +19307,7 @@ msgstr "nativeFilters[%(idx)s].filterValues 必须是一个列表"
 msgid ""
 "nativeFilters[%(idx)s].nativeFilterId '%(filter_id)s' does not exist on "
 "the dashboard"
-msgstr "看板上不存在 nativeFilters[%(idx)s].nativeFilterId '%(filter_id)s'"
+msgstr "仪表盘上不存在 nativeFilters[%(idx)s].nativeFilterId '%(filter_id)s'"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
@@ -19451,10 +19451,10 @@ msgid "recipients"
 msgstr "收件人"
 
 msgid "report"
-msgstr "报告"
+msgstr "报表"
 
 msgid "reports"
-msgstr "报告"
+msgstr "报表"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
