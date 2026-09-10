@@ -27,6 +27,7 @@ on:
       - scripts/translations/zh_bi_cleanup_overrides.json
       - scripts/translations/apply_zh_bi_overrides.py
       - scripts/translations/normalize_zh_bi_terms.py
+      - scripts/translations/audit_zh_bi_terms.py
       - .github/workflows/zh-bi-translation-sync.yml
   workflow_dispatch:
 
@@ -68,9 +69,12 @@ jobs:
           fi
           python scripts/translations/normalize_zh_bi_terms.py
 
-      # Superset master currently contains a few pre-existing zh placeholder
-      # incompatibilities. Its Dockerfile intentionally compiles with `|| true`.
-      # Keep the same behavior here while still surfacing the warnings in logs.
+      - name: Audit BI terminology
+        run: python scripts/translations/audit_zh_bi_terms.py
+
+      # Three static percent labels in upstream zh are misdetected by Babel as
+      # Python %c/%o placeholders. Keep upstream-compatible compilation while
+      # the audit above enforces the actual BI terminology contract.
       - name: Compile zh catalog (upstream-compatible)
         run: pybabel compile --use-fuzzy -d superset/translations -l zh || true
 
