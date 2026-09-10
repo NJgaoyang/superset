@@ -2555,14 +2555,13 @@ msgid "Axis"
 msgstr "坐标轴"
 
 msgid "Axis Bounds"
-msgstr "轴界限"
+msgstr "坐标轴范围"
 
 msgid "Axis Format"
-msgstr "轴格式"
+msgstr "坐标轴格式"
 
-#, fuzzy
 msgid "Axis Title"
-msgstr "轴标题"
+msgstr "坐标轴标题"
 
 msgid "Axis ascending"
 msgstr "轴线升序"
@@ -7242,7 +7241,7 @@ msgid "Filled"
 msgstr "填充"
 
 msgid "Filter"
-msgstr "筛选"
+msgstr "筛选器"
 
 #, fuzzy
 msgid "Filter Configuration"
@@ -7278,16 +7277,16 @@ msgid "Filter options"
 msgstr "筛选选项"
 
 msgid "Filter results"
-msgstr "过滤结果"
+msgstr "筛选结果"
 
 msgid "Filter type"
 msgstr "过滤类型"
 
 msgid "Filter value (case sensitive)"
-msgstr "过滤值（区分大小写）"
+msgstr "筛选值（区分大小写）"
 
 msgid "Filter value is required"
-msgstr "筛选器值是必须的"
+msgstr "筛选值不能为空"
 
 msgid "Filter value list cannot be empty"
 msgstr "过滤器值列表不能为空"
@@ -7302,10 +7301,10 @@ msgid "Filters and controls"
 msgstr "筛选器和控件"
 
 msgid "Filters by columns"
-msgstr "按列过滤"
+msgstr "按字段筛选"
 
 msgid "Filters by metrics"
-msgstr "按指标过滤"
+msgstr "按指标筛选"
 
 msgid "Filters for comparison must have a value"
 msgstr "用于比较的过滤器必须有值"
@@ -10143,7 +10142,7 @@ msgid "Null or Empty"
 msgstr "空或空白"
 
 msgid "Number Format"
-msgstr "数字格式"
+msgstr "数值格式"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -11270,9 +11269,8 @@ msgstr "查询状态"
 msgid "Query cannot be loaded."
 msgstr "无法加载查询。"
 
-#, fuzzy
 msgid "Query data in SQL Lab"
-msgstr "在SQL工具箱中查询数据"
+msgstr "在 SQL 工作台中查询数据"
 
 #, fuzzy
 msgid "Query does not exist"
@@ -12070,7 +12068,7 @@ msgid ""
 msgstr "SQL Lab 无法授权无法完全解析的语句。请显式限定表名，并避免在存储过程或供应商特定调用中使用动态 SQL。"
 
 msgid "SQL Lab queries"
-msgstr "SQL Lab 查询"
+msgstr "SQL 工作台查询"
 
 #, python-format
 msgid ""
@@ -13053,7 +13051,7 @@ msgid "Series increase setting"
 msgstr "系列增加设置"
 
 msgid "Series limit"
-msgstr "系列限制"
+msgstr "系列数量上限"
 
 msgid "Series settings"
 msgstr "系列设置"
@@ -13666,12 +13664,11 @@ msgstr "降序"
 msgid "Sort Metric"
 msgstr "排序指标"
 
-#, fuzzy
 msgid "Sort Series Ascending"
-msgstr "升序排序"
+msgstr "系列升序"
 
 msgid "Sort Series By"
-msgstr "按系列排序"
+msgstr "系列排序依据"
 
 msgid "Sort X Axis"
 msgstr "排序X轴"
@@ -18087,7 +18084,7 @@ msgid "Y Axis Title Position"
 msgstr "Y 轴标题位置"
 
 msgid "Y Log Scale"
-msgstr "Y 对数尺度"
+msgstr "Y 轴对数刻度"
 
 msgid "Y axis title margin"
 msgstr "Y 轴标题边距"
