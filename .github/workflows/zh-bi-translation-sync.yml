@@ -19,6 +19,7 @@ on:
       - scripts/translations/apply_zh_bi_overrides.py
       - scripts/translations/normalize_zh_bi_terms.py
       - scripts/translations/audit_zh_bi_terms.py
+      - scripts/translations/audit_zh_release_quality.py
       - scripts/translations/report_zh_remaining.py
       - .github/workflows/zh-bi-translation-sync.yml
   workflow_dispatch:
@@ -75,9 +76,12 @@ jobs:
       - name: Freeze completed release review
         run: python scripts/translations/finalize_zh_release_review.py
 
+      - name: Audit release quality
+        run: python scripts/translations/audit_zh_release_quality.py
+
       # Three static percent labels in upstream zh are misdetected by Babel as
       # Python %c/%o placeholders. Keep upstream-compatible compilation while
-      # the audit above enforces the actual BI terminology contract.
+      # our release audit validates the real runtime placeholders independently.
       - name: Compile zh catalog (upstream-compatible)
         run: pybabel compile --use-fuzzy -d superset/translations -l zh || true
 
