@@ -3,17 +3,24 @@
 # with this work for additional information regarding copyright ownership.
 # The ASF licenses this file to you under the Apache License, Version 2.0.
 
-"""Report high-risk remaining Simplified Chinese translation entries."""
+"""Report high-risk remaining Simplified Chinese translation entries.
+
+Besides printing CI diagnostics, this script writes a complete fuzzy review
+queue. The queue makes release-quality review measurable: reviewed entries are
+materialized through override files, which remove their fuzzy marker, and then
+naturally disappear from the queue on the next sync run.
+"""
 
 from __future__ import annotations
 
 import ast
+import json
 import re
-from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 PO_PATH = ROOT / "superset/translations/zh/LC_MESSAGES/messages.po"
+QUEUE_PATH = ROOT / "scripts/translations/zh_fuzzy_review_queue.json"
 
 # Product/UI English words that normally should not remain in a Chinese sentence.
 # Technical terms intentionally allowed in Chinese UI are excluded from this list.
@@ -106,12 +113,20 @@ def main() -> int:
         if re.search(r"[\u4e00-\u9fff]", msgstr) and UI_ENGLISH.search(msgstr):
             findings["ui_english_in_zh"].append((msgid, msgstr))
 
+    queue = [
+        {"msgid": msgid, "msgstr": msgstr}
+        for msgid, msgstr in findings["fuzzy"]
+    ]
+    QUEUE_PATH.write_text(
+        json.dumps(queue, ensure_ascii=False, indent=2, sort_keys=False) + "\n",
+        encoding="utf-8",
+    )
+
     print("ZH_REMAINING_SUMMARY")
     for category, items in findings.items():
         print(f"{category}={len(items)}")
+    print(f"review_queue={QUEUE_PATH.relative_to(ROOT)}")
 
-    # Print bounded, reviewable samples. Fuzzy is numerous, so prioritize entries
-    # that also look suspicious (English-only/equal or short UI labels).
     for category in ("english_equal", "ui_english_in_zh", "empty"):
         print(f"\n[{category}]")
         for msgid, msgstr in findings[category][:200]:
