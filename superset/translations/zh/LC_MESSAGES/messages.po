@@ -1280,12 +1280,12 @@ msgid "Add another notification method"
 msgstr "添加另一种通知方式"
 
 msgid "Add calculated columns to dataset in \"Edit datasource\" modal"
-msgstr "在“编辑数据源”对话框中向数据集添加计算列"
+msgstr "在“编辑数据集”中添加计算字段"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid "Add calculated temporal columns to dataset in \"Edit datasource\" modal"
-msgstr "在“编辑数据源”模态框中向数据集添加计算的时间列"
+msgstr "在“编辑数据集”中添加时间计算字段"
 
 msgid "Add certification details for this dashboard"
 msgstr "为此仪表盘添加认证信息"
@@ -1365,7 +1365,7 @@ msgstr "新增指标"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid "Add metrics to dataset in \"Edit datasource\" modal"
-msgstr "在\"编辑数据源\"模态框中向数据集添加指标"
+msgstr "在“编辑数据集”中添加指标"
 
 msgid "Add new color formatter"
 msgstr "添加新的颜色格式化器"
@@ -3457,7 +3457,7 @@ msgid "Choose a chart or dashboard not both"
 msgstr "请选择图表或仪表盘，不能同时选择"
 
 msgid "Choose a database..."
-msgstr "选择数据库"
+msgstr "选择数据源..."
 
 msgid "Choose a delimiter"
 msgstr "选择分隔符"
@@ -3738,7 +3738,7 @@ msgid "Collapse All"
 msgstr "全部折叠"
 
 msgid "Collapse Datasource panel"
-msgstr "折叠数据源面板"
+msgstr "折叠数据集面板"
 
 msgid "Collapse all"
 msgstr "全部折叠"
@@ -3926,13 +3926,13 @@ msgstr "列和指标应位于文件夹内"
 msgid "Columns folder can only contain column items"
 msgstr "列文件夹只能包含列项目"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Columns missing in dataset: %(invalid_columns)s"
-msgstr "数据源中缺少列：%(invalid_columns)s"
+msgstr "数据集中缺少字段：%(invalid_columns)s"
 
 #, python-format
 msgid "Columns missing in datasource: %(invalid_columns)s"
-msgstr "数据源中缺少列：%(invalid_columns)s"
+msgstr "数据集中缺少字段：%(invalid_columns)s"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, es, sr,
 # sr_Latn]
@@ -4887,32 +4887,31 @@ msgid "DataFrame must include temporal column"
 msgstr "数据帧（DataFrame）必须包含时间列"
 
 msgid "Database"
-msgstr "数据库"
+msgstr "数据源"
 
 msgid "Database Connections"
 msgstr "数据源连接"
 
 msgid "Database Creation Error"
-msgstr "数据库创建错误"
+msgstr "数据源创建失败"
 
-#, fuzzy
 msgid "Database connected"
-msgstr "数据库已连接"
+msgstr "数据源连接成功"
 
 msgid "Database could not be created."
-msgstr "数据库无法被创建"
+msgstr "无法创建数据源。"
 
 msgid "Database could not be deleted."
-msgstr "数据库无法被删除。"
+msgstr "无法删除数据源。"
 
 msgid "Database could not be updated."
-msgstr "数据库无法更新。"
+msgstr "无法更新数据源。"
 
 msgid "Database does not allow data manipulation."
 msgstr "数据库不允许此数据操作。"
 
 msgid "Database does not exist"
-msgstr "数据库不存在"
+msgstr "数据源不存在"
 
 msgid "Database does not support subqueries"
 msgstr "数据库不支持子查询"
@@ -4928,19 +4927,19 @@ msgid "Database error"
 msgstr "数据库错误"
 
 msgid "Database is offline."
-msgstr "数据库已下线"
+msgstr "数据源已离线。"
 
 msgid "Database is required for alerts"
 msgstr "警报需要数据库"
 
 msgid "Database name"
-msgstr "数据库名称"
+msgstr "数据源名称"
 
 msgid "Database not found."
-msgstr "未找到数据库。"
+msgstr "未找到数据源。"
 
 msgid "Database parameters are invalid."
-msgstr "数据库参数无效"
+msgstr "数据源参数无效。"
 
 #, fuzzy
 msgid "Database passwords"
@@ -4955,9 +4954,8 @@ msgstr "报表中不允许使用数据库引用"
 msgid "Database schema is not allowed for csv uploads."
 msgstr "CSV上传不允许使用数据库模式。"
 
-#, fuzzy
 msgid "Database settings updated"
-msgstr "数据库设置已更新"
+msgstr "数据源设置已更新"
 
 msgid "Database type does not support file uploads."
 msgstr "数据库类型不支持文件上传。"
@@ -4975,7 +4973,7 @@ msgid "Database upload file failed, while saving metadata"
 msgstr "数据库上传文件失败，保存元数据时出错"
 
 msgid "Databases"
-msgstr "数据库"
+msgstr "数据源"
 
 msgid "Dataset"
 msgstr "数据集"
@@ -4984,7 +4982,6 @@ msgstr "数据集"
 msgid "Dataset %(table)s already exists"
 msgstr "数据集 %(table)s 已存在"
 
-#, fuzzy
 msgid "Dataset Name"
 msgstr "数据集名称"
 
@@ -4996,21 +4993,20 @@ msgid ""
 msgstr "数据集无法恢复，因为另一个活跃数据集已引用同一物理表（相同的数据库、目录、模式和表名）。请先删除重复项或重命名表，然后再恢复。"
 
 msgid "Dataset column delete failed."
-msgstr "数据集列删除失败。"
+msgstr "数据集字段删除失败。"
 
 msgid "Dataset column not found."
-msgstr "数据集列未找到。"
+msgstr "未找到数据集字段。"
 
 msgid "Dataset could not be created."
 msgstr "无法创建数据集。"
 
-#, fuzzy
 msgid "Dataset could not be duplicated."
-msgstr "数据集无法复制。"
+msgstr "无法复制数据集。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja]
 msgid "Dataset could not be restored."
-msgstr "数据集无法恢复。"
+msgstr "无法恢复数据集。"
 
 msgid "Dataset could not be updated."
 msgstr "无法更新数据集。"
@@ -5019,10 +5015,10 @@ msgid "Dataset does not exist"
 msgstr "数据集不存在"
 
 msgid "Dataset is required"
-msgstr "需要数据集"
+msgstr "请选择数据集"
 
 msgid "Dataset metric delete failed."
-msgstr "数据集指标删除失败"
+msgstr "数据集指标删除失败。"
 
 msgid "Dataset metric not found."
 msgstr "未找到数据集指标。"
@@ -5053,37 +5049,34 @@ msgid "Datasets could not be deleted."
 msgstr "无法删除数据集"
 
 msgid "Datasets do not contain a temporal column"
-msgstr "数据集不包含时间列"
+msgstr "数据集不包含时间字段"
 
 msgid "Datasource"
-msgstr "数据源"
+msgstr "数据集"
 
 msgid "Datasource & Chart Type"
-msgstr "数据源 & 图表类型"
+msgstr "数据集与图表类型"
 
-#, fuzzy
 msgid "Datasource does not exist"
 msgstr "数据集不存在"
 
 msgid "Datasource is required"
-msgstr "数据源是必需的"
+msgstr "请选择数据集"
 
 msgid "Datasource is required for validation"
-msgstr "验证需要数据源"
+msgstr "校验需要数据集"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
-#, fuzzy
 msgid "Datasource type is invalid"
-msgstr "数据源类型无效"
+msgstr "数据集类型无效"
 
 msgid "Datasource type is required when datasource_id is given"
 msgstr "给定数据源id时，需要提供数据源类型"
 
-#, fuzzy
 msgid "Datasources"
-msgstr "数据源"
+msgstr "数据集"
 
 msgid "Date Time Format"
 msgstr "时间格式"
@@ -7657,9 +7650,8 @@ msgstr "获取指定节假日的日期"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
-#, fuzzy
 msgid "Give access to multiple catalogs in a single database connection."
-msgstr "在单个数据库连接中授予对多个目录的访问权限。"
+msgstr "允许通过一个数据源连接访问多个 Catalog。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -9125,7 +9117,7 @@ msgstr "边距"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid "Mark a column as temporal in \"Edit datasource\" modal"
-msgstr "在“编辑数据源”模态框中将列标记为时间列"
+msgstr "在“编辑数据集”中将字段标记为时间字段"
 
 msgid "Marker"
 msgstr "标记"
@@ -10374,7 +10366,7 @@ msgid "Opacity, expects values between 0 and 100"
 msgstr "不透明度，期望值在0到100之间"
 
 msgid "Open Datasource tab"
-msgstr "打开数据源选项卡"
+msgstr "打开数据集页签"
 
 msgid "Open SQL Lab in a new tab"
 msgstr "在新选项卡中打开 SQL Lab"
@@ -12430,7 +12422,7 @@ msgid "Search..."
 msgstr "搜索..."
 
 msgid "Searches all text fields: Name, Description, Database & Schema"
-msgstr "搜索所有文本字段：名称、描述、数据库和模式"
+msgstr "搜索名称、描述、数据源和 Schema"
 
 msgid "Second"
 msgstr "秒"
@@ -12499,7 +12491,7 @@ msgid "Select All"
 msgstr "全选"
 
 msgid "Select Database and Schema"
-msgstr "选择数据库和模式"
+msgstr "选择数据源和 Schema"
 
 msgid "Select Delivery Method"
 msgstr "选择投递方式"
@@ -16834,9 +16826,8 @@ msgstr "无法获取看板颜色"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
-#, fuzzy
 msgid "Unable to sync permissions for this database connection."
-msgstr "无法同步此数据库连接的权限。"
+msgstr "无法同步此数据源连接的权限。"
 
 msgid "Undefined"
 msgstr "未定义"
