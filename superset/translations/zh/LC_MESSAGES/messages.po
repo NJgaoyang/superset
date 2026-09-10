@@ -150,9 +150,8 @@ msgstr ""
 "标准，则需要定义表达式和类型，以便将字符串转换为日期或时间戳。注意：当前不支持时区。如果时间以epoch格式存储，请输入 `epoch_s` or"
 " `epoch_ms` 。如果没有指定任何模式，我们可以通过额外的参数在每个数据库/列名级别上使用可选的默认值。"
 
-#, fuzzy
 msgid " to add calculated columns"
-msgstr "添加计算列"
+msgstr " 添加计算字段"
 
 #, fuzzy
 msgid " to add metrics"
@@ -163,9 +162,8 @@ msgstr "添加指标"
 msgid " to check for details."
 msgstr "查看详情。"
 
-#, fuzzy
 msgid " to edit or add columns and metrics."
-msgstr "编辑或增加列与指标"
+msgstr " 编辑或新增字段和指标。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk,
@@ -380,10 +378,10 @@ msgstr "%s 虚拟"
 msgid "%s aggregates(s)"
 msgstr "%s 聚合"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s column"
 msgid_plural "%s columns"
-msgstr[0] "%s 列"
+msgstr[0] "%s 个字段"
 
 #, python-format
 msgid "%s column(s)"
@@ -452,10 +450,10 @@ msgstr[0] "%s 个选项"
 msgid "%s option(s)"
 msgstr "%s 个选项"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s out of %s column"
 msgid_plural "%s out of %s columns"
-msgstr[0] "%s 列中的 %s 列"
+msgstr[0] "已选择 %s / %s 个字段"
 
 #, fuzzy, python-format
 msgid "%s out of %s metric"
@@ -643,9 +641,8 @@ msgstr "1个月结束频率"
 msgid "1 month start frequency"
 msgstr "每月月初的频率"
 
-#, fuzzy
 msgid "1 week"
-msgstr "1周"
+msgstr "1 周"
 
 msgid "1 week ago"
 msgstr "1周之前"
@@ -695,9 +692,8 @@ msgstr "12小时"
 msgid "15 minute"
 msgstr "15分钟"
 
-#, fuzzy
 msgid "156 weeks"
-msgstr "156周"
+msgstr "156 周"
 
 msgid "156 weeks ago"
 msgstr "156周之前"
@@ -735,9 +731,8 @@ msgstr "1M"
 msgid "1T"
 msgstr "1T"
 
-#, fuzzy
 msgid "2 years"
-msgstr "2年"
+msgstr "2 年"
 
 msgid "2 years ago"
 msgstr "2年之前"
@@ -755,9 +750,8 @@ msgstr "22"
 msgid "24 hours"
 msgstr "24小时"
 
-#, fuzzy
 msgid "28 days"
-msgstr "28天"
+msgstr "28 天"
 
 msgid "28 days ago"
 msgstr "28天之前"
@@ -768,9 +762,8 @@ msgstr "2D"
 msgid "3 letter code of the country"
 msgstr "国家3字码"
 
-#, fuzzy
 msgid "3 years"
-msgstr "3年"
+msgstr "3 年"
 
 msgid "3 years ago"
 msgstr "3年前"
@@ -778,9 +771,8 @@ msgstr "3年前"
 msgid "30 days"
 msgstr "30天"
 
-#, fuzzy
 msgid "30 days ago"
-msgstr "30天之前"
+msgstr "30 天前"
 
 msgid "30 minute"
 msgstr "30分钟"
@@ -816,30 +808,26 @@ msgstr "5分钟"
 msgid "5 second"
 msgstr "5秒"
 
-#, fuzzy
 msgid "5 seconds"
-msgstr "5秒"
+msgstr "5 秒"
 
 msgid "5/95 percentiles"
 msgstr "5/95百分位"
 
-#, fuzzy
 msgid "52 weeks"
-msgstr "52周"
+msgstr "52 周"
 
 msgid "52 weeks ago"
 msgstr "52周之前"
 
-#, fuzzy
 msgid "52 weeks starting Monday (freq=52W-MON)"
-msgstr "以周一开始的52周"
+msgstr "52 周（从周一开始，freq=52W-MON）"
 
 msgid "6 hour"
 msgstr "6小时"
 
-#, fuzzy
 msgid "6 hours"
-msgstr "6小时"
+msgstr "6 小时"
 
 msgid "60 days"
 msgstr "60天"
@@ -847,9 +835,8 @@ msgstr "60天"
 msgid "7 calendar day frequency"
 msgstr "7个日历日的频率"
 
-#, fuzzy
 msgid "7 days"
-msgstr "7天"
+msgstr "7 天"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
@@ -876,16 +863,15 @@ msgstr "小于等于（<=）"
 msgid "<enter SQL expression here>"
 msgstr "输入SQL表达式"
 
-#, fuzzy
 msgid "<new column>"
-msgstr "新列"
+msgstr "新字段"
 
 #, fuzzy
 msgid "<new metric>"
 msgstr "新指标"
 
 msgid "<new spatial>"
-msgstr "<new spatial>"
+msgstr "新空间字段"
 
 #, fuzzy
 msgid "<no type>"
@@ -917,9 +903,8 @@ msgstr ""
 msgid "A TTL is required for ephemeral state."
 msgstr "临时状态需要 TTL。"
 
-#, fuzzy
 msgid "A comma separated list of columns that should be parsed as dates"
-msgstr "应作为日期解析的列的逗号分隔列表。"
+msgstr "以逗号分隔的字段列表，这些字段将按日期解析"
 
 msgid "A comma-separated list of schemas that files are allowed to upload to."
 msgstr "允许上传文件的模式（schema）列表，以逗号分隔。"
@@ -1014,9 +999,8 @@ msgstr "应用于点半径的乘数。使用此选项可统一缩放所有点。
 msgid "A new chart and dashboard will be created."
 msgstr "将创建一个新图表和仪表盘。"
 
-#, fuzzy
 msgid "A new chart will be created."
-msgstr "将会创建一个新图表"
+msgstr "将创建一个新图表。"
 
 msgid "A new dashboard will be created."
 msgstr "将创建一个新仪表盘。"
@@ -1263,9 +1247,8 @@ msgstr "新增其他自定义参数"
 msgid "Add alert"
 msgstr "新增告警"
 
-#, fuzzy
 msgid "Add an annotation layer"
-msgstr "新增注释层"
+msgstr "新增标注层"
 
 msgid "Add an item"
 msgstr "新增一行"
@@ -1329,9 +1312,8 @@ msgstr "添加显示控件"
 msgid "Add divider"
 msgstr "添加分隔线"
 
-#, fuzzy
 msgid "Add extra connection information."
-msgstr "增加额外的连接信息"
+msgstr "添加额外连接信息。"
 
 msgid "Add filter"
 msgstr "添加筛选"
@@ -1400,9 +1382,8 @@ msgstr "添加工作表"
 msgid "Add tag to entities"
 msgstr "给对象添加标签"
 
-#, fuzzy
 msgid "Add the name of the chart"
-msgstr "给图表添加名称"
+msgstr "输入图表名称"
 
 msgid "Add the name of the dashboard"
 msgstr "输入仪表盘名称"
@@ -1421,10 +1402,10 @@ msgstr "已添加"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
-#, fuzzy, python-format
+#, python-format
 msgid "Added 1 new column to the virtual dataset"
 msgid_plural "Added %s new columns to the virtual dataset"
-msgstr[0] "已将 %s 个新列添加到虚拟数据集"
+msgstr[0] "已向虚拟数据集新增 %s 个字段"
 
 #, python-format
 msgid "Added to 1 dashboard"
@@ -1489,13 +1470,11 @@ msgstr "高级数据类型"
 msgid "Advanced analytics"
 msgstr "高级分析"
 
-#, fuzzy
 msgid "Advanced analytics Query A"
-msgstr "高级分析查询A"
+msgstr "高级分析查询 A"
 
-#, fuzzy
 msgid "Advanced analytics Query B"
-msgstr "高级分析查询B"
+msgstr "高级分析查询 B"
 
 msgid "Advanced analytics post processing"
 msgstr "高级分析后处理"
@@ -1672,9 +1651,8 @@ msgstr "允许DDL和DML"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
-#, fuzzy
 msgid "Allow changing catalogs"
-msgstr "允许更改目录"
+msgstr "允许切换 Catalog"
 
 msgid ""
 "Allow column names to be changed to case insensitive format, if supported"
@@ -1750,9 +1728,8 @@ msgstr "已更改"
 msgid "Always filter main datetime column"
 msgstr "始终筛选主日期列"
 
-#, fuzzy
 msgid "An Error Occurred"
-msgstr "发生了一个错误"
+msgstr "发生错误"
 
 #, python-format
 msgid "An alert named \"%(name)s\" already exists"
@@ -1854,9 +1831,8 @@ msgstr "获取%ss时出错：%s"
 msgid "An error occurred while fetching available CSS templates"
 msgstr "获取可用的CSS模板时出错"
 
-#, fuzzy
 msgid "An error occurred while fetching available themes"
-msgstr "获取可用的CSS模板时出错"
+msgstr "获取可用主题时出错"
 
 msgid "An error occurred while fetching available views"
 msgstr "获取可用视图时发生错误"
@@ -2089,9 +2065,9 @@ msgstr "动画"
 msgid "Annotation"
 msgstr "注释"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Annotation Layer %s"
-msgstr "注释层 %s"
+msgstr "标注层 %s"
 
 msgid "Annotation Layers"
 msgstr "注释层"
@@ -2166,9 +2142,8 @@ msgstr "注释不存在。"
 msgid "Annotation parameters are invalid."
 msgstr "注释参数无效。"
 
-#, fuzzy
 msgid "Annotation source"
-msgstr "注释来源"
+msgstr "标注来源"
 
 msgid "Annotation source type"
 msgstr "注释数据源类型"
@@ -2225,9 +2200,9 @@ msgid ""
 "Learn about how to connect a database driver "
 msgstr "可以添加任何允许通过SQL Alchemy URI进行连接的数据库。了解如何连接数据库驱动程序"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Applied cross-filters (%d)"
-msgstr "应用的交叉筛选器 (%d)"
+msgstr "已应用交叉筛选（%d）"
 
 #, python-format
 msgid "Applied filters (%d)"
@@ -2461,9 +2436,8 @@ msgstr "八月"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, fr, ja,
 # lv, ru, sr, sr_Latn, tr, uk]
-#, fuzzy
 msgid "Authorization Request URI"
-msgstr "授权请求URI"
+msgstr "授权请求 URI"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -2594,9 +2568,8 @@ msgstr "背景颜色"
 msgid "Backward values"
 msgstr "向后数值"
 
-#, fuzzy
 msgid "Bad formula."
-msgstr "错误的公式"
+msgstr "公式无效。"
 
 msgid "Bad spatial key"
 msgstr "错误的空间字段"
@@ -2624,9 +2597,8 @@ msgstr "基础"
 msgid "Base exponent"
 msgstr "基数指数"
 
-#, fuzzy
 msgid "Base height"
-msgstr "图表高度"
+msgstr "基础高度"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
@@ -2720,16 +2692,14 @@ msgstr "底端"
 msgid "Bottom Margin"
 msgstr "底部边距"
 
-#, fuzzy
 msgid "Bottom left"
-msgstr "底左"
+msgstr "左下"
 
 msgid "Bottom margin, in pixels, allowing for more room for axis labels"
 msgstr "底部边距，以像素为单位，为轴标签留出更多空间"
 
-#, fuzzy
 msgid "Bottom right"
-msgstr "底右"
+msgstr "右下"
 
 msgid "Bottom to Top"
 msgstr "自下而上"
@@ -2806,9 +2776,8 @@ msgstr "按此控件中指定的类别分解系列。\n      这可以帮助观�
 msgid "Bubble Chart"
 msgstr "气泡图"
 
-#, fuzzy
 msgid "Bubble Chart (legacy)"
-msgstr "气泡图（传统）"
+msgstr "气泡图（旧版）"
 
 msgid "Bubble Color"
 msgstr "气泡颜色"
@@ -2823,9 +2792,8 @@ msgstr "气泡大小"
 msgid "Bubble size"
 msgstr "气泡尺寸"
 
-#, fuzzy
 msgid "Bubble size number format"
-msgstr "气泡尺寸数字格式"
+msgstr "气泡大小数值格式"
 
 msgid "Bucket break points"
 msgstr "桶分割点"
@@ -2836,9 +2804,8 @@ msgstr "批量选择"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
-#, fuzzy
 msgid "Bulk tag"
-msgstr "批量标签"
+msgstr "批量设置标签"
 
 msgid "Bullet Chart"
 msgstr "子弹图"
@@ -2874,9 +2841,8 @@ msgstr "创建视图为"
 msgid "CREATE VIEW statement"
 msgstr "CREATE VIEW 语句"
 
-#, fuzzy
 msgid "CRON Schedule"
-msgstr "CRON定时任务"
+msgstr "CRON 调度计划"
 
 msgid "CRON expression"
 msgstr "CRON表达式"
@@ -3117,9 +3083,8 @@ msgstr "分类"
 msgid "Category Name"
 msgstr "分类名称"
 
-#, fuzzy
 msgid "Category and Percentage"
-msgstr "分类和比例"
+msgstr "分类和百分比"
 
 #, fuzzy
 msgid "Category and Value"
@@ -3253,9 +3218,8 @@ msgstr "禁止更改此语义视图"
 msgid "Changing this task is forbidden"
 msgstr "禁止更改此任务"
 
-#, fuzzy
 msgid "Character to interpret as decimal point"
-msgstr "将字符解释为小数点的字符。"
+msgstr "用作小数点的字符。"
 
 msgid "Chart"
 msgstr "图表"
@@ -3300,13 +3264,13 @@ msgstr "图表标题"
 msgid "Chart Type"
 msgstr "图表类型"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Chart [%s] has been overwritten"
-msgstr "图表 [%s] 已经覆盖"
+msgstr "图表 [%s] 已覆盖"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Chart [%s] has been saved"
-msgstr "图表 [%s] 已经保存"
+msgstr "图表 [%s] 已保存"
 
 #, python-format
 msgid "Chart [%s] was added to dashboard [%s]"
@@ -3363,9 +3327,8 @@ msgstr "图表名称"
 msgid "Chart name is required"
 msgstr "需要图表名称"
 
-#, fuzzy
 msgid "Chart not found"
-msgstr "图表 %(id)s 没有找到"
+msgstr "未找到图表"
 
 msgid "Chart options"
 msgstr "图表选项"
@@ -3481,9 +3444,8 @@ msgstr "选择图表类型"
 msgid "Choose columns to be parsed as dates"
 msgstr "选择要解析为日期的列"
 
-#, fuzzy
 msgid "Choose columns to read"
-msgstr "要读取的列"
+msgstr "选择要读取的字段"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -3518,9 +3480,8 @@ msgstr "请选择 %(min)s 到 %(max)s 之间的数值"
 msgid "Choose one of the available databases from the panel on the left."
 msgstr "从左侧的面板中选择一个可用的数据库"
 
-#, fuzzy
 msgid "Choose one of the available databases on the left panel."
-msgstr "从左侧的面板中选择一个可用的数据库"
+msgstr "从左侧面板选择一个可用的数据库。"
 
 msgid "Choose sheet name"
 msgstr "选择工作表名称"
@@ -3688,9 +3649,8 @@ msgstr "点击强制刷新"
 msgid "Click to see difference"
 msgstr "点击查看差异"
 
-#, fuzzy
 msgid "Click to sort ascending"
-msgstr "按照升序进行排序"
+msgstr "点击按升序排序"
 
 msgid "Click to sort descending"
 msgstr "点击降序排序"
@@ -3840,7 +3800,7 @@ msgstr "列"
 msgid ""
 "Column \"%(column)s\" is not numeric or does not exists in the query "
 "results."
-msgstr "列\"%(column)s\"不是数字或不在查询结果中"
+msgstr "字段“%(column)s”不是数值类型，或不存在于查询结果中。"
 
 #, fuzzy
 msgid "Column Configuration"
@@ -3860,9 +3820,8 @@ msgstr "包含纬度数据的列"
 msgid "Column containing longitude data"
 msgstr "包含经度数据的列"
 
-#, fuzzy
 msgid "Column data types"
-msgstr "列数据类型"
+msgstr "字段数据类型"
 
 #, fuzzy
 msgid "Column header tooltip"
@@ -3871,9 +3830,8 @@ msgstr "列标题提示"
 msgid "Column is required"
 msgstr "列是必填项"
 
-#, fuzzy
 msgid "Column name"
-msgstr "列名"
+msgstr "字段名称"
 
 #, python-format
 msgid "Column name [%s] is duplicated"
@@ -3881,23 +3839,21 @@ msgstr "列名 [%s] 重复"
 
 #, python-format
 msgid "Column referenced by aggregate is undefined: %(column)s"
-msgstr "聚合引用的列未定义：%(column)s"
+msgstr "聚合引用的字段未定义：%(column)s"
 
 msgid "Column select"
 msgstr "列选择"
 
-#, fuzzy
 msgid "Column to group by"
-msgstr "需要进行分组的一列或多列"
+msgstr "分组字段"
 
 msgid ""
 "Column to use as the index of the dataframe. If None is given, Index "
 "label is used."
 msgstr "用作数据框索引的列。如果未指定，则使用索引标签。"
 
-#, fuzzy
 msgid "Column type"
-msgstr "列数据类型"
+msgstr "字段类型"
 
 msgid "Columnar upload"
 msgstr "列式上传"
@@ -3920,9 +3876,8 @@ msgstr "列和指标应位于文件夹内"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ru, sk, sr, sr_Latn, tr, uk]
-#, fuzzy
 msgid "Columns folder can only contain column items"
-msgstr "列文件夹只能包含列项目"
+msgstr "字段文件夹只能包含字段项"
 
 #, python-format
 msgid "Columns missing in dataset: %(invalid_columns)s"
@@ -3958,9 +3913,8 @@ msgstr "列上分组所依据的列"
 msgid "Columns to group by on the rows"
 msgstr "行上分组所依据的列"
 
-#, fuzzy
 msgid "Columns to read"
-msgstr "要读取的列"
+msgstr "要读取的字段"
 
 msgid "Columns to show in the tooltip."
 msgstr "提示信息中显示的字段。"
@@ -4162,9 +4116,8 @@ msgstr "连接"
 msgid "Connection failed, please check your connection settings"
 msgstr "连接失败，请检查您的连接配置"
 
-#, fuzzy
 msgid "Connection failed, please check your connection settings."
-msgstr "连接失败，请检查您的连接配置"
+msgstr "连接失败，请检查连接配置。"
 
 msgid "Connection looks good!"
 msgstr "连接成功!"
@@ -4301,9 +4254,9 @@ msgstr "相关性"
 msgid "Cost estimate"
 msgstr "成本估算"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Could not connect to database: \"%(database)s\""
-msgstr "不能连接到数据库\"%(database)s\""
+msgstr "无法连接到数据库：“%(database)s”"
 
 msgid "Could not determine datasource type"
 msgstr "无法确定数据源类型"
@@ -4455,9 +4408,8 @@ msgstr "此仪表盘未启用交叉筛选。"
 msgid "Cross-filtering is not enabled in this dashboard"
 msgstr "此仪表盘未启用交叉筛选"
 
-#, fuzzy
 msgid "Cross-filtering scoping"
-msgstr "交叉筛选作用域"
+msgstr "交叉筛选作用范围"
 
 #, fuzzy
 msgid "Cross-filters"
@@ -4543,17 +4495,15 @@ msgstr "自定义调色板"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fr, ja, lv, mi, ro, ru, sk, sr, sr_Latn, tr, uk]
-#, fuzzy
 msgid "Custom column name (leave blank for default)"
-msgstr "自定义列名（留空则使用默认值）"
+msgstr "自定义字段名称（留空则使用默认值）"
 
 #, fuzzy
 msgid "Custom conditional formatting"
 msgstr "条件格式设置"
 
-#, fuzzy
 msgid "Custom date"
-msgstr "自定义"
+msgstr "自定义日期"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -4568,9 +4518,8 @@ msgstr "自定义时间筛选器插件"
 msgid "Custom width of the screenshot in pixels"
 msgstr "截图的像素自定义宽度"
 
-#, fuzzy
 msgid "Custom..."
-msgstr "自定义"
+msgstr "自定义..."
 
 msgid "Customization and styling"
 msgstr "自定义与样式"
@@ -4683,9 +4632,8 @@ msgstr "允许DML"
 msgid "Daily seasonality"
 msgstr "日度季节性"
 
-#, fuzzy
 msgid "Dark"
-msgstr "暗色"
+msgstr "深色"
 
 msgid "Dark (Carto)"
 msgstr "深色（卡通）"
@@ -4832,9 +4780,8 @@ msgstr "数据表"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
-#, fuzzy
 msgid "Data URI is not allowed."
-msgstr "不允许使用数据URI。"
+msgstr "不允许使用 Data URI。"
 
 msgid "Data Zoom"
 msgstr "数据缩放"
@@ -4863,9 +4810,8 @@ msgstr "数据错误"
 msgid "Data for %s"
 msgstr "%s 的数据"
 
-#, fuzzy
 msgid "Data imported"
-msgstr "数据集已导入"
+msgstr "数据已导入"
 
 msgid "Data preview"
 msgstr "数据预览"
@@ -5119,9 +5065,8 @@ msgstr "禁用"
 msgid "December"
 msgstr "十二月"
 
-#, fuzzy
 msgid "Decides which column or measure to sort the base axis by."
-msgstr "决定按哪个度量来对基轴进行排序。"
+msgstr "决定基础坐标轴按哪个字段或指标排序。"
 
 #, fuzzy
 msgid "Decimal character"
@@ -5175,9 +5120,8 @@ msgstr "减少"
 msgid "Decrease color"
 msgstr "减少颜色"
 
-#, fuzzy
 msgid "Decrease label"
-msgstr "减少"
+msgstr "下降标签"
 
 #, fuzzy
 msgid "Default"
@@ -5231,9 +5175,8 @@ msgstr "默认最小列宽(以像素为单位)，如果其他列不需要太多�
 msgid "Default value must be set when \"Filter has default value\" is checked"
 msgstr "选中筛选器具有默认值时，必须设置默认值"
 
-#, fuzzy
 msgid "Default value must be set when \"Filter value is required\" is checked"
-msgstr "当\"必填项\"被选中时默认值必须被设置"
+msgstr "勾选“筛选值不能为空”时必须设置默认值"
 
 #, fuzzy
 msgid ""
@@ -5278,11 +5221,10 @@ msgstr "定义要应用的滚动窗口函数，与 [期限] 文本框一起使�
 msgid "Defines the grid size in pixels"
 msgstr "以像素为单位定义网格大小"
 
-#, fuzzy
 msgid ""
 "Defines the grouping of entities. Each series is represented by a "
 "specific color in the chart."
-msgstr "定义实体的分组。每个序列在图表上显示为特定颜色，并有一个可切换的图例"
+msgstr "定义实体的分组方式。图表中的每个系列使用不同颜色表示。"
 
 msgid ""
 "Defines the grouping of entities. Each series is shown as a specific "
@@ -5480,9 +5422,9 @@ msgstr "已删除 %s 个项目"
 msgid "Deleted group: %s"
 msgstr "已删除组：%s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted groups: %s"
-msgstr "已删除：%s"
+msgstr "已删除分组：%s"
 
 #, python-format
 msgid "Deleted role: %s"
@@ -5525,9 +5467,8 @@ msgstr "发送方式"
 msgid "Density"
 msgstr "密度"
 
-#, fuzzy
 msgid "Dependent on"
-msgstr "取决于"
+msgstr "依赖于"
 
 msgid "Description"
 msgstr "描述"
@@ -5642,9 +5583,8 @@ msgid ""
 "tables."
 msgstr "在 SQL 工作台中获取表的元数据时禁用数据预览。当使用具有非常宽表的数据库时，这样做有助于避免浏览器性能问题。"
 
-#, fuzzy
 msgid "Disable drill to detail"
-msgstr "钻取详情"
+msgstr "禁用查看明细"
 
 msgid "Disable embedding?"
 msgstr "禁用嵌入吗？"
@@ -5685,9 +5625,8 @@ msgstr "显示列名"
 msgid "Display configuration"
 msgstr "显示配置"
 
-#, fuzzy
 msgid "Display control configuration"
-msgstr "显示配置"
+msgstr "显示控件配置"
 
 msgid "Display control has default value"
 msgstr "显示控件具有默认值"
@@ -5701,17 +5640,16 @@ msgstr "显示控件设置"
 msgid "Display control type"
 msgstr "显示控件类型"
 
-#, fuzzy
 msgid "Display controls"
-msgstr "显示配置"
+msgstr "显示控件"
 
 #, python-format
 msgid "Display controls (%d)"
-msgstr "显示配置（%d）"
+msgstr "显示控件（%d）"
 
 #, python-format
 msgid "Display controls (%s)"
-msgstr "显示配置（%s）"
+msgstr "显示控件（%s）"
 
 msgid "Display cumulative total at end"
 msgstr "在末尾显示累计总计"
@@ -5909,19 +5847,16 @@ msgstr "此数据库已禁用向下钻取详细信息。请更改数据库设置
 msgid "Drill to detail: %s"
 msgstr "查看明细：%s"
 
-#, fuzzy
 msgid "Drop a column here or click"
 msgid_plural "Drop columns here or click"
-msgstr[0] "将列拖放到此处或单击"
+msgstr[0] "将字段拖到此处或点击选择"
 
-#, fuzzy
 msgid "Drop a column/metric here or click"
 msgid_plural "Drop columns/metrics here or click"
-msgstr[0] "将列/指标放在此处或单击"
+msgstr[0] "将字段/指标拖到此处或点击选择"
 
-#, fuzzy
 msgid "Drop a temporal column here or click"
-msgstr "将时间列拖放到此处或单击"
+msgstr "将时间字段拖到此处或点击选择"
 
 msgid "Drop columns/metrics here or click"
 msgstr "将列/指标拖放到此处或单击"
@@ -5936,7 +5871,7 @@ msgstr "复制"
 
 #, python-format
 msgid "Duplicate column name(s): %(columns)s"
-msgstr "重复的列名%(columns)s"
+msgstr "字段名称重复：%(columns)s"
 
 #, python-format
 msgid ""
@@ -5989,9 +5924,8 @@ msgid ""
 "database. If left unset, the cache never expires. "
 msgstr "此数据库表的元数据缓存超时时长（单位为秒）。如果不进行设置，缓存将永不过期。"
 
-#, fuzzy
 msgid "Duration Ms"
-msgstr "时长"
+msgstr "耗时（毫秒）"
 
 msgid "Duration in ms (1.40008 => 1ms 400µs 80ns)"
 msgstr "时长(毫秒)(1.40008 => 1ms 400µs 80ns)"
@@ -6032,9 +5966,8 @@ msgstr "动态搜索所有筛选值"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ru, sk, sr, sr_Latn, tr, uk]
-#, fuzzy
 msgid "Dynamically select grouping columns from a dataset"
-msgstr "从数据集中动态选择分组列"
+msgstr "从数据集中动态选择分组字段"
 
 #. do-not-translate
 msgid "ECharts"
@@ -7130,7 +7063,7 @@ msgstr "表达式验证失败。请重试。"
 
 #, python-format
 msgid "Failed to verify select options: %s"
-msgstr "验证 select 选项失败：%s"
+msgstr "验证选择项失败：%s"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -8294,7 +8227,7 @@ msgstr "无效的固定链接键"
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 #, python-format
 msgid "Invalid reference to column: \"%(column)s\""
-msgstr "对列 \"%(column)s\" 的引用无效"
+msgstr "字段引用无效：“%(column)s”"
 
 #, python-format
 msgid "Invalid result type: %(result_type)s"
@@ -10004,7 +9937,7 @@ msgid "Node label position"
 msgstr "节点标签位置"
 
 msgid "Node select mode"
-msgstr "节点 select 模式"
+msgstr "节点选择模式"
 
 msgid "Node size"
 msgstr "节点大小"
@@ -14363,7 +14296,7 @@ msgstr "模板处理失败：%(ex)s"
 msgid ""
 "Templated link, it's possible to include {{ metric }} or other values "
 "coming from the controls."
-msgstr "模板链接，可以包含来自控件的{{ metric }}或other值。"
+msgstr "模板链接，可包含来自控件的 {{ metric }} 或其他值。"
 
 msgid "Temporal X-Axis"
 msgstr "时间 X 轴"
@@ -17554,7 +17487,7 @@ msgstr "我们正在处理您的查询"
 
 #, python-format
 msgid "We can't seem to resolve column \"%(column)s\" at line %(location)s."
-msgstr "我们似乎无法解析列 \"%(column)s\" 在第 %(location)s 行。"
+msgstr "无法解析第 %(location)s 行的字段“%(column)s”。"
 
 #, python-format
 msgid "We can't seem to resolve the column \"%(column_name)s\""
@@ -19612,7 +19545,7 @@ msgid "value descending"
 msgstr "降序"
 
 msgid "valuename"
-msgstr ""
+msgstr "值名称"
 
 #, fuzzy
 msgid "var"
