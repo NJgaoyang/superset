@@ -51,6 +51,9 @@
   "Edit Role": "编辑角色",
   "Permissions": "权限",
   "Sync Permissions": "同步权限",
+  "Display controls (%d)": "显示配置（%d）",
+  "Display controls (%s)": "显示配置（%s）",
+  "Metrics (%s)": "指标（%s）",
   "%s hr ago": "%s 小时前",
   "%s record...": "%s 条记录...",
   "Added to 1 dashboard": "已添加到 %s 个仪表盘"
