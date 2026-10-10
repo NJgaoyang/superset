@@ -919,7 +919,7 @@ msgstr "指向内置插件位置的完整URL（例如，可以托管在CDN上）
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid "A handlebars template that is applied to the data"
-msgstr "应用于数据的 Handlebars 模板"
+msgstr "应用于数据的Handlebars模板"
 
 msgid "A human-friendly name"
 msgstr "人性化的名称"
@@ -1026,13 +1026,13 @@ msgid "A timeout occurred while executing the query."
 msgstr "执行查询时发生超时。"
 
 msgid "A timeout occurred while generating a csv."
-msgstr "生成 CSV 文件时超时。"
+msgstr "生成CSV时超时。"
 
 msgid "A timeout occurred while generating a dataframe."
 msgstr "生成数据帧时发生超时。"
 
 msgid "A timeout occurred while generating an Excel file."
-msgstr "生成 Excel 文件时超时。"
+msgstr "生成Excel文件时发生超时。"
 
 msgid "A timeout occurred while taking a screenshot."
 msgstr "截图超时"
@@ -1081,7 +1081,7 @@ msgstr "API 密钥已成功撤销"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, es, sr,
 # sr_Latn]
 msgid "API keys allow scoped programmatic access to Superset."
-msgstr "API 密钥允许在指定权限范围内通过程序访问 Superset。"
+msgstr "API密钥允许对Superset进行作用域化的编程访问。"
 
 msgid "APR"
 msgstr "四月"
@@ -4083,7 +4083,7 @@ msgid "Copy URL"
 msgstr "复制网址"
 
 msgid "Copy and Paste JSON credentials"
-msgstr "复制并粘贴 JSON 凭据"
+msgstr "复制和粘贴JSON凭据"
 
 msgid "Copy code to clipboard"
 msgstr "复制到剪贴板"
@@ -4356,7 +4356,7 @@ msgid "Custom SQL"
 msgstr "自定义SQL"
 
 msgid "Custom SQL ad-hoc metrics are not enabled for this dataset"
-msgstr "此数据集未启用自定义 SQL 即席指标"
+msgstr "此数据集未启用自定义SQL即席指标"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
@@ -4366,13 +4366,13 @@ msgstr "自定义 SQL 字段无法作为单个 SQL 语句进行解析。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid "Custom SQL fields cannot contain set operations."
-msgstr "自定义 SQL 字段不能包含集合操作。"
+msgstr "自定义SQL字段不能包含集合操作。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid "Custom SQL fields cannot contain sub-queries."
-msgstr "自定义 SQL 字段不能包含子查询。"
+msgstr "自定义SQL字段不能包含子查询。"
 
 msgid "Custom color palettes"
 msgstr "自定义调色板"
@@ -4772,7 +4772,7 @@ msgid "Database reference is not allowed on a report"
 msgstr "报表中不允许使用数据库引用"
 
 msgid "Database schema is not allowed for csv uploads."
-msgstr "上传 CSV 文件时不允许指定数据库模式（Schema）。"
+msgstr "CSV上传不允许使用数据库模式。"
 
 msgid "Database settings updated"
 msgstr "数据库设置已更新"
@@ -5072,7 +5072,7 @@ msgstr "定义配送计划、时区和频率设置。"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
 msgid "Define the database, SQL query, and triggering conditions for alert."
-msgstr "设置告警所使用的数据库、SQL 查询和触发条件。"
+msgstr "定义数据库、SQL查询和告警触发条件。"
 
 msgid "Defined through system configuration."
 msgstr "通过系统配置定义。"
@@ -5617,7 +5617,7 @@ msgid "Download is on the way"
 msgstr "正在准备下载"
 
 msgid "Download to CSV"
-msgstr "下载为 CSV 文件"
+msgstr "下载为CSV"
 
 msgid "Download to client"
 msgstr "下载到客户端"
@@ -6124,7 +6124,7 @@ msgstr "支持服务器端结果分页(实验功能)"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, pt_BR, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Enables rendering of icons for GeoJSON points"
-msgstr "启用 GeoJSON 点位图标渲染"
+msgstr "启用GeoJSON点的图标渲染"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, pt_BR, ru, sk, sr, sr_Latn, tr, uk]
@@ -6351,7 +6351,7 @@ msgid "Error reading Columnar file"
 msgstr "读取列式文件时出错"
 
 msgid "Error reading Excel file"
-msgstr "读取 Excel 文件时出错"
+msgstr "读取Excel文件出错"
 
 msgid "Error saving dataset"
 msgstr "保存数据集时出错"
@@ -6444,7 +6444,7 @@ msgid "Excel file format cannot be determined"
 msgstr "无法确定 Excel 文件格式"
 
 msgid "Excel upload"
-msgstr "上传 Excel 文件"
+msgstr "Excel上传"
 
 msgid "Exclude selected values"
 msgstr "排除选定的值"
@@ -6532,10 +6532,10 @@ msgid "Export Current View"
 msgstr "导出当前视图"
 
 msgid "Export Data to Excel"
-msgstr "将数据导出为 Excel 文件"
+msgstr "导出为Excel"
 
 msgid "Export Images to Excel"
-msgstr "将图片导出到 Excel 文件"
+msgstr "导出图片到Excel"
 
 msgid "Export YAML"
 msgstr "导出 YAML"
@@ -6596,7 +6596,7 @@ msgid "Export to Pivoted .CSV"
 msgstr "导出为透视 CSV"
 
 msgid "Export to Pivoted Excel"
-msgstr "导出为透视表格式的 Excel 文件"
+msgstr "导出为透视表形式的Excel"
 
 msgid "Export to full .CSV"
 msgstr "导出完整 CSV"
@@ -6605,10 +6605,10 @@ msgid "Export to full Excel"
 msgstr "导出完整 Excel"
 
 msgid "Export to original .CSV"
-msgstr "导出原始 CSV 文件"
+msgstr "导出原始CSV"
 
 msgid "Export to pivoted .CSV"
-msgstr "导出为透视表格式的 CSV 文件"
+msgstr "导出为透视表形式的CSV"
 
 #, python-format
 msgid ""
@@ -6711,7 +6711,7 @@ msgid "Failed to apply theme: Invalid JSON"
 msgstr "应用主题失败：无效的 JSON"
 
 msgid "Failed to copy API key to clipboard"
-msgstr "无法将 API 密钥复制到剪贴板"
+msgstr "无法将API密钥复制到剪贴板"
 
 msgid "Failed to copy stack trace to clipboard"
 msgstr "复制堆栈跟踪到剪贴板失败"
@@ -6747,7 +6747,7 @@ msgid ""
 msgstr "导出图表数据失败。请重试或与管理员联系。"
 
 msgid "Failed to fetch API keys"
-msgstr "获取 API 密钥失败"
+msgstr "获取API密钥失败"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ar, ca, cs,
 # de, es, fa, fr, ja, lv, mi, nl, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -6806,7 +6806,7 @@ msgid "Failed to retrieve advanced type"
 msgstr "获取高级类型失败"
 
 msgid "Failed to revoke API key"
-msgstr "撤销 API 密钥失败"
+msgstr "撤销API密钥失败"
 
 msgid "Failed to save chart customization"
 msgstr "保存图表自定义失败"
@@ -6820,7 +6820,7 @@ msgstr "保存交叉筛选设置失败"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Failed to set local theme: Invalid JSON configuration"
-msgstr "设置本地主题失败：JSON 配置无效"
+msgstr "设置本地主题失败：无效的JSON配置"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -6865,7 +6865,7 @@ msgstr "验证选择项失败：%s"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Falling back to CSV; Excel export library not available."
-msgstr "Excel 导出库不可用，改为导出 CSV 文件。"
+msgstr "回退到CSV；Excel导出库不可用。"
 
 msgid "False"
 msgstr "否"
@@ -6902,11 +6902,11 @@ msgstr "正在获取数据..."
 
 #, python-format
 msgid "Field cannot be decoded by JSON. %(json_error)s"
-msgstr "无法将字段解析为 JSON：%(json_error)s"
+msgstr "字段不能由JSON解码。%(json_error)s"
 
 #, python-format
 msgid "Field cannot be decoded by JSON. %(msg)s"
-msgstr "无法将字段解析为 JSON：%(msg)s"
+msgstr "字段不能由JSON解码。%(msg)s"
 
 msgid "Field cannot be empty."
 msgstr "字段不能为空。"
@@ -7211,13 +7211,13 @@ msgid "Format"
 msgstr "格式"
 
 msgid "Format JSON configuration"
-msgstr "格式化 JSON 配置"
+msgstr "格式化JSON配置"
 
 msgid "Format SQL"
 msgstr "格式化 SQL"
 
 msgid "Format SQL query"
-msgstr "格式化 SQL 查询"
+msgstr "格式化SQL查询"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -7241,10 +7241,10 @@ msgstr ""
 "使用货币符号作为前缀或后缀来格式化指标或列。手动选择一个符号，或使用\"自动检测\"根据数据集的货币代码列应用正确的符号。当存在多种货币时，格式化将回退为中性数字。"
 
 msgid "Formatted CSV attached in email"
-msgstr "邮件中附有已格式化的 CSV 文件"
+msgstr "邮件中附上格式化好的CSV"
 
 msgid "Formatted Excel attached in email"
-msgstr "邮件中附有已格式化的 Excel 文件"
+msgstr "邮件中附上格式化好的Excel"
 
 msgid "Formatted value"
 msgstr "格式化后的值"
@@ -7866,10 +7866,10 @@ msgid ""
 msgstr "无效的连接字符串：应为 'ocient://user:pass@host:port/database' 格式的字符串。"
 
 msgid "Invalid JSON"
-msgstr "无效的 JSON"
+msgstr "无效的JSON"
 
 msgid "Invalid JSON configuration"
-msgstr "无效的 JSON 配置"
+msgstr "无效的JSON配置"
 
 msgid "Invalid JSON metadata"
 msgstr "无效的 JSON 元数据"
@@ -8082,7 +8082,7 @@ msgstr "JSON 元数据"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
 msgid "JSON metadata and advanced configuration"
-msgstr "JSON 元数据和高级配置"
+msgstr "JSON元数据和高级配置"
 
 msgid "JSON metadata is invalid!"
 msgstr "JSON 元数据无效！"
@@ -9556,7 +9556,7 @@ msgid "No stored results found, you need to re-run your query"
 msgstr "找不到存储的结果，需要重新运行查询"
 
 msgid "No such column found. To filter on a metric, try the Custom SQL tab."
-msgstr "未找到该字段。如需按指标筛选，请尝试使用“自定义 SQL”选项卡。"
+msgstr "没有发现这样的列。若要在度量值上筛选，请尝试自定义SQL选项卡。"
 
 msgid "No table columns"
 msgstr "暂无表字段"
@@ -10621,7 +10621,7 @@ msgid "Position of row level subtotal"
 msgstr "行级小计的位置"
 
 msgid "Powered by Apache Superset"
-msgstr "由 Apache Superset 提供支持"
+msgstr "由Apache Superset提供支持"
 
 msgid "Pre-filter"
 msgstr "预筛选"
@@ -10738,7 +10738,7 @@ msgid "Put your code here"
 msgstr "把您的代码放在这里"
 
 msgid "Python datetime string pattern"
-msgstr "Python 日期时间字符串格式"
+msgstr "Python日期时间字符串模式"
 
 msgid "Quarter"
 msgstr "季度"
@@ -11216,7 +11216,7 @@ msgid "Request is incorrect: %(error)s"
 msgstr "请求不正确: %(error)s"
 
 msgid "Request is not JSON"
-msgstr "请求内容不是 JSON 格式"
+msgstr "请求不是JSON"
 
 msgid "Request missing data field."
 msgstr "请求丢失的数据字段。"
@@ -11341,7 +11341,7 @@ msgstr "撤销 API 密钥"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, ja, sr,
 # sr_Latn]
 msgid "Revoke this API key"
-msgstr "撤销此 API 密钥"
+msgstr "撤销此API密钥"
 
 msgid "Revoked"
 msgstr "已吊销"
@@ -11561,10 +11561,10 @@ msgid "SQL Query"
 msgstr "SQL 查询"
 
 msgid "SQL expression"
-msgstr "SQL 表达式"
+msgstr "SQL表达式"
 
 msgid "SQL query"
-msgstr "SQL 查询"
+msgstr "SQL查询"
 
 msgid "SQL was formatted"
 msgstr "SQL 已格式化"
@@ -11708,7 +11708,7 @@ msgstr "保存查询"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: de, sr,
 # sr_Latn]
 msgid "Save this API key securely"
-msgstr "请妥善保管此 API 密钥"
+msgstr "安全保存此API密钥"
 
 msgid "Save this query as a virtual dataset to continue exploring"
 msgstr "将这个查询保存为虚拟数据集以继续探索"
@@ -12426,7 +12426,7 @@ msgid "Semantic views"
 msgstr "语义视图"
 
 msgid "Send as CSV"
-msgstr "以 CSV 文件发送"
+msgstr "发送为CSV"
 
 msgid "Send as Excel"
 msgstr "发送为 Excel"
@@ -13438,16 +13438,16 @@ msgid "Sunday"
 msgstr "星期日"
 
 msgid "Superset Chart"
-msgstr "Superset 图表"
+msgstr "Superset图表"
 
 msgid "Superset Embedded SDK documentation."
-msgstr "Superset 嵌入式 SDK 文档。"
+msgstr "Superset的嵌入SDK文档。"
 
 msgid "Superset chart"
 msgstr "Superset 图表"
 
 msgid "Superset docs link"
-msgstr "Superset 文档链接"
+msgstr "Superset文档链接"
 
 msgid "Superset encountered an error while running a command."
 msgstr "Superset 在执行命令时遇到了一个错误。"
@@ -15122,7 +15122,7 @@ msgstr "此图表由外部管理，无法在 Superset 中覆盖。"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid "This chart is managed externally, and can't be edited in Superset"
-msgstr "此图表由外部系统管理，无法在 Superset 中编辑"
+msgstr "此图表由外部管理，无法在Superset中编辑"
 
 msgid "This chart might be incompatible with the filter (datasets don't match)"
 msgstr "此图表可能与筛选器不兼容(数据集不匹配)"
@@ -15245,7 +15245,7 @@ msgstr ""
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid "This dataset is managed externally, and can't be edited in Superset"
-msgstr "此数据集由外部系统管理，无法在 Superset 中编辑"
+msgstr "此数据集由外部管理，无法在Superset中编辑"
 
 msgid "This defines the element to be plotted on the chart"
 msgstr "这定义了要在图表上绘制的元素"
@@ -15738,7 +15738,7 @@ msgid ""
 msgstr "要启用多列排序，请在点击列标题时按住 ⇧ Shift 键。"
 
 msgid "To filter on a metric, use Custom SQL tab."
-msgstr "如需按指标筛选，请使用“自定义 SQL”选项卡。"
+msgstr "若要在指标上筛选，请使用自定义SQL选项卡。"
 
 msgid "To get a readable URL for your dashboard"
 msgstr "为仪表盘生成一个可读的 URL"
@@ -16253,7 +16253,7 @@ msgstr "不支持的子句类型: %(clause)s"
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, ja,
 # lv, ru, sk, sr, sr_Latn, tr, uk]
 msgid "Unsupported file type. Please use CSV, Excel, or Columnar files."
-msgstr "不支持此文件类型。请使用 CSV、Excel 或列式存储格式的文件。"
+msgstr "不支持的文件类型。请使用CSV、Excel或列式文件。"
 
 #, python-format
 msgid "Unsupported post processing operation: %(operation)s"
@@ -16299,7 +16299,7 @@ msgid "Upload"
 msgstr "上传"
 
 msgid "Upload CSV"
-msgstr "上传 CSV 文件"
+msgstr "上传CSV"
 
 msgid "Upload CSV to database"
 msgstr "将 CSV 上传到数据库"
@@ -16317,10 +16317,10 @@ msgid "Upload Excel"
 msgstr "上传 Excel"
 
 msgid "Upload Excel to database"
-msgstr "将 Excel 文件上传到数据库"
+msgstr "上传Excel到数据库"
 
 msgid "Upload JSON file"
-msgstr "上传 JSON 文件"
+msgstr "上传JSON文件"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fr, ja, lv, mi, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -17239,7 +17239,7 @@ msgstr "为您的查询写一段描述"
 # de, es, fa, fr, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn, tr,
 # uk]
 msgid "Write a handlebars template to render the data"
-msgstr "编写 Handlebars 模板以渲染数据"
+msgstr "编写一个Handlebars模板来渲染数据"
 
 msgid "X Axis"
 msgstr "X 轴"
