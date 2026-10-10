@@ -533,45 +533,15 @@ PUBLIC_ROLE_LIKE: str | None = None
 # Babel config for translations
 # ---------------------------------------------------
 # Setup default language
-BABEL_DEFAULT_LOCALE = "en"
+BABEL_DEFAULT_LOCALE = "zh"
 # Your application default translation path
 BABEL_DEFAULT_FOLDER = "superset/translations"
-# The allowed translation for your app
+# Enable Simplified Chinese by default, with English available as a fallback.
+# Keep both languages available in the UI language selector.
 LANGUAGES = {
+    "zh": {"flag": "cn", "name": "简体中文"},
     "en": {"flag": "us", "name": "English"},
-    "es": {"flag": "es", "name": "Spanish"},
-    "it": {"flag": "it", "name": "Italian"},
-    "fr": {"flag": "fr", "name": "French"},
-    "zh": {"flag": "cn", "name": "Chinese"},
-    "zh_TW": {"flag": "tw", "name": "Traditional Chinese"},
-    "ja": {"flag": "jp", "name": "Japanese"},
-    "de": {"flag": "de", "name": "German"},
-    "pl": {"flag": "pl", "name": "Polish"},
-    "pt": {"flag": "pt", "name": "Portuguese"},
-    "pt_BR": {"flag": "br", "name": "Brazilian Portuguese"},
-    "ru": {"flag": "ru", "name": "Russian"},
-    "ko": {"flag": "kr", "name": "Korean"},
-    "cs": {"flag": "cz", "name": "Czech"},
-    "sk": {"flag": "sk", "name": "Slovak"},
-    "sl": {"flag": "si", "name": "Slovenian"},
-    "sr": {"flag": "rs", "name": "Serbian (Cyrillic)"},
-    "sr_Latn": {"flag": "rs", "name": "Serbian (Latin)"},
-    "lv": {"flag": "lv", "name": "Latvian"},
-    "nl": {"flag": "nl", "name": "Dutch"},
-    "uk": {"flag": "ua", "name": "Ukrainian"},
-    "mi": {"flag": "nz", "name": "Māori"},
-    "ro": {"flag": "ro", "name": "Romanian"},
-    "ar": {"flag": "sa", "name": "Arabic"},
-    "ca": {"flag": "es", "name": "Catalan"},
-    "fa": {"flag": "ir", "name": "Persian"},
-    "fi": {"flag": "fi", "name": "Finnish"},
-    "th": {"flag": "th", "name": "Thai"},
-    "tr": {"flag": "tr", "name": "Turkish"},
-    "ta": {"flag": "in", "name": "Tamil"},
 }
-# Turning off i18n by default as translation in most languages are
-# incomplete and not well maintained.
-LANGUAGES = {}
 
 
 # Override the default d3 locale format
