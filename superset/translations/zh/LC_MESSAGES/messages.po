@@ -18951,3 +18951,9 @@ msgstr "查看版本历史"
 
 msgid "When unchecked, the \"Explore in Superset\" link is omitted from the delivered notifications."
 msgstr "取消勾选后，发送的通知中将不包含“在 Superset 中查看”链接。"
+
+msgid "All Tabs"
+msgstr "全部标签页"
+
+msgid "Error Handling"
+msgstr "错误处理"
