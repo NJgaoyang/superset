@@ -16,6 +16,7 @@
   "D3 time format for the x-axis labels": "X 轴标签使用的 D3 时间格式",
   "Dimension used for category labels on the vertical axis": "用于纵轴类别标签的维度",
   "Fill the entire time range": "填满整个时间范围",
+  "Inverse": "反选",
   "Label Position": "标签位置",
   "Left color": "左侧颜色",
   "Left label": "左侧标签",
