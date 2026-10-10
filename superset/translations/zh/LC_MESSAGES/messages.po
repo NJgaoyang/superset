@@ -1932,7 +1932,7 @@ msgstr "导入 %s 时出错：%s"
 msgid ""
 "An error occurred while loading SQL Lab. This may be caused by a "
 "corrupted query state."
-msgstr "加载 SQL 工作台时出错，可能是查询状态已损坏。"
+msgstr "加载 SQL Lab 时发生错误，可能是查询状态数据损坏所致。"
 
 msgid "An error occurred while loading dashboard information."
 msgstr "加载仪表盘信息失败。"
@@ -2332,7 +2332,7 @@ msgstr "您确定要移除系统默认主题吗？应用程序将回退到配置
 msgid ""
 "Are you sure you want to revoke this API key? This action cannot be "
 "undone."
-msgstr "确定要撤销此API密钥吗？此操作无法撤销。"
+msgstr "确定要撤销此 API 密钥吗？此操作无法撤销。"
 
 msgid "Are you sure you want to save and apply changes?"
 msgstr "确实要保存并应用更改吗？"
@@ -3371,7 +3371,7 @@ msgstr "选择要读取的字段"
 msgid ""
 "Choose from existing dashboard filters and select a value to refine your "
 "report results."
-msgstr "从现有仪表盘筛选器中选择，并选取一个值来细化您的报表结果。"
+msgstr "从现有仪表盘筛选器中选择筛选条件和值，以进一步限定报表结果。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -3521,12 +3521,12 @@ msgstr "单击锁定以防止进一步更改。"
 msgid ""
 "Click this link to switch to an alternate form that allows you to input "
 "the SQLAlchemy URL for this database manually."
-msgstr "单击此链接可切换到备用表单，该表单允许您手动输入此数据库的SQLAlchemy URL。"
+msgstr "点击此链接切换到另一种表单，以手动输入该数据库的 SQLAlchemy URL。"
 
 msgid ""
 "Click this link to switch to an alternate form that exposes only the "
 "required fields needed to connect this database."
-msgstr "单击此链接可切换到仅显示连接此数据库所需的必填字段的备用表单。"
+msgstr "点击此链接切换到简化连接表单，仅填写连接数据库所需的字段。"
 
 msgid "Click to add a contour"
 msgstr "点击添加等高线"
@@ -5628,7 +5628,7 @@ msgstr "下载到客户端"
 msgid ""
 "Downloading %(rows)s rows based on the LIMIT configuration. If you want "
 "the entire result set, you need to adjust the LIMIT."
-msgstr "根据 LIMIT 配置，正在下载 %(rows)s 行数据。如需获取完整结果集，请调整 LIMIT 值。"
+msgstr "根据 LIMIT 设置，正在下载 %(rows)s 行。如需下载全部查询结果，请调整 LIMIT。"
 
 msgid "Draft"
 msgstr "草稿"
@@ -6848,7 +6848,7 @@ msgstr "为对象添加标签失败"
 
 #, python-format
 msgid "Failed to trigger %(alertType)s \"%(alertName)s\": %(error)s"
-msgstr "触发 %(alertType)s \"%(alertName)s\" 失败：%(error)s"
+msgstr "触发%(alertType)s“%(alertName)s”失败：%(error)s"
 
 msgid "Failed to update report"
 msgstr "更新报表失败"
@@ -7121,7 +7121,7 @@ msgstr "对于 Bigquery、Presto 和 Postgres，在运行查询之前，会显�
 msgid ""
 "For Trino, describe full schemas of nested ROW types, expanding them with"
 " dotted paths"
-msgstr "对于 Trino，描述嵌套 ROW 类型的完整模式，使用点号路径展开它们。"
+msgstr "对于 Trino，使用点分隔路径展开并显示嵌套 ROW 类型的完整结构。"
 
 msgid "For further instructions, consult the"
 msgstr "如需进一步说明，请参阅"
@@ -7131,8 +7131,7 @@ msgid ""
 "For regular filters, these are the subjects (users, roles, groups) this "
 "filter will be applied to. For base filters, these are the subjects that "
 "the filter DOES NOT apply to, e.g. Admin if admin should see all data."
-msgstr ""
-"对于常规筛选器，这些是此筛选器将应用于的主体（用户、角色、组）。对于基本筛选器，这些是筛选器不适用的主体，例如，如果管理员应查看所有数据，则Admin不适用。"
+msgstr "对于常规筛选规则，这些是规则适用的主体（用户、角色或用户组）；对于基础筛选规则，这些是规则不适用的主体。例如，如果管理员需要查看全部数据，可将管理员排除在基础筛选规则之外。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -9230,7 +9229,7 @@ msgstr "倍数"
 msgid ""
 "Must be a chart editor to overwrite this chart. Save as a new chart "
 "instead."
-msgstr "必须是图表所有者才能覆盖此图表。请另存为新图表。"
+msgstr "只有图表编辑者才能覆盖此图表。请改为保存为新图表。"
 
 msgid "Must be unique"
 msgstr "需要唯一"
@@ -11006,8 +11005,7 @@ msgid ""
 "referenced in the filter. Base filters apply filters to all queries "
 "except the subjects defined in the filter, and can be used to define what"
 " users can see if no RLS filters within a filter group apply to them."
-msgstr ""
-"如果用户属于筛选器中引用的角色，常规筛选器会向查询添加WHERE子句；基础筛选器则对所有查询应用筛选条件，除了筛选器中定义的角色之外。如果在筛选器组内没有适用于用户的行级安全（RLS）筛选器，基础筛选器可以用来定义用户能够看到的内容。"
+msgstr "当用户匹配常规筛选规则指定的主体时，该规则会为查询添加 WHERE 条件。基础筛选规则则适用于除指定主体之外的所有查询，可用于在筛选组中没有其他行级权限规则适用时限制用户可查看的数据。"
 
 msgid "Relational"
 msgstr "关系"
@@ -14090,7 +14088,7 @@ msgstr "连接应使用的默认架构。"
 msgid ""
 "The description can be displayed as widget headers in the dashboard view."
 " Supports markdown."
-msgstr "该描述可作为仪表盘视图中的小部件标题显示。支持 Markdown 格式。"
+msgstr "描述可作为仪表盘中图表组件的标题显示，支持 Markdown。"
 
 msgid "The display name of your dashboard"
 msgstr "仪表盘的显示名称"
@@ -14338,7 +14336,7 @@ msgstr "显示的行数由查询限制为 %(rows)d 行"
 msgid ""
 "The number of rows displayed is limited to %(rows)d by the query and "
 "limit dropdown."
-msgstr "显示的行数由查询和【行限制】下拉菜单共同限制为 %(rows)d 行。"
+msgstr "受查询语句和行数限制选项影响，最多显示 %(rows)d 行。"
 
 msgid "The number of seconds before expiring the cache"
 msgstr "终止缓存前的时间（秒）"
@@ -15334,9 +15332,7 @@ msgid ""
 "regular filter with the clause `client_id = 9`. To display no rows unless"
 " a user belongs to a RLS filter role, a base filter can be created with "
 "the clause `1 = 0` (always false)."
-msgstr ""
-"这是将会添加到WHERE子句的条件。例如，要仅返回特定客户端的行，可以使用子句 `client_id = 9` "
-"定义常规筛选。若要在用户不属于RLS筛选角色的情况下不显示行，可以使用子句 `1 = 0`（始终为false）创建基本筛选。"
+msgstr "此条件将添加到 WHERE 子句中。例如，可设置常规筛选条件 `client_id = 9`，只返回特定客户的数据。若要求用户必须匹配某个行级权限筛选规则才能查看数据，可建立条件为 `1 = 0`（始终为假）的基础筛选规则。"
 
 msgid "This is the default dark theme"
 msgstr "这是默认的深色主题"
@@ -15941,7 +15937,7 @@ msgstr "类型"
 
 #, python-format
 msgid "Type \"%s\" to confirm"
-msgstr "键入 \"%s\" 来确认"
+msgstr "输入“%s”以确认"
 
 msgid "Type a value"
 msgstr "请输入值"
@@ -16986,7 +16982,7 @@ msgid ""
 "When typing or pasting filter values, commas will separate values into "
 "multiple entries. To include a comma within a value, wrap it in double "
 "quotes: \"San Francisco, CA\""
-msgstr "输入或粘贴筛选值时，逗号会将值分隔为多个条目。若要在值中包含逗号，请用双引号将其括起来：\"San Francisco, CA\""
+msgstr "输入或粘贴筛选值时，逗号会将内容分隔为多个值。如果值本身包含逗号，请用双引号括起来，例如“San Francisco, CA”。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, es,
 # fa, fr, ja, lv, mi, ro, ru, sk, sl, sr, sr_Latn, tr, uk]
@@ -17403,7 +17399,7 @@ msgid ""
 "You are importing one or more databases that already exist. Overwriting "
 "might cause you to lose some of your work. Are you sure you want to "
 "overwrite?"
-msgstr "您正在导入一个或多个已存在的数据库。覆盖可能会导致您丢失一些工作。您确定要覆盖吗？"
+msgstr "即将导入的一个或多个数据库已存在。覆盖可能导致现有配置丢失，确定要覆盖吗？"
 
 msgid ""
 "You are importing one or more datasets that already exist. Overwriting "
@@ -17601,27 +17597,27 @@ msgstr "您必须是 %s 编辑者才能编辑。请联系 %s 编辑者请求修�
 msgid ""
 "You must be a chart editor in order to delete. Please reach out to a "
 "chart editor to request modifications or edit access."
-msgstr "您必须是图表编辑者才能删除。请联系图表编辑者请求修改或编辑权限。"
+msgstr "只有图表编辑者才能删除此图表。请联系图表编辑者协助删除或申请编辑权限。"
 
 msgid ""
 "You must be a chart editor in order to edit. Please reach out to a chart "
 "editor to request modifications or edit access."
-msgstr "您必须是图表编辑者才能编辑。请联系图表编辑者请求修改或编辑权限。"
+msgstr "只有图表编辑者才能修改此图表。请联系图表编辑者协助修改或申请编辑权限。"
 
 msgid ""
 "You must be a dashboard editor in order to delete. Please reach out to a "
 "dashboard editor to request modifications or edit access."
-msgstr "您必须是仪表盘编辑者才能删除。请联系仪表盘编辑者请求修改或编辑权限。"
+msgstr "只有仪表盘编辑者才能删除此仪表盘。请联系仪表盘编辑者协助删除或申请编辑权限。"
 
 msgid ""
 "You must be a dashboard editor in order to edit. Please reach out to a "
 "dashboard editor to request modifications or edit access."
-msgstr "您必须是仪表盘编辑者才能编辑。请联系仪表盘编辑者请求修改或编辑权限。"
+msgstr "只有仪表盘编辑者才能修改此仪表盘。请联系仪表盘编辑者协助修改或申请编辑权限。"
 
 msgid ""
 "You must be a dataset editor in order to delete. Please reach out to a "
 "dataset editor to request modifications or edit access."
-msgstr "您必须是数据集编辑者才能删除。请联系数据集编辑者请求修改或编辑权限。"
+msgstr "只有数据集编辑者才能删除此数据集。请联系数据集编辑者协助删除或申请编辑权限。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ca, cs, de,
 # es, fa, fi, fr, it, ja, lv, mi, nl, pl, pt_BR, ro, ru, sk, sl, sr, sr_Latn,
@@ -17629,7 +17625,7 @@ msgstr "您必须是数据集编辑者才能删除。请联系数据集编辑者
 msgid ""
 "You must be a dataset editor in order to edit. Please reach out to a "
 "dataset editor to request modifications or edit access."
-msgstr "您必须是数据集编辑者才能编辑。请联系数据集编辑者请求修改或编辑权限。"
+msgstr "只有数据集编辑者才能修改此数据集。请联系数据集编辑者协助修改或申请编辑权限。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: ja, tr]
 msgid "You must change your password before continuing."
@@ -17711,8 +17707,7 @@ msgid ""
 "but the limit is %s. Reduce the dashboard size (for example, split it "
 "into multiple dashboards) or raise the "
 "SUPERSET_DASHBOARD_POSITION_DATA_LIMIT config setting."
-msgstr ""
-"您的仪表盘过大，无法保存：序列化布局长度为 %s，但限制为 %s。请减小仪表盘大小（例如，将其拆分为多个仪表盘）或提高 SUPERSET_DASHBOARD_POSITION_DATA_LIMIT 配置设置。"
+msgstr "仪表盘过大，无法保存：布局序列化后的长度为 %s，超过限制 %s。请缩减仪表盘内容（例如拆分为多个仪表盘），或提高 SUPERSET_DASHBOARD_POSITION_DATA_LIMIT 配置值。"
 
 msgid "Your export is being prepared. You'll receive an email when it's ready."
 msgstr "您的导出正在准备中。准备就绪后，您将收到一封电子邮件。"
@@ -18845,3 +18840,114 @@ msgstr "© 图层来源"
 # sr_Latn]
 msgid "№"
 msgstr "№"
+
+msgid "%s MCP scopes"
+msgstr "%s 个 MCP 权限范围"
+
+msgid "Add to favorites"
+msgstr "添加到收藏"
+
+msgid "Affected semantic views"
+msgstr "受影响的语义视图"
+
+msgid "already added"
+msgstr "已添加"
+
+msgid "An error occurred while refreshing the runtime schema"
+msgstr "刷新运行时 Schema 时发生错误"
+
+msgid "Archiving or deleting this chart will be blocked while the following alerts or reports use it. Detach or delete them first."
+msgstr "以下告警或报表仍在使用此图表，因此暂时无法归档或删除。请先解除关联或删除这些告警与报表。"
+
+msgid "Associated alerts and reports"
+msgstr "关联的告警与报表"
+
+msgid "Automatically retry sending the report when delivery fails."
+msgstr "报表发送失败时自动重试。"
+
+msgid "Configure retry behavior on delivery failure."
+msgstr "配置发送失败时的重试策略。"
+
+msgid "Deleting this semantic layer also permanently deletes any semantic views it contains, and charts built on those views will stop working. The affected views could not be listed."
+msgstr "删除此语义层也会永久删除其中的所有语义视图，依赖这些视图的图表将无法正常工作。目前无法列出受影响的视图。"
+
+msgid "Enable Retries"
+msgstr "启用重试"
+
+msgid "Error handling"
+msgstr "错误处理"
+
+msgid "Failure Notifications"
+msgstr "失败通知"
+
+msgid "Include a link back to Superset"
+msgstr "附带返回 Superset 的链接"
+
+msgid "Loading dependent semantic views"
+msgstr "正在加载依赖的语义视图"
+
+msgid "Maximum Retry Attempts"
+msgstr "最大重试次数"
+
+msgid "MCP scopes"
+msgstr "MCP 权限范围"
+
+msgid "Modified %(date)s by %(user)s"
+msgstr "%(user)s 于 %(date)s 修改"
+
+msgid "Notify all recipients when the report fails after exhausting all retry attempts."
+msgstr "重试次数用尽后仍发送失败时，通知所有收件人。"
+
+msgid "Open filters"
+msgstr "打开筛选器"
+
+msgid "Owner: %(names)s"
+msgstr "所有者：%(names)s"
+
+msgid "Owners"
+msgstr "所有者"
+
+msgid "RBAC only"
+msgstr "仅使用基于角色的访问控制（RBAC）"
+
+msgid "Remove from favorites"
+msgstr "从收藏中移除"
+
+msgid "Report Recipients"
+msgstr "报表收件人"
+
+msgid "Retrying"
+msgstr "正在重试"
+
+msgid "Search Dashboards"
+msgstr "搜索仪表盘"
+
+msgid "Select MCP resource scopes (optional)"
+msgstr "选择 MCP 资源权限范围（可选）"
+
+msgid "Send Failed Reports"
+msgstr "发送失败报表的通知"
+
+msgid "Status: Draft"
+msgstr "状态：草稿"
+
+msgid "Status: Published"
+msgstr "状态：已发布"
+
+msgid "Superset dashboard"
+msgstr "Superset 仪表盘"
+
+msgid "The link was generated but could not be copied: %s"
+msgstr "链接已生成，但复制失败：%s"
+
+msgid "This semantic layer has no dependent semantic views."
+msgstr "此语义层没有依赖的语义视图。"
+
+msgid "Unable to load columns for the selected table."
+msgstr "无法加载所选表的字段。"
+
+msgid "View version history"
+msgstr "查看版本历史"
+
+msgid "When unchecked, the \"Explore in Superset\" link is omitted from the delivered notifications."
+msgstr "取消勾选后，发送的通知中将不包含“在 Superset 中查看”链接。"
