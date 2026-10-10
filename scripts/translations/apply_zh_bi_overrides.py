@@ -168,7 +168,10 @@ def main() -> int:
         # Babel update may not have materialized newer frontend messages yet.
         # Preserve reviewed translations across the baseline-reset sync job.
         new_entries = [
-            f'msgid "{po_escape(msgid)}"\nmsgstr "{po_escape(overrides[msgid])}"'
+            (
+                ("#, no-python-format\n" if msgid.startswith("% of ") else "")
+                + f'msgid "{po_escape(msgid)}"\nmsgstr "{po_escape(overrides[msgid])}"'
+            )
             for msgid in missing
         ]
         updated = updated.rstrip("\n") + "\n\n" + "\n\n".join(new_entries) + "\n"
