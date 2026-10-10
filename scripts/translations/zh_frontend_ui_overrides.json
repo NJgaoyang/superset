@@ -44,6 +44,7 @@
   "No affected %(label)s.": "没有受影响的%(label)s。",
   "Notify all recipients when the report fails after exhausting all retry attempts.": "重试次数用尽后仍发送失败时，通知所有收件人。",
   "Open filters": "打开筛选器",
+  "Out of tab": "不放入任何标签页",
   "Owner: %(names)s": "所有者：%(names)s",
   "Owners": "所有者",
   "RBAC only": "仅使用基于角色的访问控制（RBAC）",
