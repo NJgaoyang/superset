@@ -19191,3 +19191,6 @@ msgstr "你没有权限查看任何类型的归档对象。"
 
 msgid "Inverse"
 msgstr "反选"
+
+msgid "Out of tab"
+msgstr "不放入任何标签页"
