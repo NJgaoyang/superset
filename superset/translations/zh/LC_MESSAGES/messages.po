@@ -18957,3 +18957,147 @@ msgstr "全部标签页"
 
 msgid "Error Handling"
 msgstr "错误处理"
+
+#, no-python-format
+msgid "% of column total"
+msgstr "占列总计百分比"
+
+#, no-python-format
+msgid "% of grand total"
+msgstr "占全部总计百分比"
+
+#, no-python-format
+msgid "% of row total"
+msgstr "占行总计百分比"
+
+msgid "Categories"
+msgstr "类别"
+
+msgid "Color for bars on the left side of the chart"
+msgstr "图表左侧柱形的颜色"
+
+msgid "Color for bars on the right side of the chart"
+msgstr "图表右侧柱形的颜色"
+
+msgid "Comma-separated numeric thresholds to shade as background ranges, e.g. 100,200,300"
+msgstr "用逗号分隔的数值阈值，用于设置背景范围，例如 100,200,300"
+
+msgid "Comma-separated numeric values to mark with triangles, e.g. 150,250"
+msgstr "用逗号分隔的数值，用三角形标记，例如 150,250"
+
+msgid "Comma-separated numeric values to mark with vertical lines, e.g. 250"
+msgstr "用逗号分隔的数值，用竖线标记，例如 250"
+
+msgid "Comma-separated text labels, one per marker line value"
+msgstr "用逗号分隔的文本标签，每条标记线对应一个标签"
+
+msgid "Comma-separated text labels, one per marker value"
+msgstr "用逗号分隔的文本标签，每个标记值对应一个标签"
+
+msgid "Comma-separated text labels, one per range value"
+msgstr "用逗号分隔的文本标签，每个范围值对应一个标签"
+
+msgid "Customize the label for the left series in tooltips and legend"
+msgstr "自定义提示框和图例中左侧系列的标签"
+
+msgid "Customize the label for the right series in tooltips and legend"
+msgstr "自定义提示框和图例中右侧系列的标签"
+
+msgid "D3 time format for the x-axis labels"
+msgstr "X 轴标签使用的 D3 时间格式"
+
+msgid "Dimension used for category labels on the vertical axis"
+msgstr "用于纵轴类别标签的维度"
+
+msgid "Fill the entire time range"
+msgstr "填满整个时间范围"
+
+msgid "Label Position"
+msgstr "标签位置"
+
+msgid "Left color"
+msgstr "左侧颜色"
+
+msgid "Left label"
+msgstr "左侧标签"
+
+msgid "Left metric"
+msgstr "左侧指标"
+
+msgid "Left series setting"
+msgstr "左侧系列设置"
+
+msgid "Linear"
+msgstr "线性"
+
+msgid "List every range, marker and marker line in a legend; clicking an entry toggles it on the chart"
+msgstr "在图例中列出所有范围、标记和标记线，点击图例项可切换对应内容的显示状态"
+
+msgid "Metric displayed on the left side of the butterfly chart"
+msgstr "蝴蝶图左侧显示的指标"
+
+msgid "Metric displayed on the right side of the butterfly chart"
+msgstr "蝴蝶图右侧显示的指标"
+
+msgid "Number of periods"
+msgstr "周期数"
+
+msgid "Percent change"
+msgstr "百分比变化"
+
+msgid "Position of the data label relative to the data point"
+msgstr "数据标签相对于数据点的位置"
+
+msgid "Print range and marker labels on the chart instead of showing tooltips on hover"
+msgstr "直接在图表中显示范围和标记标签，而不是悬停时显示提示框"
+
+msgid "Right color"
+msgstr "右侧颜色"
+
+msgid "Right label"
+msgstr "右侧标签"
+
+msgid "Right metric"
+msgstr "右侧指标"
+
+msgid "Right series setting"
+msgstr "右侧系列设置"
+
+msgid "Rotate category label"
+msgstr "旋转类别标签"
+
+msgid "Show a summary row of total aggregations: the selected metrics in aggregate mode, or an aggregation of numeric columns in raw records mode. Note that row limit does not apply to the result."
+msgstr "显示汇总行：聚合模式下汇总选定指标，原始记录模式下汇总数值字段。注意，行数限制不适用于汇总结果。"
+
+msgid "Show labels"
+msgstr "显示标签"
+
+msgid "Show or hide the X axis line, ticks, and labels"
+msgstr "显示或隐藏 X 轴轴线、刻度和标签"
+
+msgid "Show or hide the Y axis line, ticks, gridlines, and labels"
+msgstr "显示或隐藏 Y 轴轴线、刻度、网格线和标签"
+
+msgid "Show values as"
+msgstr "数值显示方式"
+
+msgid "Show X axis"
+msgstr "显示 X 轴"
+
+msgid "Show Y axis"
+msgstr "显示 Y 轴"
+
+msgid "Smooth"
+msgstr "平滑"
+
+msgid "Summary aggregation"
+msgstr "汇总聚合"
+
+msgid "Trend colors"
+msgstr "趋势颜色"
+
+msgid "X Axis title margin"
+msgstr "X 轴标题边距"
+
+msgid "Y Axis title margin"
+msgstr "Y 轴标题边距"
