@@ -1108,7 +1108,7 @@ const AlertReportModal: FunctionComponent<AlertReportModalProps> = ({
           // Only show all tabs when there are more than one tab
           if (allTabsWithOrder.length > 1) {
             tabTree.push({
-              title: 'All Tabs',
+              title: t('All Tabs'),
               // select tree only works with string value
               value: JSON.stringify(allTabsWithOrder),
             });
