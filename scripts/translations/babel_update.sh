@@ -101,7 +101,14 @@ done
 python3 - <<'PYEOF'
 import glob
 
-TARGETS = {'msgid "% calculation"\n', 'msgid "% of parent"\n', 'msgid "% of total"\n'}
+TARGETS = {
+    'msgid "% calculation"\n',
+    'msgid "% of parent"\n',
+    'msgid "% of total"\n',
+    'msgid "% of row total"\n',
+    'msgid "% of column total"\n',
+    'msgid "% of grand total"\n',
+}
 paths = ["superset/translations/messages.pot"] + sorted(
     glob.glob("superset/translations/*/LC_MESSAGES/messages.po")
 )
