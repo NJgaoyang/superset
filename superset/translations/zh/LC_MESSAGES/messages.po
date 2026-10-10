@@ -2343,7 +2343,7 @@ msgstr "确实要保存并应用更改吗？"
 msgid ""
 "Are you sure you want to set \"%s\" as the system dark theme? This will "
 "apply to all users who haven't set a personal preference."
-msgstr "您确定要将\"%s\"设置为系统深色主题吗？这将应用于所有未设置个人偏好的用户。"
+msgstr "确定将“%s”设置为系统深色主题吗？此设置将应用于所有尚未设置个人主题偏好的用户。"
 
 # Machine-translated via backfill_po.py (claude-sonnet-4-6) [refs: cs, de, fr,
 # ja, lv, pt_BR, ro, ru, sk, sr, sr_Latn, tr, uk]
@@ -2351,7 +2351,7 @@ msgstr "您确定要将\"%s\"设置为系统深色主题吗？这将应用于所
 msgid ""
 "Are you sure you want to set \"%s\" as the system default theme? This "
 "will apply to all users who haven't set a personal preference."
-msgstr "您确定要将\"%s\"设置为系统默认主题吗？这将应用于所有未设置个人偏好的用户。"
+msgstr "确定将“%s”设置为系统默认主题吗？此设置将应用于所有尚未设置个人主题偏好的用户。"
 
 msgid "Area"
 msgstr "面积图"
@@ -19101,3 +19101,93 @@ msgstr "X 轴标题边距"
 
 msgid "Y Axis title margin"
 msgstr "Y 轴标题边距"
+
+msgid "(archived)"
+msgstr "（已归档）"
+
+msgid "%(count)s %(label)s"
+msgstr "%(count)s 个%(label)s"
+
+msgid "%(count)s additional restricted %(label)s"
+msgstr "另有 %(count)s 个无权查看的%(label)s"
+
+msgid "An error occurred while fetching task types: %s"
+msgstr "获取任务类型时发生错误：%s"
+
+msgid "Checking charts and dashboards that use this dataset…"
+msgstr "正在检查使用此数据集的图表和仪表盘…"
+
+msgid "Deleting this dataset is permanent. The affected charts and dashboards will remain, but they may no longer work."
+msgstr "永久删除此数据集后无法恢复。受影响的图表和仪表盘仍会保留，但可能无法正常使用。"
+
+msgid "Failed to fetch user info"
+msgstr "获取用户信息失败"
+
+msgid "Failed to load version preview"
+msgstr "加载版本预览失败"
+
+msgid "Go to Welcome Page"
+msgstr "返回欢迎页"
+
+msgid "Guest"
+msgstr "访客"
+
+msgid "No affected %(label)s."
+msgstr "没有受影响的%(label)s。"
+
+msgid "Restore this version"
+msgstr "恢复此版本"
+
+msgid "Restore this version?"
+msgstr "恢复此版本？"
+
+msgid "Restoring creates a new version. Your existing version history will not be lost."
+msgstr "恢复操作会创建一个新版本，现有版本历史不会丢失。"
+
+msgid "Save or discard your unsaved changes to preview a version."
+msgstr "请先保存或放弃未保存的修改，然后再预览版本。"
+
+msgid "Show all"
+msgstr "显示全部"
+
+msgid "Show fewer"
+msgstr "收起"
+
+msgid "Some features require a larger screen. Try viewing dashboards for the best mobile experience."
+msgstr "部分功能需要更大的屏幕。建议在移动设备上查看仪表盘，以获得更好的使用体验。"
+
+msgid "The affected charts or dashboards changed. Review the updated impact and type DELETE again to continue."
+msgstr "受影响的图表或仪表盘发生变化。请重新检查影响范围，并再次输入 DELETE 继续。"
+
+msgid "The data this version was built on is no longer available, so it cannot be previewed"
+msgstr "此版本所依赖的数据已不可用，无法预览。"
+
+msgid "The deletion impact could not be determined. This dataset cannot be permanently deleted until the check succeeds."
+msgstr "无法确定删除操作的影响范围。检查成功之前，不能永久删除此数据集。"
+
+msgid "This chart will be restored to the following version:"
+msgstr "此图表将恢复到以下版本："
+
+msgid "This dashboard will be restored to the following version:"
+msgstr "此仪表盘将恢复到以下版本："
+
+msgid "This theme uses the dark algorithm. It will be rendered with the light algorithm instead, so its colors may not look as designed."
+msgstr "此主题使用深色算法，但将以浅色算法渲染，因此颜色可能与设计效果不同。"
+
+msgid "This theme uses the light algorithm. It will be rendered with the dark algorithm instead, so its colors may not look as designed."
+msgstr "此主题使用浅色算法，但将以深色算法渲染，因此颜色可能与设计效果不同。"
+
+msgid "This version does not record a visualization type and dataset, so it cannot be previewed"
+msgstr "此版本未记录图表类型和数据集，无法预览。"
+
+msgid "Unsaved dashboard edits"
+msgstr "仪表盘有未保存的修改"
+
+msgid "View Dashboards"
+msgstr "查看仪表盘"
+
+msgid "You do not have permission to view any archived object types."
+msgstr "你没有权限查看任何类型的归档对象。"
+
+msgid "Inverse"
+msgstr "反选"
