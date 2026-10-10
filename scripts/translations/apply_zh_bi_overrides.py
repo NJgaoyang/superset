@@ -176,7 +176,11 @@ def main() -> int:
     if changed or (args.append_missing and missing):
         args.po.write_text(updated, encoding="utf-8")
 
-    print(f"Applied {changed} Chinese BI translation override(s); added {len(missing) if args.append_missing else 0} missing entry/entries.")
+    added = len(missing) if args.append_missing else 0
+    print(
+        f"Applied {changed} Chinese BI translation override(s); "
+        f"added {added} missing entry/entries."
+    )
     return 0
 
 
