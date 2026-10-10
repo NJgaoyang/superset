@@ -14,6 +14,7 @@ on:
       - scripts/translations/zh_bi_data_overrides.json
       - scripts/translations/zh_bi_cleanup_overrides.json
       - scripts/translations/zh_release_review_corrections.json
+      - scripts/translations/zh_frontend_ui_overrides.json
       - scripts/translations/zh_release_review_overrides.json
       - scripts/translations/finalize_zh_release_review.py
       - scripts/translations/report_zh_machine_review.py
@@ -72,6 +73,15 @@ jobs:
               --overrides scripts/translations/zh_machine_review_overrides.json \
               --allow-missing
           fi
+          # Re-apply manually corrected wording after frozen and machine reviews.
+          python scripts/translations/apply_zh_bi_overrides.py \
+            --overrides scripts/translations/zh_release_review_corrections.json \
+            --allow-missing
+          # New frontend t() calls may be absent from the upstream baseline.
+          # Materialize their reviewed strings so language-pack generation sees them.
+          python scripts/translations/apply_zh_bi_overrides.py \
+            --overrides scripts/translations/zh_frontend_ui_overrides.json \
+            --append-missing
           python scripts/translations/normalize_zh_bi_terms.py
 
       - name: Audit BI terminology
