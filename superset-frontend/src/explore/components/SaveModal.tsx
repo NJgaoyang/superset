@@ -299,7 +299,7 @@ const SaveModal = ({
           const tabsDataWithOutOfTab = [
             {
               value: 'OUT_OF_TAB',
-              title: 'Out of tab',
+              title: t('Out of tab'),
               key: 'OUT_OF_TAB',
               children: undefined,
             },
@@ -307,7 +307,7 @@ const SaveModal = ({
           ];
 
           setTabsData(tabsDataWithOutOfTab);
-          setSelectedTab({ value: 'OUT_OF_TAB', label: 'Out of tab' });
+          setSelectedTab({ value: 'OUT_OF_TAB', label: t('Out of tab') });
         } else if (treeData.length > 0) {
           const firstTab = treeData[0];
           setTabsData(treeData);
