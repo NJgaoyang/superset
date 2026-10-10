@@ -46,6 +46,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Do not fail when an override msgid is absent from the catalog.",
     )
+    parser.add_argument(
+        "--append-missing",
+        action="store_true",
+        help="Append explicitly reviewed msgids that are absent from the catalog.",
+    )
     return parser.parse_args()
 
 
@@ -155,13 +160,23 @@ def main() -> int:
         print("Missing override msgids:")
         for msgid in missing:
             print(f"  - {msgid}")
-        if not args.allow_missing:
+        if not args.allow_missing and not args.append_missing:
             return 1
 
-    if changed:
-        args.po.write_text("".join(parts), encoding="utf-8")
+    updated = "".join(parts)
+    if args.append_missing and missing:
+        # Babel update may not have materialized newer frontend messages yet.
+        # Preserve reviewed translations across the baseline-reset sync job.
+        new_entries = [
+            f'msgid "{po_escape(msgid)}"\\nmsgstr "{po_escape(overrides[msgid])}"'
+            for msgid in missing
+        ]
+        updated = updated.rstrip("\\n") + "\\n\\n" + "\\n\\n".join(new_entries) + "\\n"
 
-    print(f"Applied {changed} Chinese BI translation override(s).")
+    if changed or (args.append_missing and missing):
+        args.po.write_text(updated, encoding="utf-8")
+
+    print(f"Applied {changed} Chinese BI translation override(s); added {len(missing) if args.append_missing else 0} missing entry/entries.")
     return 0
 
 
